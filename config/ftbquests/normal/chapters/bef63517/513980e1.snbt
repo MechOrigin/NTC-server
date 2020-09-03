@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: 10.5d,
+	dependencies: [
+		"72f2b706"
+	],
+	tasks: [{
+		uid: "3cd0baa1",
+		type: "item",
+		items: [{
+			item: "minecraft:piston"
+		}]
+	}]
+}

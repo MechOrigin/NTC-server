@@ -1,0 +1,18 @@
+{
+	x: 5.0d,
+	y: 9.0d,
+	description: "Prerequisite to Immersive Engineering",
+	text: [
+		"Blaze powder opens the door for many other mods. Like ActuallyAdditions, Immersive engineering, and basically anything that uses steel."
+	],
+	dependencies: [
+		"98e02e2b"
+	],
+	tasks: [{
+		uid: "e94943e8",
+		type: "item",
+		items: [{
+			item: "minecraft:blaze_powder"
+		}]
+	}]
+}

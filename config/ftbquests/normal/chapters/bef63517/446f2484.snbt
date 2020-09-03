@@ -1,0 +1,19 @@
+{
+	title: "Entry into Equivalent Exchange",
+	x: -7.0d,
+	y: 14.5d,
+	shape: "gear",
+	dependencies: [
+		"d7f28133"
+	],
+	tasks: [{
+		uid: "780f8563",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "c8af77ac",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 5
+	}]
+}

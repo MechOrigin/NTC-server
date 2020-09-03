@@ -1,0 +1,49 @@
+{
+  "name": "custom:rftools_machine_frame",
+  "target-item": "rftools:machine_frame",
+  "target-count": 1,
+
+  "duration": 120,
+
+  "catalyst": "tconstruct:clear_glass",
+
+  "input-types": {
+    "A": { 
+    "id": "minecraft:gold_block"
+  },
+    "B": { 
+    "id": "minecraft:lapis_block"
+  },
+    "C": { 
+    "id": "thermalfoundation:storage_alloy"
+  }
+},
+
+"symmetrical": true,
+"shape": [
+    [
+      ["C","C","C","C"],
+      ["C","B","B","C"],
+      ["C","B","B","C"],
+      ["C","C","C","C"]
+    ],
+    [
+      ["C","B","B","C"],
+      ["A","_","_","A"],
+      ["A","_","_","A"],
+      ["C","B","B","C"]
+    ],
+    [
+      ["C","B","B","C"],
+      ["A","_","_","A"],
+      ["A","_","_","A"],
+      ["C","B","B","C"]
+    ],
+    [
+      ["C","C","C","C"],
+      ["C","B","B","C"],
+      ["C","B","B","C"],
+      ["C","C","C","C"]
+    ]
+  ]
+}

@@ -1,0 +1,17 @@
+{
+	x: 9.0d,
+	y: 13.0d,
+	description: "This just \"saves\" the structure inside the chamber blocks",
+	dependencies: [
+		"6801181c"
+	],
+	tasks: [{
+		uid: "1dc63017",
+		type: "item",
+		items: [{
+			item: "rftools:space_chamber_card"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

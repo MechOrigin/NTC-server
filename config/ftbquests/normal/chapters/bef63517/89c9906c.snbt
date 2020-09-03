@@ -1,0 +1,14 @@
+{
+	x: 5.0d,
+	y: 1.5d,
+	dependencies: [
+		"92c4f3a7"
+	],
+	tasks: [{
+		uid: "ab78478f",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:menril_sapling"
+		}]
+	}]
+}

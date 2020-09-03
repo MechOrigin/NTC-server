@@ -1,0 +1,19 @@
+{
+	x: -1.0d,
+	y: 8.5d,
+	shape: "gear",
+	dependencies: [
+		"9f22101c"
+	],
+	tasks: [{
+		uid: "a81af6bd",
+		type: "checkmark",
+		title: "Entry to Actually Additions"
+	}],
+	rewards: [{
+		uid: "d6dbda22",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 2
+	}]
+}

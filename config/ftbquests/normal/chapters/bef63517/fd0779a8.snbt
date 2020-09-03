@@ -1,0 +1,19 @@
+{
+	title: "Entry to Applied Energistics",
+	x: -9.5d,
+	y: 3.5d,
+	shape: "gear",
+	dependencies: [
+		"9f22101c"
+	],
+	tasks: [{
+		uid: "15610393",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "101d4032",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 5
+	}]
+}

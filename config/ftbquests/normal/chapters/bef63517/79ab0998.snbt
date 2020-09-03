@@ -1,0 +1,21 @@
+{
+	x: 7.5d,
+	y: 10.0d,
+	description: "Requires Immersive Engineering to create Steel",
+	text: [
+		"You will need 16 of these to create your first machine frame"
+	],
+	dependencies: [
+		"fc050204",
+		"0b808e7d"
+	],
+	tasks: [{
+		uid: "f10ce096",
+		type: "item",
+		icon: "thermalfoundation:storage_alloy 16",
+		items: [{
+			item: "thermalfoundation:storage_alloy"
+		}],
+		count: 16L
+	}]
+}

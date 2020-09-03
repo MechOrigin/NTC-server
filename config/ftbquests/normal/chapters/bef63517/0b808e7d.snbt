@@ -1,0 +1,21 @@
+{
+	icon: "compactmachines3:fieldprojector 4",
+	x: 5.0d,
+	y: 10.5d,
+	description: "Requires Energetic Alloy and blaze powder",
+	text: [
+		""
+	],
+	dependencies: [
+		"144c49d8",
+		"875e5002"
+	],
+	tasks: [{
+		uid: "84467645",
+		type: "item",
+		items: [{
+			item: "compactmachines3:fieldprojector"
+		}],
+		count: 4L
+	}]
+}

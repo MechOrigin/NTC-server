@@ -1,0 +1,14 @@
+{
+	x: 8.0d,
+	y: 0.5d,
+	dependencies: [
+		"ef7c6c40"
+	],
+	tasks: [{
+		uid: "a0324f8d",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:mechanical_drying_basin"
+		}]
+	}]
+}

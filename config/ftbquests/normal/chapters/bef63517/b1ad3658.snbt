@@ -1,0 +1,14 @@
+{
+	x: -7.0d,
+	y: 2.0d,
+	dependencies: [
+		"59abd2c0"
+	],
+	tasks: [{
+		uid: "69b17d3f",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:tinydryrubber"
+		}]
+	}]
+}

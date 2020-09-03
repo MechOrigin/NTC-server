@@ -1,0 +1,16 @@
+{
+	x: -10.0d,
+	y: 1.0d,
+	dependencies: [
+		"c18b2ebe"
+	],
+	tasks: [{
+		uid: "9d952a5b",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_imprisonment_tool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

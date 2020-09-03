@@ -1,0 +1,14 @@
+{
+	x: -7.0d,
+	y: 16.0d,
+	dependencies: [
+		"446f2484"
+	],
+	tasks: [{
+		uid: "f10aceb1",
+		type: "item",
+		items: [{
+			item: "auxiliumequivalence:fuel 1 2"
+		}]
+	}]
+}

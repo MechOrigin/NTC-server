@@ -1,0 +1,17 @@
+{
+	x: 4.0d,
+	y: 7.0d,
+	text: [
+		"The hopping bonsai pot is better because it can automatically export stuff"
+	],
+	dependencies: [
+		"103f06cd"
+	],
+	tasks: [{
+		uid: "bf1e7816",
+		type: "item",
+		items: [{
+			item: "bonsaitrees:bonsaipot 1 1"
+		}]
+	}]
+}

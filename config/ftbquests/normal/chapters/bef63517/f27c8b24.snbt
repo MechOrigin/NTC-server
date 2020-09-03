@@ -1,0 +1,31 @@
+{
+	disable_toast: true,
+	x: 11.5d,
+	y: 3.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"b23a29af",
+		"65d446f1",
+		"9ee8e85e",
+		"5097ae4d",
+		"e11347be",
+		"9f22101c",
+		"2149ca87",
+		"db71bd1f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d6808f2b",
+		type: "checkmark",
+		title: "Complete Tinkers Quests",
+		icon: "tinker_io:fuel_input_machine",
+		disable_toast: true
+	}],
+	rewards: [{
+		uid: "3e585372",
+		type: "item",
+		auto: "disabled",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 10
+	}]
+}

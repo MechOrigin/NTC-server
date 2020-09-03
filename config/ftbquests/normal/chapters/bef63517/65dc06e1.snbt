@@ -1,0 +1,23 @@
+{
+	disable_toast: true,
+	x: 11.5d,
+	y: 6.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"28371a48"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9ead216f",
+		type: "checkmark",
+		title: "Complete First Aerotheum Dust",
+		icon: "thermalfoundation:material 1 1026",
+		disable_toast: true
+	}],
+	rewards: [{
+		uid: "184c78e9",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 10
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 6.5d,
+	y: 15.0d,
+	dependencies: [
+		"10df9b8e"
+	],
+	tasks: [{
+		uid: "71d97be1",
+		type: "item",
+		items: [{
+			item: "rftools:matter_transmitter"
+		}]
+	}]
+}

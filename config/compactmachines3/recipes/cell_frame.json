@@ -1,0 +1,49 @@
+{
+  "name": "custom:cell_frame",
+  "target-item": "thermalexpansion:frame",
+  "target-meta": 128,
+  "target-count": 1,
+
+  "duration": 120,
+
+  "catalyst": "tconstruct:clear_glass",
+
+  "input-types": {
+    "L": { 
+    "id": "thermalfoundation:storage",
+    "meta": 3
+  },
+    "E": { 
+    "id": "thermalfoundation:storage_alloy",
+    "meta": 1
+  }
+},
+
+"symmetrical": true,
+"shape": [
+    [
+      ["L","E","E","L"],
+      ["E","_","_","E"],
+      ["E","_","_","E"],
+      ["L","E","E","L"]
+    ],
+    [
+      ["E","_","_","E"],
+      ["_","_","_","_"],
+      ["_","_","_","_"],
+      ["E","_","_","E"]
+    ],
+    [
+      ["E","_","_","E"],
+      ["_","_","_","_"],
+      ["_","_","_","_"],
+      ["E","_","_","E"]
+    ],
+    [
+      ["L","E","E","L"],
+      ["E","_","_","E"],
+      ["E","_","_","E"],
+      ["L","E","E","L"]
+    ]
+  ]
+}

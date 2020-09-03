@@ -1,0 +1,18 @@
+{
+	x: -4.0d,
+	y: 15.0d,
+	description: "Journey to the end and these grow on the underside of the dragon platform. Good luck!",
+	text: [
+		""
+	],
+	dependencies: [
+		"d7f28133"
+	],
+	tasks: [{
+		uid: "fcab52f8",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:crystal_shard"
+		}]
+	}]
+}

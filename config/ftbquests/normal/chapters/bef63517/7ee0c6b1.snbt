@@ -1,0 +1,14 @@
+{
+	x: -9.0d,
+	y: 1.5d,
+	dependencies: [
+		"c18b2ebe"
+	],
+	tasks: [{
+		uid: "4fb886be",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_relocator"
+		}]
+	}]
+}

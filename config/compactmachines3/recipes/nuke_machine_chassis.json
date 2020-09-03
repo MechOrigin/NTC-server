@@ -1,0 +1,49 @@
+{
+  "name": "custom:nuke_machine_chassis",
+  "target-item": "nuclearcraft:part",
+  "target-meta": 10,
+  "target-count": 1,
+
+  "duration": 120,
+
+  "catalyst": "nuclearcraft:alloy",
+  "catalyst-meta": 1,
+
+  "input-types": {
+    "A": { 
+    "id": "thermalfoundation:storage",
+    "meta": 3
+  },
+    "C": { 
+    "id": "thermalfoundation:storage_alloy"
+  }
+},
+
+"symmetrical": true,
+"shape": [
+    [
+      ["A","A","A","A"],
+      ["A","C","C","A"],
+      ["A","C","C","A"],
+      ["A","A","A","A"]
+    ],
+    [
+      ["A","C","C","A"],
+      ["C","_","_","C"],
+      ["C","_","_","C"],
+      ["A","C","C","A"]
+    ],
+    [
+      ["A","C","C","A"],
+      ["C","_","_","C"],
+      ["C","_","_","C"],
+      ["A","C","C","A"]
+    ],
+    [
+      ["A","A","A","A"],
+      ["A","C","C","A"],
+      ["A","C","C","A"],
+      ["A","A","A","A"]
+    ]
+  ]
+}

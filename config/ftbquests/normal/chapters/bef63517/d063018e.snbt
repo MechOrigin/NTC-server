@@ -1,0 +1,18 @@
+{
+	x: -23.0d,
+	y: 3.0d,
+	description: "Etches circuits without needing to waste time pressing the components",
+	text: [
+		""
+	],
+	dependencies: [
+		"4cd85107"
+	],
+	tasks: [{
+		uid: "66e43cb2",
+		type: "item",
+		items: [{
+			item: "threng:machine 1 2"
+		}]
+	}]
+}

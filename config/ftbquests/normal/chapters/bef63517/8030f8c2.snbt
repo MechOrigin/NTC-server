@@ -1,0 +1,15 @@
+{
+	x: 4.0d,
+	y: 5.0d,
+	dependencies: [
+		"5d9837ae"
+	],
+	tasks: [{
+		uid: "4464aad8",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:sapling"
+		}]
+	}]
+}

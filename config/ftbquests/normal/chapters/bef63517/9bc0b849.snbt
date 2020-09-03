@@ -1,0 +1,17 @@
+{
+	disable_toast: true,
+	x: 12.5d,
+	y: 6.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"513980e1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cd8d5611",
+		type: "checkmark",
+		title: "Complete First Piston",
+		icon: "minecraft:piston",
+		disable_toast: true
+	}]
+}

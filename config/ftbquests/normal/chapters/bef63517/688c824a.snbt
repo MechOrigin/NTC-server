@@ -1,0 +1,14 @@
+{
+	x: -3.0d,
+	y: 0.0d,
+	dependencies: [
+		"bd07f887"
+	],
+	tasks: [{
+		uid: "ae13cf30",
+		type: "item",
+		items: [{
+			item: "sky_orchards:sapling_nickel"
+		}]
+	}]
+}

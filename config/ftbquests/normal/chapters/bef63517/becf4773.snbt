@@ -1,0 +1,23 @@
+{
+	disable_toast: true,
+	x: 11.5d,
+	y: 7.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"9190c99a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b6a21ba0",
+		type: "checkmark",
+		title: "Complete First Atomic Reconstructor",
+		icon: "actuallyadditions:block_atomic_reconstructor",
+		disable_toast: true
+	}],
+	rewards: [{
+		uid: "3113868b",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 10
+	}]
+}

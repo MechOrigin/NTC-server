@@ -1,0 +1,14 @@
+{
+	x: -12.0d,
+	y: -4.5d,
+	dependencies: [
+		"e1eef319"
+	],
+	tasks: [{
+		uid: "f5746b98",
+		type: "item",
+		items: [{
+			item: "inspirations:mulch 1 1"
+		}]
+	}]
+}

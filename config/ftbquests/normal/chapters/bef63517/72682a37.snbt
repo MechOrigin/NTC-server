@@ -1,0 +1,18 @@
+{
+	x: 7.0d,
+	y: 3.0d,
+	description: "Chorus Flower as requirement",
+	text: [
+		""
+	],
+	dependencies: [
+		"02e33809"
+	],
+	tasks: [{
+		uid: "6a86d95f",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:crystalized_chorus_block"
+		}]
+	}]
+}

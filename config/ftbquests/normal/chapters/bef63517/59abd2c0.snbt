@@ -1,0 +1,14 @@
+{
+	x: -6.0d,
+	y: 2.0d,
+	dependencies: [
+		"7a70de6d"
+	],
+	tasks: [{
+		uid: "c1f1797c",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:latex_processing_unit"
+		}]
+	}]
+}

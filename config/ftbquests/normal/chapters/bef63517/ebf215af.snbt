@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: 12.5d,
+	dependencies: [
+		"dc7d851d"
+	],
+	tasks: [{
+		uid: "d7fea849",
+		type: "item",
+		items: [{
+			item: "compactmachines3:machine 1 3"
+		}]
+	}]
+}

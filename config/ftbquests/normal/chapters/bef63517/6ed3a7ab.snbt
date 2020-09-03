@@ -1,0 +1,14 @@
+{
+	x: -2.0d,
+	y: -1.0d,
+	dependencies: [
+		"bd07f887"
+	],
+	tasks: [{
+		uid: "5168966d",
+		type: "item",
+		items: [{
+			item: "sky_orchards:sapling_netherrack"
+		}]
+	}]
+}

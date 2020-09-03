@@ -1,0 +1,19 @@
+{
+	title: "Get some XP",
+	x: 4.0d,
+	y: 8.0d,
+	text: [
+		"Kill a few mobs and you will get this solidified experience. Create a mob farm with some vector plates and kill them. Punji sticks don't drop experience."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"06e220db"
+	],
+	tasks: [{
+		uid: "10ddd195",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_solidified_experience"
+		}]
+	}]
+}

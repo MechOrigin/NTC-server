@@ -1,0 +1,27 @@
+{
+	x: -5.5d,
+	y: 7.5d,
+	shape: "gear",
+	description: "Requires entry into Equivalence Exchange and Applied Energistics",
+	hide_dependency_lines: true,
+	dependencies: [
+		"fd0779a8",
+		"446f2484"
+	],
+	tasks: [{
+		uid: "84801d3d",
+		type: "checkmark",
+		title: "When Alchemy and Tech meet"
+	}],
+	rewards: [{
+		uid: "9f5a4830",
+		type: "item",
+		item: "equivalentenergistics:emc_book"
+	},
+	{
+		uid: "07b10c64",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 5
+	}]
+}

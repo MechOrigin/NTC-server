@@ -1,0 +1,26 @@
+{
+	title: "Integrated Dynamics",
+	x: 6.0d,
+	y: 1.5d,
+	shape: "gear",
+	text: [
+		"Beginning level automation"
+	],
+	dependencies: [
+		"92c4f3a7"
+	],
+	tasks: [{
+		uid: "ec071bd3",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "1235d31d",
+		type: "item",
+		item: "integrateddynamics:on_the_dynamics_of_integration"
+	},
+	{
+		uid: "2da0ba46",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience"
+	}]
+}

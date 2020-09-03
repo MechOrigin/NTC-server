@@ -1,0 +1,14 @@
+{
+	x: -10.0d,
+	y: 0.0d,
+	dependencies: [
+		"c18b2ebe"
+	],
+	tasks: [{
+		uid: "6d694696",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_duplicator"
+		}]
+	}]
+}

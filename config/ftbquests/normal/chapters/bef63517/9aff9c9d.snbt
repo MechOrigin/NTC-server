@@ -1,0 +1,18 @@
+{
+	x: -21.0d,
+	y: 3.0d,
+	description: "Performs the in-world fluix crystal crafting operation",
+	text: [
+		""
+	],
+	dependencies: [
+		"4cd85107"
+	],
+	tasks: [{
+		uid: "ed3bab16",
+		type: "item",
+		items: [{
+			item: "threng:machine"
+		}]
+	}]
+}

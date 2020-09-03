@@ -1,0 +1,24 @@
+{
+	x: -5.0d,
+	y: 3.0d,
+	description: "This mod is kind of OP",
+	dependencies: [
+		"06e220db"
+	],
+	tasks: [{
+		uid: "87dd3508",
+		type: "checkmark",
+		title: "Entry to Industrial Foregoing"
+	}],
+	rewards: [{
+		uid: "50b37fee",
+		type: "item",
+		item: "industrialforegoing:book_manual"
+	},
+	{
+		uid: "376382e0",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 2
+	}]
+}

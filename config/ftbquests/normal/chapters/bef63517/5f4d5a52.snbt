@@ -1,0 +1,19 @@
+{
+	x: -15.5d,
+	y: 7.5d,
+	shape: "gear",
+	dependencies: [
+		"571d5701"
+	],
+	tasks: [{
+		uid: "2080a413",
+		type: "checkmark",
+		title: "Entry into Avaritia"
+	}],
+	rewards: [{
+		uid: "abbf1ec9",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 5
+	}]
+}

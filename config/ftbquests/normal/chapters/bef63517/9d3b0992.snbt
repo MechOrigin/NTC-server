@@ -1,0 +1,24 @@
+{
+	disable_toast: true,
+	x: 12.5d,
+	y: 4.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"6def2386"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cfdaa6ef",
+		type: "checkmark",
+		title: "Complete Steel Quest",
+		icon: "thermalfoundation:storage_alloy",
+		disable_toast: true
+	}],
+	rewards: [{
+		uid: "9f448a34",
+		type: "item",
+		auto: "disabled",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 10
+	}]
+}

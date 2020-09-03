@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: 1.5d,
+	shape: "gear",
+	dependencies: [
+		"06e220db"
+	],
+	tasks: [{
+		uid: "308dfa7a",
+		type: "checkmark",
+		title: "Builders Wands"
+	}],
+	rewards: [{
+		uid: "6d4928fe",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience"
+	}]
+}

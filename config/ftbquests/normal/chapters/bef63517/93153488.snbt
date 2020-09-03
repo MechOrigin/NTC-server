@@ -1,0 +1,23 @@
+{
+	disable_toast: true,
+	x: 12.5d,
+	y: 7.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"59532bb6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "893640fd",
+		type: "checkmark",
+		title: "Complete First ME Controller",
+		icon: "appliedenergistics2:controller",
+		disable_toast: true
+	}],
+	rewards: [{
+		uid: "27527b36",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 20
+	}]
+}

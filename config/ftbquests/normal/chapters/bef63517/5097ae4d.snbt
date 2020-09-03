@@ -1,0 +1,14 @@
+{
+	x: -1.5d,
+	y: 5.0d,
+	dependencies: [
+		"07a8e145"
+	],
+	tasks: [{
+		uid: "a487895c",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_tank"
+		}]
+	}]
+}

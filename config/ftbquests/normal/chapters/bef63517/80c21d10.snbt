@@ -1,0 +1,15 @@
+{
+	x: -6.5d,
+	y: 8.5d,
+	description: "Bind yourself and place it inside these machines",
+	dependencies: [
+		"e2a79b4b"
+	],
+	tasks: [{
+		uid: "0009536b",
+		type: "item",
+		items: [{
+			item: "equivalentintegrations:soulbound_talisman"
+		}]
+	}]
+}

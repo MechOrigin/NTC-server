@@ -1,0 +1,21 @@
+{
+	title: "Bonsai resource trees",
+	x: 0.5d,
+	y: 0.0d,
+	shape: "gear",
+	text: [
+		"This is a way for you to get passive resources. Not entirely necessary but helpful."
+	],
+	dependencies: [
+		"06e220db"
+	],
+	tasks: [{
+		uid: "3899282d",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "37e9be1a",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience"
+	}]
+}

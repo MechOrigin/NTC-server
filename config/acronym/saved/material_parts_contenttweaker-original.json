@@ -1,0 +1,8 @@
+{
+  "materialMappings": {
+    "celestial_crystal_plate": 1,
+    "celestial_crystal_molten": 4,
+    "celestial_crystal_ingot": 3,
+    "celestial_crystal_nugget": 2
+  }
+}

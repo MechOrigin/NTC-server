@@ -1,0 +1,47 @@
+{
+  "name": "custom:rftools_machine_base",
+  "target-item": "rftools:machine_base",
+  "target-count": 1,
+
+  "duration": 120,
+
+  "catalyst": "tconstruct:clear_glass",
+
+  "input-types": {
+    "A": { 
+    "id": "minecraft:stone",
+    "meta": 0
+  },
+    "B": { 
+    "id": "minecraft:gold_block"
+  }
+},
+
+"symmetrical": true,
+"shape": [
+    [
+      ["_","_","_","_"],
+      ["_","_","_","_"],
+      ["_","_","_","_"],
+      ["_","_","_","_"]
+    ],
+    [
+      ["_","_","_","_"],
+      ["_","_","_","_"],
+      ["_","_","_","_"],
+      ["_","_","_","_"]
+    ],
+    [
+      ["B","B","B","B"],
+      ["B","B","B","B"],
+      ["B","B","B","B"],
+      ["B","B","B","B"]
+    ],
+    [
+      ["A","A","A","A"],
+      ["A","A","A","A"],
+      ["A","A","A","A"],
+      ["A","A","A","A"]
+    ]
+  ]
+}

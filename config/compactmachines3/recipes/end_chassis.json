@@ -1,0 +1,60 @@
+{
+  "name": "custom:end_chassis",
+  "target-item": "enderio:item_material",
+  "target-meta": 66,
+  "target-count": 1,
+
+  "duration": 120,
+
+  "catalyst": "enderio:item_material",
+  "catalyst-meta": 20,
+
+  "input-types": {
+    "I": { 
+    "id": "enderio:block_alloy",
+    "meta": 8
+  },
+    "G": { 
+    "id": "enderio:block_end_iron_bars"
+  }
+},
+
+"symmetrical": true,
+"shape": [
+    [
+      ["I","I","I","I","I"],
+      ["I","G","G","G","I"],
+      ["I","G","G","G","I"],
+      ["I","G","G","G","I"],
+      ["I","I","I","I","I"]
+    ],
+    [
+      ["I","G","G","G","I"],
+      ["G","_","_","_","G"],
+      ["G","_","_","_","G"],
+      ["G","_","_","_","G"],
+      ["I","G","G","G","I"]
+    ],
+    [
+      ["I","G","G","G","I"],
+      ["G","_","_","_","G"],
+      ["G","_","_","_","G"],
+      ["G","_","_","_","G"],
+      ["I","G","G","G","I"]
+    ],
+    [
+      ["I","G","G","G","I"],
+      ["G","_","_","_","G"],
+      ["G","_","_","_","G"],
+      ["G","_","_","_","G"],
+      ["I","G","G","G","I"]
+    ],
+    [
+      ["I","I","I","I","I"],
+      ["I","G","G","G","I"],
+      ["I","G","G","G","I"],
+      ["I","G","G","G","I"],
+      ["I","I","I","I","I"]
+    ]
+  ]
+}

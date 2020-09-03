@@ -1,0 +1,15 @@
+{
+	x: 5.0d,
+	y: 14.0d,
+	description: "A cheap machine frame that doesn't require steel, although you can use almost any machine frame for industrial foregoing.",
+	dependencies: [
+		"0b808e7d"
+	],
+	tasks: [{
+		uid: "289b648e",
+		type: "item",
+		items: [{
+			item: "teslacorelib:machine_case"
+		}]
+	}]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "custom:nuke_steel_frame",
+  "target-item": "nuclearcraft:part",
+  "target-meta": 12,
+  "target-count": 1,
+
+  "duration": 120,
+
+  "catalyst": "nuclearcraft:alloy",
+  "catalyst-meta": 1,
+  "catalyst-count": 4,
+
+  "input-types": {
+    "A": { 
+    "id": "thermalfoundation:storage_alloy",
+    "meta": 3
+  },
+    "C": { 
+    "id": "thermalfoundation:storage_alloy"
+  }
+},
+
+"symmetrical": true,
+"shape": [
+    [
+      ["C","C","C","C"],
+      ["C","_","_","C"],
+      ["C","_","_","C"],
+      ["C","C","C","C"]
+    ],
+    [
+      ["C","_","_","C"],
+      ["_","A","A","_"],
+      ["_","A","A","_"],
+      ["C","_","_","C"]
+    ],
+    [
+      ["C","_","_","C"],
+      ["_","A","A","_"],
+      ["_","A","A","_"],
+      ["C","_","_","C"]
+    ],
+    [
+      ["C","C","C","C"],
+      ["C","_","_","C"],
+      ["C","_","_","C"],
+      ["C","C","C","C"]
+    ]
+  ]
+}

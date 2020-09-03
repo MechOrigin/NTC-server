@@ -1,0 +1,21 @@
+{
+	title: "Tinkers' Slimery",
+	x: 2.0d,
+	y: -0.5d,
+	shape: "gear",
+	text: [
+		"Entry into tinkers slime"
+	],
+	dependencies: [
+		"06e220db"
+	],
+	tasks: [{
+		uid: "d08dc3ae",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "fcd739f6",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience"
+	}]
+}

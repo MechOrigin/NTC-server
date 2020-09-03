@@ -1,0 +1,14 @@
+{
+	x: 8.5d,
+	y: 3.0d,
+	dependencies: [
+		"e6aa3be8"
+	],
+	tasks: [{
+		uid: "d21f85eb",
+		type: "item",
+		items: [{
+			item: "minecraft:netherrack"
+		}]
+	}]
+}

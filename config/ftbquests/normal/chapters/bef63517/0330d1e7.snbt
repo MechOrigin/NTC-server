@@ -1,0 +1,14 @@
+{
+	x: -6.0d,
+	y: 0.0d,
+	dependencies: [
+		"bd07f887"
+	],
+	tasks: [{
+		uid: "1c8be252",
+		type: "item",
+		items: [{
+			item: "sky_orchards:sapling_skystone"
+		}]
+	}]
+}

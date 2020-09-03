@@ -1,0 +1,14 @@
+{
+	x: -6.5d,
+	y: 3.0d,
+	dependencies: [
+		"c665992c"
+	],
+	tasks: [{
+		uid: "767fb7e5",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:tree_fluid_extractor"
+		}]
+	}]
+}

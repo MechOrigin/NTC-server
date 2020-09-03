@@ -1,0 +1,15 @@
+{
+	x: -8.0d,
+	y: 8.5d,
+	description: "Basically a personal EMC link",
+	dependencies: [
+		"80c21d10"
+	],
+	tasks: [{
+		uid: "eccfd50c",
+		type: "item",
+		items: [{
+			item: "equivalentintegrations:transmutation_chamber"
+		}]
+	}]
+}

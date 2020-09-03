@@ -1,0 +1,23 @@
+{
+	x: 7.5d,
+	y: 13.0d,
+	shape: "gear",
+	description: "Readme!",
+	text: [
+		"Compact machines has a unique challenge of automating. Use these blocks to set up a simple automation; these will place the blocks for you."
+	],
+	dependencies: [
+		"10df9b8e"
+	],
+	tasks: [{
+		uid: "223e2ac2",
+		type: "checkmark",
+		title: "Automate your machine blocks!"
+	}],
+	rewards: [{
+		uid: "30fc1076",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 5
+	}]
+}

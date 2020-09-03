@@ -1,0 +1,22 @@
+{
+	title: "Welcome to Not too Complicated",
+	icon: "minecraft:grass",
+	x: 3.0d,
+	y: 3.5d,
+	text: [
+		"This is Not too Complicated... It's a modpack centered around trying to become creative mode, but not overly complicated and hectic. With an almost perfectly balanced EMC system.",
+		"",
+		"Also, the Beneath/End/Nether can't be accessed from the void world."
+	],
+	tasks: [{
+		uid: "58998a85",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "1587fb03",
+		type: "command",
+		team_reward: false,
+		auto: "invisible",
+		command: "/playsound minecraft:record.11 player @p ~ ~ ~ 10"
+	}]
+}
