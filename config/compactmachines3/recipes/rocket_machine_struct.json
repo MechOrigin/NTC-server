@@ -1,0 +1,45 @@
+{
+  "name": "custom:rocket_machine_struct",
+  "target-item": "libvulpes:structuremachine",
+  "target-count": 16,
+
+  "duration": 120,
+
+  "catalyst": "immersiveengineering:material",
+  "catalyst-meta": 1,
+
+  "input-types": {
+    "A": { 
+    "id": "immersiveengineering:sheetmetal",
+    "meta": 9
+  }
+},
+
+"symmetrical": true,
+"shape": [
+    [
+      ["A","A","A","A"],
+      ["A","_","_","A"],
+      ["A","_","_","A"],
+      ["A","A","A","A"]
+    ],
+    [
+      ["A","_","_","A"],
+      ["_","_","_","_"],
+      ["_","_","_","_"],
+      ["A","_","_","A"]
+    ],
+    [
+      ["A","_","_","A"],
+      ["_","_","_","_"],
+      ["_","_","_","_"],
+      ["A","_","_","A"]
+    ],
+    [
+      ["A","A","A","A"],
+      ["A","_","_","A"],
+      ["A","_","_","A"],
+      ["A","A","A","A"]
+    ]
+  ]
+}

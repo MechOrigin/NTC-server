@@ -1,0 +1,22 @@
+{
+	icon: "immersiveengineering:stone_decoration 27 1",
+	x: 18.0d,
+	y: 6.0d,
+	description: "Requires Blaze Powder and Netherbricks",
+	text: [
+		"You will need about 27 of these to create a blast furnace. This uses coal coke to smelt steel."
+	],
+	dependencies: [
+		"875e5002",
+		"6797c2e7",
+		"55286f85"
+	],
+	tasks: [{
+		uid: "a1c0ec48",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 1"
+		}],
+		count: 27L
+	}]
+}

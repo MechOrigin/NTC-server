@@ -1,0 +1,23 @@
+{
+	disable_toast: true,
+	x: 23.0d,
+	y: -4.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a3e9a7c2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "37a48cbb",
+		type: "checkmark",
+		title: "Complete First Basic Crafting Table",
+		icon: "extendedcrafting:table_basic",
+		disable_toast: true
+	}],
+	rewards: [{
+		uid: "ac61dd4f",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 20
+	}]
+}

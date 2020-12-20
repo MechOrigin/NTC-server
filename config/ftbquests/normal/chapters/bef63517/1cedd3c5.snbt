@@ -1,0 +1,18 @@
+{
+	x: -1.0d,
+	y: -7.0d,
+	shape: "gear",
+	dependencies: [
+		"06e220db"
+	],
+	tasks: [{
+		uid: "d5788da7",
+		type: "checkmark",
+		title: "Grow trees passively"
+	}],
+	rewards: [{
+		uid: "ae764023",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience"
+	}]
+}

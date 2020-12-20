@@ -1,0 +1,18 @@
+{
+	x: 17.5d,
+	y: 27.5d,
+	description: "Requires Machine Structure",
+	text: [
+		""
+	],
+	dependencies: [
+		"12888559"
+	],
+	tasks: [{
+		uid: "3eb34335",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:rocketbuilder"
+		}]
+	}]
+}

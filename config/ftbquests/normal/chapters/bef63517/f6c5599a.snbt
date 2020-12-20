@@ -1,0 +1,34 @@
+{
+	x: 32.0d,
+	y: 24.5d,
+	description: "Capsule Corp? Cool!",
+	text: [
+		""
+	],
+	dependencies: [
+		"71f01a75"
+	],
+	tasks: [{
+		uid: "af67da2a",
+		type: "item",
+		items: [{
+			id: "capsule:capsule",
+			tag: {
+				color: 13421772,
+				size: 3
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d1da0d1e",
+		type: "item",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				color: 13421772,
+				size: 3
+			}
+		}
+	}]
+}

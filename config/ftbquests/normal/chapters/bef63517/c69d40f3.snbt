@@ -1,0 +1,15 @@
+{
+	x: -18.5d,
+	y: 16.5d,
+	description: "This eats EMC and spits out power.",
+	dependencies: [
+		"3f39aa22"
+	],
+	tasks: [{
+		uid: "820628a3",
+		type: "item",
+		items: [{
+			item: "equivalentintegrations:transmutation_generator"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: -8.5d,
+	y: 3.5d,
+	description: "Automate collecting plants",
+	text: [
+		""
+	],
+	dependencies: [
+		"19e8d326"
+	],
+	tasks: [{
+		uid: "1b184df1",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:plant_interactor"
+		}]
+	}]
+}

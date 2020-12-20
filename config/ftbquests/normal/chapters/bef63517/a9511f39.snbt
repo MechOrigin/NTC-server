@@ -1,0 +1,19 @@
+{
+	x: 18.5d,
+	y: 24.0d,
+	shape: "gear",
+	description: "Requires Immersive Engineering: Gold plate",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"06e220db",
+		"b9899dac"
+	],
+	tasks: [{
+		uid: "68eb60ad",
+		type: "checkmark",
+		title: "Advanced Rocketry. Entry into Space Travel"
+	}]
+}

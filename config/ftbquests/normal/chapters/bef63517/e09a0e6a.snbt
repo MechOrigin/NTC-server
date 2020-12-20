@@ -1,0 +1,16 @@
+{
+	x: -6.0d,
+	y: 21.5d,
+	dependencies: [
+		"a3e9a7c2"
+	],
+	tasks: [{
+		uid: "d9618cab",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:terrestrial_artifact"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

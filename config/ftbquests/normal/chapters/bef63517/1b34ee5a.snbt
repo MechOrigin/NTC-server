@@ -1,0 +1,14 @@
+{
+	x: 16.0d,
+	y: -9.5d,
+	dependencies: [
+		"931d75d2"
+	],
+	tasks: [{
+		uid: "86d2465f",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:lava_fabricator"
+		}]
+	}]
+}

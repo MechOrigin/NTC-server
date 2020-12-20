@@ -1,0 +1,18 @@
+{
+	x: 25.5d,
+	y: 20.0d,
+	description: "An Upgrade. A fancy inscribing machine",
+	text: [
+		""
+	],
+	dependencies: [
+		"3e50fc39"
+	],
+	tasks: [{
+		uid: "0158fd8b",
+		type: "item",
+		items: [{
+			item: "ae2stuff:inscriber"
+		}]
+	}]
+}

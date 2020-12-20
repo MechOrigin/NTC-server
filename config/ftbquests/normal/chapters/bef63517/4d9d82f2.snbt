@@ -1,0 +1,16 @@
+{
+	x: 19.0d,
+	y: 9.5d,
+	description: "Prerequisite for all thermal engineering machines",
+	dependencies: [
+		"71f01a75",
+		"79ab0998"
+	],
+	tasks: [{
+		uid: "be14358f",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame"
+		}]
+	}]
+}

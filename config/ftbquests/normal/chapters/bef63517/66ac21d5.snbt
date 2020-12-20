@@ -1,0 +1,15 @@
+{
+	x: 13.0d,
+	y: -4.0d,
+	description: "Uses fuel types to generate power. Coal, sticks, etc. Just put it next too the Block you want too power.",
+	dependencies: [
+		"5c3e3595"
+	],
+	tasks: [{
+		uid: "a3c4088d",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:coal_generator"
+		}]
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "Aluminum Ingots x3",
+	x: 4.5d,
+	y: 9.5d,
+	description: "Put the aluminum inside the smeltery controller",
+	text: [
+		""
+	],
+	dependencies: [
+		"2149ca87"
+	],
+	tasks: [{
+		uid: "47e779b6",
+		type: "item",
+		title: "Any ingotAluminum",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotAluminum",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 3L
+	}]
+}

@@ -1,0 +1,13 @@
+{
+	x: 29.0d,
+	y: 25.0d,
+	shape: "gear",
+	dependencies: [
+		"20704ce0"
+	],
+	tasks: [{
+		uid: "da7a7e6f",
+		type: "checkmark",
+		title: "Entry into Mekanism"
+	}]
+}

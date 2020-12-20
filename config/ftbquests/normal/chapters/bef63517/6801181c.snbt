@@ -1,0 +1,24 @@
+{
+	title: "These blocks can automate your field projector compact machines",
+	x: 8.5d,
+	y: 22.0d,
+	shape: "gear",
+	description: "Readme!",
+	text: [
+		"Compact machines has a unique challenge of automating. Use these blocks to set up a simple automation; these will place the blocks for you."
+	],
+	dependencies: [
+		"aa9f7547"
+	],
+	tasks: [{
+		uid: "223e2ac2",
+		type: "checkmark",
+		title: "Automate your machine blocks!"
+	}],
+	rewards: [{
+		uid: "30fc1076",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 5
+	}]
+}

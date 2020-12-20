@@ -1,0 +1,18 @@
+{
+	x: 24.5d,
+	y: 23.5d,
+	description: "Mekanism",
+	text: [
+		""
+	],
+	dependencies: [
+		"71f01a75"
+	],
+	tasks: [{
+		uid: "9ebf524d",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 8"
+		}]
+	}]
+}

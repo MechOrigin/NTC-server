@@ -1,0 +1,14 @@
+{
+	x: -7.5d,
+	y: -4.5d,
+	dependencies: [
+		"4281132e"
+	],
+	tasks: [{
+		uid: "41a57e8b",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:water_condensator"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -3.5d,
+	y: -7.0d,
+	text: [
+		"Build a bonsai tree with bricks. Bricks can be smelted from clay grabbed in the transmutation tablet."
+	],
+	dependencies: [
+		"a5584575"
+	],
+	tasks: [{
+		uid: "b108e560",
+		type: "item",
+		items: [{
+			item: "bonsaitrees:bonsaipot"
+		}]
+	}]
+}

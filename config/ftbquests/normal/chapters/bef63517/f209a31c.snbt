@@ -1,0 +1,15 @@
+{
+	x: -8.5d,
+	y: -7.0d,
+	shape: "gear",
+	hide_dependency_lines: true,
+	dependencies: [
+		"06e220db",
+		"a5584575"
+	],
+	tasks: [{
+		uid: "4097a521",
+		type: "checkmark",
+		title: "Servo Required to make Thermal ducts work"
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -21.0d,
+	y: 13.5d,
+	description: "Infinite EMC",
+	text: [
+		""
+	],
+	dependencies: [
+		"cc7b16e1"
+	],
+	tasks: [{
+		uid: "0c502876",
+		type: "item",
+		items: [{
+			item: "equivalentenergistics:emc_cell_creative"
+		}],
+		ignore_nbt: 1b
+	}]
+}

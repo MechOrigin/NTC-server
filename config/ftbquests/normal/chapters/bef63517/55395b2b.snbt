@@ -1,0 +1,17 @@
+{
+	x: -20.0d,
+	y: 18.0d,
+	dependencies: [
+		"ba3b7926"
+	],
+	tasks: [{
+		uid: "5709a6ed",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_dm_hammer",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

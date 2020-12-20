@@ -1,0 +1,19 @@
+{
+	x: 11.0d,
+	y: 6.0d,
+	description: "Required to grow Chorus flowers. Fill the Tinkers smeltery with 2 Ender Pearls and put Sandstone inside the Casting Basin.",
+	text: [
+		""
+	],
+	dependencies: [
+		"65d446f1",
+		"98e02e2b"
+	],
+	tasks: [{
+		uid: "c301d1dc",
+		type: "item",
+		items: [{
+			item: "minecraft:end_stone"
+		}]
+	}]
+}

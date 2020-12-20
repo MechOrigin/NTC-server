@@ -1,0 +1,17 @@
+{
+	x: 4.0d,
+	y: -8.5d,
+	dependencies: [
+		"bd07f887"
+	],
+	tasks: [{
+		uid: "202fdbe5",
+		type: "checkmark",
+		title: "This can help you get into the Mystical Agriculture Mod."
+	}],
+	rewards: [{
+		uid: "6e32c86e",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience"
+	}]
+}

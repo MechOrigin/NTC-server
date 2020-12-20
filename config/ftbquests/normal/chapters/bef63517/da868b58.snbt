@@ -1,0 +1,17 @@
+{
+	x: 9.5d,
+	y: -0.5d,
+	dependencies: [
+		"d6e79806"
+	],
+	tasks: [{
+		uid: "01ae4c7e",
+		type: "item",
+		items: [{
+			id: "tconstruct:axe_head",
+			tag: {
+				Material: "stone"
+			}
+		}]
+	}]
+}

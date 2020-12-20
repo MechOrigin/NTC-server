@@ -1,0 +1,18 @@
+{
+	x: 35.5d,
+	y: 18.0d,
+	description: "Remember that Blitz Powder we made? Craft Aerotheum Dust with it and put it inside the Smeltery. Pour it onto Basalt to make Sky Stone.",
+	text: [
+		""
+	],
+	dependencies: [
+		"fd0779a8"
+	],
+	tasks: [{
+		uid: "d9edb463",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 1026"
+		}]
+	}]
+}

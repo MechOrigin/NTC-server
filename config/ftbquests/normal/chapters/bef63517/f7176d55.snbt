@@ -1,0 +1,17 @@
+{
+	x: -19.0d,
+	y: 19.5d,
+	dependencies: [
+		"5aa39121"
+	],
+	tasks: [{
+		uid: "d4c11429",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_rm_shears",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

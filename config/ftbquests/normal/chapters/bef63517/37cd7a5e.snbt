@@ -1,0 +1,15 @@
+{
+	x: 36.0d,
+	y: 16.0d,
+	dependencies: [
+		"a9a22766",
+		"28371a48"
+	],
+	tasks: [{
+		uid: "37e788ad",
+		type: "item",
+		items: [{
+			item: "chisel:basalt2 1 7"
+		}]
+	}]
+}

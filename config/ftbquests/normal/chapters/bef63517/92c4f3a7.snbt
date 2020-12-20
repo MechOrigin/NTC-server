@@ -1,0 +1,21 @@
+{
+	title: "Menril/Chorus and Integrated Dynamics",
+	x: 6.0d,
+	y: -2.0d,
+	shape: "gear",
+	text: [
+		"Entry into Integrated Dynamics"
+	],
+	dependencies: [
+		"06e220db"
+	],
+	tasks: [{
+		uid: "f96aa2c0",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "aa0786c0",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience"
+	}]
+}

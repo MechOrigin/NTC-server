@@ -1,0 +1,17 @@
+{
+	x: 4.5d,
+	y: 3.5d,
+	dependencies: [
+		"b8d8ae0d"
+	],
+	tasks: [{
+		uid: "770bf207",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:tool_rod"
+			}
+		}]
+	}]
+}

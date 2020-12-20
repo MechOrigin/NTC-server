@@ -1,0 +1,16 @@
+{
+	x: 14.0d,
+	y: -3.5d,
+	description: "Takes energy from a battery or generator and squeezes items. Yay you no longer have to manually squeeze!",
+	dependencies: [
+		"41d47124",
+		"5c3e3595"
+	],
+	tasks: [{
+		uid: "88dd3d55",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:mechanical_squeezer"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 3.5d,
+	y: 2.5d,
+	dependencies: [
+		"b8d8ae0d"
+	],
+	tasks: [{
+		uid: "a2307daf",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:wide_guard"
+			}
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: 14.0d,
+	y: 6.0d,
+	description: "Remember that Obsidian Powder we squeezed? Place that on the Casting Table and pour XP on it.",
+	dependencies: [
+		"98e02e2b"
+	],
+	tasks: [{
+		uid: "96fc8ffc",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 2053"
+		}]
+	}]
+}

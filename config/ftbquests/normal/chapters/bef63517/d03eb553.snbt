@@ -1,0 +1,16 @@
+{
+	x: 19.5d,
+	y: 27.5d,
+	dependencies: [
+		"12888559"
+	],
+	tasks: [{
+		uid: "63b70aba",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:spaceboots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

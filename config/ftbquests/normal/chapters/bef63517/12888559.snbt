@@ -1,0 +1,14 @@
+{
+	x: 18.5d,
+	y: 25.5d,
+	dependencies: [
+		"a9511f39"
+	],
+	tasks: [{
+		uid: "bfa4b451",
+		type: "item",
+		items: [{
+			item: "libvulpes:holoprojector"
+		}]
+	}]
+}

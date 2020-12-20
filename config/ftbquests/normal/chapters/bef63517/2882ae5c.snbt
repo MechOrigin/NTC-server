@@ -1,0 +1,18 @@
+{
+	x: 23.0d,
+	y: 12.5d,
+	description: "Maintains a quantity of certain items in an ME network by requesting autocrafting when needed",
+	text: [
+		""
+	],
+	dependencies: [
+		"4cd85107"
+	],
+	tasks: [{
+		uid: "49dce19c",
+		type: "item",
+		items: [{
+			item: "threng:machine 1 4"
+		}]
+	}]
+}

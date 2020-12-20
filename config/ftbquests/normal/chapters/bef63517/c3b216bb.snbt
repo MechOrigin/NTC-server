@@ -1,0 +1,18 @@
+{
+	x: 8.5d,
+	y: 0.5d,
+	dependencies: [
+		"3ead10da",
+		"f09f233c"
+	],
+	tasks: [{
+		uid: "37afef4c",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "wood"
+			}
+		}]
+	}]
+}

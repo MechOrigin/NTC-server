@@ -1,0 +1,22 @@
+{
+	title: "Resource trees. You can put them in bonsai pots",
+	x: 5.5d,
+	y: -7.5d,
+	shape: "gear",
+	description: "This is a way for you to get passive resources. Not entirely necessary but helpful.",
+	text: [
+		""
+	],
+	dependencies: [
+		"f77eb0e9"
+	],
+	tasks: [{
+		uid: "3899282d",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "37e9be1a",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience"
+	}]
+}

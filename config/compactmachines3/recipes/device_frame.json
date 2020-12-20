@@ -1,0 +1,45 @@
+{
+  "name": "custom:device_frame",
+  "target-item": "thermalexpansion:frame",
+  "target-meta": 64,
+  "target-count": 1,
+
+  "duration": 120,
+
+  "catalyst": "tconstruct:clear_glass",
+
+  "input-types": {
+    "P": { 
+    "id": "contenttweaker:sub_block_holder_0",
+    "meta": 13
+  }
+},
+
+"symmetrical": true,
+"shape": [
+    [
+      ["P","P","P","P"],
+      ["P","_","_","P"],
+      ["P","_","_","P"],
+      ["P","P","P","P"]
+    ],
+    [
+      ["P","_","_","P"],
+      ["_","_","_","_"],
+      ["_","_","_","_"],
+      ["P","_","_","P"]
+    ],
+    [
+      ["P","_","_","P"],
+      ["_","_","_","_"],
+      ["_","_","_","_"],
+      ["P","_","_","P"]
+    ],
+    [
+      ["P","P","P","P"],
+      ["P","_","_","P"],
+      ["P","_","_","P"],
+      ["P","P","P","P"]
+    ]
+  ]
+}

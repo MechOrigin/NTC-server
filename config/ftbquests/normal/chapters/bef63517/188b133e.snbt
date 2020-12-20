@@ -1,0 +1,14 @@
+{
+	x: 24.0d,
+	y: 8.0d,
+	dependencies: [
+		"71f01a75"
+	],
+	tasks: [{
+		uid: "e562847c",
+		type: "item",
+		items: [{
+			item: "compactmachines3:redstonetunneltool"
+		}]
+	}]
+}

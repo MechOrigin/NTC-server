@@ -1,0 +1,15 @@
+{
+	x: 9.0d,
+	y: -4.0d,
+	description: "131k EMC",
+	dependencies: [
+		"fbe7ff05"
+	],
+	tasks: [{
+		uid: "fffaf762",
+		type: "item",
+		items: [{
+			item: "sky_orchards:sapling_gold"
+		}]
+	}]
+}

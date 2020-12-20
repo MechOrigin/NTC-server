@@ -1,0 +1,15 @@
+{
+	x: 16.0d,
+	y: -6.0d,
+	description: "Magma block and basin together makes Netherack. Or grow some trees. But this way is more efficient.",
+	dependencies: [
+		"e6aa3be8"
+	],
+	tasks: [{
+		uid: "d21f85eb",
+		type: "item",
+		items: [{
+			item: "minecraft:netherrack"
+		}]
+	}]
+}

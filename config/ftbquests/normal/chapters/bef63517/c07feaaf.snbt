@@ -1,0 +1,18 @@
+{
+	x: 5.5d,
+	y: 0.0d,
+	description: "This is to create armors. It's basically the same process as making tools.",
+	text: [
+		""
+	],
+	dependencies: [
+		"c7a8aced"
+	],
+	tasks: [{
+		uid: "5fe5c15f",
+		type: "item",
+		items: [{
+			item: "conarm:armorstation"
+		}]
+	}]
+}

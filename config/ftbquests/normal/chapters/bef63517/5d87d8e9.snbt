@@ -1,0 +1,14 @@
+{
+	x: 20.5d,
+	y: 28.5d,
+	dependencies: [
+		"c7a2b555"
+	],
+	tasks: [{
+		uid: "eae412e2",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:jetpack"
+		}]
+	}]
+}

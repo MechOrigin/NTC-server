@@ -1,0 +1,17 @@
+{
+	x: 11.5d,
+	y: 1.5d,
+	dependencies: [
+		"93396533"
+	],
+	tasks: [{
+		uid: "3431e63e",
+		type: "item",
+		items: [{
+			id: "tconstruct:shovel_head",
+			tag: {
+				Material: "flint"
+			}
+		}]
+	}]
+}

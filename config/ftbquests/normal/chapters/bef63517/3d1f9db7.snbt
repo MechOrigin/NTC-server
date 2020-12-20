@@ -1,0 +1,17 @@
+{
+	x: -15.5d,
+	y: 9.0d,
+	description: "Basically Creative mode",
+	dependencies: [
+		"40e1cbfe"
+	],
+	tasks: [{
+		uid: "f2f55a47",
+		type: "item",
+		items: [{
+			item: "projectex:final_star"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

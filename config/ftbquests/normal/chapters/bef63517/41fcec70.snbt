@@ -1,0 +1,14 @@
+{
+	x: -3.0d,
+	y: -1.5d,
+	dependencies: [
+		"eaae9772"
+	],
+	tasks: [{
+		uid: "2096c309",
+		type: "item",
+		items: [{
+			item: "tconstruct:slime_grass 1 10"
+		}]
+	}]
+}

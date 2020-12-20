@@ -1,0 +1,19 @@
+{
+	x: -7.0d,
+	y: -10.5d,
+	shape: "gear",
+	description: "Items can be transfered to and from with conduits, ducts and cables.",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"06e220db",
+		"a5584575"
+	],
+	tasks: [{
+		uid: "b97af226",
+		type: "checkmark",
+		title: "Item pipes"
+	}]
+}

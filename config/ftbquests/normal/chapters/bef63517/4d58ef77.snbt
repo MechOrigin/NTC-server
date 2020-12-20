@@ -1,0 +1,14 @@
+{
+	x: -3.0d,
+	y: -12.0d,
+	dependencies: [
+		"1ef8696f"
+	],
+	tasks: [{
+		uid: "7004c34d",
+		type: "item",
+		items: [{
+			item: "enderio:item_endergy_conduit 1 6"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: -15.5d,
+	y: 12.5d,
+	description: "Requires ultimate crafting table",
+	hide_dependency_lines: true,
+	dependencies: [
+		"ee6d8e51",
+		"373c7d71",
+		"6120ff3a"
+	],
+	tasks: [{
+		uid: "0fcb364e",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 32"
+		}]
+	}]
+}

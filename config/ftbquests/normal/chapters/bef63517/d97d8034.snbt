@@ -1,0 +1,19 @@
+{
+	x: 32.0d,
+	y: 30.5d,
+	dependencies: [
+		"253056a1"
+	],
+	tasks: [{
+		uid: "1a4c6260",
+		type: "item",
+		items: [{
+			id: "capsule:capsule",
+			tag: {
+				color: 1564002,
+				size: 11
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

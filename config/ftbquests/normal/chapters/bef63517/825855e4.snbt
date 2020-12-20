@@ -1,0 +1,16 @@
+{
+	x: 7.0d,
+	y: -3.5d,
+	description: "24k EMC",
+	dependencies: [
+		"fbe7ff05"
+	],
+	tasks: [{
+		uid: "c518ee6b",
+		type: "item",
+		items: [{
+			item: "sky_orchards:sapling_glowstone"
+		}],
+		only_from_crafting: false
+	}]
+}

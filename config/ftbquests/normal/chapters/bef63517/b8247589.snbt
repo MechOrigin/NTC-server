@@ -1,0 +1,17 @@
+{
+	title: "Crooks increase drop chance from Leaves. Use them!",
+	x: 3.5d,
+	y: -5.5d,
+	dependencies: [
+		"06e220db"
+	],
+	tasks: [{
+		uid: "7b2785d2",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "24757bbd",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience"
+	}]
+}

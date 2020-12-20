@@ -1,0 +1,14 @@
+{
+	x: -3.5d,
+	y: 12.5d,
+	dependencies: [
+		"afdbfd4a"
+	],
+	tasks: [{
+		uid: "b62c78cc",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_empowerer"
+		}]
+	}]
+}

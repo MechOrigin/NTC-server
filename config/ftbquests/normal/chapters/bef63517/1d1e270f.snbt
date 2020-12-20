@@ -1,0 +1,19 @@
+{
+	x: -2.0d,
+	y: -5.0d,
+	dependencies: [
+		"e6453c1e"
+	],
+	tasks: [{
+		uid: "09057a9e",
+		type: "item",
+		items: [{
+			id: "buildinggadgets:copypastetool",
+			tag: {
+				mode: "Copy"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

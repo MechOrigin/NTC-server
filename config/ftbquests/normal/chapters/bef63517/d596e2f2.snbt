@@ -1,0 +1,20 @@
+{
+	x: 6.5d,
+	y: 9.0d,
+	description: "Right click the drain to make a gear cast. The gear will be consumed. All casts can be made with Aluminum Brass or Gold.",
+	text: [
+		""
+	],
+	dependencies: [
+		"cb98c9a3",
+		"2c0f6cbc",
+		"fe62cef5"
+	],
+	tasks: [{
+		uid: "a07fc2d2",
+		type: "item",
+		items: [{
+			item: "tconstruct:cast_custom 1 4"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 11.5d,
+	y: -0.5d,
+	dependencies: [
+		"adbf7629"
+	],
+	tasks: [{
+		uid: "7f21910c",
+		type: "item",
+		items: [{
+			id: "tconstruct:axe_head",
+			tag: {
+				Material: "flint"
+			}
+		}]
+	}]
+}

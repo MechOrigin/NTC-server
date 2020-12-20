@@ -1,0 +1,18 @@
+{
+	x: 14.0d,
+	y: 4.5d,
+	description: "Crush up Sandstone to get Niter or Nitrate Dust and place it on the Casting table then pour XP on it.",
+	text: [
+		""
+	],
+	dependencies: [
+		"98e02e2b"
+	],
+	tasks: [{
+		uid: "2ded4cbe",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 2051"
+		}]
+	}]
+}

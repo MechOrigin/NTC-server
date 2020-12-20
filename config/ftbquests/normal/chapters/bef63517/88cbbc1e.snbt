@@ -1,0 +1,18 @@
+{
+	x: 8.0d,
+	y: 15.0d,
+	description: "Spawns whatever is in your \"pokeball\"",
+	text: [
+		""
+	],
+	dependencies: [
+		"c18b2ebe"
+	],
+	tasks: [{
+		uid: "6d694696",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_duplicator"
+		}]
+	}]
+}

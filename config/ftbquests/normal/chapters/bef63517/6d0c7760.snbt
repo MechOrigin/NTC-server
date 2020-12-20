@@ -1,0 +1,15 @@
+{
+	x: 30.5d,
+	y: 20.5d,
+	description: "Grow crystals in a machine instead of the world",
+	dependencies: [
+		"fd0779a8"
+	],
+	tasks: [{
+		uid: "54c087c6",
+		type: "item",
+		items: [{
+			item: "ae2stuff:grower"
+		}]
+	}]
+}

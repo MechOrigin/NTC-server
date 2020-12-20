@@ -1,0 +1,14 @@
+{
+	x: 5.5d,
+	y: 31.5d,
+	dependencies: [
+		"d80b8365"
+	],
+	tasks: [{
+		uid: "6aee8bfe",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fusion_electromagnet_idle"
+		}]
+	}]
+}

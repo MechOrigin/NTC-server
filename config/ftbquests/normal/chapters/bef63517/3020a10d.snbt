@@ -1,0 +1,14 @@
+{
+	x: 5.5d,
+	y: 33.0d,
+	dependencies: [
+		"d80b8365"
+	],
+	tasks: [{
+		uid: "cfd4d8fc",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fusion_connector"
+		}]
+	}]
+}

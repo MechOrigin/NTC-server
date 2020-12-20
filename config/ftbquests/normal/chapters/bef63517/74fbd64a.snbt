@@ -1,0 +1,17 @@
+{
+	x: -15.0d,
+	y: 19.5d,
+	dependencies: [
+		"5aa39121"
+	],
+	tasks: [{
+		uid: "4456dbac",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_rm_axe",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

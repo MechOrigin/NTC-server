@@ -1,0 +1,29 @@
+{
+	disable_toast: true,
+	x: 23.0d,
+	y: -9.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"e3fc1c65",
+		"caefb545",
+		"8030f8c2",
+		"c9c1461a",
+		"d31f48a9",
+		"e120ba07"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c5f1d997",
+		type: "checkmark",
+		title: "Complete Saplings Quests",
+		icon: "minecraft:sapling",
+		disable_toast: true
+	}],
+	rewards: [{
+		uid: "695a9a94",
+		type: "item",
+		auto: "disabled",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 10
+	}]
+}

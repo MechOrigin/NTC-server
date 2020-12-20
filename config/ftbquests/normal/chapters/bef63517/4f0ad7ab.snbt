@@ -1,0 +1,15 @@
+{
+	x: 6.5d,
+	y: -4.5d,
+	description: "16k EMC",
+	dependencies: [
+		"fbe7ff05"
+	],
+	tasks: [{
+		uid: "16fa2b38",
+		type: "item",
+		items: [{
+			item: "sky_orchards:sapling_iron"
+		}]
+	}]
+}

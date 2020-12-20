@@ -1,0 +1,17 @@
+{
+	x: 7.5d,
+	y: -5.5d,
+	dependencies: [
+		"bd07f887"
+	],
+	tasks: [{
+		uid: "2121bb88",
+		type: "checkmark",
+		title: "These have higher than usual EMC cost. NOTE: Trees will not drop saplings at all. They are aquired by EMC only."
+	}],
+	rewards: [{
+		uid: "6c59b1fa",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience"
+	}]
+}

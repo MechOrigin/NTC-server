@@ -1,0 +1,23 @@
+{
+	x: 28.0d,
+	y: 16.0d,
+	shape: "gear",
+	description: "There's a couple options",
+	text: [
+		"It's just a matter of taste I guess"
+	],
+	dependencies: [
+		"59532bb6"
+	],
+	tasks: [{
+		uid: "0bb4683a",
+		type: "checkmark",
+		title: "Network Visuals"
+	}],
+	rewards: [{
+		uid: "b00eaf75",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 4
+	}]
+}

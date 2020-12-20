@@ -1,0 +1,17 @@
+{
+	x: 4.5d,
+	y: 4.5d,
+	dependencies: [
+		"b8d8ae0d"
+	],
+	tasks: [{
+		uid: "4aa660c2",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:shovel_head"
+			}
+		}]
+	}]
+}

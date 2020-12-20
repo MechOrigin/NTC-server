@@ -1,0 +1,18 @@
+{
+	x: 14.5d,
+	y: -5.0d,
+	description: "Make your first obsidian dust by squeezing obsidian blocks! You will need quite a bit of these.",
+	text: [
+		""
+	],
+	dependencies: [
+		"41d47124"
+	],
+	tasks: [{
+		uid: "3f0645c7",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 770"
+		}]
+	}]
+}

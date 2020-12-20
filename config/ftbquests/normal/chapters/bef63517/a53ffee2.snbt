@@ -1,0 +1,19 @@
+{
+	x: 21.5d,
+	y: 15.0d,
+	description: "You can make this multiple ways however you should already have a Simple Alloy Smelter. Simple Alloy Smelter quest Required.",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ea26797e"
+	],
+	tasks: [{
+		uid: "bfe67989",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_ingot"
+		}]
+	}]
+}

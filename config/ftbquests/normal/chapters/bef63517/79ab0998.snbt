@@ -1,0 +1,27 @@
+{
+	title: "Steel Blocks x16",
+	x: 19.5d,
+	y: 7.5d,
+	description: "Requires Immersive Engineering to create Steel",
+	text: [
+		"You will need 16 of these to create your first machine frame"
+	],
+	dependencies: [
+		"fc050204"
+	],
+	tasks: [{
+		uid: "af1f9998",
+		type: "item",
+		title: "Any blockSteel",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockSteel",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 16L
+	}]
+}

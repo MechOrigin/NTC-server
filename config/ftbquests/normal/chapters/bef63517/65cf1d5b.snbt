@@ -1,0 +1,17 @@
+{
+	x: 8.5d,
+	y: -7.5d,
+	dependencies: [
+		"bd07f887"
+	],
+	tasks: [{
+		uid: "43a63ba1",
+		type: "checkmark",
+		title: "These are regular metals. You can also just get the resources such as iron and copper from the EMC tablet."
+	}],
+	rewards: [{
+		uid: "737016db",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience"
+	}]
+}

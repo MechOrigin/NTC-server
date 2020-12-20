@@ -1,0 +1,17 @@
+{
+	x: 10.5d,
+	y: -0.5d,
+	dependencies: [
+		"da868b58"
+	],
+	tasks: [{
+		uid: "f1e948e4",
+		type: "item",
+		items: [{
+			id: "tconstruct:axe_head",
+			tag: {
+				Material: "cactus"
+			}
+		}]
+	}]
+}

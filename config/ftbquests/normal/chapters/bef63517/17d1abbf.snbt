@@ -1,0 +1,15 @@
+{
+	x: 8.0d,
+	y: -6.5d,
+	description: "4k EMC",
+	dependencies: [
+		"fbe7ff05"
+	],
+	tasks: [{
+		uid: "b369073a",
+		type: "item",
+		items: [{
+			item: "sky_orchards:sapling_redstone"
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: -15.0d,
+	y: 24.0d,
+	dependencies: [
+		"976ab747"
+	],
+	tasks: [{
+		uid: "217fb4d5",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_gem_armor_2"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

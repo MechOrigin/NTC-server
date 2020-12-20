@@ -1,0 +1,18 @@
+{
+	x: 7.5d,
+	y: 21.5d,
+	description: "These should go around the outside of your structure to \"save\"",
+	text: [
+		""
+	],
+	dependencies: [
+		"6801181c"
+	],
+	tasks: [{
+		uid: "bb8e916c",
+		type: "item",
+		items: [{
+			item: "rftools:space_chamber"
+		}]
+	}]
+}

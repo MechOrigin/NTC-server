@@ -1,0 +1,18 @@
+{
+    "dimensions": [
+        {
+            "dim": 43,
+            "dimensiontype": {
+                "id": 43,
+                "name": "Void dimension",
+                "suffix": "_dim43",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED",
+                "require_exact_match": true
+            },
+            "worldinfo_onetime": {
+                "generatorName": "voidworld"
+            }
+        }
+    ]
+}

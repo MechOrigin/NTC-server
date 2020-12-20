@@ -1,0 +1,19 @@
+{
+	title: "Cheap transport",
+	x: -2.0d,
+	y: -7.0d,
+	description: "Like an Iron Hopper but cheaper.. and slower.",
+	text: [
+		"I don't want to tell you how to play the game or anything but this wooden hopper makes for some cheap bonsai stacking."
+	],
+	dependencies: [
+		"1cedd3c5"
+	],
+	tasks: [{
+		uid: "cefe0c5d",
+		type: "item",
+		items: [{
+			item: "tconstruct:wooden_hopper"
+		}]
+	}]
+}

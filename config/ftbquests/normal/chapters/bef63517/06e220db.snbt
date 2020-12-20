@@ -1,0 +1,32 @@
+{
+	title: "Welcome to Not too Complicated",
+	icon: "chisel:futura 1 2",
+	x: 4.0d,
+	y: -3.0d,
+	shape: "hexagon",
+	text: [
+		"This is Not too Complicated... It's a modpack centered around trying to become creative mode, but not overly complicated and hectic. With an almost perfectly balanced EMC system.",
+		"",
+		"Also, the Beneath/End/Nether/Space can't be accessed from the void world. Which is the Skyblock."
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "58998a85",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "1587fb03",
+		type: "command",
+		team_reward: false,
+		auto: "enabled",
+		command: "/playsound minecraft:record.11 player @p ~ ~ ~ 10",
+		player_command: true
+	},
+	{
+		uid: "65e3d14d",
+		type: "command",
+		auto: "enabled",
+		command: "/summon minecraft:fireworks_rocket ~ ~ ~ {LifeTime:10,FireworksItem:{id:\"minecraft:fireworks\",Count:1b,tag:{Fireworks:{Explosions:[{Type:1b,Flicker:1b,Trail:0b,Colors:[I;16733525]}]}}}}",
+		player_command: true
+	}]
+}

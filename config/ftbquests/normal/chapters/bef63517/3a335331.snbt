@@ -1,0 +1,19 @@
+{
+	x: 15.5d,
+	y: 15.0d,
+	description: "Level 6 Mulch",
+	text: [
+		""
+	],
+	dependencies: [
+		"ed47afd7",
+		"837a909c"
+	],
+	tasks: [{
+		uid: "a70abcb9",
+		type: "item",
+		items: [{
+			item: "inspirations:mulch 1 6"
+		}]
+	}]
+}

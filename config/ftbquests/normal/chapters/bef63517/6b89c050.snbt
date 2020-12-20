@@ -1,0 +1,25 @@
+{
+	x: 8.5d,
+	y: 9.0d,
+	description: "Mold an Iron Gear from 4 ingots into the gear cast.",
+	text: [
+		""
+	],
+	dependencies: [
+		"d596e2f2"
+	],
+	tasks: [{
+		uid: "9db38f47",
+		type: "item",
+		title: "Any gearIron",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "gearIron",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}]
+}

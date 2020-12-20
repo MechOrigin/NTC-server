@@ -1,0 +1,14 @@
+{
+	x: 3.5d,
+	y: -9.5d,
+	dependencies: [
+		"34f890c3"
+	],
+	tasks: [{
+		uid: "54038ac5",
+		type: "item",
+		items: [{
+			item: "sky_orchards:sapling_prosperity"
+		}]
+	}]
+}

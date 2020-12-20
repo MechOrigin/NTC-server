@@ -1,0 +1,38 @@
+{
+	x: 13.5d,
+	y: 0.5d,
+	dependencies: [
+		"7e7adc78"
+	],
+	tasks: [{
+		uid: "a9c0be74",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "obsidian"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "9c98e0dc",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 5
+	},
+	{
+		uid: "2c567b75",
+		type: "item",
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		uid: "1e147aca",
+		type: "item",
+		item: {
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "iron"
+			}
+		}
+	}]
+}

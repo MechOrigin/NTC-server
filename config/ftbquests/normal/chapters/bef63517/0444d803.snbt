@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: 27.0d,
+	dependencies: [
+		"0a8a234f"
+	],
+	tasks: [{
+		uid: "d7a0a39a",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorcontroller"
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: 11.5d,
+	y: -3.0d,
+	description: "Not very much use. Useful for making leather from rotten flesh, or menril/chorus resin into blocks.",
+	dependencies: [
+		"1f7f8f64"
+	],
+	tasks: [{
+		uid: "12662299",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:drying_basin"
+		}]
+	}]
+}

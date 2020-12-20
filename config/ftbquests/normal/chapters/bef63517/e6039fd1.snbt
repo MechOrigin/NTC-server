@@ -1,0 +1,23 @@
+{
+	x: 26.0d,
+	y: 15.0d,
+	shape: "gear",
+	description: "when compact machines and ME networks converge",
+	text: [
+		"These little machines transfer ME network cable data/power through compact machines."
+	],
+	dependencies: [
+		"59532bb6"
+	],
+	tasks: [{
+		uid: "33750e23",
+		type: "checkmark",
+		title: "Capability Adapters"
+	}],
+	rewards: [{
+		uid: "40d39299",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 4
+	}]
+}

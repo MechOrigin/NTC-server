@@ -1,0 +1,23 @@
+{
+	icon: "compactmachines3:fieldprojector 4",
+	x: 18.0d,
+	y: 17.25d,
+	shape: "circle",
+	description: "Requires Energetic Alloy and Eye of Ender and a Personal Shrinking Device",
+	text: [
+		""
+	],
+	dependencies: [
+		"07265137",
+		"e25e3a9c"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "ca9fe4be",
+		type: "item",
+		items: [{
+			item: "compactmachines3:fieldprojector"
+		}],
+		count: 4L
+	}]
+}

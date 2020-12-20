@@ -1,0 +1,17 @@
+{
+	x: 5.0d,
+	y: -9.5d,
+	dependencies: [
+		"bd07f887"
+	],
+	tasks: [{
+		uid: "65cf1d72",
+		type: "checkmark",
+		title: "Basic resources. You can also just get the resources such as coal and sand from the EMC tablet."
+	}],
+	rewards: [{
+		uid: "6a277337",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience"
+	}]
+}

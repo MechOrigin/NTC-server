@@ -1,0 +1,18 @@
+{
+	x: -10.0d,
+	y: 4.0d,
+	description: "Not strictly for Mystical Agriculture... it also grows regular plants fast too. Place them above plants.",
+	text: [
+		""
+	],
+	dependencies: [
+		"19e8d326"
+	],
+	tasks: [{
+		uid: "bef872bd",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_greenhouse_glass"
+		}]
+	}]
+}
