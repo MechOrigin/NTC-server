@@ -535,10 +535,6 @@ recipes.addShaped(<minecraft:end_stone> * 1, [[<sky_orchards:resin_endstone>, <s
 //recipes.remove(<appliedenergistics2:sky_stone_block>);
 recipes.addShaped(<appliedenergistics2:sky_stone_block> * 1, [[<sky_orchards:resin_skystone>, <sky_orchards:resin_skystone>, <sky_orchards:resin_skystone>], [<sky_orchards:resin_skystone>, <sky_orchards:resin_skystone>, <sky_orchards:resin_skystone>],[<sky_orchards:resin_skystone>, <sky_orchards:resin_skystone>, <sky_orchards:resin_skystone>]]);
 
-// Alloy Furnace
-//recipes.remove(<nuclearcraft:alloy_furnace_idle>);
-recipes.addShaped(<nuclearcraft:alloy_furnace_idle> * 1, [[<nuclearcraft:part:0>, <minecraft:redstone>, <nuclearcraft:part:0>], [<minecraft:brick>, <nuclearcraft:part:10>, <minecraft:brick>],[<nuclearcraft:part:0>, <nuclearcraft:part:4>, <nuclearcraft:part:0>]]);
-
 // Skystone§r Leaves§r§r
 //recipes.remove(<sky_orchards:leaves_skystone>);
 recipes.addShaped(<sky_orchards:leaves_skystone> * 1, [[<appliedenergistics2:material:45>, <appliedenergistics2:material:45>, <appliedenergistics2:material:45>], [<appliedenergistics2:material:45>, <minecraft:sapling:0>, <appliedenergistics2:material:45>],[<appliedenergistics2:material:45>, <appliedenergistics2:material:45>, <appliedenergistics2:material:45>]]);
@@ -598,3 +594,7 @@ recipes.remove(<zawa:off_road_car>);
 recipes.remove(<zawa:tranquilizer_dart>);
 
 recipes.remove(<zawa:tranquilizer_dart_strong>);
+
+//pams water create more water? wtf
+recipes.remove(<harvestcraft:freshwateritem>);
+

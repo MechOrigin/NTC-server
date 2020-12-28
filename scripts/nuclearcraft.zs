@@ -18,3 +18,7 @@ mods.nuclearcraft.manufactory.removeRecipeWithOutput([<libvulpes:productingot:3>
 // Manufactory balanced recipe
 recipes.remove(<nuclearcraft:manufactory_idle>);
 recipes.addShaped(<nuclearcraft:manufactory_idle> * 1, [[<thermalfoundation:material:131>, <minecraft:piston>, <thermalfoundation:material:131>], [<actuallyadditions:item_crystal_empowered:2>, <nuclearcraft:part:10>, <actuallyadditions:item_crystal_empowered:2>],[<thermalfoundation:material:131>, <nuclearcraft:part:4>, <thermalfoundation:material:131>]]);
+
+// Alloy Furnace
+recipes.remove(<nuclearcraft:alloy_furnace_idle>);
+recipes.addShaped(<nuclearcraft:alloy_furnace_idle> * 1, [[<nuclearcraft:part:0>, <minecraft:redstone>, <nuclearcraft:part:0>], [<minecraft:brick>, <nuclearcraft:part:10>, <minecraft:brick>],[<nuclearcraft:part:0>, <nuclearcraft:part:4>, <nuclearcraft:part:0>]]);
