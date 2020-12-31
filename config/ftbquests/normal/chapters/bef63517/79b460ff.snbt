@@ -1,0 +1,14 @@
+{
+	x: 8.5d,
+	y: 29.5d,
+	dependencies: [
+		"d80b8365"
+	],
+	tasks: [{
+		uid: "4892361c",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:solar_panel_basic"
+		}]
+	}]
+}

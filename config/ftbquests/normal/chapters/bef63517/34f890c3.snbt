@@ -7,7 +7,7 @@
 	tasks: [{
 		uid: "202fdbe5",
 		type: "checkmark",
-		title: "This can help you get into the Mystical Agriculture Mod."
+		title: "Prerequisite to Mystical Agriculture Mod."
 	}],
 	rewards: [{
 		uid: "6e32c86e",

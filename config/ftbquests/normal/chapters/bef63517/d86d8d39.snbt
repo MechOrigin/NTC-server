@@ -1,13 +1,13 @@
 {
-	x: 7.0d,
-	y: -8.5d,
+	x: 7.5d,
+	y: -10.5d,
 	dependencies: [
 		"bd07f887"
 	],
 	tasks: [{
 		uid: "404ef0a3",
 		type: "checkmark",
-		title: "These cant be made by chopping up leaves. They are crafted."
+		title: "These leaves don't have an EMC value. They are crafted."
 	}],
 	rewards: [{
 		uid: "0f0fdade",

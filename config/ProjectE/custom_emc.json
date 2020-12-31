@@ -2022,35 +2022,35 @@
     },
     {
       "item": "sky_orchards:leaves_emerald|0",
-      "emc": 1048576
+      "emc": 0
     },
     {
       "item": "sky_orchards:leaves_diamond|0",
-      "emc": 524288
+      "emc": 0
     },
     {
       "item": "sky_orchards:leaves_iron|0",
-      "emc": 16384
+      "emc": 0
     },
     {
       "item": "sky_orchards:leaves_gold|0",
-      "emc": 131072
+      "emc": 0
     },
     {
       "item": "sky_orchards:leaves_lapis|0",
-      "emc": 55296
+      "emc": 0
     },
     {
       "item": "sky_orchards:leaves_redstone|0",
-      "emc": 4096
+      "emc": 0
     },
     {
       "item": "sky_orchards:leaves_glowstone|0",
-      "emc": 24576
+      "emc": 0
     },
     {
       "item": "sky_orchards:leaves_quartz|0",
-      "emc": 16384
+      "emc": 0
     },
     {
       "item": "sky_orchards:leaves_netherrack|0",

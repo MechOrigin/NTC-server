@@ -1,0 +1,14 @@
+{
+	x: 8.5d,
+	y: -10.5d,
+	dependencies: [
+		"d86d8d39"
+	],
+	tasks: [{
+		uid: "4c754066",
+		type: "item",
+		items: [{
+			item: "sky_orchards:leaves_netherrack"
+		}]
+	}]
+}

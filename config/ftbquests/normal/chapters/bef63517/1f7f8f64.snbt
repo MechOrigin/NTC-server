@@ -1,7 +1,7 @@
 {
 	title: "Integrated Dynamics",
 	x: 10.5d,
-	y: -2.0d,
+	y: -2.5d,
 	shape: "gear",
 	description: "Some of the first tech you can achieve!",
 	text: [

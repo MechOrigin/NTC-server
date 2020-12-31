@@ -547,6 +547,30 @@ recipes.addShaped(<sky_orchards:leaves_netherrack> * 1, [[<minecraft:netherbrick
 //recipes.remove(<sky_orchards:leaves_endstone>);
 recipes.addShaped(<sky_orchards:leaves_endstone> * 1, [[<nuclearcraft:gem_dust:11>, <nuclearcraft:gem_dust:11>, <nuclearcraft:gem_dust:11>], [<nuclearcraft:gem_dust:11>, <minecraft:sapling:0>, <nuclearcraft:gem_dust:11>],[<nuclearcraft:gem_dust:11>, <nuclearcraft:gem_dust:11>, <nuclearcraft:gem_dust:11>]]);
 
+// Emerald Leaves
+recipes.addShapeless(<sky_orchards:leaves_emerald>,[<ore:treeSapling>,<mysticalagriculture:emerald_seeds>]);
+
+// Nether Quartz Leaves
+recipes.addShapeless(<sky_orchards:leaves_quartz>,[<ore:treeSapling>,<mysticalagriculture:nether_quartz_seeds>]);
+
+// Glowstone Leaves
+recipes.addShapeless(<sky_orchards:leaves_glowstone>,[<ore:treeSapling>,<mysticalagriculture:glowstone_seeds>]);
+
+// Redstone Leaves
+recipes.addShapeless(<sky_orchards:leaves_redstone>,[<ore:treeSapling>,<mysticalagriculture:redstone_seeds>]);
+
+// Iron Leaves
+recipes.addShapeless(<sky_orchards:leaves_iron>,[<ore:treeSapling>,<mysticalagriculture:iron_seeds>]);
+
+// Gold Leaves
+recipes.addShapeless(<sky_orchards:leaves_gold>,[<ore:treeSapling>,<mysticalagriculture:gold_seeds>]);
+
+// Lapis Leaves
+recipes.addShapeless(<sky_orchards:leaves_lapis>,[<ore:treeSapling>,<mysticalagriculture:lapis_lazuli_seeds>]);
+
+// Diamond Leaves
+recipes.addShapeless(<sky_orchards:leaves_diamond>,[<ore:treeSapling>,<mysticalagriculture:diamond_seeds>]);
+
 // §eInferium Fertilization Core
 recipes.remove(<mysticalagriculture:crafting:50>);
 recipes.addShaped(<mysticalagriculture:crafting:50> * 1, [[<mysticalagriculture:crafting:0>, <minecraft:gold_ingot>, <mysticalagriculture:crafting:0>], [<minecraft:dye:15>, <mysticalagriculture:crafting:32>, <minecraft:dye:15>],[<mysticalagriculture:crafting:0>, <minecraft:dye:15>, <mysticalagriculture:crafting:0>]]);

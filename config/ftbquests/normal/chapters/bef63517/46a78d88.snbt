@@ -1,0 +1,14 @@
+{
+	x: 9.5d,
+	y: -7.0d,
+	dependencies: [
+		"fbe7ff05"
+	],
+	tasks: [{
+		uid: "3f0c21ad",
+		type: "item",
+		items: [{
+			item: "sky_orchards:leaves_iron"
+		}]
+	}]
+}

@@ -1,6 +1,7 @@
 {
 	x: 3.5d,
 	y: -9.5d,
+	description: "The only way to get prosperity shards early on.",
 	dependencies: [
 		"34f890c3"
 	],

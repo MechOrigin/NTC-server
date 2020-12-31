@@ -1,9 +1,9 @@
 {
-	x: 9.5d,
-	y: -5.0d,
+	x: 8.5d,
+	y: -4.0d,
 	description: "524k EMC",
 	dependencies: [
-		"fbe7ff05"
+		"f557228f"
 	],
 	tasks: [{
 		uid: "0373b7b3",

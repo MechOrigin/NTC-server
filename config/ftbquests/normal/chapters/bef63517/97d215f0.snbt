@@ -12,7 +12,18 @@
 		uid: "3f0645c7",
 		type: "item",
 		items: [{
-			item: "thermalfoundation:material 1 770"
+			ForgeCaps: {
+				Parent: {
+					data: "dustObsidian",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustObsidian"
+				}
+			}
 		}]
 	}]
 }

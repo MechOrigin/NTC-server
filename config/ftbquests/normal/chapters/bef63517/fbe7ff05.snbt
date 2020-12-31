@@ -1,13 +1,13 @@
 {
-	x: 7.5d,
-	y: -5.5d,
+	x: 9.0d,
+	y: -6.0d,
 	dependencies: [
 		"bd07f887"
 	],
 	tasks: [{
 		uid: "2121bb88",
 		type: "checkmark",
-		title: "These have higher than usual EMC cost. NOTE: Trees will not drop saplings at all. They are aquired by EMC only."
+		title: "These leaves don't have an EMC value. They are crafted. Mystical Agriculture seeds in a shapeless recipe with any sapling."
 	}],
 	rewards: [{
 		uid: "6c59b1fa",

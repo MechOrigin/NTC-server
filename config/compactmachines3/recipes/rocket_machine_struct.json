@@ -5,8 +5,8 @@
 
   "duration": 120,
 
-  "catalyst": "immersiveengineering:material",
-  "catalyst-meta": 1,
+  "catalyst": "contenttweaker:material_part",
+  "catalyst-meta": 147,
 
   "input-types": {
     "A": { 
