@@ -230,7 +230,7 @@ recipes.remove(<projecte:item.pe_rm_katar>);
 recipes.remove(<projecte:item.pe_rm_morning_star>);
 
 //misc removals
-mods.jei.JEI.removeAndHide(<microblockcbe:stone_rod>);
+//mods.jei.JEI.removeAndHide(<microblockcbe:stone_rod>);
 mods.jei.JEI.removeAndHide(<tinker_io:ore_crusher>);
 mods.jei.JEI.removeAndHide(<appliedenergistics2:charger>);
 recipes.removeByRecipeName("extendedcrafting:ender_ingot");
