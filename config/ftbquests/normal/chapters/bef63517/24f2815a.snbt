@@ -1,0 +1,11 @@
+{
+	x: -10.5d,
+	y: 30.0d,
+	tasks: [{
+		uid: "ab3f2906",
+		type: "item",
+		items: [{
+			item: "projectex:collector"
+		}]
+	}]
+}

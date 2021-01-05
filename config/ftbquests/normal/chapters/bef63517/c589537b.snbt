@@ -5,10 +5,8 @@
 		"57def2e5"
 	],
 	tasks: [{
-		uid: "fd50354f",
-		type: "item",
-		items: [{
-			item: "industrialforegoing:pink_slime"
-		}]
+		uid: "d383b61f",
+		type: "fluid",
+		fluid: "if.pink_slime"
 	}]
 }

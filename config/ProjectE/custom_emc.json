@@ -2623,6 +2623,10 @@
     {
       "item": "pvj:sapling_mangrove|0",
       "emc": 0
+    },
+    {
+      "item": "fluxnetworks:flux|0",
+      "emc": 256
     }
   ]
 }

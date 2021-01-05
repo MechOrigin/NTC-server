@@ -1,0 +1,13 @@
+{
+	title: "Flux Networks",
+	x: -6.0d,
+	y: -11.5d,
+	dependencies: [
+		"06dcb38a"
+	],
+	tasks: [{
+		uid: "16d82f11",
+		type: "checkmark",
+		icon: "fluxnetworks:flux"
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -6.0d,
+	y: -18.5d,
+	dependencies: [
+		"aecb1cd7"
+	],
+	tasks: [{
+		uid: "07138569",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:gargantuanfluxstorage"
+		}]
+	}]
+}

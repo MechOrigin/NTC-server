@@ -1,0 +1,11 @@
+{
+	x: -12.0d,
+	y: 30.0d,
+	tasks: [{
+		uid: "6db2401d",
+		type: "item",
+		items: [{
+			item: "projectex:relay"
+		}]
+	}]
+}
