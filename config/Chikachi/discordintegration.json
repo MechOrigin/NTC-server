@@ -1,6 +1,6 @@
 {
   "discord": {
-    "token": "NzA5OTkxNzc4MTEwOTMwOTU1.Xrt9Xg.mw0Lz5gDMZFSZ_CVf4bC2V2fdo8", 
+    "token": "1", 
     "ignoresBots": true, 
     "ignoresUsers": [], 
     "allowLinking": true, 
@@ -21,12 +21,12 @@
               "close" 
             ],
             "permissions": [ 
-              "role:123456789012345678", 
-              "role:MinecraftAdmins", 
-              "user:123456789012345678", 
-              "123456789012345678", 
-              "user:AdminUser#1234", 
-              "AdminUser#1234"
+              "role:345393981590601730", 
+              "role:Legendary", 
+              "user:345393981590601730", 
+              "345393981590601730", 
+              "user:SecretAsain#2170", 
+              "SecretAsain#2170"
             ]
           }, {
             "name": "tps",
@@ -69,7 +69,7 @@
         "discordChannel": [787759256719982662], 
         "relayAchievements": true, 
         "relayChat": true, 
-        "relayCommands": true, 
+        "relayCommands": false, 
         "relayPlayerJoin": true, 
         "relayPlayerLeave": true, 
         "relayPlayerDeath": true, 
@@ -112,6 +112,8 @@
         },
         "1": { 
 
+        },
+        "43": { 
         }
       }
     },

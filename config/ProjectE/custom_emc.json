@@ -2627,6 +2627,110 @@
     {
       "item": "fluxnetworks:flux|0",
       "emc": 256
+    },
+    {
+      "item": "sky_orchards:log_dirt|0",
+      "emc": 0
+    },
+    {
+      "item": "sky_orchards:log_clay|0",
+      "emc": 0
+    },
+    {
+      "item": "sky_orchards:log_sand|0",
+      "emc": 0
+    },
+    {
+      "item": "sky_orchards:log_gravel|0",
+      "emc": 0
+    },
+    {
+      "item": "sky_orchards:log_coal|0",
+      "emc": 0
+    },
+    {
+      "item": "sky_orchards:log_bone|0",
+      "emc": 0
+    },
+    {
+      "item": "sky_orchards:log_copper|0",
+      "emc": 0
+    },
+    {
+      "item": "sky_orchards:log_lead|0",
+      "emc": 0
+    },
+    {
+      "item": "sky_orchards:log_tin|0",
+      "emc": 0
+    },
+    {
+      "item": "sky_orchards:log_silver|0",
+      "emc": 0
+    },
+    {
+      "item": "sky_orchards:log_nickel|0",
+      "emc": 0
+    },
+    {
+      "item": "sky_orchards:log_emerald|0",
+      "emc": 0
+    },
+    {
+      "item": "sky_orchards:log_quartz|0",
+      "emc": 0
+    },
+    {
+      "item": "sky_orchards:log_netherrack|0",
+      "emc": 0
+    },
+    {
+      "item": "sky_orchards:log_glowstone|0",
+      "emc": 0
+    },
+    {
+      "item": "sky_orchards:log_cobalt|0",
+      "emc": 0
+    },
+    {
+      "item": "sky_orchards:log_ardite|0",
+      "emc": 0
+    },
+    {
+      "item": "sky_orchards:log_osmium|0",
+      "emc": 0
+    },
+    {
+      "item": "sky_orchards:log_prosperity|0",
+      "emc": 0
+    },
+    {
+      "item": "sky_orchards:log_endstone|0",
+      "emc": 0
+    },
+    {
+      "item": "sky_orchards:log_skystone|0",
+      "emc": 0
+    },
+    {
+      "item": "sky_orchards:log_iron|0",
+      "emc": 0
+    },
+    {
+      "item": "sky_orchards:log_gold|0",
+      "emc": 0
+    },
+    {
+      "item": "sky_orchards:log_lapis|0",
+      "emc": 0
+    },
+    {
+      "item": "sky_orchards:log_redstone|0",
+      "emc": 0
+    },
+    {
+      "item": "sky_orchards:log_diamond|0",
+      "emc": 0
     }
   ]
 }

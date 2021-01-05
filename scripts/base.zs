@@ -457,27 +457,27 @@ recipes.addShaped(<minecraft:bone> * 1, [[<sky_orchards:resin_bone>, <sky_orchar
 
 // Copper Nugget
 //recipes.remove(<thermalfoundation:material:192>);
-recipes.addShaped(<thermalfoundation:material:192> * 1, [[<sky_orchards:resin_copper>, <sky_orchards:resin_copper>, <sky_orchards:resin_copper>], [<sky_orchards:resin_copper>, <sky_orchards:resin_copper>, <sky_orchards:resin_copper>],[<sky_orchards:resin_copper>, <sky_orchards:resin_copper>, <sky_orchards:resin_copper>]]);
+recipes.addShaped(<contenttweaker:material_part:6> * 1, [[<sky_orchards:resin_copper>, <sky_orchards:resin_copper>, <sky_orchards:resin_copper>], [<sky_orchards:resin_copper>, <sky_orchards:resin_copper>, <sky_orchards:resin_copper>],[<sky_orchards:resin_copper>, <sky_orchards:resin_copper>, <sky_orchards:resin_copper>]]);
 
 // Lead Nugget
 //recipes.remove(<thermalfoundation:material:195>);
-recipes.addShaped(<thermalfoundation:material:195> * 1, [[<sky_orchards:resin_lead>, <sky_orchards:resin_lead>, <sky_orchards:resin_lead>], [<sky_orchards:resin_lead>, <sky_orchards:resin_lead>, <sky_orchards:resin_lead>],[<sky_orchards:resin_lead>, <sky_orchards:resin_lead>, <sky_orchards:resin_lead>]]);
+recipes.addShaped(<contenttweaker:material_part:48> * 1, [[<sky_orchards:resin_lead>, <sky_orchards:resin_lead>, <sky_orchards:resin_lead>], [<sky_orchards:resin_lead>, <sky_orchards:resin_lead>, <sky_orchards:resin_lead>],[<sky_orchards:resin_lead>, <sky_orchards:resin_lead>, <sky_orchards:resin_lead>]]);
 
 // Tin Nugget
 //recipes.remove(<thermalfoundation:material:193>);
-recipes.addShaped(<thermalfoundation:material:193> * 1, [[<sky_orchards:resin_tin>, <sky_orchards:resin_tin>, <sky_orchards:resin_tin>], [<sky_orchards:resin_tin>, <sky_orchards:resin_tin>, <sky_orchards:resin_tin>],[<sky_orchards:resin_tin>, <sky_orchards:resin_tin>, <sky_orchards:resin_tin>]]);
+recipes.addShaped(<contenttweaker:material_part:32> * 1, [[<sky_orchards:resin_tin>, <sky_orchards:resin_tin>, <sky_orchards:resin_tin>], [<sky_orchards:resin_tin>, <sky_orchards:resin_tin>, <sky_orchards:resin_tin>],[<sky_orchards:resin_tin>, <sky_orchards:resin_tin>, <sky_orchards:resin_tin>]]);
 
 // Silver Nugget
 //recipes.remove(<thermalfoundation:material:194>);
-recipes.addShaped(<thermalfoundation:material:194> * 1, [[<sky_orchards:resin_silver>, <sky_orchards:resin_silver>, <sky_orchards:resin_silver>], [<sky_orchards:resin_silver>, <sky_orchards:resin_silver>, <sky_orchards:resin_silver>],[<sky_orchards:resin_silver>, <sky_orchards:resin_silver>, <sky_orchards:resin_silver>]]);
+recipes.addShaped(<contenttweaker:material_part:40> * 1, [[<sky_orchards:resin_silver>, <sky_orchards:resin_silver>, <sky_orchards:resin_silver>], [<sky_orchards:resin_silver>, <sky_orchards:resin_silver>, <sky_orchards:resin_silver>],[<sky_orchards:resin_silver>, <sky_orchards:resin_silver>, <sky_orchards:resin_silver>]]);
 
 // Nickel Nugget
 //recipes.remove(<thermalfoundation:material:197>);
-recipes.addShaped(<thermalfoundation:material:197> * 1, [[<sky_orchards:resin_nickel>, <sky_orchards:resin_nickel>, <sky_orchards:resin_nickel>], [<sky_orchards:resin_nickel>, <sky_orchards:resin_nickel>, <sky_orchards:resin_nickel>],[<sky_orchards:resin_nickel>, <sky_orchards:resin_nickel>, <sky_orchards:resin_nickel>]]);
+recipes.addShaped(<contenttweaker:material_part:64> * 1, [[<sky_orchards:resin_nickel>, <sky_orchards:resin_nickel>, <sky_orchards:resin_nickel>], [<sky_orchards:resin_nickel>, <sky_orchards:resin_nickel>, <sky_orchards:resin_nickel>],[<sky_orchards:resin_nickel>, <sky_orchards:resin_nickel>, <sky_orchards:resin_nickel>]]);
 
 // Emerald Nugget
-//recipes.remove(<thermalfoundation:material:17>);
-recipes.addShaped(<thermalfoundation:material:17> * 1, [[<sky_orchards:resin_emerald>, <sky_orchards:resin_emerald>, <sky_orchards:resin_emerald>], [<sky_orchards:resin_emerald>, <sky_orchards:resin_emerald>, <sky_orchards:resin_emerald>],[<sky_orchards:resin_emerald>, <sky_orchards:resin_emerald>, <sky_orchards:resin_emerald>]]);
+//recipes.remove(<extendedcrafting:material:129>);
+recipes.addShaped(<extendedcrafting:material:129> * 1, [[<sky_orchards:resin_emerald>, <sky_orchards:resin_emerald>, <sky_orchards:resin_emerald>], [<sky_orchards:resin_emerald>, <sky_orchards:resin_emerald>, <sky_orchards:resin_emerald>],[<sky_orchards:resin_emerald>, <sky_orchards:resin_emerald>, <sky_orchards:resin_emerald>]]);
 
 // Nether Quartz
 //recipes.remove(<minecraft:quartz>);
