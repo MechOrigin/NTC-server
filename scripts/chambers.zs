@@ -1,0 +1,28 @@
+
+// Empowerer Chamber
+recipes.remove(<chambers:empowerer_chamber>);
+mods.extendedcrafting.TableCrafting.addShaped(4, <chambers:empowerer_chamber>, [
+	[<actuallyadditions:block_crystal_empowered:2>, <actuallyadditions:block_crystal_empowered:2>, <actuallyadditions:block_crystal_empowered:2>, <actuallyadditions:block_crystal_empowered:2>, <actuallyadditions:block_display_stand>, <actuallyadditions:block_crystal_empowered:4>, <actuallyadditions:block_crystal_empowered:4>, <actuallyadditions:block_crystal_empowered:4>, <actuallyadditions:block_crystal_empowered:4>], 
+	[<actuallyadditions:block_crystal_empowered:2>, <ore:dustCryotheum>, <ore:dustCryotheum>, <ore:dustCryotheum>, <ore:dustCryotheum>, <ore:dustCryotheum>, <ore:dustCryotheum>, <ore:dustCryotheum>, <actuallyadditions:block_crystal_empowered:4>], 
+	[<actuallyadditions:block_crystal_empowered:2>, <ore:dustCryotheum>, <quark:black_ash>, <quark:black_ash>, <quark:black_ash>, <quark:black_ash>, <quark:black_ash>, <ore:dustCryotheum>, <actuallyadditions:block_crystal_empowered:4>], 
+	[<actuallyadditions:block_crystal_empowered:2>, <ore:dustCryotheum>, <quark:black_ash>, <ore:ingotBrickNetherGlazed>, <ore:ingotBrickNetherGlazed>, <ore:ingotBrickNetherGlazed>, <quark:black_ash>, <ore:dustCryotheum>, <actuallyadditions:block_crystal_empowered:4>], 
+	[<actuallyadditions:block_display_stand>, <ore:dustCryotheum>, <quark:black_ash>, <ore:ingotBrickNetherGlazed>, <actuallyadditions:block_empowerer>, <ore:ingotBrickNetherGlazed>, <quark:black_ash>, <ore:dustCryotheum>, <actuallyadditions:block_display_stand>], 
+	[<actuallyadditions:block_crystal_empowered:4>, <ore:dustCryotheum>, <quark:black_ash>, <ore:ingotBrickNetherGlazed>, <ore:ingotBrickNetherGlazed>, <ore:ingotBrickNetherGlazed>, <quark:black_ash>, <ore:dustCryotheum>, <actuallyadditions:block_crystal_empowered:2>], 
+	[<actuallyadditions:block_crystal_empowered:4>, <ore:dustCryotheum>, <quark:black_ash>, <quark:black_ash>, <quark:black_ash>, <quark:black_ash>, <quark:black_ash>, <ore:dustCryotheum>, <actuallyadditions:block_crystal_empowered:2>], 
+	[<actuallyadditions:block_crystal_empowered:4>, <ore:dustCryotheum>, <ore:dustCryotheum>, <ore:dustCryotheum>, <ore:dustCryotheum>, <ore:dustCryotheum>, <ore:dustCryotheum>, <ore:dustCryotheum>, <actuallyadditions:block_crystal_empowered:2>], 
+	[<actuallyadditions:block_crystal_empowered:4>, <actuallyadditions:block_crystal_empowered:4>, <actuallyadditions:block_crystal_empowered:4>, <actuallyadditions:block_crystal_empowered:4>, <actuallyadditions:block_display_stand>, <actuallyadditions:block_crystal_empowered:2>, <actuallyadditions:block_crystal_empowered:2>, <actuallyadditions:block_crystal_empowered:2>, <actuallyadditions:block_crystal_empowered:2>]
+]);
+
+//Atomic Reconstructor Chamber
+recipes.remove(<chambers:atom_chamber>);
+mods.extendedcrafting.TableCrafting.addShaped(4, <chambers:atom_chamber>, [
+	[<actuallyadditions:block_crystal_empowered:5>, <actuallyadditions:block_crystal_empowered:5>, <actuallyadditions:block_crystal_empowered:5>, <actuallyadditions:block_crystal_empowered>, <actuallyadditions:block_crystal_empowered>, <actuallyadditions:block_crystal_empowered>, <actuallyadditions:block_crystal_empowered:5>, <actuallyadditions:block_crystal_empowered:5>, <actuallyadditions:block_crystal_empowered:5>], 
+	[<actuallyadditions:block_crystal_empowered:5>, <ore:dustCryotheum>, <ore:dustCryotheum>, <ore:dustCryotheum>, <ore:dustCryotheum>, <ore:dustCryotheum>, <ore:dustCryotheum>, <ore:dustCryotheum>, <actuallyadditions:block_crystal_empowered:5>], 
+	[<actuallyadditions:block_crystal_empowered:5>, <ore:dustCryotheum>, <quark:black_ash>, <quark:black_ash>, <quark:black_ash>, <quark:black_ash>, <quark:black_ash>, <ore:dustCryotheum>, <actuallyadditions:block_crystal_empowered:5>], 
+	[<actuallyadditions:block_crystal_empowered>, <ore:dustCryotheum>, <quark:black_ash>, <ore:ingotBrickNetherGlazed>, <ore:ingotBrickNetherGlazed>, <ore:ingotBrickNetherGlazed>, <quark:black_ash>, <ore:dustCryotheum>, <actuallyadditions:block_crystal_empowered>], 
+	[<actuallyadditions:block_crystal_empowered>, <ore:dustCryotheum>, <quark:black_ash>, <ore:ingotBrickNetherGlazed>, <actuallyadditions:block_atomic_reconstructor>, <ore:ingotBrickNetherGlazed>, <quark:black_ash>, <ore:dustCryotheum>, <actuallyadditions:block_crystal_empowered>], 
+	[<actuallyadditions:block_crystal_empowered>, <ore:dustCryotheum>, <quark:black_ash>, <ore:ingotBrickNetherGlazed>, <ore:ingotBrickNetherGlazed>, <ore:ingotBrickNetherGlazed>, <quark:black_ash>, <ore:dustCryotheum>, <actuallyadditions:block_crystal_empowered>], 
+	[<actuallyadditions:block_crystal_empowered:5>, <ore:dustCryotheum>, <quark:black_ash>, <quark:black_ash>, <quark:black_ash>, <quark:black_ash>, <quark:black_ash>, <ore:dustCryotheum>, <actuallyadditions:block_crystal_empowered:5>], 
+	[<actuallyadditions:block_crystal_empowered:5>, <ore:dustCryotheum>, <ore:dustCryotheum>, <ore:dustCryotheum>, <ore:dustCryotheum>, <ore:dustCryotheum>, <ore:dustCryotheum>, <ore:dustCryotheum>, <actuallyadditions:block_crystal_empowered:5>], 
+	[<actuallyadditions:block_crystal_empowered:5>, <actuallyadditions:block_crystal_empowered:5>, <actuallyadditions:block_crystal_empowered:5>, <actuallyadditions:block_crystal_empowered>, <actuallyadditions:block_crystal_empowered>, <actuallyadditions:block_crystal_empowered>, <actuallyadditions:block_crystal_empowered:5>, <actuallyadditions:block_crystal_empowered:5>, <actuallyadditions:block_crystal_empowered:5>]
+]);
