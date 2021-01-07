@@ -1,6 +1,6 @@
 {
 	icon: "actuallyadditions:item_booklet",
-	x: -1.0d,
+	x: -2.0d,
 	y: 8.5d,
 	shape: "gear",
 	description: "Dont forget to collect your quest reward for the guide book!",

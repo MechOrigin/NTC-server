@@ -1,7 +1,7 @@
 {
 	x: 15.0d,
 	y: 5.5d,
-	description: "Quite exotic. You probably won't use this for a while/if ever. But this can be made into Gelid Cryotheum. It's a super cold coolant for reactors and whatnot. Place Snowball on Casting Table and pour XP on it.",
+	description: "Quite exotic. It's a super cold coolant for reactors and whatnot. Place Snowball on Casting Table and pour XP on it.",
 	text: [
 		""
 	],

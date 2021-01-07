@@ -1,6 +1,6 @@
 {
 	x: -15.5d,
-	y: 9.0d,
+	y: 12.5d,
 	description: "Basically Creative mode",
 	dependencies: [
 		"40e1cbfe"

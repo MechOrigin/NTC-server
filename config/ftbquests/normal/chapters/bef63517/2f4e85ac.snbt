@@ -1,6 +1,6 @@
 {
 	x: -1.5d,
-	y: 14.0d,
+	y: 15.0d,
 	description: "A prerequisite for black iron ingot",
 	text: [
 		"One of the few alloys that can only be made with the EnderIO alloy furnace."

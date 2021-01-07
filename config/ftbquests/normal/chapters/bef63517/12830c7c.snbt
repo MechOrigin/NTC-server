@@ -1,6 +1,6 @@
 {
-	x: -8.5d,
-	y: 3.5d,
+	x: -11.5d,
+	y: 0.5d,
 	description: "Automate collecting plants",
 	text: [
 		""

@@ -3,7 +3,7 @@
 	y: 16.5d,
 	description: "This eats EMC and spits out power.",
 	dependencies: [
-		"3f39aa22"
+		"e68281a4"
 	],
 	tasks: [{
 		uid: "820628a3",

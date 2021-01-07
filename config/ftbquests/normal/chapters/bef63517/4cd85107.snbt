@@ -13,7 +13,8 @@
 		"* there is at least one pattern store"
 	],
 	dependencies: [
-		"59532bb6"
+		"59532bb6",
+		"04cbec9d"
 	],
 	tasks: [{
 		uid: "b05c7bbe",

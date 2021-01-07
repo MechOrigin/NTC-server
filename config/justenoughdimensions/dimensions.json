@@ -13,6 +13,26 @@
             "worldinfo_onetime": {
                 "generatorName": "voidworld"
             }
+        },
+        { "dim": -1, 
+            "worldinfo": {} 
+        },
+        { "dim": 1, 
+            "worldinfo": {} 
+        },
+        {
+            "dim": 0,
+            "dimensiontype": {
+                "id": 0,
+                "name": "RTG dimension",
+                "suffix": "_dim0",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED",
+                "require_exact_match": true
+            },
+            "worldinfo_onetime": {
+                "generatorName": "RTG"
+            }
         }
     ]
 }

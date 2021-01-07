@@ -1,0 +1,16 @@
+{
+	x: 0.5d,
+	y: 13.5d,
+	description: "Requires Blizz Powder",
+	hide_dependency_lines: true,
+	dependencies: [
+		"5da310e7"
+	],
+	tasks: [{
+		uid: "b6d1aef3",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 1025"
+		}]
+	}]
+}

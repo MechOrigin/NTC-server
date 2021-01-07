@@ -2,6 +2,10 @@
 	x: -13.0d,
 	y: 16.5d,
 	shape: "gear",
+	description: "Link EMC with AE2",
+	text: [
+		"Transmutation chamber and a AE2 Storage bus and you will be able to access all your EMC."
+	],
 	dependencies: [
 		"446f2484"
 	],

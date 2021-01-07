@@ -1,6 +1,6 @@
 {
-	x: -9.0d,
-	y: 0.5d,
+	x: -12.0d,
+	y: -2.5d,
 	shape: "gear",
 	description: "Depends on starting Prosperity Sapling quest",
 	text: [

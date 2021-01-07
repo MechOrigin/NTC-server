@@ -17,6 +17,7 @@
 				}
 			},
 			Damage: 2s
-		}]
+		}],
+		ignore_nbt: 1b
 	}]
 }

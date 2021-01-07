@@ -1,7 +1,9 @@
 {
 	x: 8.5d,
 	y: -8.0d,
-	description: "4k EMC",
+	text: [
+		""
+	],
 	dependencies: [
 		"14297bda"
 	],

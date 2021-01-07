@@ -1,0 +1,18 @@
+{
+	x: 33.5d,
+	y: 29.0d,
+	description: "Requires Soul Machine Chassis",
+	text: [
+		""
+	],
+	dependencies: [
+		"45799dfb"
+	],
+	tasks: [{
+		uid: "ba0ec03d",
+		type: "item",
+		items: [{
+			item: "enderio:block_slice_and_splice"
+		}]
+	}]
+}

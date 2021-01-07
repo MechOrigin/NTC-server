@@ -1,7 +1,9 @@
 {
 	x: 10.5d,
 	y: -4.0d,
-	description: "55k EMC",
+	text: [
+		""
+	],
 	dependencies: [
 		"eb6b947d"
 	],

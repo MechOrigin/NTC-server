@@ -1,6 +1,6 @@
 {
-	x: 26.0d,
-	y: 22.5d,
+	x: 26.5d,
+	y: 22.0d,
 	description: "EnderIO spawners",
 	text: [
 		""

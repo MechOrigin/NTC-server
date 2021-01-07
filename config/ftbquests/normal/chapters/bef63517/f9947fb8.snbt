@@ -1,6 +1,6 @@
 {
-	x: -2.5d,
-	y: 8.5d,
+	x: -4.0d,
+	y: 7.5d,
 	description: "Remember that Basaltz Powder we made? Craft Petrotheum Dust with it and put it inside the Smeltery. Pour it onto Nether Quartz to make Black Quartz.",
 	text: [
 		""

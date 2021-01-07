@@ -1,0 +1,11 @@
+{
+	x: -9.5d,
+	y: 5.0d,
+	tasks: [{
+		uid: "ef739431",
+		type: "item",
+		items: [{
+			item: "bigreactors:ingotcyanite"
+		}]
+	}]
+}

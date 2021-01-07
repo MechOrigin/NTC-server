@@ -13,20 +13,5 @@
 	tasks: [{
 		uid: "58998a85",
 		type: "checkmark"
-	}],
-	rewards: [{
-		uid: "1587fb03",
-		type: "command",
-		team_reward: false,
-		auto: "enabled",
-		command: "/playsound minecraft:record.11 player @p ~ ~ ~ 10",
-		player_command: true
-	},
-	{
-		uid: "65e3d14d",
-		type: "command",
-		auto: "enabled",
-		command: "/summon minecraft:fireworks_rocket ~ ~ ~ {LifeTime:10,FireworksItem:{id:\"minecraft:fireworks\",Count:1b,tag:{Fireworks:{Explosions:[{Type:1b,Flicker:1b,Trail:0b,Colors:[I;16733525]}]}}}}",
-		player_command: true
 	}]
 }

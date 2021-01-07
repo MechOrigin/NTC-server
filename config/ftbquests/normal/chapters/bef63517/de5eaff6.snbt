@@ -1,6 +1,6 @@
 {
-	x: -10.0d,
-	y: 4.0d,
+	x: -13.0d,
+	y: 1.0d,
 	description: "Not strictly for Mystical Agriculture... it also grows regular plants fast too. Place them above plants.",
 	text: [
 		""

@@ -1,7 +1,7 @@
 {
 	title: "Kill a wither and get a star",
-	x: -13.5d,
-	y: 7.5d,
+	x: -18.5d,
+	y: 6.0d,
 	hide_dependency_lines: true,
 	dependencies: [
 		"06e220db"

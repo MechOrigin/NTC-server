@@ -1,7 +1,7 @@
 {
 	title: "Move along....",
-	x: 32.0d,
-	y: 31.5d,
+	x: 29.0d,
+	y: 32.5d,
 	description: "Blueprint Capsules created by Capsule Corp",
 	text: [
 		""
