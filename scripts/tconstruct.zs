@@ -58,5 +58,23 @@ mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <ore:gearSton
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <ore:gearStone>, <liquid:gold>, 144, true, 20);
 
 //diamond gear
-mods.tconstruct.Casting.addTableRecipe(<contenttweaker:material_part:181>, <tconstruct:cast_custom:4>, <liquid:diamond>, 576, false, 80);
-mods.tconstruct.Casting.addTableRecipe(<contenttweaker:material_part:181>, <tconstruct:cast_custom:4>, <liquid:diamond>, 576, false, 80);
+//mods.tconstruct.Casting.addTableRecipe(<contenttweaker:material_part:181>, <tconstruct:cast_custom:4>, <liquid:diamond>, 576, false, 80);
+//mods.tconstruct.Casting.addTableRecipe(<contenttweaker:material_part:181>, <tconstruct:cast_custom:4>, <liquid:diamond>, 576, false, 80);
+recipes.addShaped(<contenttweaker:material_part:181> * 1, 
+[[null, <minecraft:diamond>, null], 
+[<minecraft:diamond>, <ore:gearGold>, <minecraft:diamond>], 
+[null, <minecraft:diamond>, null]]);
+
+
+//creative modifier
+mods.extendedcrafting.TableCrafting.addShaped(4, <tconstruct:materials:50>, [
+	[<ore:cast>, <ore:cast>, <ore:cast>, <ore:cast>, <ore:cast>, <ore:cast>, <ore:cast>, <ore:cast>, <ore:cast>], 
+	[<ore:cast>, <ore:gemAmethyst>, <enderio:item_capacitor_totemic>, <ore:slimecrystal>, <ore:netherStar>, <ore:slimecrystal>, <enderio:item_capacitor_totemic>, <ore:gemAmethyst>, <ore:cast>], 
+	[<ore:cast>, <enderio:item_capacitor_totemic>, <pvj:unstable_essence>, <pvj:unstable_essence>, <pvj:unstable_essence>, <pvj:unstable_essence>, <pvj:unstable_essence>, <enderio:item_capacitor_totemic>, <ore:cast>], 
+	[<ore:cast>, <ore:slimecrystal>, <pvj:unstable_essence>, <mowziesmobs:foliaath_seed>, <mowziesmobs:glowing_jelly>, <mowziesmobs:naga_fang>, <pvj:unstable_essence>, <ore:slimecrystal>, <ore:cast>], 
+	[<ore:cast>, <ore:netherStar>, <pvj:unstable_essence>, <mowziesmobs:glowing_jelly>, <ore:plateDU>, <mowziesmobs:glowing_jelly>, <pvj:unstable_essence>, <ore:netherStar>, <ore:cast>], 
+	[<ore:cast>, <ore:slimecrystal>, <pvj:unstable_essence>, <mowziesmobs:naga_fang>, <mowziesmobs:glowing_jelly>, <mowziesmobs:foliaath_seed>, <pvj:unstable_essence>, <ore:slimecrystal>, <ore:cast>], 
+	[<ore:cast>, <enderio:item_capacitor_totemic>, <pvj:unstable_essence>, <pvj:unstable_essence>, <pvj:unstable_essence>, <pvj:unstable_essence>, <pvj:unstable_essence>, <enderio:item_capacitor_totemic>, <ore:cast>], 
+	[<ore:cast>, <ore:gemAmethyst>, <enderio:item_capacitor_totemic>, <ore:slimecrystal>, <ore:netherStar>, <ore:slimecrystal>, <enderio:item_capacitor_totemic>, <ore:gemAmethyst>, <ore:cast>], 
+	[<ore:cast>, <ore:cast>, <ore:cast>, <ore:cast>, <ore:cast>, <ore:cast>, <ore:cast>, <ore:cast>, <ore:cast>]
+]);

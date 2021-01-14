@@ -1,0 +1,30 @@
+{
+	x: -17.0d,
+	y: 6.0d,
+	description: "Uses Californium and collect Neutrons",
+	text: [
+		"Currently the machine works with:",
+		"",
+		"Californium-249",
+		"",
+		"Californium-251",
+		"",
+		"HECf-249",
+		"",
+		"LECf-249",
+		"",
+		"HECf-251",
+		"",
+		"LECf-251"
+	],
+	dependencies: [
+		"700a9bbb"
+	],
+	tasks: [{
+		uid: "30e617d4",
+		type: "item",
+		items: [{
+			item: "fbnc:machine_fbnc"
+		}]
+	}]
+}

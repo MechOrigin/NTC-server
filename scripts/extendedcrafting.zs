@@ -38,7 +38,6 @@ mods.extendedcrafting.TableCrafting.addShaped(1, <projecte:condenser_mk1>, [
 ]); 
 
 //condenser 2
-//replaced thaumium with iridium
 recipes.remove(<projecte:condenser_mk2>);
 mods.extendedcrafting.TableCrafting.addShaped(2, <projecte:condenser_mk2>, [
 	[<ore:dustHOPGraphite>, <actuallyadditions:item_crystal_empowered:3>, <contenttweaker:material_part:1>, <actuallyadditions:item_crystal_empowered:3>, <ore:dustHOPGraphite>], 
@@ -53,7 +52,7 @@ recipes.remove(<sonarcore:stablestoneblackrimmed_purple>);
 mods.extendedcrafting.TableCrafting.addShaped(2, <sonarcore:stablestoneblackrimmed_purple> * 14, [
 	[<enderio:item_alloy_endergy_ingot:4>, <enderio:item_alloy_endergy_ingot:4>, <enderio:item_alloy_endergy_ingot:4>, <enderio:item_alloy_endergy_ingot:4>, <enderio:item_alloy_endergy_ingot:4>], 
 	[<enderio:item_alloy_endergy_ingot:4>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <enderio:item_alloy_endergy_ingot:4>], 
-	[<enderio:item_alloy_endergy_ingot:4>, <appliedenergistics2:smooth_sky_stone_block>, <projectex:matter:2>, <appliedenergistics2:smooth_sky_stone_block>, <enderio:item_alloy_endergy_ingot:4>], 
+	[<enderio:item_alloy_endergy_ingot:4>, <appliedenergistics2:smooth_sky_stone_block>, <projectex:matter:7>, <appliedenergistics2:smooth_sky_stone_block>, <enderio:item_alloy_endergy_ingot:4>], 
 	[<enderio:item_alloy_endergy_ingot:4>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <enderio:item_alloy_endergy_ingot:4>], 
 	[<enderio:item_alloy_endergy_ingot:4>, <enderio:item_alloy_endergy_ingot:4>, <enderio:item_alloy_endergy_ingot:4>, <enderio:item_alloy_endergy_ingot:4>, <enderio:item_alloy_endergy_ingot:4>]
 ]);
@@ -112,18 +111,18 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <projecte:collector_mk3>, [
 	[<projecte:item.pe_klein_star:1>, <projecte:item.pe_klein_star:1>, <projecte:item.pe_klein_star:1>, <projecte:item.pe_klein_star:1>, <projecte:item.pe_klein_star:1>, <projecte:item.pe_klein_star:1>, <projecte:item.pe_klein_star:1>, <projecte:item.pe_klein_star:1>, <projecte:item.pe_klein_star:1>]
 ]);
 
-//used to be draconic evolution infused obsidian, changed t regular obsidian for now
+//changed to regular obsidian for now
 recipes.remove(<projecte:relay_mk3>);
 mods.extendedcrafting.TableCrafting.addShaped(4, <projecte:relay_mk3>, [
-	[<ore:obsidian>, <ore:obsidian>, <projecte:item.pe_matter:1>, <projecte:item.pe_matter:1>, <projecte:item.pe_matter:1>, <projecte:item.pe_matter:1>, <projecte:item.pe_matter:1>, <ore:obsidian>, <ore:obsidian>], 
-	[<ore:obsidian>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <ore:obsidian>], 
-	[<ore:obsidian>, <appliedenergistics2:smooth_sky_stone_block>, <ore:dustLithium>, <ore:dustLithium>, <ore:dustLithium>, <ore:dustLithium>, <ore:dustLithium>, <appliedenergistics2:smooth_sky_stone_block>, <ore:obsidian>], 
-	[<ore:obsidian>, <appliedenergistics2:smooth_sky_stone_block>, <ore:dustLithium>, <enderio:item_material:42>, <enderio:item_material:42>, <enderio:item_material:42>, <ore:dustLithium>, <appliedenergistics2:smooth_sky_stone_block>, <ore:obsidian>], 
-	[<ore:obsidian>, <appliedenergistics2:smooth_sky_stone_block>, <ore:dustLithium>, <enderio:item_material:42>, <projecte:relay_mk2>, <enderio:item_material:42>, <ore:dustLithium>, <appliedenergistics2:smooth_sky_stone_block>, <ore:obsidian>], 
-	[<ore:obsidian>, <appliedenergistics2:smooth_sky_stone_block>, <ore:dustLithium>, <enderio:item_material:42>, <enderio:item_material:42>, <enderio:item_material:42>, <ore:dustLithium>, <appliedenergistics2:smooth_sky_stone_block>, <ore:obsidian>], 
-	[<ore:obsidian>, <appliedenergistics2:smooth_sky_stone_block>, <ore:dustLithium>, <ore:dustLithium>, <ore:dustLithium>, <ore:dustLithium>, <ore:dustLithium>, <appliedenergistics2:smooth_sky_stone_block>, <ore:obsidian>], 
-	[<ore:obsidian>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <ore:obsidian>], 
-	[<ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>]
+	[<nuclearcraft:fuel_curium:0>, <nuclearcraft:fuel_curium:0>, <projecte:item.pe_matter:1>, <projecte:item.pe_matter:1>, <projecte:item.pe_matter:1>, <projecte:item.pe_matter:1>, <projecte:item.pe_matter:1>, <nuclearcraft:fuel_curium:0>, <nuclearcraft:fuel_curium:0>], 
+	[<nuclearcraft:fuel_curium:0>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <nuclearcraft:fuel_curium:0>], 
+	[<nuclearcraft:fuel_curium:0>, <appliedenergistics2:smooth_sky_stone_block>, <ore:dustLithium>, <ore:dustLithium>, <ore:dustLithium>, <ore:dustLithium>, <ore:dustLithium>, <appliedenergistics2:smooth_sky_stone_block>, <nuclearcraft:fuel_curium:0>], 
+	[<nuclearcraft:fuel_curium:0>, <appliedenergistics2:smooth_sky_stone_block>, <ore:dustLithium>, <enderio:item_material:42>, <enderio:item_material:42>, <enderio:item_material:42>, <ore:dustLithium>, <appliedenergistics2:smooth_sky_stone_block>, <nuclearcraft:fuel_curium:0>], 
+	[<nuclearcraft:fuel_curium:0>, <appliedenergistics2:smooth_sky_stone_block>, <ore:dustLithium>, <enderio:item_material:42>, <projecte:relay_mk2>, <enderio:item_material:42>, <ore:dustLithium>, <appliedenergistics2:smooth_sky_stone_block>, <nuclearcraft:fuel_curium:0>], 
+	[<nuclearcraft:fuel_curium:0>, <appliedenergistics2:smooth_sky_stone_block>, <ore:dustLithium>, <enderio:item_material:42>, <enderio:item_material:42>, <enderio:item_material:42>, <ore:dustLithium>, <appliedenergistics2:smooth_sky_stone_block>, <nuclearcraft:fuel_curium:0>], 
+	[<nuclearcraft:fuel_curium:0>, <appliedenergistics2:smooth_sky_stone_block>, <ore:dustLithium>, <ore:dustLithium>, <ore:dustLithium>, <ore:dustLithium>, <ore:dustLithium>, <appliedenergistics2:smooth_sky_stone_block>, <nuclearcraft:fuel_curium:0>], 
+	[<nuclearcraft:fuel_curium:0>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <nuclearcraft:fuel_curium:0>], 
+	[<nuclearcraft:fuel_curium:0>, <nuclearcraft:fuel_curium:0>, <nuclearcraft:fuel_curium:0>, <nuclearcraft:fuel_curium:0>, <nuclearcraft:fuel_curium:0>, <nuclearcraft:fuel_curium:0>, <nuclearcraft:fuel_curium:0>, <nuclearcraft:fuel_curium:0>, <nuclearcraft:fuel_curium:0>]
 ]);
 
 
@@ -212,7 +211,7 @@ recipes.remove(<enderio:item_capacitor_silver>);
 ]);
 
 //Ultimate Ingot
-mods.extendedcrafting.TableCrafting.addShapeless(4, <extendedcrafting:material:32>, [<ore:ingotIron>, <ore:ingotGold>, <ore:ingotCrystalMatrix>, <ore:ingotCosmicNeutronium>, <ore:ingotInfinity>, <ore:ingotElectricalSteel>, <ore:ingotEnergeticAlloy>, <ore:ingotVibrantAlloy>, <ore:ingotRedstoneAlloy>, <ore:ingotConductiveIron>, <ore:ingotPulsatingIron>, <ore:ingotDarkSteel>, <ore:ingotSoularium>, <ore:ingotEndSteel>, <ore:ingotConstructionAlloy>, <ore:ingotCrudeSteel>, <ore:ingotCrystallineAlloy>, <ore:ingotMelodicAlloy>, <ore:ingotStellarAlloy>, <ore:ingotEnergeticSilver>, <ore:ingotVividAlloy>, <ore:ingotBlackIron>, <ore:ingotCrystaltine>, <extendedcrafting:material:36>, <extendedcrafting:material:48>, <ore:ingotUranium>, <ore:ingotCyanite>, <ore:ingotHOPGraphite>, <ore:ingotRefinedObsidian>, <ore:ingotOsmium>, <ore:ingotRefinedGlowstone>, <ore:ingotAlumite>, <ore:ingotOsgloglas>, <ore:ingotOsmiridium>, <ore:ingotCrystallinePinkSlime>, <ore:ingotFluixSteel>, <ore:ingotTitanium>, <ore:ingotHSLASteel>, <ore:ingotCopper>, <ore:ingotTin>, <ore:ingotSilver>, <ore:ingotLead>, <ore:ingotAluminum>, <ore:ingotNickel>, <ore:ingotPlatinum>, <ore:ingotIridium>, <ore:ingotSteel>, <ore:ingotElectrum>, <ore:ingotInvar>, <ore:ingotBronze>, <ore:ingotConstantan>, <ore:ingotSignalum>, <ore:ingotLumium>, <ore:ingotEnderium>, <ore:ingotCobalt>, <ore:ingotArdite>, <ore:ingotManyullyn>, <ore:ingotKnightslime>, <ore:ingotPigiron>, <ore:ingotAlubrass>, <ore:ingotBeryllium>, <ore:ingotZirconium>, <ore:ingotManganeseOxide>]);
+mods.extendedcrafting.TableCrafting.addShapeless(4, <extendedcrafting:material:32>, [<ore:ingotIron>, <ore:ingotGold>, <ore:ingotCrystalMatrix>, <ore:ingotCosmicNeutronium>, <ore:ingotInfinity>, <ore:ingotElectricalSteel>, <ore:ingotEnergeticAlloy>, <ore:ingotVibrantAlloy>, <ore:ingotRedstoneAlloy>, <ore:ingotConductiveIron>, <ore:ingotPulsatingIron>, <ore:ingotDarkSteel>, <ore:ingotSoularium>, <ore:ingotEndSteel>, <ore:ingotConstructionAlloy>, <ore:ingotCrudeSteel>, <ore:ingotCrystallineAlloy>, <ore:ingotMelodicAlloy>, <ore:ingotStellarAlloy>, <ore:ingotEnergeticSilver>, <ore:ingotVividAlloy>, <ore:ingotBlackIron>, <ore:ingotCrystaltine>, <extendedcrafting:material:36>, <extendedcrafting:material:48>, <ore:ingotUranium>, <ore:ingotBrickNetherGlazed>, <ore:ingotHOPGraphite>, <ore:ingotRefinedObsidian>, <ore:ingotOsmium>, <ore:ingotRefinedGlowstone>, <ore:ingotAlumite>, <ore:ingotOsgloglas>, <ore:ingotOsmiridium>, <ore:ingotCrystallinePinkSlime>, <ore:ingotFluixSteel>, <ore:ingotTitanium>, <ore:ingotHSLASteel>, <ore:ingotCopper>, <ore:ingotTin>, <ore:ingotSilver>, <ore:ingotLead>, <ore:ingotAluminum>, <ore:ingotNickel>, <ore:ingotPlatinum>, <ore:ingotIridium>, <ore:ingotSteel>, <ore:ingotElectrum>, <ore:ingotInvar>, <ore:ingotBronze>, <ore:ingotConstantan>, <ore:ingotSignalum>, <ore:ingotLumium>, <ore:ingotEnderium>, <ore:ingotCobalt>, <ore:ingotArdite>, <ore:ingotManyullyn>, <ore:ingotKnightslime>, <ore:ingotPigiron>, <ore:ingotAlubrass>, <ore:ingotBeryllium>, <ore:ingotZirconium>, <ore:ingotManganeseOxide>]);
 
 // Darkmatter helmet
 recipes.remove(<projecte:item.pe_dm_armor_3>);

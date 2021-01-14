@@ -1786,19 +1786,19 @@
     },
     {
       "item": "auxiliumequivalence:matter|0",
-      "emc": 1449984
+      "emc": 0
     },
     {
       "item": "auxiliumequivalence:matter|1",
-      "emc": 4399104
+      "emc": 0
     },
     {
       "item": "auxiliumequivalence:matter|2",
-      "emc": 13246464
+      "emc": 0
     },
     {
       "item": "auxiliumequivalence:matter|3",
-      "emc": 39788544
+      "emc": 0
     },
     {
       "item": "thaumcraft:amber|0",
@@ -2731,6 +2731,26 @@
     {
       "item": "sky_orchards:log_diamond|0",
       "emc": 0
+    },
+    {
+      "item": "projectex:matter|0",
+      "emc": 1499984
+    },
+    {
+      "item": "projectex:matter|1",
+      "emc": 4399104
+    },
+    {
+      "item": "projectex:matter|2",
+      "emc": 13246464
+    },
+    {
+      "item": "projectex:matter|3",
+      "emc": 39788544
+    },
+    {
+      "item": "projectex:matter|4",
+      "emc": 119414784
     }
   ]
 }

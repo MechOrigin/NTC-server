@@ -1,0 +1,14 @@
+{
+	x: 12.0d,
+	y: 30.0d,
+	dependencies: [
+		"9040ecdf"
+	],
+	tasks: [{
+		uid: "76194883",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:thorium 1 4"
+		}]
+	}]
+}

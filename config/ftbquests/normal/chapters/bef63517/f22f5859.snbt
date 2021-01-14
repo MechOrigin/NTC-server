@@ -1,0 +1,14 @@
+{
+	x: 12.5d,
+	y: 41.0d,
+	dependencies: [
+		"57d43daa"
+	],
+	tasks: [{
+		uid: "3abbfe3c",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:berkelium 1 6"
+		}]
+	}]
+}

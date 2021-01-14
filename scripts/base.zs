@@ -92,7 +92,7 @@ recipes.addShaped(<capsule:capsule>.withTag({color: 16766720, size: 5}), [[<appl
 
 
 //extreme reactors?
-recipes.removeByRecipeName("bigreactors:ingotmetals_5");
+//recipes.removeByRecipeName("bigreactors:ingotmetals_5");
 
 //recipes
 
@@ -141,14 +141,29 @@ recipes.addShaped(<thermalfoundation:material:515>,[
 ]);
 
 //Changing Relay and Collector recipes
-recipes.remove(<auxiliumequivalence:collector_mk4>);
-recipes.remove(<auxiliumequivalence:relay_mk4>);
-recipes.remove(<auxiliumequivalence:collector_mk5>);
-recipes.remove(<auxiliumequivalence:relay_mk5>);
-recipes.remove(<auxiliumequivalence:collector_mk6>);
-recipes.remove(<auxiliumequivalence:relay_mk6>);
-recipes.remove(<auxiliumequivalence:collector_mk7>);
-recipes.remove(<auxiliumequivalence:relay_mk7>);
+//recipes.remove(<auxiliumequivalence:collector_mk4>);
+//recipes.addShaped(<auxiliumequivalence:collector_mk4> * 1, [[<ore:glowstone>, <projectex:matter:0>, <ore:glowstone>], [<ore:glowstone>, <projecte:collector_mk3>, <ore:glowstone>],[<ore:glowstone>, <ore:glowstone>, <ore:glowstone>]]);
+
+//recipes.remove(<auxiliumequivalence:relay_mk4>);
+//recipes.addShaped(<auxiliumequivalence:relay_mk4> * 1, [[<ore:obsidian>, <projectex:matter:0>, <ore:obsidian>], [<ore:obsidian>, <projecte:relay_mk3>, <ore:obsidian>],[<ore:obsidian>, <ore:obsidian>, <ore:obsidian>]]);
+
+//recipes.remove(<auxiliumequivalence:collector_mk5>);
+//recipes.addShaped(<auxiliumequivalence:collector_mk5> * 1, [[<ore:glowstone>, <projectex:matter:1>, <ore:glowstone>], [<ore:glowstone>, <auxiliumequivalence:collector_mk4>, <ore:glowstone>],[<ore:glowstone>, <ore:glowstone>, <ore:glowstone>]]);
+
+//recipes.remove(<auxiliumequivalence:relay_mk5>);
+//recipes.addShaped(<auxiliumequivalence:relay_mk5> * 1, [[<ore:obsidian>, <projectex:matter:1>, <ore:obsidian>], [<ore:obsidian>, <auxiliumequivalence:relay_mk4>, <ore:obsidian>],[<ore:obsidian>, <ore:obsidian>, <ore:obsidian>]]);
+
+//recipes.remove(<auxiliumequivalence:collector_mk6>);
+//recipes.addShaped(<auxiliumequivalence:collector_mk6> * 1, [[<ore:glowstone>, <projectex:matter:2>, <ore:glowstone>], [<ore:glowstone>, <auxiliumequivalence:collector_mk5>, <ore:glowstone>],[<ore:glowstone>, <ore:glowstone>, <ore:glowstone>]]);
+
+//recipes.remove(<auxiliumequivalence:relay_mk6>);
+//recipes.addShaped(<auxiliumequivalence:relay_mk6> * 1, [[<ore:obsidian>, <projectex:matter:2>, <ore:obsidian>], [<ore:obsidian>, <auxiliumequivalence:relay_mk5>, <ore:obsidian>],[<ore:obsidian>, <ore:obsidian>, <ore:obsidian>]]);
+
+//recipes.remove(<auxiliumequivalence:collector_mk7>);
+//recipes.addShaped(<auxiliumequivalence:collector_mk7> * 1, [[<ore:glowstone>, <projectex:matter:3>, <ore:glowstone>], [<ore:glowstone>, <auxiliumequivalence:collector_mk6>, <ore:glowstone>],[<ore:glowstone>, <ore:glowstone>, <ore:glowstone>]]);
+
+//recipes.remove(<auxiliumequivalence:relay_mk7>);
+//recipes.addShaped(<auxiliumequivalence:relay_mk7> * 1, [[<ore:obsidian>, <projectex:matter:3>, <ore:obsidian>], [<ore:obsidian>, <auxiliumequivalence:relay_mk6>, <ore:obsidian>],[<ore:obsidian>, <ore:obsidian>, <ore:obsidian>]]);
 
 mods.jei.JEI.removeAndHide(<auxiliumequivalence:collector_mk4>);
 mods.jei.JEI.removeAndHide(<auxiliumequivalence:relay_mk4>);
@@ -158,6 +173,16 @@ mods.jei.JEI.removeAndHide(<auxiliumequivalence:collector_mk6>);
 mods.jei.JEI.removeAndHide(<auxiliumequivalence:relay_mk6>);
 mods.jei.JEI.removeAndHide(<auxiliumequivalence:collector_mk7>);
 mods.jei.JEI.removeAndHide(<auxiliumequivalence:relay_mk7>);
+mods.jei.JEI.removeAndHide(<auxiliumequivalence:matter:0>);
+mods.jei.JEI.removeAndHide(<auxiliumequivalence:matter:1>);
+mods.jei.JEI.removeAndHide(<auxiliumequivalence:matter:2>);
+mods.jei.JEI.removeAndHide(<auxiliumequivalence:matter:3>);
+mods.jei.JEI.removeAndHide(<auxiliumequivalence:matter:4>);
+mods.jei.JEI.removeAndHide(<auxiliumequivalence:matter_block:0>);
+mods.jei.JEI.removeAndHide(<auxiliumequivalence:matter_block:1>);
+mods.jei.JEI.removeAndHide(<auxiliumequivalence:matter_block:2>);
+mods.jei.JEI.removeAndHide(<auxiliumequivalence:matter_block:3>);
+mods.jei.JEI.removeAndHide(<auxiliumequivalence:matter_block:4>);
 
 //projectex stuff
 //recipes.remove(<projectex:collector:0>);
@@ -169,28 +194,59 @@ mods.jei.JEI.removeAndHide(<auxiliumequivalence:relay_mk7>);
 
 // Basic Collector [MK1]
 recipes.remove(<projectex:collector:0>);
-recipes.addShaped(<projectex:collector:0> * 1, [[<projecte:collector_mk1>, null, null], [null, null, null],[null, null, null]]);
+recipes.addShapeless(<projectex:collector:0> * 1, [<projecte:collector_mk1>]);
 
 // Dark Matter Collector [MK2]
 recipes.remove(<projectex:collector:1>);
-recipes.addShaped(<projectex:collector:1> * 1, [[<projecte:collector_mk2>, <projecte:item.pe_matter:0>, null], [null, null, null],[null, null, null]]);
+recipes.addShapeless(<projectex:collector:1> * 1, [<projecte:collector_mk2>]);
 
 // Red Matter Collector [MK3]
 recipes.remove(<projectex:collector:2>);
-recipes.addShaped(<projectex:collector:2> * 1, [[<projecte:collector_mk3>, <projecte:item.pe_matter:1>, null], [null, null, null],[null, null, null]]);
+recipes.addShapeless(<projectex:collector:2> * 1, [<projecte:collector_mk3>]);
+
+// Matter Collector [MK4]
+recipes.remove(<projectex:collector:3>);
+recipes.addShapeless(<projectex:collector:3> * 1, [<projectex:collector:2>, <projectex:matter:0>]);
+
+// Matter Collector [MK5]
+recipes.remove(<projectex:collector:4>);
+recipes.addShapeless(<projectex:collector:4> * 1, [<projectex:collector:3>, <projectex:matter:1>]);
+
+// Matter Collector [MK6]
+recipes.remove(<projectex:collector:5>);
+recipes.addShapeless(<projectex:collector:5> * 1, [<projectex:collector:4>, <projectex:matter:2>]);
+
+// Matter Collector [MK7]
+recipes.remove(<projectex:collector:6>);
+recipes.addShapeless(<projectex:collector:6> * 1, [<projectex:collector:5>, <projectex:matter:3>]);
 
 // Basic Relay [MK1]
 recipes.remove(<projectex:relay:0>);
-recipes.addShaped(<projectex:relay:0> * 1, [[<projecte:relay_mk1>, null, null], [null, null, null],[null, null, null]]);
+recipes.addShapeless(<projectex:relay:0> * 1, [<projecte:relay_mk1>]);
 
 // Dark Matter Relay [MK2]
 recipes.remove(<projectex:relay:1>);
-recipes.addShaped(<projectex:relay:1> * 1, [[<projecte:relay_mk2>, <projecte:item.pe_matter:0>, null], [null, null, null],[null, null, null]]);
+recipes.addShapeless(<projectex:relay:1> * 1, [<projecte:relay_mk2>]);
 
 // Red Matter Relay [MK3]
 recipes.remove(<projectex:relay:2>);
-recipes.addShaped(<projectex:relay:2> * 1, [[<projecte:relay_mk3>, <projecte:item.pe_matter:1>, null], [null, null, null],[null, null, null]]);
+recipes.addShapeless(<projectex:relay:2> * 1, [<projecte:relay_mk3>]);
 
+// Matter Relay [MK4]
+recipes.remove(<projectex:relay:3>);
+recipes.addShapeless(<projectex:relay:3> * 1, [<projectex:relay:2>, <projectex:matter:0>]);
+
+// Matter Relay [MK5]
+recipes.remove(<projectex:relay:4>);
+recipes.addShapeless(<projectex:relay:4> * 1, [<projectex:relay:3>, <projectex:matter:1>]);
+
+// Matter Relay [MK6]
+recipes.remove(<projectex:relay:5>);
+recipes.addShapeless(<projectex:relay:5> * 1, [<projectex:relay:4>, <projectex:matter:2>]);
+
+// Matter Relay [MK7]
+recipes.remove(<projectex:relay:6>);
+recipes.addShapeless(<projectex:relay:6> * 1, [<projectex:relay:5>, <projectex:matter:3>]);
 
 //Remove Non-TIC Tools
 //Note: going to make extreme crafting for projecte stuff, 
@@ -212,6 +268,90 @@ recipes.addShaped(<projectex:relay:2> * 1, [[<projecte:relay_mk3>, <projecte:ite
 mods.jei.JEI.removeAndHide(<immersiveengineering:pickaxe_steel>);
 mods.jei.JEI.removeAndHide(<immersiveengineering:axe_steel>);
 mods.jei.JEI.removeAndHide(<immersiveengineering:shovel_steel>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.pickaxe_copper>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.pickaxe_tin>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.pickaxe_silver>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.pickaxe_lead>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.pickaxe_aluminum>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.pickaxe_nickel>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.pickaxe_platinum>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.pickaxe_steel>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.pickaxe_electrum>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.pickaxe_invar>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.pickaxe_bronze>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.pickaxe_constantan>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.axe_copper>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.axe_tin>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.axe_silver>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.axe_lead>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.axe_aluminum>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.axe_nickel>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.axe_platinum>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.axe_steel>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.axe_electrum>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.axe_invar>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.axe_bronze>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.axe_constantan>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shovel_copper>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shovel_tin>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shovel_silver>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shovel_lead>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shovel_aluminum>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shovel_nickel>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shovel_platinum>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shovel_steel>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shovel_electrum>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shovel_invar>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shovel_bronze>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shovel_constantan>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.sickle_copper>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.sickle_tin>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.sickle_silver>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.sickle_lead>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.sickle_aluminum>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.sickle_nickel>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.sickle_platinum>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.sickle_steel>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.sickle_electrum>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.sickle_invar>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.sickle_bronze>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.sickle_constantan>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.hammer_copper>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.hammer_tin>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.hammer_silver>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.hammer_lead>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.hammer_aluminum>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.hammer_nickel>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.hammer_platinum>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.hammer_steel>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.hammer_electrum>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.hammer_invar>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.hammer_bronze>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.hammer_constantan>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.excavator_copper>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.excavator_tin>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.excavator_silver>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.excavator_lead>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.excavator_aluminum>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.excavator_nickel>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.excavator_platinum>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.excavator_steel>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.excavator_electrum>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.excavator_invar>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.excavator_bronze>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.excavator_constantan>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shield_copper>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shield_tin>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shield_silver>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shield_lead>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shield_aluminum>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shield_nickel>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shield_platinum>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shield_steel>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shield_electrum>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shield_invar>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shield_bronze>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shield_constantan>);
 recipes.remove(<projecte:item.pe_dm_pick>);
 recipes.remove(<projecte:item.pe_dm_axe>);
 recipes.remove(<projecte:item.pe_dm_sword>);
@@ -228,19 +368,6 @@ recipes.remove(<projecte:item.pe_rm_hammer>);
 recipes.remove(<projecte:item.pe_rm_shovel>);
 recipes.remove(<projecte:item.pe_rm_katar>);
 recipes.remove(<projecte:item.pe_rm_morning_star>);
-
-//misc removals
-//mods.jei.JEI.removeAndHide(<microblockcbe:stone_rod>);
-mods.jei.JEI.removeAndHide(<tinker_io:ore_crusher>);
-mods.jei.JEI.removeAndHide(<appliedenergistics2:charger>);
-recipes.removeByRecipeName("extendedcrafting:ender_ingot");
-mods.jei.JEI.removeAndHide(<actuallyadditions:item_mining_lens>);
-recipes.removeByRecipeName("minecraft:sugar");
-mods.jei.JEI.removeAndHide(<mysticalagradditions:inferium_paxel>);
-mods.jei.JEI.removeAndHide(<mysticalagradditions:prudentium_paxel>);
-mods.jei.JEI.removeAndHide(<mysticalagradditions:intermedium_paxel>);
-mods.jei.JEI.removeAndHide(<mysticalagradditions:superium_paxel>);
-mods.jei.JEI.removeAndHide(<mysticalagradditions:supremium_paxel>);
 
 recipes.remove(<ore:ingotSilicon>);
 
@@ -290,15 +417,11 @@ recipes.remove(<projecte:item.pe_tome>);
 
 // The Final Star Shard
 recipes.remove(<projectex:final_star_shard>);
-recipes.addShaped(<projectex:final_star_shard> * 1, [[<projectex:colossal_star_omega>, <projectex:colossal_star_omega>, <projectex:colossal_star_omega>], [<projectex:colossal_star_omega>, <extendedcrafting:material:13>, <projectex:colossal_star_omega>],[<projectex:colossal_star_omega>, <projectex:colossal_star_omega>, <projectex:colossal_star_omega>]]);
+recipes.addShaped(<projectex:final_star_shard> * 1, [[<projectex:colossal_star_omega>, <projectex:colossal_star_omega>, <projectex:colossal_star_omega>], [<projectex:colossal_star_omega>, <equivalentenergistics:emc_storage_component:7>, <projectex:colossal_star_omega>],[<projectex:colossal_star_omega>, <projectex:colossal_star_omega>, <projectex:colossal_star_omega>]]);
 
-// Magenta Matter
-recipes.remove(<projectex:matter:0>);
-recipes.addShaped(<projectex:matter:0> * 1, [[<projecte:item.pe_fuel:2>, <projecte:item.pe_fuel:2>, <projecte:item.pe_fuel:2>], [<auxiliumequivalence:matter:4>, <auxiliumequivalence:matter:4>, <auxiliumequivalence:matter:4>],[<projecte:item.pe_fuel:2>, <projecte:item.pe_fuel:2>, <projecte:item.pe_fuel:2>]]);
-
-// Magenta Matter
-recipes.remove(<projectex:matter:0>);
-recipes.addShaped(<projectex:matter:0> * 1, [[<projecte:item.pe_fuel:2>, <auxiliumequivalence:matter:4>, <projecte:item.pe_fuel:2>], [<projecte:item.pe_fuel:2>, <auxiliumequivalence:matter:4>, <projecte:item.pe_fuel:2>],[<projecte:item.pe_fuel:2>, <auxiliumequivalence:matter:4>, <projecte:item.pe_fuel:2>]]);
+// The Final Star
+recipes.remove(<projectex:final_star>);
+recipes.addShaped(<projectex:final_star> * 1, [[<projectex:power_flower:15>, <projectex:power_flower:15>, <projectex:power_flower:15>], [<projectex:power_flower:15>, <extendedcrafting:material:13>, <projectex:power_flower:15>],[<projectex:power_flower:15>, <projectex:power_flower:15>, <projectex:power_flower:15>]]);
 
 // Infinity Catalyst
 recipes.remove(<avaritia:resource:5>);
@@ -622,3 +745,15 @@ recipes.remove(<zawa:tranquilizer_dart_strong>);
 //pams water create more water? wtf
 recipes.remove(<harvestcraft:freshwateritem>);
 
+//misc removals
+//mods.jei.JEI.removeAndHide(<microblockcbe:stone_rod>);
+mods.jei.JEI.removeAndHide(<tinker_io:ore_crusher>);
+mods.jei.JEI.removeAndHide(<appliedenergistics2:charger>);
+recipes.removeByRecipeName("extendedcrafting:ender_ingot");
+mods.jei.JEI.removeAndHide(<actuallyadditions:item_mining_lens>);
+recipes.removeByRecipeName("minecraft:sugar");
+mods.jei.JEI.removeAndHide(<mysticalagradditions:inferium_paxel>);
+mods.jei.JEI.removeAndHide(<mysticalagradditions:prudentium_paxel>);
+mods.jei.JEI.removeAndHide(<mysticalagradditions:intermedium_paxel>);
+mods.jei.JEI.removeAndHide(<mysticalagradditions:superium_paxel>);
+mods.jei.JEI.removeAndHide(<mysticalagradditions:supremium_paxel>);

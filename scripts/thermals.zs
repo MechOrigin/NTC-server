@@ -13,3 +13,6 @@ mods.thermalexpansion.Transposer.addFillRecipe(<actuallyadditions:item_misc:5>, 
 
 // endstone dust
 mods.thermalexpansion.Pulverizer.addRecipe(<nuclearcraft:gem_dust:11>*4, <minecraft:end_stone>, 2048, <nuclearcraft:gem_dust:11>, 50);
+
+// diamond dust
+mods.thermalexpansion.Pulverizer.addRecipe(<contenttweaker:material_part:180>*1, <minecraft:diamond>, 2048);

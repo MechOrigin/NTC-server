@@ -1,0 +1,29 @@
+{
+	x: 12.0d,
+	y: 50.0d,
+	description: "End of the line",
+	text: [
+		""
+	],
+	dependencies: [
+		"a13318e8"
+	],
+	tasks: [{
+		uid: "4c375f66",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:californium 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "fa6988f4",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 64
+	},
+	{
+		uid: "3723f521",
+		type: "item",
+		item: "nuclearcraft:rtg_californium"
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 12.5d,
+	y: 37.0d,
+	dependencies: [
+		"dfd27abe"
+	],
+	tasks: [{
+		uid: "fe5c27a4",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:curium 1 2"
+		}]
+	}]
+}

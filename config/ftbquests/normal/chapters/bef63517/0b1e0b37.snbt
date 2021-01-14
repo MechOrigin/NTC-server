@@ -1,0 +1,19 @@
+{
+	x: 12.0d,
+	y: 39.0d,
+	description: "Prerequisite for Anti-Matter Relay Mk3",
+	text: [
+		""
+	],
+	dependencies: [
+		"729d3b8d",
+		"7c757973"
+	],
+	tasks: [{
+		uid: "f4c5243d",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fuel_curium"
+		}]
+	}]
+}

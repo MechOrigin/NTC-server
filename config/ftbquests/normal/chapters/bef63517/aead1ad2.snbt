@@ -2,10 +2,10 @@
 	x: -9.5d,
 	y: 5.0d,
 	tasks: [{
-		uid: "ef739431",
+		uid: "0b8721fd",
 		type: "item",
 		items: [{
-			item: "bigreactors:ingotcyanite"
+			item: "enderio:item_material 1 72"
 		}]
 	}]
 }

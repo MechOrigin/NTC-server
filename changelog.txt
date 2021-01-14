@@ -1,0 +1,12 @@
+- added neutron recipe to nuclearcraft ingot former
+- added mekanism recipe to craft magnum star and colossal star
+
+- removed the whole auxillium matter chain and reverted mangenta matter crafting chain straight from red matter
+	- this will reduce the amount of EMC needed to get into further tech by a factor of 5.
+
+- added some quests
+
+- added nuclearcraft fuel to anti-matter relay Mk3 for progression
+
+- changed the overworld portal recipe to use the same amount of EMC before the auxillium change, lime mmmm...
+
