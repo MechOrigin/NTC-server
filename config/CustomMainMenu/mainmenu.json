@@ -18,6 +18,15 @@
             "width" : 300,
             "height" : 152,
             "alignment" : "top_left"
+        },
+		"test":
+        {
+            "image" : "mainmenu:textures/btn.png",
+            "posX" : 100,
+            "posY" : 400,
+            "width" : 190,
+            "height" : 70,
+            "alignment" : "top_left"
         }
 	
 	},
@@ -28,7 +37,7 @@
         {
             "text" : "menu.singleplayer",
 			"normalTextColor" : 16777215,
-			"hoverTextColor" : 16749084,
+			"hoverTextColor" : 9575679,
 			"texture" : "mainmenu:textures/btn.png",
             "posX" : 97,
             "posY" : -40,
@@ -48,7 +57,7 @@
         {
             "text" : "menu.multiplayer",			
 			"normalTextColor" : 16777215,
-			"hoverTextColor" : 16749084,
+			"hoverTextColor" : 9575679,
 			"texture" : "mainmenu:textures/btn.png",
             "posX" : 97,
             "posY" : -10,
@@ -68,7 +77,7 @@
         {
             "text" : "menu.options",
 			"normalTextColor" : 12303291,
-			"hoverTextColor" : 3125670,
+			"hoverTextColor" : 8013976,
 			"texture" : "mainmenu:textures/btn.png",
             "posX" : 97,
             "posY" : 30,
@@ -101,6 +110,59 @@
                 "gui" : "languages"
             }
         },
+        
+        "refresh":
+        {
+            "text" : " ",
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : 97,
+            "posY" : 240,
+            "width" : 196,
+            "height" : 20,
+			"imageWidth" : 100,
+            "imageHeight" : 50,	
+            "alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        },
+		        
+		"discord":
+        {
+            "text" : " ",
+			"texture" : "mainmenu:textures/btds-2.png",
+            "posX" : 105,
+            "posY" : 140,
+            "width" : 50,
+            "height" : 50,
+			"imageWidth" : 800,
+			"imageHeight" : 800,			
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://discord.gg/ts6RHUn"
+            }
+        },
+		        
+		"bisecthosting":
+        {
+            "text" : " ",
+			"texture" : "mainmenu:textures/btbh2.png",
+            "posX" : 150,
+            "posY" : 140,
+            "width" : 50,
+            "height" : 50,
+			"imageWidth" : 800,
+			"imageHeight" : 800,			
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "hhttps://bisecthosting.com/SecretAsain"
+            }
+        },
                     
         "quit":
         {
@@ -126,7 +188,7 @@
         {
             "text" : "Mods (#modsloaded#/#modsactive#)",
 			"normalTextColor" : 6710886,
-			"hoverTextColor" : 3125670,
+			"hoverTextColor" : 8013976,
 			"texture" : "mainmenu:textures/btn.png",
             "posX" : 97,
             "posY" : 100,
@@ -141,20 +203,35 @@
                 "gui" : "mods"
             }
         },
+
         "versionChecker":
         {
             "text" : "Version-Checker",
 			"normalTextColor" : 6710886,
 			"hoverTextColor" : 3125670,
 			"texture" : "mainmenu:textures/btn.png",
-            "posX" : 193,
-            "posY" : 100,
+            "posX" : 97,
+            "posY" : 120,
             "width" : 100,
             "height" : 20,
 			"imageWidth" : 100,
 			"imageHeight" : 50,			
 			"alignment" : "left_center",
-            "wrappedButton" : 404
+            "wrappedButton" : 100
+        },
+
+        "bisecttxt":
+        {
+            "text" : "<- Rent A Server!",
+			"normalTextColor" : 8013976,
+			"hoverTextColor" : 8013976,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : 180,
+            "posY" : 153,
+            "width" : 100,
+            "height" : 20,
+		
+			"alignment" : "left_center"
         }
 	},
     
