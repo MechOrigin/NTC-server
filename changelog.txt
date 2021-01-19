@@ -1,3 +1,7 @@
-- fixed mangenta matter EMC issue
-- added bisect hosting to main menu, and discord link
-- multimine and some blocks are duplicating interaction, this was fixed in a past build but came back. Fixed again.
+- added centrifuge recipes for flower power in projectex
+- added centrifuge recipes for relay and collectors
+
+- added back recipes for projectex collectors/compressed and relays
+
+- added 3 nuclearcraft alloy Blocks as contenttweaker [tough alloy, ferroboron alloy, hard carbon alloy]
+- added recipes from block to ingot and ingot back to block

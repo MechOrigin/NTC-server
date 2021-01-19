@@ -7,6 +7,7 @@
       "3": "titanium_iridium_block",
       "4": "iridium_block",
       "5": "silver_block",
+      "6": "hard_carbon_block",
       "7": "uranium_block",
       "8": "enderium_block",
       "9": "platinum_block",
@@ -23,7 +24,9 @@
       "2": "electrum_block",
       "3": "iron_block",
       "4": "titanium_aluminide_block",
+      "5": "ferroboron_block",
       "6": "titanium_block",
+      "7": "tough_block",
       "8": "gold_block"
     }
   }

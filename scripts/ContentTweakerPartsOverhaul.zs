@@ -70,6 +70,12 @@ var stone = MaterialSystem.getMaterialBuilder().setName("Stone").setColor(Color.
 
 var diamond = MaterialSystem.getMaterialBuilder().setName("Diamond").setColor(Color.fromHex("8CF4E2")).build();
 
+var tough = MaterialSystem.getMaterialBuilder().setName("Tough").setColor(Color.fromHex("150f21")).build();
+
+var hardcarbon = MaterialSystem.getMaterialBuilder().setName("HardCarbon").setColor(Color.fromHex("21746f")).build();
+
+var ferroboron = MaterialSystem.getMaterialBuilder().setName("Ferroboron").setColor(Color.fromHex("676767")).build();
+
 
 var metal_list_0 = [uranium, platinum, tin, silver, lead, nickel, electrum, invar, bronze, constantan, signalum, enderium, lumium] as Material[];
 
@@ -80,6 +86,8 @@ var metal_list_2 = [wood, diamond] as Material[];
 var metal_list_3 = [iron, gold] as Material[];
 
 var metal_list_4 = [stone] as Material[];
+
+var metal_list_5 = [tough, hardcarbon, ferroboron] as Material[];
 
 var tier1_part_names = ["gear", "rod"] as string[]; //stone
 
@@ -167,3 +175,17 @@ for i, metal in metal_list_4 {
 
 }
 
+for i, metal in metal_list_5 {
+
+    // dont need parts of nuclear ingots
+
+    var blockData = metal.registerPart("block").getData();
+
+    blockData.addDataValue("hardness", "5");
+
+    blockData.addDataValue("resistance", "30");
+
+    blockData.addDataValue("harvestTool", "pickaxe");
+
+    blockData.addDataValue("harvestLevel", "1");
+}

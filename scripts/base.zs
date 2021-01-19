@@ -194,59 +194,116 @@ mods.jei.JEI.removeAndHide(<auxiliumequivalence:matter_block:4>);
 
 // Basic Collector [MK1]
 recipes.remove(<projectex:collector:0>);
-recipes.addShapeless(<projectex:collector:0> * 1, [<projecte:collector_mk1>]);
+recipes.addShapeless(<projectex:collector:0> * 1, [<projecte:collector_mk1>]); //projecte collector to projectex
+recipes.addShapeless(<projecte:collector_mk1> * 1, [<projectex:collector:0>]); //projectex back to projecte
+recipes.addShapeless(<projectex:collector:0> * 9, [<projectex:compressed_collector:0>]); //compressed back to 9 projectex
 
 // Dark Matter Collector [MK2]
 recipes.remove(<projectex:collector:1>);
 recipes.addShapeless(<projectex:collector:1> * 1, [<projecte:collector_mk2>]);
+recipes.addShapeless(<projecte:collector_mk2> * 1, [<projectex:collector:1>]); //projectex back to projecte
+recipes.addShapeless(<projectex:collector:1> * 9, [<projectex:compressed_collector:1>]); //compressed back to 9 projectex
 
 // Red Matter Collector [MK3]
 recipes.remove(<projectex:collector:2>);
 recipes.addShapeless(<projectex:collector:2> * 1, [<projecte:collector_mk3>]);
+recipes.addShapeless(<projecte:collector_mk3> * 1, [<projectex:collector:2>]); //projectex back to projecte
+recipes.addShapeless(<projectex:collector:2> * 9, [<projectex:compressed_collector:2>]); //compressed back to 9 projectex
 
 // Matter Collector [MK4]
 recipes.remove(<projectex:collector:3>);
 recipes.addShapeless(<projectex:collector:3> * 1, [<projectex:collector:2>, <projectex:matter:0>]);
+recipes.addShapeless(<projectex:collector:3> * 9, [<projectex:compressed_collector:3>]); //compressed back to 9 projectex
 
 // Matter Collector [MK5]
-recipes.remove(<projectex:collector:4>);
-recipes.addShapeless(<projectex:collector:4> * 1, [<projectex:collector:3>, <projectex:matter:1>]);
+//recipes.remove(<projectex:collector:4>);
+//recipes.addShapeless(<projectex:collector:4> * 1, [<projectex:collector:3>, <projectex:matter:1>]);
+recipes.addShapeless(<projectex:collector:4> * 9, [<projectex:compressed_collector:4>]); //compressed back to 9 projectex
 
 // Matter Collector [MK6]
-recipes.remove(<projectex:collector:5>);
-recipes.addShapeless(<projectex:collector:5> * 1, [<projectex:collector:4>, <projectex:matter:2>]);
+//recipes.remove(<projectex:collector:5>);
+//recipes.addShapeless(<projectex:collector:5> * 1, [<projectex:collector:4>, <projectex:matter:2>]);
+recipes.addShapeless(<projectex:collector:5> * 9, [<projectex:compressed_collector:5>]); //compressed back to 9 projectex
 
 // Matter Collector [MK7]
-recipes.remove(<projectex:collector:6>);
-recipes.addShapeless(<projectex:collector:6> * 1, [<projectex:collector:5>, <projectex:matter:3>]);
+//recipes.remove(<projectex:collector:6>);
+//recipes.addShapeless(<projectex:collector:6> * 1, [<projectex:collector:5>, <projectex:matter:3>]);
+recipes.addShapeless(<projectex:collector:6> * 9, [<projectex:compressed_collector:6>]); //compressed back to 9 projectex
+
+// Matter Collector [MK8]
+recipes.addShapeless(<projectex:collector:7> * 9, [<projectex:compressed_collector:7>]); //compressed back to 9 projectex
+
+// Matter Collector [MK9]
+recipes.addShapeless(<projectex:collector:8> * 9, [<projectex:compressed_collector:8>]); //compressed back to 9 projectex
+
+// Matter Collector [MK10]
+recipes.addShapeless(<projectex:collector:9> * 9, [<projectex:compressed_collector:9>]); //compressed back to 9 projectex
+
+// Matter Collector [MK11]
+recipes.addShapeless(<projectex:collector:10> * 9, [<projectex:compressed_collector:10>]); //compressed back to 9 projectex
+
+// Matter Collector [MK12]
+recipes.addShapeless(<projectex:collector:11> * 9, [<projectex:compressed_collector:11>]); //compressed back to 9 projectex
+
+// Matter Collector [MK13]
+recipes.addShapeless(<projectex:collector:12> * 9, [<projectex:compressed_collector:12>]); //compressed back to 9 projectex
+
+// Matter Collector [MK14]
+recipes.addShapeless(<projectex:collector:13> * 9, [<projectex:compressed_collector:13>]); //compressed back to 9 projectex
+
+// Matter Collector [MK15]
+recipes.addShapeless(<projectex:collector:14> * 9, [<projectex:compressed_collector:14>]); //compressed back to 9 projectex
+
+// Matter Collector [final]
+recipes.addShapeless(<projectex:collector:15> * 9, [<projectex:compressed_collector:15>]); //compressed back to 9 projectex
+
 
 // Basic Relay [MK1]
 recipes.remove(<projectex:relay:0>);
-recipes.addShapeless(<projectex:relay:0> * 1, [<projecte:relay_mk1>]);
+recipes.addShapeless(<projectex:relay:0> * 1, [<projecte:relay_mk1>]); //projecte relay to projectex
+recipes.addShapeless(<projecte:relay_mk1> * 1, [<projectex:relay:0>]); //projectex back to projecte
 
 // Dark Matter Relay [MK2]
 recipes.remove(<projectex:relay:1>);
 recipes.addShapeless(<projectex:relay:1> * 1, [<projecte:relay_mk2>]);
+recipes.addShapeless(<projecte:relay_mk2> * 1, [<projectex:relay:1>]); //projectex back to projecte
 
 // Red Matter Relay [MK3]
 recipes.remove(<projectex:relay:2>);
 recipes.addShapeless(<projectex:relay:2> * 1, [<projecte:relay_mk3>]);
+recipes.addShapeless(<projecte:relay_mk3> * 1, [<projectex:relay:2>]); //projectex back to projecte
 
 // Matter Relay [MK4]
 recipes.remove(<projectex:relay:3>);
 recipes.addShapeless(<projectex:relay:3> * 1, [<projectex:relay:2>, <projectex:matter:0>]);
 
 // Matter Relay [MK5]
-recipes.remove(<projectex:relay:4>);
-recipes.addShapeless(<projectex:relay:4> * 1, [<projectex:relay:3>, <projectex:matter:1>]);
+//recipes.remove(<projectex:relay:4>);
+//recipes.addShapeless(<projectex:relay:4> * 1, [<projectex:relay:3>, <projectex:matter:1>]);
 
 // Matter Relay [MK6]
-recipes.remove(<projectex:relay:5>);
-recipes.addShapeless(<projectex:relay:5> * 1, [<projectex:relay:4>, <projectex:matter:2>]);
+//recipes.remove(<projectex:relay:5>);
+//recipes.addShapeless(<projectex:relay:5> * 1, [<projectex:relay:4>, <projectex:matter:2>]);
 
 // Matter Relay [MK7]
-recipes.remove(<projectex:relay:6>);
-recipes.addShapeless(<projectex:relay:6> * 1, [<projectex:relay:5>, <projectex:matter:3>]);
+//recipes.remove(<projectex:relay:6>);
+//recipes.addShapeless(<projectex:relay:6> * 1, [<projectex:relay:5>, <projectex:matter:3>]);
+
+// Matter Relay [MK8]
+
+// Matter Relay [MK9]
+
+// Matter Relay [MK10]
+
+// Matter Relay [MK11]
+
+// Matter Relay [MK12]
+
+// Matter Relay [MK13]
+
+// Matter Relay [MK14]
+
+// Matter Relay [final]
 
 //Remove Non-TIC Tools
 //Note: going to make extreme crafting for projecte stuff, 
@@ -405,6 +462,31 @@ recipes.addShaped(<projecte:alchemical_chest>,[
 [<tconstruct:seared>,<ore:gemDiamond>,<tconstruct:seared>],
 [<ore:ingotIron>,<metalchests:metal_chest:5>,<ore:ingotIron>]
 ]);
+
+//contenttweaker blocks to ingots
+recipes.addShapeless(<nuclearcraft:alloy:1> * 9, [<contenttweaker:sub_block_holder_1:7>]); //tough
+recipes.addShapeless(<nuclearcraft:alloy:6> * 9, [<contenttweaker:sub_block_holder_1:5>]); //ferroboron
+recipes.addShapeless(<nuclearcraft:alloy:2> * 9, [<contenttweaker:sub_block_holder_0:6>]); //hardcarbon
+
+//nuclearcraft ingots to blocks
+recipes.addShaped(<contenttweaker:sub_block_holder_1:7>,[
+[<nuclearcraft:alloy:1>,<nuclearcraft:alloy:1>,<nuclearcraft:alloy:1>],
+[<nuclearcraft:alloy:1>,<nuclearcraft:alloy:1>,<nuclearcraft:alloy:1>],
+[<nuclearcraft:alloy:1>,<nuclearcraft:alloy:1>,<nuclearcraft:alloy:1>]]); //tough
+recipes.addShaped(<contenttweaker:sub_block_holder_1:5>,[
+[<nuclearcraft:alloy:6>,<nuclearcraft:alloy:6>,<nuclearcraft:alloy:6>],
+[<nuclearcraft:alloy:6>,<nuclearcraft:alloy:6>,<nuclearcraft:alloy:6>],
+[<nuclearcraft:alloy:6>,<nuclearcraft:alloy:6>,<nuclearcraft:alloy:6>]]); //ferroboron
+recipes.addShaped(<contenttweaker:sub_block_holder_0:6>,[
+[<nuclearcraft:alloy:2>,<nuclearcraft:alloy:2>,<nuclearcraft:alloy:2>],
+[<nuclearcraft:alloy:2>,<nuclearcraft:alloy:2>,<nuclearcraft:alloy:2>],
+[<nuclearcraft:alloy:2>,<nuclearcraft:alloy:2>,<nuclearcraft:alloy:2>]]); //hardcarbon
+
+
+// change name of Tough to Tough Alloy, ETC
+<contenttweaker:sub_block_holder_1:7>.displayName = "Block of Tough Alloy";
+<contenttweaker:sub_block_holder_1:5>.displayName = "Block of Ferroboron Alloy";
+<contenttweaker:sub_block_holder_0:6>.displayName = "Block of Hard Carbon Alloy";
 
 
 //useless in this pack
