@@ -9,7 +9,7 @@ The big ICBM update
 - fixed a bunch of quests and added some new ones
 
 -updated chambers
--updated constructs armory
+-updated constructs armory, then unupdated it because it causes a crash
 -updated flux networks
 -updated unidict
 -updated xaeros maps
