@@ -1,0 +1,14 @@
+{
+	x: 10.0d,
+	y: -3.0d,
+	dependencies: [
+		"1d384db4"
+	],
+	tasks: [{
+		uid: "c53b3217",
+		type: "item",
+		items: [{
+			item: "integratedterminals:menril_glass"
+		}]
+	}]
+}

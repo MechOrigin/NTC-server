@@ -1,0 +1,27 @@
+{
+	disable_toast: true,
+	x: 24.0d,
+	y: -12.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"b8dae872"
+	],
+	hide: true,
+	tasks: [{
+		uid: "85ef94df",
+		type: "dimension",
+		dim: 1
+	}],
+	rewards: [{
+		uid: "a175fd8a",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 64
+	},
+	{
+		uid: "aa854802",
+		type: "item",
+		item: "enderio:item_ender_food",
+		count: 16
+	}]
+}

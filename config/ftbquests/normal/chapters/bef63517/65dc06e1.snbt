@@ -1,6 +1,6 @@
 {
 	disable_toast: true,
-	x: 22.0d,
+	x: 23.0d,
 	y: -11.0d,
 	hide_dependency_lines: true,
 	dependencies: [
@@ -19,5 +19,11 @@
 		type: "item",
 		item: "actuallyadditions:item_solidified_experience",
 		count: 10
+	},
+	{
+		uid: "de610db7",
+		type: "item",
+		item: "thermalfoundation:material 1 2050",
+		count: 8
 	}]
 }

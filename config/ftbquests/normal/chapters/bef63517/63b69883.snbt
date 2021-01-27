@@ -1,0 +1,14 @@
+{
+	x: 16.0d,
+	y: -3.0d,
+	dependencies: [
+		"c6bed9e4"
+	],
+	tasks: [{
+		uid: "bb10a436",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:variable_transformer 1 1"
+		}]
+	}]
+}

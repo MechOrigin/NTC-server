@@ -1,0 +1,14 @@
+{
+	x: 5.5d,
+	y: 23.5d,
+	dependencies: [
+		"ac5d1d4f"
+	],
+	tasks: [{
+		uid: "7498d6a6",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_base"
+		}]
+	}]
+}

@@ -2,7 +2,7 @@
 	x: 18.5d,
 	y: 24.0d,
 	shape: "gear",
-	description: "Requires Immersive Engineering: Gold plate",
+	description: "Requires Immersive Engineering: Gold plate. Can only go to space from overworld.",
 	text: [
 		""
 	],

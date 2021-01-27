@@ -1,0 +1,30 @@
+{
+	x: -6.0d,
+	y: 22.0d,
+	description: "Can only be made in the overworld. Can only be broken with silk touch (Squeaky)",
+	text: [
+		"You can either find the stronghold where the portal already exists or you can make your own.",
+		"",
+		"The portal blocks have to be placed correctly, they are dependant on direction. The eyes of ender also have to be placed correctly.",
+		"",
+		"Flint and steel can be used to ignite the \"air\" inside the portal frame."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"d7f28133"
+	],
+	tasks: [{
+		uid: "9da63d1d",
+		type: "item",
+		items: [{
+			item: "minecraft:end_portal_frame"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "b2644257",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 10
+	}]
+}

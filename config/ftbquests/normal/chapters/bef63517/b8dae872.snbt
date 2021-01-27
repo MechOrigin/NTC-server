@@ -1,7 +1,7 @@
 {
 	icon: "sonarcore:stablestoneblackrimmed_purple 14",
-	x: -0.5d,
-	y: 22.5d,
+	x: -2.0d,
+	y: 22.0d,
 	description: "Go to the overworld. This will Cost you roughly Three Billion EMC.",
 	text: [
 		"As fun as it is to be stuck inside a void world, escape to a beautiful overworld, supplemented by RTG and Biomes o' Plenty. Portal ignitor is the Philosophers Stone."

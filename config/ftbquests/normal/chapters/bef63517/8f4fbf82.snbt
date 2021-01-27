@@ -25,5 +25,10 @@
 		auto: "disabled",
 		item: "actuallyadditions:item_solidified_experience",
 		count: 10
+	},
+	{
+		uid: "8183d6a6",
+		type: "item",
+		item: "mysticalagriculture:master_infusion_crystal"
 	}]
 }

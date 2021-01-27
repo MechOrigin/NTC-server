@@ -1,0 +1,33 @@
+{
+	disable_toast: true,
+	x: 21.0d,
+	y: -12.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"d7f28133"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5120a0cb",
+		type: "checkmark",
+		title: "Complete Advanced Crafting Table",
+		icon: "extendedcrafting:table_advanced"
+	}],
+	rewards: [{
+		uid: "342b86b2",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 32
+	},
+	{
+		uid: "56d9af1f",
+		type: "item",
+		item: "minecraft:gold_block"
+	},
+	{
+		uid: "d1238f0b",
+		type: "item",
+		item: "extendedcrafting:material",
+		count: 24
+	}]
+}

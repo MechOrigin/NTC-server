@@ -1,6 +1,6 @@
 {
-	x: 4.5d,
-	y: 22.5d,
+	x: 4.0d,
+	y: 21.5d,
 	description: "Covers Iron Ingots with Pink Slime to create Pink Slime Ingots",
 	text: [
 		""

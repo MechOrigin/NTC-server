@@ -1,0 +1,28 @@
+{
+	disable_toast: true,
+	x: 23.0d,
+	y: -10.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"692f15d7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a857193f",
+		type: "checkmark",
+		title: "Complete First Cryotheum Dust",
+		icon: "thermalfoundation:material 1 1025"
+	}],
+	rewards: [{
+		uid: "22b278b4",
+		type: "item",
+		item: "thermalfoundation:material 1 2048",
+		count: 8
+	},
+	{
+		uid: "46e9561d",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 10
+	}]
+}

@@ -27,5 +27,11 @@
 		auto: "disabled",
 		item: "actuallyadditions:item_solidified_experience",
 		count: 10
+	},
+	{
+		uid: "e1a0293c",
+		type: "item",
+		item: "tconstruct:seared 1 3",
+		count: 64
 	}]
 }

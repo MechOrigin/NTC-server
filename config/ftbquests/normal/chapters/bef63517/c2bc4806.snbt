@@ -1,0 +1,14 @@
+{
+	x: 14.5d,
+	y: 38.0d,
+	dependencies: [
+		"47ad9069"
+	],
+	tasks: [{
+		uid: "1f9dcc6b",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:neptunium 1 4"
+		}]
+	}]
+}

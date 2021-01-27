@@ -1,6 +1,10 @@
 {
 	x: 20.0d,
 	y: 24.5d,
+	description: "Can only get to beneath from overworld.",
+	text: [
+		""
+	],
 	dependencies: [
 		"71f01a75",
 		"36fc8653"

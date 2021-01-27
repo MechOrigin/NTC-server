@@ -6,6 +6,9 @@
 	text: [
 		""
 	],
+	dependencies: [
+		"107e8ffb"
+	],
 	size: 1.5d,
 	tasks: [{
 		uid: "277d6bed",

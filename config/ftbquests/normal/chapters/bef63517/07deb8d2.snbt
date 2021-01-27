@@ -1,6 +1,6 @@
 {
-	x: 3.0d,
-	y: 23.5d,
+	x: 2.5d,
+	y: 21.5d,
 	description: "Pink Slime can be created by killing animals with the Mob Slaughter Factory Block. Such as Chickens or Polar Bears.",
 	text: [
 		""

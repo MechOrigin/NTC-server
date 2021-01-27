@@ -1,6 +1,6 @@
 {
-	x: 27.0d,
-	y: 34.0d,
+	x: 30.0d,
+	y: 35.0d,
 	dependencies: [
 		"db102a09"
 	],

@@ -489,6 +489,7 @@ recipes.addShaped(<contenttweaker:sub_block_holder_0:6>,[
 <contenttweaker:sub_block_holder_0:6>.displayName = "Block of Hard Carbon Alloy";
 
 
+
 //useless in this pack
 //mods.jei.JEI.removeAndHide(<projectex:final_star>);
 mods.jei.JEI.removeAndHide(<projectex:knowledge_sharing_book>);

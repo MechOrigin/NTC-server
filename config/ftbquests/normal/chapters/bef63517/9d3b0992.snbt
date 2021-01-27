@@ -11,7 +11,7 @@
 		uid: "cfdaa6ef",
 		type: "checkmark",
 		title: "Complete Steel Quest",
-		icon: "thermalfoundation:storage_alloy",
+		icon: "contenttweaker:sub_block_holder_0 1 10",
 		disable_toast: true
 	}],
 	rewards: [{

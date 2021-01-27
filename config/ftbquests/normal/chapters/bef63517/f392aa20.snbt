@@ -1,0 +1,14 @@
+{
+	x: 12.0d,
+	y: 36.0d,
+	dependencies: [
+		"56910d83"
+	],
+	tasks: [{
+		uid: "44f28961",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:depleted_fuel_neptunium"
+		}]
+	}]
+}

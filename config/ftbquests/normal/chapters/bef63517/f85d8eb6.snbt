@@ -1,0 +1,15 @@
+{
+	x: 16.0d,
+	y: -1.5d,
+	dependencies: [
+		"c6bed9e4"
+	],
+	tasks: [{
+		uid: "ff8970cf",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:variable"
+		}],
+		count: 24L
+	}]
+}

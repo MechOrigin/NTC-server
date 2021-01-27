@@ -1,7 +1,7 @@
 {
 	x: 26.5d,
 	y: 22.0d,
-	description: "EnderIO spawners",
+	description: "EnderIO spawners. These don't require essence (XP)",
 	text: [
 		""
 	],

@@ -1,13 +1,13 @@
 {
-	x: 24.5d,
-	y: 31.0d,
+	x: 23.5d,
+	y: 37.0d,
 	description: "Requires Flint or Oxygen",
 	text: [
 		""
 	],
-	hide_dependency_lines: true,
 	dependencies: [
-		"182f9603"
+		"182f9603",
+		"edb6f830"
 	],
 	tasks: [{
 		uid: "e93bc43f",

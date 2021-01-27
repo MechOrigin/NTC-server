@@ -1,0 +1,35 @@
+{
+	x: 15.5d,
+	y: -7.5d,
+	description: "Can melt other things into fluids too but can make lava.",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4d9d82f2",
+		"931d75d2"
+	],
+	tasks: [{
+		uid: "88753cc3",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 6s
+		}]
+	}]
+}

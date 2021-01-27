@@ -1,6 +1,6 @@
 {
-	x: 5.5d,
-	y: 21.5d,
+	x: 4.0d,
+	y: 20.0d,
 	dependencies: [
 		"57def2e5"
 	],
@@ -8,5 +8,21 @@
 		uid: "d383b61f",
 		type: "fluid",
 		fluid: "if.pink_slime"
+	}],
+	rewards: [{
+		uid: "491d03b2",
+		type: "item",
+		item: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "if.pink_slime",
+				Amount: 1000
+			}
+		}
+	},
+	{
+		uid: "4008c5f9",
+		type: "item",
+		item: "industrialforegoing:pink_slime"
 	}]
 }

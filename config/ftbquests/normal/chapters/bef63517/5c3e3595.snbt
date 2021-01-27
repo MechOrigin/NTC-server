@@ -1,6 +1,6 @@
 {
 	x: 12.5d,
-	y: -2.5d,
+	y: -3.0d,
 	description: "Just stores power. Put next to a generator block to \"store\" power. Like a battery... duh",
 	dependencies: [
 		"1f7f8f64"

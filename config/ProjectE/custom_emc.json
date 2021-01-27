@@ -2751,6 +2751,18 @@
     {
       "item": "projectex:matter|4",
       "emc": 119414784
+    },
+    {
+      "item": "icbmclassic:ingot|0",
+      "emc": 0
+    },
+    {
+      "item": "icbmclassic:ingot|1",
+      "emc": 0
+    },
+    {
+      "item": "icbmclassic:sulfurdust|0",
+      "emc": 0
     }
   ]
 }

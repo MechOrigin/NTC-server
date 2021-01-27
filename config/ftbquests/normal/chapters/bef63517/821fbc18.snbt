@@ -20,5 +20,11 @@
 		auto: "disabled",
 		item: "actuallyadditions:item_solidified_experience",
 		count: 10
+	},
+	{
+		uid: "9ba2e369",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_0 1 10",
+		count: 16
 	}]
 }

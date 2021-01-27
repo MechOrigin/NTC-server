@@ -1,0 +1,27 @@
+{
+	disable_toast: true,
+	x: 24.0d,
+	y: -11.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"b8dae872"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f19291a1",
+		type: "dimension",
+		dim: -1
+	}],
+	rewards: [{
+		uid: "c21de17c",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 64
+	},
+	{
+		uid: "80a4cd94",
+		type: "item",
+		item: "harvestcraft:netherwingsitem",
+		count: 16
+	}]
+}

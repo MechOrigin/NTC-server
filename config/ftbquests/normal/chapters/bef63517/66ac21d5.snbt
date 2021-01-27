@@ -1,6 +1,6 @@
 {
-	x: 13.0d,
-	y: -4.0d,
+	x: 13.5d,
+	y: -4.5d,
 	description: "Uses fuel types to generate power. Coal, sticks, etc. Just put it next too the Block you want too power.",
 	dependencies: [
 		"5c3e3595"

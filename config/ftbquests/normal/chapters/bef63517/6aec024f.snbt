@@ -1,13 +1,13 @@
 {
-	x: 24.5d,
-	y: 32.0d,
+	x: 23.5d,
+	y: 38.0d,
 	description: "Requires Salt or Hydrogen Chloride",
 	text: [
 		""
 	],
-	hide_dependency_lines: true,
 	dependencies: [
-		"182f9603"
+		"182f9603",
+		"7faa4ab9"
 	],
 	tasks: [{
 		uid: "9435c90e",

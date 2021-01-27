@@ -1,6 +1,6 @@
 {
 	disable_toast: true,
-	x: 23.0d,
+	x: 22.0d,
 	y: -11.0d,
 	hide_dependency_lines: true,
 	dependencies: [
@@ -13,5 +13,11 @@
 		title: "Complete First Piston",
 		icon: "minecraft:piston",
 		disable_toast: true
+	}],
+	rewards: [{
+		uid: "51afc9e5",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 16
 	}]
 }

@@ -1,7 +1,15 @@
-- added centrifuge recipes for flower power in projectex
-- added centrifuge recipes for relay and collectors
+The big ICBM update
 
-- added back recipes for projectex collectors/compressed and relays
+-- Ever get to the overworld and feel overwhelmed with how you're going to terraform an entire mountain to make room for your giga base?
+	--Is ProjectE destruction not enough destruction for you?
+		--Ever look at that nicely built base and think it would look so much better with a hole in it?
+- added ICBM
+- changed all the recipes and removed some dumb bombs
 
-- added 3 nuclearcraft alloy Blocks as contenttweaker [tough alloy, ferroboron alloy, hard carbon alloy]
-- added recipes from block to ingot and ingot back to block
+- fixed a bunch of quests and added some new ones
+
+-updated chambers
+-updated constructs armory
+-updated flux networks
+-updated unidict
+-updated xaeros maps

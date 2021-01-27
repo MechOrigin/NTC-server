@@ -1,6 +1,6 @@
 {
 	x: -9.0d,
-	y: 21.0d,
+	y: 20.5d,
 	description: "Requires when alchemy and tech meet",
 	dependencies: [
 		"e2a79b4b",
