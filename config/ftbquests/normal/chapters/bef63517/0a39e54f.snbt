@@ -1,0 +1,17 @@
+{
+	icon: "modularmachinery:blockinputbus 1 1",
+	x: -11.0d,
+	y: 15.0d,
+	description: "Instead of a fluid input hatch, switch that with an item input bus and it will start colliding exotic matter into its subsequent components",
+	text: [
+		"Try feeding Magenta matter into the input block and it will start annihilating the matter into three Red matter and six Aeternalis fuel"
+	],
+	dependencies: [
+		"a5c98f2a"
+	],
+	tasks: [{
+		uid: "c1955aa0",
+		type: "checkmark",
+		title: "Particle Accelerator Mode 2 - Matter Annihilation"
+	}]
+}

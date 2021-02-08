@@ -1,0 +1,33 @@
+{
+	icon: {
+		id: "modularmachinery:itemblueprint",
+		tag: {
+			dynamicmachine: "modularmachinery:large_particle_accelerator"
+		}
+	},
+	x: -12.0d,
+	y: 16.0d,
+	description: "Takes half as long as the medium accelerator to produce matter and can produce green, yellow and fading matter!",
+	text: [
+		""
+	],
+	dependencies: [
+		"be5899b1",
+		"ece804a5"
+	],
+	tasks: [{
+		uid: "8804d789",
+		type: "checkmark",
+		title: "Large Particle Accelerator"
+	}],
+	rewards: [{
+		uid: "82df8c3d",
+		type: "item",
+		item: {
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:large_particle_accelerator"
+			}
+		}
+	}]
+}

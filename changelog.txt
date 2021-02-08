@@ -1,15 +1,11 @@
-The big ICBM update
-
--- Ever get to the overworld and feel overwhelmed with how you're going to terraform an entire mountain to make room for your giga base?
-	--Is ProjectE destruction not enough destruction for you?
-		--Ever look at that nicely built base and think it would look so much better with a hole in it?
-- added ICBM
-- changed all the recipes and removed some dumb bombs
-
-- fixed a bunch of quests and added some new ones
+Added modular machinery!
+	-added small, medium, large particle accelerators.
+	-added exotic matter recipes for particle accelerators.
+	-added way to "break down" higher tier matters into it's subsequent parts.
+Added quests for modular machinery
 
 -updated chambers
--updated constructs armory, then unupdated it because it causes a crash
--updated flux networks
--updated unidict
+-updated advanced rocketry
+-updated corail tombstone
+-updated end portal recipe
 -updated xaeros maps

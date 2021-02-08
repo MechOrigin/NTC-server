@@ -1,0 +1,14 @@
+{
+	x: -11.0d,
+	y: 18.0d,
+	shape: "gear",
+	description: "Modular Machinery",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "001791dd",
+		type: "checkmark",
+		title: "Particle Accelerators"
+	}]
+}
