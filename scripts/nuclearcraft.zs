@@ -30,4 +30,6 @@ recipes.addShaped(<nuclearcraft:alloy_furnace_idle> * 1, [[<nuclearcraft:part:0>
 
 //ingot former neutrons
 mods.nuclearcraft.ingot_former.addRecipe([<liquid:neutron>*144, <avaritia:resource:2>, 2.0, 2.0]);
-	
+
+//pink slime 
+mods.nuclearcraft.ingot_former.addRecipe([<liquid:if.pink_slime>*250, <industrialforegoing:pink_slime>, 2.0, 2.0]);

@@ -1,0 +1,24 @@
+{
+	title: "ICBM",
+	x: -13.0d,
+	y: 28.0d,
+	shape: "gear",
+	description: "Nuclear launch detected...",
+	text: [
+		"Ever get to the overworld and feel overwhelmed with how you're going to terraform an entire mountain to make room for your giga base?",
+		"",
+		"Is ProjectE destruction not enough destruction for you?",
+		"",
+		"Ever look at that nicely built base and think it would look so much better with a hole in it?",
+		"",
+		"Well look no further..."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"d7f28133"
+	],
+	tasks: [{
+		uid: "c333f4d4",
+		type: "checkmark"
+	}]
+}

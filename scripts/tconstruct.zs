@@ -78,3 +78,6 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <tconstruct:materials:50>, [
 	[<ore:cast>, <ore:gemAmethyst>, <enderio:item_capacitor_totemic>, <ore:slimecrystal>, <ore:netherStar>, <ore:slimecrystal>, <enderio:item_capacitor_totemic>, <ore:gemAmethyst>, <ore:cast>], 
 	[<ore:cast>, <ore:cast>, <ore:cast>, <ore:cast>, <ore:cast>, <ore:cast>, <ore:cast>, <ore:cast>, <ore:cast>]
 ]);
+
+//pink slime balls to liquid (250mB same as purple slime balls)
+mods.tconstruct.Melting.addRecipe(<liquid:if.pink_slime> * 250, <industrialforegoing:pink_slime>, 360);

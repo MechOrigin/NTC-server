@@ -1,0 +1,19 @@
+{
+	x: -14.0d,
+	y: 29.0d,
+	description: "Ground up Naga fangs",
+	text: [
+		""
+	],
+	dependencies: [
+		"e0e5b724"
+	],
+	tasks: [{
+		uid: "6d9e2581",
+		type: "item",
+		items: [{
+			item: "icbmclassic:poisonpowder"
+		}],
+		count: 16L
+	}]
+}

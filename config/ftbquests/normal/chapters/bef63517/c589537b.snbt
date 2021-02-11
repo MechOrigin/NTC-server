@@ -1,6 +1,14 @@
 {
 	x: 4.0d,
 	y: 20.0d,
+	description: "Read me!",
+	text: [
+		"The amount of Pink Slime created by the Mob Slaughter Factory is based on the amount of hit points that the monster has at the time of being killed, ",
+		"each hit point being worth 8 millibuckets for all Animal entities and 1 millibuckets for every other type of entity. ",
+		"Since Polar Bears spawn with a constant 30 hit points (15 hearts) it makes them worth the most Pink Slime per kill for a Vanilla mob.",
+		"",
+		"Girrafes(52HP) and other big animals such as Elephants(50HP) have high HP as well."
+	],
 	dependencies: [
 		"57def2e5"
 	],

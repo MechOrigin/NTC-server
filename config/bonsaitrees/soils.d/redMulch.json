@@ -8,8 +8,8 @@
   },
 
   "modifiers": {
-    "growTime": 0.3,
-    "dropChance": 2.4
+    "growTime": 0.125,
+    "dropChance": 3.0
   },
 
   "providedTags": [ "dirt", "grass" ]

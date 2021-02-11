@@ -1,11 +1,14 @@
-Added modular machinery!
-	-added small, medium, large particle accelerators.
-	-added exotic matter recipes for particle accelerators.
-	-added way to "break down" higher tier matters into it's subsequent parts.
-Added quests for modular machinery
+Added pink slime balls to liquid (250mB), added ingot former recipe from liquid to pink slime ball.
+Changed the balance of mulches for bonsai pots, growtime %, drop chance %: 
+	-Brown: 50%, 140%
+	-Yellow: 40%, 150%
+	-Amber: 30%, 200%
+	-Ruby: 20%, 250%
+	-Red: 12.5%, 300% (now on par with magma slime dirt)
+	-Black: 10%, 350% (now levels past Red are worth it)
+	-Blue: 5%, 400%
+Changed some passive, hostile and neutral mobs to Philosphers stone mob randomizer projectile.
+	-Now getting mobs like Naga, Lantern, Goon, and Giraffes are obtainable by cycling through mobs.
+Added some quest data.
 
 -updated chambers
--updated advanced rocketry
--updated corail tombstone
--updated end portal recipe
--updated xaeros maps

@@ -1,0 +1,18 @@
+{
+	x: 16.5d,
+	y: 8.0d,
+	description: "Note: Can only make vanilla compact machines.",
+	text: [
+		""
+	],
+	dependencies: [
+		"07265137"
+	],
+	tasks: [{
+		uid: "bbf713d4",
+		type: "item",
+		items: [{
+			item: "chambers:compact_chamber"
+		}]
+	}]
+}

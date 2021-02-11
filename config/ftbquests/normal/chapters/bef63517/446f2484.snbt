@@ -1,6 +1,6 @@
 {
 	title: "Entry into Equivalent Exchange",
-	x: -10.5d,
+	x: -11.0d,
 	y: 20.5d,
 	shape: "gear",
 	hide_dependency_lines: true,

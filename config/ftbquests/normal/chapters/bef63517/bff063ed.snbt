@@ -1,0 +1,19 @@
+{
+	x: -13.0d,
+	y: 29.5d,
+	description: "Cures affects from icbm effectively",
+	text: [
+		""
+	],
+	dependencies: [
+		"e0e5b724"
+	],
+	tasks: [{
+		uid: "dcdf8a0e",
+		type: "item",
+		items: [{
+			item: "icbmclassic:antidote"
+		}],
+		count: 16L
+	}]
+}
