@@ -122,3 +122,147 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <mysticalagriculture:crafting:2
 	[null, null, null, null, <ore:essenceSupremium>, null, null, null, null], 
 	[null, null, null, null, <ore:essenceSupremium>, null, null, null, null]
 ]);
+
+//enderium
+recipes.remove(<thermalfoundation:material:167>);
+recipes.addShaped(<contenttweaker:material_part:121> * 2,[
+	[<mysticalagriculture:enderium_essence>, <mysticalagriculture:enderium_essence>, <mysticalagriculture:enderium_essence>], 
+	[<mysticalagriculture:enderium_essence>, null, <mysticalagriculture:enderium_essence>], 
+	[<mysticalagriculture:enderium_essence>, <mysticalagriculture:enderium_essence>, <mysticalagriculture:enderium_essence>]
+]);
+
+//signalum
+recipes.remove(<thermalfoundation:material:165>);
+recipes.addShaped(<contenttweaker:material_part:113> * 4,[
+	[<mysticalagriculture:signalum_essence>, <mysticalagriculture:signalum_essence>, <mysticalagriculture:signalum_essence>], 
+	[<mysticalagriculture:signalum_essence>, null, <mysticalagriculture:signalum_essence>], 
+	[<mysticalagriculture:signalum_essence>, <mysticalagriculture:signalum_essence>, <mysticalagriculture:signalum_essence>]
+]);
+
+//lumium
+recipes.remove(<thermalfoundation:material:166>);
+recipes.addShaped(<contenttweaker:material_part:129> * 4,[
+	[<mysticalagriculture:lumium_essence>, <mysticalagriculture:lumium_essence>, <mysticalagriculture:lumium_essence>], 
+	[<mysticalagriculture:lumium_essence>, null, <mysticalagriculture:lumium_essence>], 
+	[<mysticalagriculture:lumium_essence>, <mysticalagriculture:lumium_essence>, <mysticalagriculture:lumium_essence>]
+]);
+
+//iridium
+recipes.remove(<thermalfoundation:material:135>);
+recipes.addShaped(<contenttweaker:material_part:137> * 2,[
+	[<mysticalagriculture:iridium_essence>, <mysticalagriculture:iridium_essence>, <mysticalagriculture:iridium_essence>], 
+	[<mysticalagriculture:iridium_essence>, null, <mysticalagriculture:iridium_essence>], 
+	[<mysticalagriculture:iridium_essence>, <mysticalagriculture:iridium_essence>, <mysticalagriculture:iridium_essence>]
+]);
+
+//platinum
+recipes.remove(<thermalfoundation:material:134>);
+recipes.addShaped(<contenttweaker:material_part:25> * 2,[
+	[<mysticalagriculture:platinum_essence>, <mysticalagriculture:platinum_essence>, <mysticalagriculture:platinum_essence>], 
+	[<mysticalagriculture:platinum_essence>, null, <mysticalagriculture:platinum_essence>], 
+	[<mysticalagriculture:platinum_essence>, <mysticalagriculture:platinum_essence>, <mysticalagriculture:platinum_essence>]
+]);
+
+//uranium
+recipes.remove(<nuclearcraft:ingot:4>);
+recipes.addShaped(<contenttweaker:material_part:17> * 2,[
+	[<mysticalagriculture:uranium_essence>, <mysticalagriculture:uranium_essence>, <mysticalagriculture:uranium_essence>], 
+	[<mysticalagriculture:uranium_essence>, null, <mysticalagriculture:uranium_essence>], 
+	[<mysticalagriculture:uranium_essence>, <mysticalagriculture:uranium_essence>, <mysticalagriculture:uranium_essence>]
+]);
+
+//titanium
+recipes.remove(<libvulpes:productingot:7>);
+recipes.addShaped(<contenttweaker:material_part:160> * 2,[
+	[<mysticalagriculture:titanium_essence>, <mysticalagriculture:titanium_essence>, <mysticalagriculture:titanium_essence>], 
+	[<mysticalagriculture:titanium_essence>, null, <mysticalagriculture:titanium_essence>], 
+	[<mysticalagriculture:titanium_essence>, <mysticalagriculture:titanium_essence>, <mysticalagriculture:titanium_essence>]
+]);
+
+//invar
+recipes.remove(<thermalfoundation:material:162>);
+recipes.addShaped(<contenttweaker:material_part:89> * 4,[
+	[<mysticalagriculture:invar_essence>, <mysticalagriculture:invar_essence>, <mysticalagriculture:invar_essence>], 
+	[<mysticalagriculture:invar_essence>, null, <mysticalagriculture:invar_essence>], 
+	[<mysticalagriculture:invar_essence>, <mysticalagriculture:invar_essence>, <mysticalagriculture:invar_essence>]
+]);
+
+//electrum
+recipes.remove(<thermalfoundation:material:161>);
+recipes.addShaped(<contenttweaker:material_part:81> * 4,[
+	[<mysticalagriculture:electrum_essence>, <mysticalagriculture:electrum_essence>, <mysticalagriculture:electrum_essence>], 
+	[<mysticalagriculture:electrum_essence>, null, <mysticalagriculture:electrum_essence>], 
+	[<mysticalagriculture:electrum_essence>, <mysticalagriculture:electrum_essence>, <mysticalagriculture:electrum_essence>]
+]);
+
+//constantan
+recipes.remove(<thermalfoundation:material:164>);
+recipes.addShaped(<contenttweaker:material_part:105> * 4,[
+	[<mysticalagriculture:constantan_essence>, <mysticalagriculture:constantan_essence>, <mysticalagriculture:constantan_essence>], 
+	[<mysticalagriculture:constantan_essence>, null, <mysticalagriculture:constantan_essence>], 
+	[<mysticalagriculture:constantan_essence>, <mysticalagriculture:constantan_essence>, <mysticalagriculture:constantan_essence>]
+]);
+
+//nickel
+recipes.remove(<thermalfoundation:material:133>);
+recipes.addShaped(<contenttweaker:material_part:65> * 4,[
+	[<mysticalagriculture:nickel_essence>, <mysticalagriculture:nickel_essence>, <mysticalagriculture:nickel_essence>], 
+	[<mysticalagriculture:nickel_essence>, null, <mysticalagriculture:nickel_essence>], 
+	[<mysticalagriculture:nickel_essence>, <mysticalagriculture:nickel_essence>, <mysticalagriculture:nickel_essence>]
+]);
+
+//steel
+recipes.remove(<thermalfoundation:material:160>);
+recipes.addShaped(<contenttweaker:material_part:73> * 3,[
+	[<mysticalagriculture:steel_essence>, <mysticalagriculture:steel_essence>, <mysticalagriculture:steel_essence>], 
+	[<mysticalagriculture:steel_essence>, null, <mysticalagriculture:steel_essence>], 
+	[<mysticalagriculture:steel_essence>, <mysticalagriculture:steel_essence>, <mysticalagriculture:steel_essence>]
+]);
+
+//lead
+recipes.remove(<thermalfoundation:material:131>);
+recipes.addShaped(<contenttweaker:material_part:49> * 4,[
+	[<mysticalagriculture:lead_essence>, <mysticalagriculture:lead_essence>, <mysticalagriculture:lead_essence>], 
+	[<mysticalagriculture:lead_essence>, null, <mysticalagriculture:lead_essence>], 
+	[<mysticalagriculture:lead_essence>, <mysticalagriculture:lead_essence>, <mysticalagriculture:lead_essence>]
+]);
+
+//silver
+recipes.remove(<thermalfoundation:material:130>);
+recipes.addShaped(<contenttweaker:material_part:41> * 4,[
+	[<mysticalagriculture:silver_essence>, <mysticalagriculture:silver_essence>, <mysticalagriculture:silver_essence>], 
+	[<mysticalagriculture:silver_essence>, null, <mysticalagriculture:silver_essence>], 
+	[<mysticalagriculture:silver_essence>, <mysticalagriculture:silver_essence>, <mysticalagriculture:silver_essence>]
+]);
+
+//bronze
+recipes.remove(<thermalfoundation:material:163>);
+recipes.addShaped(<contenttweaker:material_part:97> * 4,[
+	[<mysticalagriculture:bronze_essence>, <mysticalagriculture:bronze_essence>, <mysticalagriculture:bronze_essence>], 
+	[<mysticalagriculture:bronze_essence>, null, <mysticalagriculture:bronze_essence>], 
+	[<mysticalagriculture:bronze_essence>, <mysticalagriculture:bronze_essence>, <mysticalagriculture:bronze_essence>]
+]);
+
+//tin
+recipes.remove(<thermalfoundation:material:129>);
+recipes.addShaped(<contenttweaker:material_part:33> * 4,[
+	[<mysticalagriculture:tin_essence>, <mysticalagriculture:tin_essence>, <mysticalagriculture:tin_essence>], 
+	[<mysticalagriculture:tin_essence>, null, <mysticalagriculture:tin_essence>], 
+	[<mysticalagriculture:tin_essence>, <mysticalagriculture:tin_essence>, <mysticalagriculture:tin_essence>]
+]);
+
+//copper
+recipes.remove(<thermalfoundation:material:128>);
+recipes.addShaped(<contenttweaker:material_part:7> * 6,[
+	[<mysticalagriculture:copper_essence>, <mysticalagriculture:copper_essence>, <mysticalagriculture:copper_essence>], 
+	[<mysticalagriculture:copper_essence>, null, <mysticalagriculture:copper_essence>], 
+	[<mysticalagriculture:copper_essence>, <mysticalagriculture:copper_essence>, <mysticalagriculture:copper_essence>]
+]);
+
+//aluminum
+recipes.remove(<thermalfoundation:material:132>);
+recipes.addShaped(<contenttweaker:material_part:57> * 8,[
+	[<mysticalagriculture:aluminum_essence>, <mysticalagriculture:aluminum_essence>, <mysticalagriculture:aluminum_essence>], 
+	[<mysticalagriculture:aluminum_essence>, null, <mysticalagriculture:aluminum_essence>], 
+	[<mysticalagriculture:aluminum_essence>, <mysticalagriculture:aluminum_essence>, <mysticalagriculture:aluminum_essence>]
+]);

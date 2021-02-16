@@ -1,0 +1,23 @@
+{
+    "machine": "arboreal_reprocessor",
+    "registryName": "arboreal_reprocessor_energy_nickel",
+    "recipeTime": 10,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "output",
+            "energyPerTick": 750
+        },
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 400
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "sky_orchards:acorn_nickel",
+            "amount": 1
+        }
+    ]
+}

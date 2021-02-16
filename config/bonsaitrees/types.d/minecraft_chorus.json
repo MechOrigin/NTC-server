@@ -28,6 +28,13 @@
       "type": "CUSTOM",
       "count": 1,
       "chance": 0.01
+    },
+    {
+      "name": "darkutils:shulker_pearl",
+      "data": 0,
+      "type": "CUSTOM",
+      "count": 1,
+      "chance": 0.01
     }
   ],
   "compatibleSoilTags": ["end_stone"]
