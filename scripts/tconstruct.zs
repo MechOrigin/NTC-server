@@ -1,15 +1,15 @@
 //This is how you get the blaze, Blizz, Blitz, Basalz drops now
 //you may also create a dimension and find a spawn of one somewhere and catch it with a ball/vial
 //and then make a spawner
-mods.tconstruct.Casting.addTableRecipe(<minecraft:blaze_powder>, <ore:dustSulfur>*2, <liquid:experience>, 200, true, 100);
-mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:2049>, <minecraft:snowball>*2, <liquid:experience>, 200, true, 100);
-mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:2051>, <ore:dustSaltpeter>*2, <liquid:experience>, 200, true, 100);
-mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:2053>, <ore:dustObsidian>*2, <liquid:experience>, 200, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<minecraft:blaze_powder>, <ore:dustSulfur>*2, <liquid:experience>, 160, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:2049>, <minecraft:snowball>*2, <liquid:experience>, 160, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:2051>, <ore:dustSaltpeter>*2, <liquid:experience>, 160, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:2053>, <ore:dustObsidian>*2, <liquid:experience>, 160, true, 100);
 
-mods.tconstruct.Casting.addTableRecipe(<minecraft:blaze_powder>, <ore:dustSulfur>*2, <liquid:xpjuice>, 200, true, 100);
-mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:2049>, <minecraft:snowball>*2, <liquid:xpjuice>, 200, true, 100);
-mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:2051>, <ore:dustSaltpeter>*2, <liquid:xpjuice>, 200, true, 100);
-mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:2053>, <ore:dustObsidian>*2, <liquid:xpjuice>, 200, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<minecraft:blaze_powder>, <ore:dustSulfur>*2, <liquid:xpjuice>, 160, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:2049>, <minecraft:snowball>*2, <liquid:xpjuice>, 160, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:2051>, <ore:dustSaltpeter>*2, <liquid:xpjuice>, 160, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:2053>, <ore:dustObsidian>*2, <liquid:xpjuice>, 160, true, 100);
 
 //this is how end stone is made now because the end is void dimension now (empty)
 mods.tconstruct.Casting.addBasinRecipe(<minecraft:end_stone>, <minecraft:sandstone>, <liquid:ender>, 500, true, 200);

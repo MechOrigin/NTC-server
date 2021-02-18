@@ -1,0 +1,32 @@
+{
+	title: "Giga Particle Accelerator",
+	x: -12.5d,
+	y: 15.0d,
+	description: "A huge accelerator that and can produce orange, white and fading matter!",
+	text: [
+		""
+	],
+	dependencies: [
+		"a5c98f2a"
+	],
+	tasks: [{
+		uid: "966f6284",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:giga_particle_accelerator"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "eec97c9a",
+		type: "item",
+		item: {
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:giga_particle_accelerator"
+			}
+		}
+	}]
+}

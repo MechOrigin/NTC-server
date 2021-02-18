@@ -1,38 +1,12 @@
 Mekanism:
-Fixed mekanism ore compat issue
+Fixed some dusts not working with furnace.
 
-Nuclearcraft:
-Tuned up nuclearcraft RF production on fission reactors by 10x
-
-Modular Machines:
-Added arboreal reprocessor - should scale sky orchards and bonsai pots a little better mid/late game
-	- two modes available for acorns. Item output or energy output. 
-		Cost: 4000FE total / operation
-		Item production: 1 acorn = 1 nugget (for any block types like sand it's just 1 sand) 
-		OR
-		Energy production: 750FE x 10 ticks = 7500FE total * stack of acorns(64) = 480,000FE total
-
-		Amber:
-		Cost energy: 8000FE total / operation
-		1 amber = 1 ingot and 8 amber(BOP amber 16,384EMC)
-		No power production available.
-	- process all acorns into nuggets/or blocks if sand/dirt/etc OR power (swap item output with energy output)
-	- process all amber into BOP amber and ingots (no power)
-Changed large particle accelerator to giga particle accelerator.
-Readded medium and large particle accelerators to be inside 1 chunk.
-
-Mystical Agri:
-Fixed mystical agriculture recipes from thermal ingots to contenttweakers
+Tinkers:
+Fixed solid xp used in recipes from 200mB to 160mB to reflect that solid xp only yields 160mB.
 
 Sky Orchards:
-added shulker pearl to chorus bonsai
-	-added pearl block as "dirt" for chorus production (50%, 200%)
+Added Inferium Tree.
 
--updated chambers
--updated collective
--updated corail tombstone
--updated integrated foregoing
--updated xaeros maps
--updated random tweaks
--updated unidict
--updated me capability adapter
+ftbQuests:
+Updated quests accordingly...
+

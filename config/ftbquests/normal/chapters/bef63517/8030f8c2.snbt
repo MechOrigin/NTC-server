@@ -1,5 +1,5 @@
 {
-	x: 1.0d,
+	x: 0.5d,
 	y: -9.5d,
 	shape: "heart",
 	dependencies: [

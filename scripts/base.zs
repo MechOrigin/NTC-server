@@ -741,6 +741,12 @@ recipes.addShaped(<minecraft:end_stone> * 1, [[<sky_orchards:resin_endstone>, <s
 //recipes.remove(<appliedenergistics2:sky_stone_block>);
 recipes.addShaped(<appliedenergistics2:sky_stone_block> * 1, [[<sky_orchards:resin_skystone>, <sky_orchards:resin_skystone>, <sky_orchards:resin_skystone>], [<sky_orchards:resin_skystone>, <sky_orchards:resin_skystone>, <sky_orchards:resin_skystone>],[<sky_orchards:resin_skystone>, <sky_orchards:resin_skystone>, <sky_orchards:resin_skystone>]]);
 
+// Inferium Essence
+recipes.addShaped(<mysticalagriculture:crafting:0> * 1, [[<sky_orchards:resin_inferium>, <sky_orchards:resin_inferium>, <sky_orchards:resin_inferium>], [<sky_orchards:resin_inferium>, <sky_orchards:resin_inferium>, <sky_orchards:resin_inferium> ],[<sky_orchards:resin_inferium>, <sky_orchards:resin_inferium>, <sky_orchards:resin_inferium>]]);
+
+// Inferium Leaves
+recipes.addShapeless(<sky_orchards:leaves_inferium>, [<ore:treeSapling>,<mysticalagriculture:crafting:0>]);
+
 // Skystone§r Leaves§r§r
 //recipes.remove(<sky_orchards:leaves_skystone>);
 recipes.addShaped(<sky_orchards:leaves_skystone> * 1, [[<appliedenergistics2:material:45>, <appliedenergistics2:material:45>, <appliedenergistics2:material:45>], [<appliedenergistics2:material:45>, <minecraft:sapling:0>, <appliedenergistics2:material:45>],[<appliedenergistics2:material:45>, <appliedenergistics2:material:45>, <appliedenergistics2:material:45>]]);

@@ -1,7 +1,5 @@
 
 
-
-
 // magnum star ein
 mods.mekanism.combiner.addRecipe(<projecte:item.pe_klein_star:5> * 3, <projecte:item.pe_klein_star:5>, <projectex:magnum_star_ein>);
 
@@ -103,7 +101,6 @@ mods.mekanism.enrichment.addRecipe(<mysticalagriculture:end_inferium_ore>, <myst
 mods.mekanism.enrichment.addRecipe(<thermalfoundation:ore:6>, <contenttweaker:material_part:26> * 2);
 mods.mekanism.enrichment.addRecipe(<appliedenergistics2:crystal_seed:600>.withTag({progress: 1000}), <appliedenergistics2:material:11>);
 mods.mekanism.enrichment.addRecipe(<mekanism:polyethene> * 3, <mekanism:polyethene:2>);
-mods.mekanism.enrichment.addRecipe(<thermalfoundation:ore:8>, <thermalfoundation:material:72> * 2);
 mods.mekanism.enrichment.addRecipe(<minecraft:clay>, <minecraft:clay_ball> * 4);
 mods.mekanism.enrichment.addRecipe(<nuclearcraft:gem_dust:7>, <minecraft:coal>);
 mods.mekanism.enrichment.addRecipe(<nuclearcraft:gem_dust:6>, <minecraft:gunpowder>);
@@ -124,3 +121,15 @@ mods.mekanism.enrichment.addRecipe(<nuclearcraft:ore:3>, <nuclearcraft:dust:3> *
 mods.mekanism.enrichment.addRecipe(<rftools:dimensional_shard_ore>, <rftools:dimensional_shard> * 4);
 mods.mekanism.enrichment.addRecipe(<actuallyadditions:block_misc:3>, <actuallyadditions:item_misc:5> * 2);
 
+
+
+
+
+mods.mekanism.smelter.addRecipe(<contenttweaker:material_part:90>, <contenttweaker:material_part:89>);
+mods.mekanism.smelter.addRecipe(<contenttweaker:material_part:138>, <contenttweaker:material_part:137>);
+mods.mekanism.smelter.addRecipe(<contenttweaker:material_part:106>, <contenttweaker:material_part:105>);
+mods.mekanism.smelter.addRecipe(<contenttweaker:material_part:114>, <contenttweaker:material_part:113>);
+mods.mekanism.smelter.addRecipe(<contenttweaker:material_part:122>, <contenttweaker:material_part:121>);
+mods.mekanism.smelter.addRecipe(<contenttweaker:material_part:130>, <contenttweaker:material_part:129>);
+mods.mekanism.smelter.addRecipe(<contenttweaker:material_part:168>, <contenttweaker:material_part:167>);
+mods.mekanism.smelter.addRecipe(<contenttweaker:material_part:175>, <contenttweaker:material_part:174>);

@@ -279,3 +279,9 @@ val skystone_acorn = mods.modularmachinery.RecipeBuilder.newBuilder("arboreal_re
 val skystone_amber = mods.modularmachinery.RecipeBuilder.newBuilder("arboreal_reprocessor_skystone_amber", "arboreal_reprocessor", 10, 0);
 skystone_acorn.addEnergyPerTickInput(400).addItemInput(<sky_orchards:acorn_skystone>).addItemOutput(<appliedenergistics2:sky_stone_block> * 1).build();
 skystone_amber.addEnergyPerTickInput(800).addItemInput(<sky_orchards:amber_skystone>).addItemOutput(<appliedenergistics2:sky_stone_block> * 1).addItemOutput(<biomesoplenty:gem:7> * 8).build();
+
+// inferium
+val inferium_acorn = mods.modularmachinery.RecipeBuilder.newBuilder("arboreal_reprocessor_inferium_acorn", "arboreal_reprocessor", 10, 0);
+val inferium_amber = mods.modularmachinery.RecipeBuilder.newBuilder("arboreal_reprocessor_inferium_amber", "arboreal_reprocessor", 10, 0);
+inferium_acorn.addEnergyPerTickInput(400).addItemInput(<sky_orchards:acorn_inferium>).addItemOutput(<mysticalagriculture:crafting:0> * 1).build();
+inferium_amber.addEnergyPerTickInput(800).addItemInput(<sky_orchards:amber_inferium>).addItemOutput(<mysticalagriculture:crafting:0> * 6).addItemOutput(<biomesoplenty:gem:7> * 8).build();

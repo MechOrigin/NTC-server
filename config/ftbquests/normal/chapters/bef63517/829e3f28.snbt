@@ -1,0 +1,30 @@
+{
+	x: 6.0d,
+	y: -14.0d,
+	shape: "gear",
+	description: "Modular Machines! Requires 22 Blocks of Steel and 1 Material StoneWork Factory",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "26bbd50a",
+		type: "checkmark",
+		title: "Arboreal Reprocessor",
+		icon: {
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:arboreal_reprocessor"
+			}
+		}
+	}],
+	rewards: [{
+		uid: "c4297908",
+		type: "item",
+		item: {
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:arboreal_reprocessor"
+			}
+		}
+	}]
+}

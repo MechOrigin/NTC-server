@@ -1,0 +1,14 @@
+{
+	x: 6.0d,
+	y: -13.0d,
+	dependencies: [
+		"829e3f28"
+	],
+	tasks: [{
+		uid: "22717370",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:material_stonework_factory"
+		}]
+	}]
+}

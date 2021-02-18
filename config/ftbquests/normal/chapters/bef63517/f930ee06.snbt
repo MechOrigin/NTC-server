@@ -1,0 +1,23 @@
+{
+	x: 3.0d,
+	y: -10.5d,
+	description: "You can get Inferium from bonsais too",
+	text: [
+		""
+	],
+	dependencies: [
+		"34f890c3"
+	],
+	tasks: [{
+		uid: "82331fc8",
+		type: "item",
+		items: [{
+			item: "sky_orchards:sapling_inferium"
+		}]
+	}],
+	rewards: [{
+		uid: "b32cb75c",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience"
+	}]
+}

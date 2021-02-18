@@ -2763,6 +2763,10 @@
     {
       "item": "icbmclassic:sulfurdust|0",
       "emc": 0
+    },
+    {
+      "item": "sky_orchards:sapling_inferium|0",
+      "emc": 0
     }
   ]
 }
