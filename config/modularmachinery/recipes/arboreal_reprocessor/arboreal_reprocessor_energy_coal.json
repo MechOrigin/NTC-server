@@ -1,17 +1,17 @@
 {
     "machine": "arboreal_reprocessor",
     "registryName": "arboreal_reprocessor_energy_coal",
-    "recipeTime": 10,
+    "recipeTime": 100,
     "requirements": [
         {
             "type": "modularmachinery:energy",
             "io-type": "output",
-            "energyPerTick": 750
+            "energyPerTick": 75
         },
         {
             "type": "modularmachinery:energy",
             "io-type": "input",
-            "energyPerTick": 400
+            "energyPerTick": 40
         },
         {
             "type": "modularmachinery:item",

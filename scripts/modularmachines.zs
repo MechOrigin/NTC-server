@@ -1,9 +1,64 @@
 import mods.modularmachinery.RecipePrimer;
 
+// normal input bus
+recipes.addShaped(<modularmachinery:blockinputbus:2>,[
+[null, <minecraft:hopper>, null], 
+[<modularmachinery:itemmodularium>, <modularmachinery:blockinputbus:1>, <modularmachinery:itemmodularium>], 
+[<minecraft:chest>, <modularmachinery:itemmodularium>, <minecraft:chest>]
+]);
+// rein input bus
+recipes.addShaped(<modularmachinery:blockinputbus:3>,[
+[null, <minecraft:hopper>, null], 
+[<modularmachinery:itemmodularium>, <modularmachinery:blockinputbus:2>, <modularmachinery:itemmodularium>], 
+[<minecraft:chest>, <modularmachinery:itemmodularium>, <minecraft:chest>]
+]);
+// big input bus
+recipes.addShaped(<modularmachinery:blockinputbus:4>,[
+[null, <minecraft:hopper>, null], 
+[<modularmachinery:itemmodularium>, <modularmachinery:blockinputbus:3>, <modularmachinery:itemmodularium>], 
+[<minecraft:chest>, <modularmachinery:itemmodularium>, <minecraft:chest>]
+]);
+// huge input bus
+recipes.addShaped(<modularmachinery:blockinputbus:5>,[
+[null, <minecraft:hopper>, null], 
+[<modularmachinery:itemmodularium>, <modularmachinery:blockinputbus:4>, <modularmachinery:itemmodularium>], 
+[<minecraft:chest>, <modularmachinery:itemmodularium>, <minecraft:chest>]
+]);
+// ludi input bus
+recipes.addShaped(<modularmachinery:blockinputbus:6>,[
+[null, <minecraft:hopper>, null], 
+[<modularmachinery:itemmodularium>, <modularmachinery:blockinputbus:5>, <modularmachinery:itemmodularium>], 
+[<minecraft:chest>, <modularmachinery:itemmodularium>, <minecraft:chest>]
+]);
+
 // normal output bus
 recipes.addShaped(<modularmachinery:blockoutputbus:2>,[
 [<minecraft:chest>, <modularmachinery:itemmodularium>, <minecraft:chest>], 
 [<modularmachinery:itemmodularium>, <modularmachinery:blockoutputbus:1>, <modularmachinery:itemmodularium>], 
+[null, <minecraft:hopper>, null]
+]);
+// rein output bus
+recipes.addShaped(<modularmachinery:blockoutputbus:3>,[
+[<minecraft:chest>, <modularmachinery:itemmodularium>, <minecraft:chest>], 
+[<modularmachinery:itemmodularium>, <modularmachinery:blockoutputbus:2>, <modularmachinery:itemmodularium>], 
+[null, <minecraft:hopper>, null]
+]);
+// big output bus
+recipes.addShaped(<modularmachinery:blockoutputbus:4>,[
+[<minecraft:chest>, <modularmachinery:itemmodularium>, <minecraft:chest>], 
+[<modularmachinery:itemmodularium>, <modularmachinery:blockoutputbus:3>, <modularmachinery:itemmodularium>], 
+[null, <minecraft:hopper>, null]
+]);
+// huge output bus
+recipes.addShaped(<modularmachinery:blockoutputbus:5>,[
+[<minecraft:chest>, <modularmachinery:itemmodularium>, <minecraft:chest>], 
+[<modularmachinery:itemmodularium>, <modularmachinery:blockoutputbus:4>, <modularmachinery:itemmodularium>], 
+[null, <minecraft:hopper>, null]
+]);
+// ludi output bus
+recipes.addShaped(<modularmachinery:blockoutputbus:6>,[
+[<minecraft:chest>, <modularmachinery:itemmodularium>, <minecraft:chest>], 
+[<modularmachinery:itemmodularium>, <modularmachinery:blockoutputbus:5>, <modularmachinery:itemmodularium>], 
 [null, <minecraft:hopper>, null]
 ]);
 
@@ -12,6 +67,147 @@ recipes.addShaped(<modularmachinery:blockfluidinputhatch:2>,[
 [null, <minecraft:hopper>, null], 
 [<modularmachinery:itemmodularium>, <modularmachinery:blockfluidinputhatch:1>, <modularmachinery:itemmodularium>], 
 [<minecraft:bucket>, <modularmachinery:itemmodularium>, <minecraft:bucket>]
+]);
+// rein fluid input hatch
+recipes.addShaped(<modularmachinery:blockfluidinputhatch:3>,[
+[null, <minecraft:hopper>, null], 
+[<modularmachinery:itemmodularium>, <modularmachinery:blockfluidinputhatch:2>, <modularmachinery:itemmodularium>], 
+[<minecraft:bucket>, <modularmachinery:itemmodularium>, <minecraft:bucket>]
+]);
+// big fluid input hatch
+recipes.addShaped(<modularmachinery:blockfluidinputhatch:4>,[
+[null, <minecraft:hopper>, null], 
+[<modularmachinery:itemmodularium>, <modularmachinery:blockfluidinputhatch:3>, <modularmachinery:itemmodularium>], 
+[<minecraft:bucket>, <modularmachinery:itemmodularium>, <minecraft:bucket>]
+]);
+// huge fluid input hatch
+recipes.addShaped(<modularmachinery:blockfluidinputhatch:5>,[
+[null, <minecraft:hopper>, null], 
+[<modularmachinery:itemmodularium>, <modularmachinery:blockfluidinputhatch:4>, <modularmachinery:itemmodularium>], 
+[<minecraft:bucket>, <modularmachinery:itemmodularium>, <minecraft:bucket>]
+]);
+// ludi fluid input hatch
+recipes.addShaped(<modularmachinery:blockfluidinputhatch:6>,[
+[null, <minecraft:hopper>, null], 
+[<modularmachinery:itemmodularium>, <modularmachinery:blockfluidinputhatch:5>, <modularmachinery:itemmodularium>], 
+[<minecraft:bucket>, <modularmachinery:itemmodularium>, <minecraft:bucket>]
+]);
+// vacuum fluid input hatch
+recipes.addShaped(<modularmachinery:blockfluidinputhatch:7>,[
+[null, <minecraft:hopper>, null], 
+[<modularmachinery:itemmodularium>, <modularmachinery:blockfluidinputhatch:6>, <modularmachinery:itemmodularium>], 
+[<minecraft:bucket>, <modularmachinery:itemmodularium>, <minecraft:bucket>]
+]);
+
+// normal fluid output hatch
+recipes.addShaped(<modularmachinery:blockfluidoutputhatch:2>,[
+[<minecraft:bucket>, <modularmachinery:itemmodularium>, <minecraft:bucket>], 
+[<modularmachinery:itemmodularium>, <modularmachinery:blockfluidoutputhatch:1>, <modularmachinery:itemmodularium>], 
+[null, <minecraft:hopper>, null]
+]);
+// rein fluid output hatch
+recipes.addShaped(<modularmachinery:blockfluidoutputhatch:3>,[
+[<minecraft:bucket>, <modularmachinery:itemmodularium>, <minecraft:bucket>], 
+[<modularmachinery:itemmodularium>, <modularmachinery:blockfluidoutputhatch:2>, <modularmachinery:itemmodularium>], 
+[null, <minecraft:hopper>, null]
+]);
+// big fluid output hatch
+recipes.addShaped(<modularmachinery:blockfluidoutputhatch:4>,[
+[<minecraft:bucket>, <modularmachinery:itemmodularium>, <minecraft:bucket>], 
+[<modularmachinery:itemmodularium>, <modularmachinery:blockfluidoutputhatch:3>, <modularmachinery:itemmodularium>], 
+[null, <minecraft:hopper>, null]
+]);
+// huge fluid output hatch
+recipes.addShaped(<modularmachinery:blockfluidoutputhatch:5>,[
+[<minecraft:bucket>, <modularmachinery:itemmodularium>, <minecraft:bucket>], 
+[<modularmachinery:itemmodularium>, <modularmachinery:blockfluidoutputhatch:4>, <modularmachinery:itemmodularium>], 
+[null, <minecraft:hopper>, null]
+]);
+// ludi fluid output hatch
+recipes.addShaped(<modularmachinery:blockfluidoutputhatch:6>,[
+[<minecraft:bucket>, <modularmachinery:itemmodularium>, <minecraft:bucket>], 
+[<modularmachinery:itemmodularium>, <modularmachinery:blockfluidoutputhatch:5>, <modularmachinery:itemmodularium>], 
+[null, <minecraft:hopper>, null]
+]);
+// vacuum fluid output hatch
+recipes.addShaped(<modularmachinery:blockfluidoutputhatch:7>,[
+[<minecraft:bucket>, <modularmachinery:itemmodularium>, <minecraft:bucket>], 
+[<modularmachinery:itemmodularium>, <modularmachinery:blockfluidoutputhatch:6>, <modularmachinery:itemmodularium>], 
+[null, <minecraft:hopper>, null]
+]);
+
+// normal energy input hatch
+recipes.addShaped(<modularmachinery:blockenergyinputhatch:2>,[
+	[<minecraft:redstone>, <minecraft:comparator>, <minecraft:redstone>], 
+	[<minecraft:redstone_block>, <modularmachinery:blockenergyinputhatch:1>, <minecraft:redstone_block>], 
+	[<minecraft:redstone>, <minecraft:redstone_block>, <minecraft:redstone>]
+]);
+// reinforced energy input hatch
+recipes.addShaped(<modularmachinery:blockenergyinputhatch:3>,[
+	[<minecraft:redstone>, <minecraft:comparator>, <minecraft:redstone>], 
+	[<minecraft:redstone_block>, <modularmachinery:blockenergyinputhatch:2>, <minecraft:redstone_block>], 
+	[<minecraft:redstone>, <minecraft:redstone_block>, <minecraft:redstone>]
+]);
+// big energy input hatch
+recipes.addShaped(<modularmachinery:blockenergyinputhatch:4>,[
+	[<minecraft:redstone>, <minecraft:comparator>, <minecraft:redstone>], 
+	[<minecraft:redstone_block>, <modularmachinery:blockenergyinputhatch:3>, <minecraft:redstone_block>], 
+	[<minecraft:redstone>, <minecraft:redstone_block>, <minecraft:redstone>]
+]);
+// huge energy input hatch
+recipes.addShaped(<modularmachinery:blockenergyinputhatch:5>,[
+	[<minecraft:redstone>, <minecraft:comparator>, <minecraft:redstone>], 
+	[<minecraft:redstone_block>, <modularmachinery:blockenergyinputhatch:4>, <minecraft:redstone_block>], 
+	[<minecraft:redstone>, <minecraft:redstone_block>, <minecraft:redstone>]
+]);
+// ludicrous energy input hatch
+recipes.addShaped(<modularmachinery:blockenergyinputhatch:6>,[
+	[<minecraft:redstone>, <minecraft:comparator>, <minecraft:redstone>], 
+	[<minecraft:redstone_block>, <modularmachinery:blockenergyinputhatch:5>, <minecraft:redstone_block>], 
+	[<minecraft:redstone>, <minecraft:redstone_block>, <minecraft:redstone>]
+]);
+// ultimate energy input hatch
+recipes.addShaped(<modularmachinery:blockenergyinputhatch:7>,[
+	[<minecraft:redstone>, <minecraft:comparator>, <minecraft:redstone>], 
+	[<minecraft:redstone_block>, <modularmachinery:blockenergyinputhatch:6>, <minecraft:redstone_block>], 
+	[<minecraft:redstone>, <minecraft:redstone_block>, <minecraft:redstone>]
+]);
+
+// normal energy output hatch
+recipes.addShaped(<modularmachinery:blockenergyoutputhatch:2>,[
+	[<minecraft:redstone>, <minecraft:redstone_block>, <minecraft:redstone>], 
+	[<minecraft:redstone_block>, <modularmachinery:blockenergyoutputhatch:1>, <minecraft:redstone_block>], 
+	[<minecraft:redstone>, <minecraft:comparator>, <minecraft:redstone>]
+]);
+// reinforced energy output hatch
+recipes.addShaped(<modularmachinery:blockenergyoutputhatch:3>,[
+	[<minecraft:redstone>, <minecraft:redstone_block>, <minecraft:redstone>], 
+	[<minecraft:redstone_block>, <modularmachinery:blockenergyoutputhatch:2>, <minecraft:redstone_block>], 
+	[<minecraft:redstone>, <minecraft:comparator>, <minecraft:redstone>]
+]);
+// big energy output hatch
+recipes.addShaped(<modularmachinery:blockenergyoutputhatch:4>,[
+	[<minecraft:redstone>, <minecraft:redstone_block>, <minecraft:redstone>], 
+	[<minecraft:redstone_block>, <modularmachinery:blockenergyoutputhatch:3>, <minecraft:redstone_block>], 
+	[<minecraft:redstone>, <minecraft:comparator>, <minecraft:redstone>]
+]);
+// huge energy output hatch
+recipes.addShaped(<modularmachinery:blockenergyoutputhatch:5>,[
+	[<minecraft:redstone>, <minecraft:redstone_block>, <minecraft:redstone>], 
+	[<minecraft:redstone_block>, <modularmachinery:blockenergyoutputhatch:4>, <minecraft:redstone_block>], 
+	[<minecraft:redstone>, <minecraft:comparator>, <minecraft:redstone>]
+]);
+// ludi energy output hatch
+recipes.addShaped(<modularmachinery:blockenergyoutputhatch:6>,[
+	[<minecraft:redstone>, <minecraft:redstone_block>, <minecraft:redstone>], 
+	[<minecraft:redstone_block>, <modularmachinery:blockenergyoutputhatch:5>, <minecraft:redstone_block>], 
+	[<minecraft:redstone>, <minecraft:comparator>, <minecraft:redstone>]
+]);
+// ulti energy output hatch
+recipes.addShaped(<modularmachinery:blockenergyoutputhatch:7>,[
+	[<minecraft:redstone>, <minecraft:redstone_block>, <minecraft:redstone>], 
+	[<minecraft:redstone_block>, <modularmachinery:blockenergyoutputhatch:6>, <minecraft:redstone_block>], 
+	[<minecraft:redstone>, <minecraft:comparator>, <minecraft:redstone>]
 ]);
 
 // SMALL

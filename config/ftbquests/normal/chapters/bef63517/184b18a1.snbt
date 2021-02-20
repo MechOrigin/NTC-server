@@ -1,5 +1,5 @@
 {
-	x: -6.0d,
+	x: -6.5d,
 	y: 22.0d,
 	description: "Can only be made in the overworld. Can only be broken with silk touch (Squeaky)",
 	text: [

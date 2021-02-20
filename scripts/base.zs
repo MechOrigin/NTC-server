@@ -488,15 +488,12 @@ recipes.addShaped(<contenttweaker:sub_block_holder_0:6>,[
 <contenttweaker:sub_block_holder_1:5>.displayName = "Block of Ferroboron Alloy";
 <contenttweaker:sub_block_holder_0:6>.displayName = "Block of Hard Carbon Alloy";
 
+//change max stacksize of enderpear to 64
+<minecraft:ender_pearl>.maxStackSize = 64;
 
-
-//useless in this pack
-//mods.jei.JEI.removeAndHide(<projectex:final_star>);
+//remove some op things
 mods.jei.JEI.removeAndHide(<projectex:knowledge_sharing_book>);
 recipes.remove(<projecte:item.pe_tome>);
-//mods.jei.JEI.removeAndHide(<projectex:infused_dark_matter>);
-//mods.jei.JEI.removeAndHide(<projectex:infused_red_matter>);
-//mods.jei.JEI.removeAndHide(<projectex:final_star_shard>);
 
 // The Final Star Shard
 recipes.remove(<projectex:final_star_shard>);

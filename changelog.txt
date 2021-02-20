@@ -1,12 +1,31 @@
-Mekanism:
-Fixed some dusts not working with furnace.
+Modular machines:
+    -added recipes for all the hatches up to ultimate
+    -changed energy transfer and storage rates
+    Changed arboreal reprocessor acorn processing TO ENERGY from from 10ticks to 100ticks
 
-Tinkers:
-Fixed solid xp used in recipes from 200mB to 160mB to reflect that solid xp only yields 160mB.
+    Added Ender Dragon Incubator
+    -center is 13x13x13 compact machine, frame is stellar alloy and (modular)machine casings
+    -input: dragon egg, 4 ender crystals
+    -output: solidxp, (mysticalagri)scales, insanium, power
 
-Sky Orchards:
-Added Inferium Tree.
+    Added Thermonuclear Implosion Generator (eats icbm turns to power)
+    -center is 13x13x13 compact machine, frame is reinforced obsidian and (modular) reinforced machine casings
+    -input: condensed, incindiary, breaching, thermobaric, exothermic, nuclear, antimatter, red matter
+    -output: energy! 2,000,000 RF, 4,000,000 RF, 8,000,000 RF, 16,000,000, 32,000,000, 64,0000,000, 128,000,000, 256,000,000
 
-ftbQuests:
-Updated quests accordingly...
+FTBUtil:
+Added tpa and tpl back in for a more friendly multiplayer experience
 
+Industrial foregoing:
+Added celestial crystals to laser drill
+
+Thermal:
+Added pulverizer recipe for dragon scales, outputs celestial crystal and 25% chance ender amethyst 
+
+-updated collective
+-updated randomtweaks
+-updated zawa
+-updated advancedrocketry
+-updated chambers
+-updated xaeros maps
+-updated crafttweaker

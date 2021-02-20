@@ -17,6 +17,9 @@ mods.thermalexpansion.Pulverizer.addRecipe(<nuclearcraft:gem_dust:11>*4, <minecr
 // diamond dust
 mods.thermalexpansion.Pulverizer.addRecipe(<contenttweaker:material_part:180>*1, <minecraft:diamond>, 2048);
 
+// dragon scale crushes up to celestial crystal
+mods.thermalexpansion.Pulverizer.addRecipe(<biomesoplenty:crystal_shard>*3, <mysticalagradditions:stuff:3>, 8192, <biomesoplenty:gem>, 25);
+
 // centrifuge - bonsai Mk1
 mods.thermalexpansion.Centrifuge.addRecipe([(<projectex:relay:0> * 6) % 100, (<projectex:compressed_collector:0> * 2) % 100, (<projectex:energy_link> * 1) % 100], <projectex:power_flower:0>, null, 4000);
 

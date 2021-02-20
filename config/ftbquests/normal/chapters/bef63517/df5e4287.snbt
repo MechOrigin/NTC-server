@@ -1,0 +1,30 @@
+{
+	x: -6.0d,
+	y: 21.0d,
+	shape: "gear",
+	description: "Incubates an Ender Dragon inside a 13x13x13 compact machine and kills it.",
+	text: [
+		"Generates power and drops it's loot."
+	],
+	tasks: [{
+		uid: "8652f00d",
+		type: "checkmark",
+		title: "Ender Dragon Incubator",
+		icon: {
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:ender_dragon_incubator"
+			}
+		}
+	}],
+	rewards: [{
+		uid: "6775a583",
+		type: "item",
+		item: {
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:ender_dragon_incubator"
+			}
+		}
+	}]
+}
