@@ -1,5 +1,10 @@
 import mods.modularmachinery.RecipePrimer;
 
+//=============================================================================
+// Modular Machines
+//=============================================================================
+
+
 // normal input bus
 recipes.addShaped(<modularmachinery:blockinputbus:2>,[
 [null, <minecraft:hopper>, null], 

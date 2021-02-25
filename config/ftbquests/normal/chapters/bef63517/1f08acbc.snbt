@@ -1,0 +1,78 @@
+{
+	title: "MK3 Complete",
+	icon: "projecte:collector_mk3",
+	disable_toast: true,
+	x: 23.0d,
+	y: -8.0d,
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fcb678fc",
+		"d2f498c6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f3f24593",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "50f20f1e",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 64
+	},
+	{
+		uid: "b999b8d5",
+		type: "item",
+		item: "projecte:item.pe_klein_star 1 1",
+		count: 27
+	},
+	{
+		uid: "269958d6",
+		type: "item",
+		item: "thermalfoundation:material 1 1024",
+		count: 24
+	},
+	{
+		uid: "67d844c1",
+		type: "item",
+		item: "nuclearcraft:dust 1 6",
+		count: 32
+	},
+	{
+		uid: "f10065dc",
+		type: "item",
+		item: "enderio:item_material 1 42",
+		count: 16
+	},
+	{
+		uid: "186fcac8",
+		type: "item",
+		item: "projecte:collector_mk2"
+	},
+	{
+		uid: "f0786ea9",
+		type: "item",
+		item: "projecte:relay_mk2"
+	},
+	{
+		uid: "a3deb342",
+		type: "item",
+		item: "nuclearcraft:fuel_curium",
+		count: 27
+	},
+	{
+		uid: "3c25fb57",
+		type: "item",
+		item: "projecte:item.pe_matter 1 1",
+		count: 10
+	},
+	{
+		uid: "172f22e6",
+		type: "item",
+		item: "appliedenergistics2:smooth_sky_stone_block",
+		count: 24
+	}]
+}

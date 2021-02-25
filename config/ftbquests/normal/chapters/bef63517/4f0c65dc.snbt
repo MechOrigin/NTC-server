@@ -1,0 +1,37 @@
+{
+	disable_toast: true,
+	x: 25.0d,
+	y: -10.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"b0498571",
+		"79b15370",
+		"60823680",
+		"98d0e6c5",
+		"e90c11c3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c4033afd",
+		type: "checkmark",
+		title: "Superior Weaponry",
+		icon: "avaritia:skullfire_sword"
+	}],
+	rewards: [{
+		uid: "69d9b032",
+		type: "item",
+		item: "avaritia:skullfire_sword"
+	},
+	{
+		uid: "7d0fd10f",
+		type: "item",
+		item: "avaritia:ultimate_stew",
+		count: 16
+	},
+	{
+		uid: "e07a9906",
+		type: "item",
+		item: "avaritia:resource 1 5",
+		count: 6
+	}]
+}

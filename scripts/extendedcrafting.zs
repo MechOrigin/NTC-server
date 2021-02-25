@@ -1,4 +1,9 @@
-//
+//=============================================================================
+// Extended Crafting
+//=============================================================================
+
+
+//Empowerer stuff to Extended crafting
 mods.extendedcrafting.CombinationCrafting.addRecipe(<extendedcrafting:material>, 10000, 200, <enderio:item_alloy_ingot:9>, [<actuallyadditions:item_crystal:3>,<actuallyadditions:item_crystal:3>,
 <actuallyadditions:item_crystal:3>,<actuallyadditions:item_crystal:3>]);
 
@@ -56,7 +61,7 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <sonarcore:stablestoneblackrimm
 	[<enderio:item_alloy_endergy_ingot:4>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <enderio:item_alloy_endergy_ingot:4>], 
 	[<enderio:item_alloy_endergy_ingot:4>, <enderio:item_alloy_endergy_ingot:4>, <enderio:item_alloy_endergy_ingot:4>, <enderio:item_alloy_endergy_ingot:4>, <enderio:item_alloy_endergy_ingot:4>]
 ]);
-
+// Collector Mk1
 recipes.remove(<projecte:collector_mk1>);
 mods.extendedcrafting.TableCrafting.addShaped(2, <projecte:collector_mk1>, [
 	[<ore:glowstone>, <actuallyadditions:block_testifi_bucks_white_wall>, <actuallyadditions:block_testifi_bucks_white_wall>, <actuallyadditions:block_testifi_bucks_white_wall>, <ore:glowstone>], 
@@ -65,7 +70,7 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <projecte:collector_mk1>, [
 	[<ore:glowstone>, <integrateddynamics:crystalized_chorus_chunk>, <integrateddynamics:crystalized_chorus_chunk>, <integrateddynamics:crystalized_chorus_chunk>, <ore:glowstone>], 
 	[<ore:glowstone>, <ore:glowstone>, <ore:glowstone>, <ore:glowstone>, <ore:glowstone>]
 ]);
-
+// Relay Mk1
 recipes.remove(<projecte:relay_mk1>);
 mods.extendedcrafting.TableCrafting.addShaped(2, <projecte:relay_mk1>, [
 	[<ore:obsidian>, <actuallyadditions:block_testifi_bucks_white_wall>, <actuallyadditions:block_testifi_bucks_white_wall>, <actuallyadditions:block_testifi_bucks_white_wall>, <ore:obsidian>], 
@@ -74,7 +79,7 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <projecte:relay_mk1>, [
 	[<ore:obsidian>, <integrateddynamics:crystalized_chorus_chunk>, <integrateddynamics:crystalized_chorus_chunk>, <integrateddynamics:crystalized_chorus_chunk>, <ore:obsidian>], 
 	[<ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>]
 ]);
-
+// Collector Mk2
 recipes.remove(<projecte:collector_mk2>);
 mods.extendedcrafting.TableCrafting.addShaped(3, <projecte:collector_mk2>, [
 	[<ore:ingotRefinedGlowstone>, <ore:ingotRefinedGlowstone>, <projecte:item.pe_matter>, <projecte:item.pe_matter>, <projecte:item.pe_matter>, <ore:ingotRefinedGlowstone>, <ore:ingotRefinedGlowstone>], 
@@ -85,7 +90,7 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <projecte:collector_mk2>, [
 	[<ore:ingotRefinedGlowstone>, <equivalentenergistics:emc_storage_component>, <equivalentenergistics:emc_storage_component>, <equivalentenergistics:emc_storage_component>, <equivalentenergistics:emc_storage_component>, <equivalentenergistics:emc_storage_component>, <ore:ingotRefinedGlowstone>], 
 	[<ore:ingotRefinedGlowstone>, <ore:ingotRefinedGlowstone>, <ore:ingotRefinedGlowstone>, <ore:ingotRefinedGlowstone>, <ore:ingotRefinedGlowstone>, <ore:ingotRefinedGlowstone>, <ore:ingotRefinedGlowstone>]
 ]);
-
+// Relay Mk2
 recipes.remove(<projecte:relay_mk2>);
 mods.extendedcrafting.TableCrafting.addShaped(3, <projecte:relay_mk2>, [
 	[<ore:ingotRefinedObsidian>, <ore:ingotRefinedObsidian>, <projecte:item.pe_matter>, <projecte:item.pe_matter>, <projecte:item.pe_matter>, <ore:ingotRefinedObsidian>, <ore:ingotRefinedObsidian>], 
@@ -96,8 +101,7 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <projecte:relay_mk2>, [
 	[<ore:ingotRefinedObsidian>, <equivalentenergistics:emc_storage_component>, <equivalentenergistics:emc_storage_component>, <equivalentenergistics:emc_storage_component>, <equivalentenergistics:emc_storage_component>, <equivalentenergistics:emc_storage_component>, <ore:ingotRefinedObsidian>], 
 	[<ore:ingotRefinedObsidian>, <ore:ingotRefinedObsidian>, <ore:ingotRefinedObsidian>, <ore:ingotRefinedObsidian>, <ore:ingotRefinedObsidian>, <ore:ingotRefinedObsidian>, <ore:ingotRefinedObsidian>]
 ]);
-
-
+// Collector Mk3
 recipes.remove(<projecte:collector_mk3>);
 mods.extendedcrafting.TableCrafting.addShaped(4, <projecte:collector_mk3>, [
 	[<projecte:item.pe_klein_star:1>, <projecte:item.pe_klein_star:1>, <projecte:item.pe_matter:1>, <projecte:item.pe_matter:1>, <projecte:item.pe_matter:1>, <projecte:item.pe_matter:1>, <projecte:item.pe_matter:1>, <projecte:item.pe_klein_star:1>, <projecte:item.pe_klein_star:1>], 
@@ -110,8 +114,7 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <projecte:collector_mk3>, [
 	[<projecte:item.pe_klein_star:1>, <ore:dustPyrotheum>, <ore:dustPyrotheum>, <ore:dustPyrotheum>, <ore:dustPyrotheum>, <ore:dustPyrotheum>, <ore:dustPyrotheum>, <ore:dustPyrotheum>, <projecte:item.pe_klein_star:1>], 
 	[<projecte:item.pe_klein_star:1>, <projecte:item.pe_klein_star:1>, <projecte:item.pe_klein_star:1>, <projecte:item.pe_klein_star:1>, <projecte:item.pe_klein_star:1>, <projecte:item.pe_klein_star:1>, <projecte:item.pe_klein_star:1>, <projecte:item.pe_klein_star:1>, <projecte:item.pe_klein_star:1>]
 ]);
-
-//changed to regular obsidian for now
+//Relay Mk3
 recipes.remove(<projecte:relay_mk3>);
 mods.extendedcrafting.TableCrafting.addShaped(4, <projecte:relay_mk3>, [
 	[<nuclearcraft:fuel_curium:0>, <nuclearcraft:fuel_curium:0>, <projecte:item.pe_matter:1>, <projecte:item.pe_matter:1>, <projecte:item.pe_matter:1>, <projecte:item.pe_matter:1>, <projecte:item.pe_matter:1>, <nuclearcraft:fuel_curium:0>, <nuclearcraft:fuel_curium:0>], 
@@ -124,8 +127,7 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <projecte:relay_mk3>, [
 	[<nuclearcraft:fuel_curium:0>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <nuclearcraft:fuel_curium:0>], 
 	[<nuclearcraft:fuel_curium:0>, <nuclearcraft:fuel_curium:0>, <nuclearcraft:fuel_curium:0>, <nuclearcraft:fuel_curium:0>, <nuclearcraft:fuel_curium:0>, <nuclearcraft:fuel_curium:0>, <nuclearcraft:fuel_curium:0>, <nuclearcraft:fuel_curium:0>, <nuclearcraft:fuel_curium:0>]
 ]);
-
-
+// Condenser
 recipes.remove(<equivalentenergistics:emc_condenser>);
 mods.extendedcrafting.TableCrafting.addShaped(2, <equivalentenergistics:emc_condenser>, [
 	[<appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>], 

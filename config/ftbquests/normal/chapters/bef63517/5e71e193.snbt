@@ -14,13 +14,6 @@
 		items: [{
 			item: "biomesoplenty:crystal_shard"
 		}]
-	},
-	{
-		uid: "4e493757",
-		type: "item",
-		items: [{
-			item: "contenttweaker:material_part 1 1"
-		}]
 	}],
 	rewards: [{
 		uid: "efb8e5b2",

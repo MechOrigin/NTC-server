@@ -1,0 +1,59 @@
+{
+	disable_toast: true,
+	x: 24.0d,
+	y: -12.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"b6183c1a",
+		"8a60fec3",
+		"fb6f370c",
+		"6268cfcc",
+		"7b561313",
+		"bb97d730",
+		"9ea9c780",
+		"4f997f72",
+		"973c86b7",
+		"16457a49",
+		"d97de9ec",
+		"f6c7bcb2",
+		"bafabdaf",
+		"00e34c55",
+		"4df0e2c7",
+		"8da58c12",
+		"9c7504cd",
+		"c16c1117"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6547a938",
+		type: "checkmark",
+		title: "Complete ICBM Explosives",
+		icon: {
+			ForgeCaps: {
+				Parent: {
+					explosive: {}
+				}
+			},
+			id: "icbmclassic:missile",
+			Damage: 22s
+		}
+	}],
+	rewards: [{
+		uid: "07c32a22",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "icbmclassic:explosives",
+			Damage: 22s
+		},
+		count: 12
+	},
+	{
+		uid: "715f01d2",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 64
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -22.0d,
+	y: -9.0d,
+	dependencies: [
+		"2ffacf16"
+	],
+	tasks: [{
+		uid: "779d9080",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:nature_seeds"
+		}]
+	}]
+}

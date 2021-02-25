@@ -1,42 +1,23 @@
+//=============================================================================
+// ICBM
+//=============================================================================
 
-
+//remove stuff
 mods.jei.JEI.removeAndHide(<icbmclassic:saltpeter>);
 mods.jei.JEI.removeAndHide(<icbmclassic:explosives:14>); //missingno
 mods.jei.JEI.removeAndHide(<icbmclassic:explosives:20>); //ender
 mods.jei.JEI.removeAndHide(<icbmclassic:explosives:5>); //anvil
 mods.jei.JEI.removeAndHide(<icbmclassic:explosives:19>); //gravity
-//mods.jei.JEI.removeAndHide(<icbmclassic:wire:1>);
-//mods.jei.JEI.removeAndHide(<icbmclassic:wire:0>);
-//mods.jei.JEI.removeAndHide(<icbmclassic:circuit:2>);
-//mods.jei.JEI.removeAndHide(<icbmclassic:circuit:1>);
-//mods.jei.JEI.removeAndHide(<icbmclassic:circuit:0>);
-//mods.jei.JEI.removeAndHide(<icbmclassic:plate:1>);
-//mods.jei.JEI.removeAndHide(<icbmclassic:plate:0>);
-//mods.jei.JEI.removeAndHide(<icbmclassic:clump:0>);
-//mods.jei.JEI.removeAndHide(<icbmclassic:ingot:0>);
-//mods.jei.JEI.removeAndHide(<icbmclassic:ingot:1>);
 mods.jei.JEI.removeAndHide(<icbmclassic:sulfurdust>);
-
-
 
 recipes.remove(<icbmclassic:saltpeter>);
 recipes.remove(<icbmclassic:explosives:14>); //missingno
 recipes.remove(<icbmclassic:explosives:20>); //ender
 recipes.remove(<icbmclassic:explosives:5>); //anvil
 recipes.remove(<icbmclassic:explosives:19>); //gravity
-//recipes.remove(<icbmclassic:wire:1>);
-//recipes.remove(<icbmclassic:wire:0>);
-//recipes.remove(<icbmclassic:circuit:2>);
-//recipes.remove(<icbmclassic:circuit:1>);
-//recipes.remove(<icbmclassic:circuit:0>);
-//recipes.remove(<icbmclassic:plate:1>);
-//recipes.remove(<icbmclassic:plate:0>);
-//recipes.remove(<icbmclassic:clump:0>);
-//recipes.remove(<icbmclassic:ingot:0>);
-//recipes.remove(<icbmclassic:ingot:1>);
 recipes.remove(<icbmclassic:sulfurdust>);
 
-
+//Why...
 <icbmclassic:missile:24>.displayName = "Empty Missile Shell";
 
 //pills

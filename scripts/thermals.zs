@@ -1,3 +1,8 @@
+//=============================================================================
+// Thermal Expansion/Foundation
+//=============================================================================
+
+
 //Steel recipe removal
 mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:iron_ingot>,<thermalfoundation:material:802>);
 mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:iron_ingot>,<thermalfoundation:material:769>*4);
@@ -146,3 +151,25 @@ mods.thermalexpansion.Centrifuge.addRecipe([(<projectex:relay:13> * 1) % 100, (<
 
 // centrifuge - relay Mk14
 mods.thermalexpansion.Centrifuge.addRecipe([(<projectex:relay:14> * 1) % 100, (<projectex:final_star_shard> * 1) % 100], <projectex:relay:15>, null, 2000);
+
+//Thermal Coils
+recipes.remove(<thermalfoundation:material:513>);
+recipes.addShaped(<thermalfoundation:material:513>,[
+[null,null,<immersiveengineering:wirecoil:5>],
+[null,<ore:ingotGold>],
+[<immersiveengineering:wirecoil:5>]
+]);
+
+recipes.remove(<thermalfoundation:material:514>);
+recipes.addShaped(<thermalfoundation:material:514>,[
+[null,null,<immersiveengineering:wirecoil:5>],
+[null,<ore:ingotSilver>],
+[<immersiveengineering:wirecoil:5>]
+]);
+
+recipes.remove(<thermalfoundation:material:515>);
+recipes.addShaped(<thermalfoundation:material:515>,[
+[<immersiveengineering:wirecoil:5>],
+[null,<ore:ingotElectrum>],
+[null,null,<immersiveengineering:wirecoil:5>]
+]);

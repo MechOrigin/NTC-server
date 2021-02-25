@@ -1,0 +1,68 @@
+{
+	disable_toast: true,
+	x: 24.0d,
+	y: -13.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"3db2bfb2",
+		"b1e7b0a6",
+		"b8611b45",
+		"b9899dac",
+		"89ba1a9d",
+		"79119156",
+		"443b0153",
+		"f3d3de1a",
+		"21b1dd7b",
+		"180fc5a4",
+		"56936c9e",
+		"08baf8b4",
+		"3ad44b86",
+		"c7ab9f18",
+		"45bc686f",
+		"11531805",
+		"b8675ab0",
+		"8ca2f17c",
+		"a681ac7e",
+		"0a0b7a74"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9cac8059",
+		type: "checkmark",
+		title: "Complete all Plates Quests",
+		icon: "contenttweaker:material_part 1 1"
+	}],
+	rewards: [{
+		uid: "460abcf2",
+		type: "item",
+		item: {
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 5s
+		}
+	},
+	{
+		uid: "60ca7dfa",
+		type: "item",
+		item: "thermalfoundation:upgrade 1 35"
+	},
+	{
+		uid: "fc1448be",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 24
+	}]
+}

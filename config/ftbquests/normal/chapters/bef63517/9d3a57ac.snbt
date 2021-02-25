@@ -1,6 +1,6 @@
 {
-	x: 5.5d,
-	y: -15.0d,
+	x: 2.5d,
+	y: -21.0d,
 	description: "Process Acorns into either Energy or Items.",
 	text: [
 		"For metal type trees such as copper it processes acorns seeds into nuggets for that type.",

@@ -1,0 +1,28 @@
+{
+	disable_toast: true,
+	x: 25.0d,
+	y: -9.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"85899b2d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "588f5288",
+		type: "checkmark",
+		title: "Fading Matter Complete",
+		icon: "projectex:matter 1 11"
+	}],
+	rewards: [{
+		uid: "8fd63612",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 64
+	},
+	{
+		uid: "06e20886",
+		type: "item",
+		item: "projectex:matter 1 11",
+		count: 8
+	}]
+}

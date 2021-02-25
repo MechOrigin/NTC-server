@@ -1,6 +1,6 @@
 {
-	x: 14.0d,
-	y: 32.0d,
+	x: 36.5d,
+	y: -2.0d,
 	description: "Can even be a 1x1x1 reactor",
 	text: [
 		"Surround the reactor cell with fission reactor casing and put the controller on the multiblock."

@@ -1,7 +1,7 @@
 {
 	title: "ICBM",
-	x: -13.0d,
-	y: 28.0d,
+	x: -18.0d,
+	y: 29.0d,
 	shape: "gear",
 	description: "Nuclear launch detected...",
 	text: [

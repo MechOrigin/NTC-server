@@ -1,6 +1,6 @@
 {
-	x: 15.5d,
-	y: -5.0d,
+	x: 17.0d,
+	y: -4.0d,
 	description: "The Crafting Writer allows you to automatically start crafting jobs based on certain conditions using the recipes that are exposed by Crafting Interfaces.",
 	text: [
 		""

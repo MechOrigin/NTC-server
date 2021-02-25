@@ -1,7 +1,7 @@
 {
 	icon: "compactmachines3:psd 2",
-	x: 17.25d,
-	y: 9.75d,
+	x: 16.5d,
+	y: 8.25d,
 	shape: "circle",
 	description: "Used to navigate the compact machines as well as In Game Documentation. 1 for the projectors and 1 for yourself!",
 	text: [

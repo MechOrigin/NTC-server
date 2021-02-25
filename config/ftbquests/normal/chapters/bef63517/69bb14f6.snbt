@@ -1,6 +1,6 @@
 {
-	x: 11.0d,
-	y: 27.5d,
+	x: 33.0d,
+	y: 4.5d,
 	shape: "gear",
 	description: "Nuclearcraft!",
 	text: [

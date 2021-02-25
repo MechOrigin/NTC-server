@@ -1,6 +1,6 @@
 {
-	x: 16.5d,
-	y: -4.5d,
+	x: 17.0d,
+	y: -3.0d,
 	description: "Early Autocrafting! The Crafting Interface is used to tell the network where and how things can be crafted.",
 	text: [
 		"By pointing a Crafting Interface to a machine (like a Crafting table or Furnace), this interface will be bound to this machine to handle recipes.",

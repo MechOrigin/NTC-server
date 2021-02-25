@@ -1,6 +1,6 @@
 {
-	x: 6.5d,
-	y: -15.0d,
+	x: 4.5d,
+	y: -21.0d,
 	description: "Process Amber into Items.",
 	text: [
 		"For metal type trees such as copper it processes amber into ingots for that type.",

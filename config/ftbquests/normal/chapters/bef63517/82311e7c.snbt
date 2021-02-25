@@ -1,6 +1,6 @@
 {
-	x: 14.0d,
-	y: -3.5d,
+	x: 15.0d,
+	y: -5.0d,
 	description: "Takes energy from a battery or generator and squeezes items. Yay you no longer have to manually squeeze!",
 	dependencies: [
 		"41d47124",

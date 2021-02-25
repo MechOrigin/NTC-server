@@ -1,0 +1,14 @@
+{
+	x: -26.5d,
+	y: -17.5d,
+	dependencies: [
+		"0c8f5a93"
+	],
+	tasks: [{
+		uid: "bb1a0d1a",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:ruby_seeds"
+		}]
+	}]
+}

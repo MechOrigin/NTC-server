@@ -5,8 +5,8 @@
 			dynamicmachine: "modularmachinery:thermonuclear_implosion_generator"
 		}
 	},
-	x: -13.0d,
-	y: 26.0d,
+	x: -18.0d,
+	y: 27.0d,
 	shape: "gear",
 	description: "Generates insane amounts of power",
 	text: [

@@ -1,3 +1,6 @@
+//=============================================================================
+// Mekanism
+//=============================================================================
 
 
 // magnum star ein
@@ -6,8 +9,9 @@ mods.mekanism.combiner.addRecipe(<projecte:item.pe_klein_star:5> * 3, <projecte:
 // colossal star ein
 mods.mekanism.combiner.addRecipe(<projectex:magnum_star_omega> * 3, <projectex:magnum_star_omega>, <projectex:colossal_star_ein>);
 
-
+//remove all
 mods.mekanism.enrichment.removeAllRecipes();
+//add the ones I want
 mods.mekanism.enrichment.addRecipe(<mekanism:plasticblock:11>, <mekanism:slickplasticblock:11>);
 mods.mekanism.enrichment.addRecipe(<mekanism:dirtydust:6>, <contenttweaker:material_part:50>);
 mods.mekanism.enrichment.addRecipe(<mekanism:plasticblock:10>, <mekanism:slickplasticblock:10>);
@@ -121,10 +125,7 @@ mods.mekanism.enrichment.addRecipe(<nuclearcraft:ore:3>, <nuclearcraft:dust:3> *
 mods.mekanism.enrichment.addRecipe(<rftools:dimensional_shard_ore>, <rftools:dimensional_shard> * 4);
 mods.mekanism.enrichment.addRecipe(<actuallyadditions:block_misc:3>, <actuallyadditions:item_misc:5> * 2);
 
-
-
-
-
+//add smelter recipes
 mods.mekanism.smelter.addRecipe(<contenttweaker:material_part:90>, <contenttweaker:material_part:89>);
 mods.mekanism.smelter.addRecipe(<contenttweaker:material_part:138>, <contenttweaker:material_part:137>);
 mods.mekanism.smelter.addRecipe(<contenttweaker:material_part:106>, <contenttweaker:material_part:105>);
@@ -133,3 +134,16 @@ mods.mekanism.smelter.addRecipe(<contenttweaker:material_part:122>, <contenttwea
 mods.mekanism.smelter.addRecipe(<contenttweaker:material_part:130>, <contenttweaker:material_part:129>);
 mods.mekanism.smelter.addRecipe(<contenttweaker:material_part:168>, <contenttweaker:material_part:167>);
 mods.mekanism.smelter.addRecipe(<contenttweaker:material_part:175>, <contenttweaker:material_part:174>);
+
+//sky dust
+mods.mekanism.crusher.addRecipe(<appliedenergistics2:sky_stone_block>, <appliedenergistics2:material:45> * 2);
+//end dust
+mods.mekanism.crusher.addRecipe(<minecraft:end_stone>, <nuclearcraft:gem_dust:11> * 4);
+
+//mekanism stuff
+recipes.remove(<mekanism:machineblock:8>);
+recipes.addShaped(<mekanism:machineblock:8>,[
+[<ore:ingotIron>,<minecraft:furnace>,<ore:ingotIron>],
+[<ore:dustRedstone>,<mekanism:basicblock:8>,<ore:dustRedstone>],
+[<ore:ingotIron>,<minecraft:furnace>,<ore:ingotIron>]
+]);

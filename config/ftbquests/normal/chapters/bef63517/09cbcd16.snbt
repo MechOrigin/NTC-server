@@ -1,6 +1,6 @@
 {
-	x: 31.5d,
-	y: 23.5d,
+	x: 28.5d,
+	y: 19.5d,
 	shape: "gear",
 	description: "Your not done yet",
 	text: [

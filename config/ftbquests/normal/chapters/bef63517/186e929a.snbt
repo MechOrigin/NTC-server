@@ -1,6 +1,6 @@
 {
-	x: 20.0d,
-	y: 24.5d,
+	x: 22.5d,
+	y: 17.0d,
 	description: "Can only get to beneath from overworld.",
 	text: [
 		""

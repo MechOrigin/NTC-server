@@ -1,0 +1,28 @@
+{
+	disable_toast: true,
+	x: 25.0d,
+	y: -8.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"164b9088"
+	],
+	hide: true,
+	tasks: [{
+		uid: "45b81712",
+		type: "checkmark",
+		title: "Neutronium Collector Quest Complete",
+		icon: "avaritia:neutron_collector"
+	}],
+	rewards: [{
+		uid: "9b0838f1",
+		type: "item",
+		item: "avaritia:resource 1 1",
+		count: 7
+	},
+	{
+		uid: "2f4b2b48",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 32
+	}]
+}

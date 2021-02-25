@@ -1,6 +1,6 @@
 {
-	x: 26.0d,
-	y: 15.0d,
+	x: 33.5d,
+	y: 13.0d,
 	shape: "gear",
 	description: "when compact machines and ME networks converge",
 	text: [

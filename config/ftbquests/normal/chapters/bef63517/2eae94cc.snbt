@@ -1,6 +1,6 @@
 {
-	x: 34.0d,
-	y: 15.5d,
+	x: 37.0d,
+	y: 14.0d,
 	description: "Can charge those Certus Quartz. Requires machine frame.",
 	hide_dependency_lines: true,
 	dependencies: [

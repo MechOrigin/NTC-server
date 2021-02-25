@@ -1,6 +1,6 @@
 {
-	x: 21.5d,
-	y: 6.5d,
+	x: 19.5d,
+	y: 6.0d,
 	description: "Thermal Expansion",
 	text: [
 		""

@@ -1,7 +1,7 @@
 {
 	title: "Menril/Chorus and Integrated Dynamics",
 	x: 6.0d,
-	y: -2.0d,
+	y: -3.0d,
 	shape: "gear",
 	text: [
 		"Entry into Integrated Dynamics"

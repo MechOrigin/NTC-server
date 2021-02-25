@@ -1,0 +1,31 @@
+{
+    "machine": "advanced_miniaturization_chamber",
+    "registryName": "advanced_miniaturization_chamber_steelcasing",
+    "recipeTime": 100,
+    "requirements": [
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "enderio:block_alloy@0",
+            "amount": 62
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "enderio:block_alloy@6",
+            "amount": 36
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "plustic:osmiridiumingot",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "mekanism:basicblock@8",
+            "amount": 1
+        }
+    ]
+}

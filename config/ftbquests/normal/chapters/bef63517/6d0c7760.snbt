@@ -1,6 +1,6 @@
 {
 	x: 30.5d,
-	y: 20.5d,
+	y: 17.5d,
 	description: "Grow crystals in a machine instead of the world",
 	dependencies: [
 		"fd0779a8"

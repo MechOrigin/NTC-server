@@ -1,3 +1,7 @@
+//=============================================================================
+// Mystical Agriculture
+//=============================================================================
+
 
 //////////
 // tier 1 to 2 gated by extended crafting tier 1 //
@@ -266,3 +270,23 @@ recipes.addShaped(<contenttweaker:material_part:57> * 8,[
 	[<mysticalagriculture:aluminum_essence>, null, <mysticalagriculture:aluminum_essence>], 
 	[<mysticalagriculture:aluminum_essence>, <mysticalagriculture:aluminum_essence>, <mysticalagriculture:aluminum_essence>]
 ]);
+
+// §eInferium Fertilization Core
+recipes.remove(<mysticalagriculture:crafting:50>);
+recipes.addShaped(<mysticalagriculture:crafting:50> * 1, [[<mysticalagriculture:crafting:0>, <minecraft:gold_ingot>, <mysticalagriculture:crafting:0>], [<minecraft:dye:15>, <mysticalagriculture:crafting:32>, <minecraft:dye:15>],[<mysticalagriculture:crafting:0>, <minecraft:dye:15>, <mysticalagriculture:crafting:0>]]);
+
+// §aPrudentium Fertilization Core
+recipes.remove(<mysticalagriculture:crafting:51>);
+recipes.addShaped(<mysticalagriculture:crafting:51> * 1, [[<mysticalagriculture:crafting:1>, <minecraft:lapis_block>, <mysticalagriculture:crafting:1>], [<minecraft:dye:15>, <mysticalagriculture:crafting:50>, <minecraft:dye:15>],[<mysticalagriculture:crafting:1>, <minecraft:dye:15>, <mysticalagriculture:crafting:1>]]);
+
+// §6Intermedium Fertilization Core
+recipes.remove(<mysticalagriculture:crafting:52>);
+recipes.addShaped(<mysticalagriculture:crafting:52> * 1, [[<mysticalagriculture:crafting:2>, <minecraft:gold_block>, <mysticalagriculture:crafting:2>], [<minecraft:dye:15>, <mysticalagriculture:crafting:51>, <minecraft:dye:15>],[<mysticalagriculture:crafting:2>, <minecraft:dye:15>, <mysticalagriculture:crafting:2>]]);
+
+// §bSuperium Fertilization Core
+recipes.remove(<mysticalagriculture:crafting:53>);
+recipes.addShaped(<mysticalagriculture:crafting:53> * 1, [[<mysticalagriculture:crafting:3>, <minecraft:diamond_block>, <mysticalagriculture:crafting:3>], [<minecraft:dye:15>, <mysticalagriculture:crafting:52>, <minecraft:dye:15>],[<mysticalagriculture:crafting:3>, <minecraft:dye:15>, <mysticalagriculture:crafting:3>]]);
+
+// §cSupremium Fertilization Core
+recipes.remove(<mysticalagriculture:crafting:54>);
+recipes.addShaped(<mysticalagriculture:crafting:54> * 1, [[<mysticalagriculture:crafting:4>, <minecraft:nether_star>, <mysticalagriculture:crafting:4>], [<minecraft:dye:15>, <mysticalagriculture:crafting:53>, <minecraft:dye:15>],[<mysticalagriculture:crafting:4>, <minecraft:dye:15>, <mysticalagriculture:crafting:4>]]);

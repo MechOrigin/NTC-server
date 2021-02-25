@@ -1,6 +1,6 @@
 {
-	x: 25.5d,
-	y: 9.5d,
+	x: 30.5d,
+	y: 9.0d,
 	description: "Performs the in-world fluix crystal crafting operation",
 	text: [
 		""

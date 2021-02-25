@@ -1,0 +1,18 @@
+{
+	x: 16.0d,
+	y: 1.5d,
+	description: "This just shows crafting jobs currently running.",
+	text: [
+		""
+	],
+	dependencies: [
+		"419e85d7"
+	],
+	tasks: [{
+		uid: "72386a7b",
+		type: "item",
+		items: [{
+			item: "integratedterminals:part_terminal_crafting_job_item"
+		}]
+	}]
+}

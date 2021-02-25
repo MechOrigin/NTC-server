@@ -50,5 +50,10 @@
 		items: [{
 			item: "extendedcrafting:material 1 32"
 		}]
+	}],
+	rewards: [{
+		uid: "d4f17d0a",
+		type: "item",
+		item: "extendedcrafting:material 1 32"
 	}]
 }

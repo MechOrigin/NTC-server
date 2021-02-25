@@ -1,31 +1,30 @@
-Modular machines:
-    -added recipes for all the hatches up to ultimate
-    -changed energy transfer and storage rates
-    Changed arboreal reprocessor acorn processing TO ENERGY from from 10ticks to 100ticks
+Moartinkers:
+removed lumium from moartinkers and kept plustic lumium
 
-    Added Ender Dragon Incubator
-    -center is 13x13x13 compact machine, frame is stellar alloy and (modular)machine casings
-    -input: dragon egg, 4 ender crystals
-    -output: solidxp, (mysticalagri)scales, insanium, power
+FTBQuests:
+Added Mekanism heat generator -> Water wheels -> Gas-Burning generator to ftb quests
+Added tons of quests and configured the way they are positioned.
+Added a Quest Rewards area to reveal "hidden" rewards.
 
-    Added Thermonuclear Implosion Generator (eats icbm turns to power)
-    -center is 13x13x13 compact machine, frame is reinforced obsidian and (modular) reinforced machine casings
-    -input: condensed, incindiary, breaching, thermobaric, exothermic, nuclear, antimatter, red matter
-    -output: energy! 2,000,000 RF, 4,000,000 RF, 8,000,000 RF, 16,000,000, 32,000,000, 64,0000,000, 128,000,000, 256,000,000
+Modular Machines:
+Finally the wait is over! After much deliberation with the modpack ownder of Chambers, he's decided not to add modded compact machine recipes to his mod.
+Thus, added Advanced Compact Machine Chamber, added all modded compact machine recipes.
 
-FTBUtil:
-Added tpa and tpl back in for a more friendly multiplayer experience
+Mekanism:
+Added skystone and endstone to crusher
 
-Industrial foregoing:
-Added celestial crystals to laser drill
+Enderio:
+Added skystone and endstone to sag mill
 
-Thermal:
-Added pulverizer recipe for dragon scales, outputs celestial crystal and 25% chance ender amethyst 
+Immersive Engineering:
+Added skystone and endstone to crusher
 
--updated collective
--updated randomtweaks
--updated zawa
--updated advancedrocketry
--updated chambers
--updated xaeros maps
--updated crafttweaker
+trashcans:
+replaced the mod that I had with a better one. Now has energy, and ultimate trash can.
+
+
+-updated PackagedExCrafting
+-updated PackagedAvaritia
+-updated PackagedAuto
+-updated Corail Tombstone
+-updated Collective

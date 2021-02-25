@@ -1,8 +1,8 @@
 {
 	title: "Ready for some convenience?!",
 	icon: "thermalfoundation:coin 64 103",
-	x: 29.0d,
-	y: 34.0d,
+	x: 28.5d,
+	y: 28.0d,
 	description: "The fridge comes stocked with food and the clothing store is comfortably modern and a reliable gettaway from the hussle.",
 	text: [
 		""

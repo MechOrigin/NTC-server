@@ -1,7 +1,7 @@
 {
 	title: "The most basic saplings",
-	x: 2.5d,
-	y: -7.5d,
+	x: 3.0d,
+	y: -9.5d,
 	shape: "gear",
 	description: "Jungle and Oak trees provide a little EMC bonus with apples and cocoa beans",
 	text: [

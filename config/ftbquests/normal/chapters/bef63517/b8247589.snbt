@@ -1,6 +1,6 @@
 {
 	title: "Crooks increase drop chance from Leaves. Use them!",
-	x: 3.5d,
+	x: 3.0d,
 	y: -5.5d,
 	dependencies: [
 		"06e220db"

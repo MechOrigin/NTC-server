@@ -1,5 +1,5 @@
 {
-	x: 17.5d,
+	x: 18.0d,
 	y: -6.0d,
 	description: "Magma block and basin together makes Netherack. Or grow some trees. But this way is more efficient.",
 	dependencies: [

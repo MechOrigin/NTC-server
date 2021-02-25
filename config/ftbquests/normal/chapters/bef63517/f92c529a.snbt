@@ -1,6 +1,6 @@
 {
-	x: 19.5d,
-	y: 32.5d,
+	x: 10.0d,
+	y: 29.5d,
 	description: "Requires Machine Structure",
 	text: [
 		""

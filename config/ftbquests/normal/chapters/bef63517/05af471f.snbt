@@ -1,0 +1,14 @@
+{
+	x: -26.5d,
+	y: -15.5d,
+	dependencies: [
+		"0c8f5a93"
+	],
+	tasks: [{
+		uid: "c94c3ea1",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:electrum_seeds"
+		}]
+	}]
+}

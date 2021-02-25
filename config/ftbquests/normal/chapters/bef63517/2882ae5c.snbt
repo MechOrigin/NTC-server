@@ -1,6 +1,6 @@
 {
-	x: 23.0d,
-	y: 12.5d,
+	x: 29.5d,
+	y: 11.5d,
 	description: "Maintains a quantity of certain items in an ME network by requesting autocrafting when needed",
 	text: [
 		""

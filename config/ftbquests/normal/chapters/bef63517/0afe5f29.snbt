@@ -1,6 +1,6 @@
 {
-	x: 24.5d,
-	y: 10.5d,
+	x: 29.5d,
+	y: 9.5d,
 	description: "Performs the in-world crystal seed growing operation",
 	text: [
 		""

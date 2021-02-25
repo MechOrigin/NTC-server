@@ -1,6 +1,6 @@
 {
-	x: -11.5d,
-	y: -11.0d,
+	x: -18.5d,
+	y: -9.5d,
 	shape: "gear",
 	description: "Liquids can be transfered to and from with conduits, ducts and cables.",
 	text: [

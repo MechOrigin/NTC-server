@@ -1,6 +1,6 @@
 {
-	x: 15.5d,
-	y: -7.5d,
+	x: 14.0d,
+	y: -9.0d,
 	description: "Can melt other things into fluids too but can make lava.",
 	text: [
 		""

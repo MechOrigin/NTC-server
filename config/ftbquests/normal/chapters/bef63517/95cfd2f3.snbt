@@ -1,0 +1,34 @@
+{
+	x: -6.0d,
+	y: 30.0d,
+	description: "There's a way to go back! Centrifuge can separate out all the parts of the bonsai flowers",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4d9d82f2"
+	],
+	tasks: [{
+		uid: "7ec22d56",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 10s
+		}]
+	}]
+}

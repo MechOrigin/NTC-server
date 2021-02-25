@@ -1,0 +1,14 @@
+{
+	x: -22.0d,
+	y: -6.0d,
+	dependencies: [
+		"2ffacf16"
+	],
+	tasks: [{
+		uid: "a7bbb901",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:stone_seeds"
+		}]
+	}]
+}

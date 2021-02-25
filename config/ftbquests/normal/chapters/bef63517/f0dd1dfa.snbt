@@ -1,0 +1,31 @@
+{
+	icon: "equivalentintegrations:transmutation_chamber",
+	disable_toast: true,
+	x: 22.0d,
+	y: -7.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"4486c9ef",
+		"80c21d10",
+		"3f39aa22",
+		"c69d40f3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "59110367",
+		type: "checkmark",
+		title: "Transmutation Automation"
+	}],
+	rewards: [{
+		uid: "77e92c76",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 16
+	},
+	{
+		uid: "2e2a7b57",
+		type: "item",
+		item: "projecte:item.pe_matter 1 1",
+		count: 2
+	}]
+}

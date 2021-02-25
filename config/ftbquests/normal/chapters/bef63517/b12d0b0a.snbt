@@ -1,6 +1,6 @@
 {
 	x: 12.0d,
-	y: -4.5d,
+	y: -5.0d,
 	description: "Takes energy from a battery or generator. Can handle hot liquids such as Lava. Way more useful!",
 	dependencies: [
 		"ef7c6c40",

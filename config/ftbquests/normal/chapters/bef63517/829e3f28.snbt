@@ -1,6 +1,6 @@
 {
-	x: 6.0d,
-	y: -14.0d,
+	x: 3.5d,
+	y: -20.0d,
 	shape: "gear",
 	description: "Modular Machines! Requires 22 Blocks of Steel and 1 Material StoneWork Factory",
 	text: [

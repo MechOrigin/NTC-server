@@ -1,0 +1,31 @@
+{
+	title: "Advanced Miniaturization Chamber",
+	x: 23.0d,
+	y: 6.0d,
+	shape: "gear",
+	description: "Creates all modded compact machine recipes.",
+	text: [
+		""
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "0957ab8b",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:advanced_miniaturization_chamber"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "7bb61491",
+		type: "item",
+		item: {
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:advanced_miniaturization_chamber"
+			}
+		}
+	}]
+}

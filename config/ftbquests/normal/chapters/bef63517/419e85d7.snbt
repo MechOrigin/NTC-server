@@ -1,0 +1,18 @@
+{
+	x: 16.0d,
+	y: 0.0d,
+	description: "Like an ME terminal, this can look at inventory, power, fluids and crafting jobs.",
+	text: [
+		""
+	],
+	dependencies: [
+		"c6bed9e4"
+	],
+	tasks: [{
+		uid: "0fa4cf6f",
+		type: "item",
+		items: [{
+			item: "integratedterminals:part_terminal_storage_item"
+		}]
+	}]
+}

@@ -1,6 +1,6 @@
 {
-	x: 28.0d,
-	y: 16.0d,
+	x: 34.5d,
+	y: 14.0d,
 	shape: "gear",
 	description: "There's a couple options",
 	text: [

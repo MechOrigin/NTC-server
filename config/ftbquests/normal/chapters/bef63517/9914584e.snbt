@@ -1,6 +1,6 @@
 {
-	x: -7.0d,
-	y: -10.5d,
+	x: -10.5d,
+	y: -17.5d,
 	shape: "gear",
 	description: "Items can be transfered to and from with conduits, ducts and cables.",
 	text: [

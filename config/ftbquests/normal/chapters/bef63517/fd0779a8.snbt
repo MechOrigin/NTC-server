@@ -1,7 +1,7 @@
 {
 	title: "Entry to Applied Energistics",
 	x: 31.5d,
-	y: 18.5d,
+	y: 16.5d,
 	shape: "gear",
 	hide_dependency_lines: true,
 	dependencies: [

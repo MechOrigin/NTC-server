@@ -1,6 +1,6 @@
 {
-	x: -14.5d,
-	y: 26.5d,
+	x: -19.5d,
+	y: 27.5d,
 	description: "Your first missile!",
 	text: [
 		""

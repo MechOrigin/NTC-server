@@ -1,6 +1,6 @@
 {
-	x: 11.0d,
-	y: 43.0d,
+	x: 48.5d,
+	y: -3.5d,
 	shape: "hexagon",
 	description: "Prerequisite for Anti-Matter Relay Mk3",
 	text: [

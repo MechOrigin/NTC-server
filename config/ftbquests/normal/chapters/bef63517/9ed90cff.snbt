@@ -1,8 +1,8 @@
 {
 	title: "Requires Ender Crafter",
 	icon: "extendedcrafting:ender_crafter",
-	x: 35.5d,
-	y: 27.5d,
+	x: 34.5d,
+	y: 23.5d,
 	shape: "gear",
 	text: [
 		""

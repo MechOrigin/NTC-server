@@ -1,6 +1,6 @@
 {
-	x: 25.5d,
-	y: 12.0d,
+	x: 30.5d,
+	y: 11.5d,
 	shape: "gear",
 	text: [
 		"Mass Assembly Chamber Multiblock:",

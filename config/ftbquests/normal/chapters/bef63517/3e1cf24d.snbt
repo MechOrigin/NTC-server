@@ -10,5 +10,16 @@
 		items: [{
 			item: "denseneutroncollectors:triple_compressed_neutron_collector"
 		}]
+	}],
+	rewards: [{
+		uid: "25483d6f",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 64
+	},
+	{
+		uid: "79e7942c",
+		type: "item",
+		item: "denseneutroncollectors:triple_compressed_neutron_collector"
 	}]
 }

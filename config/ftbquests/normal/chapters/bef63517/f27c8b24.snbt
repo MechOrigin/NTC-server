@@ -1,7 +1,7 @@
 {
 	disable_toast: true,
-	x: 22.0d,
-	y: -14.0d,
+	x: 22.5d,
+	y: -16.0d,
 	hide_dependency_lines: true,
 	dependencies: [
 		"b23a29af",
@@ -13,7 +13,6 @@
 		"2149ca87",
 		"db71bd1f"
 	],
-	hide: true,
 	tasks: [{
 		uid: "d6808f2b",
 		type: "checkmark",

@@ -1,0 +1,17 @@
+{
+	x: -9.0d,
+	y: -17.5d,
+	dependencies: [
+		"b157b1f5"
+	],
+	tasks: [{
+		uid: "77b567ff",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 3
+			}
+		}]
+	}]
+}

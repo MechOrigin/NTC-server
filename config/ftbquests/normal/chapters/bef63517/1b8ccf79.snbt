@@ -1,0 +1,28 @@
+{
+	disable_toast: true,
+	x: 21.0d,
+	y: -9.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"3a335331",
+		"c4e17f52",
+		"5c57afc3",
+		"837a909c",
+		"cd5a7e8c",
+		"38ce7766",
+		"6e94fccf"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4791ebe4",
+		type: "checkmark",
+		title: "I'm Blue, if I were green I would die.",
+		icon: "inspirations:mulch 1 7"
+	}],
+	rewards: [{
+		uid: "8bb6706a",
+		type: "item",
+		item: "inspirations:mulch 1 7",
+		count: 10
+	}]
+}

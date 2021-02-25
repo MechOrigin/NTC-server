@@ -1,0 +1,50 @@
+{
+	title: "You're really lazy...",
+	icon: "threng:material",
+	disable_toast: true,
+	x: 24.0d,
+	y: -9.0d,
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"747b57fb",
+		"6d5d3e5c",
+		"9aff9c9d",
+		"f1ad0c29",
+		"b8e574c0",
+		"04cbec9d",
+		"0afe5f29",
+		"85d3ef3a",
+		"d063018e",
+		"2882ae5c",
+		"56afdfb0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4dde9b45",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "d75ce86a",
+		type: "item",
+		item: "threng:material 1 14"
+	},
+	{
+		uid: "a7841a1c",
+		type: "item",
+		item: "threng:material 1 6"
+	},
+	{
+		uid: "5a331698",
+		type: "item",
+		item: "threng:material 1 13"
+	},
+	{
+		uid: "50268fab",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 16
+	}]
+}

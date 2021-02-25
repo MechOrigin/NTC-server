@@ -1,5 +1,5 @@
 {
-	x: 26.5d,
+	x: 31.5d,
 	y: 8.5d,
 	description: "Alternative to the ME interface that dispatches crafting operations eagerly",
 	text: [

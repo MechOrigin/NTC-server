@@ -1,5 +1,10 @@
 import mods.nuclearcraft.ingot_former;
 
+//=============================================================================
+// NuclearCraft
+//=============================================================================
+
+//remove all rock crusher recipes
 mods.nuclearcraft.rock_crusher.removeAllRecipes();
 
 //remember to use underscore versions of crafttweaker nuclearcraft recipes Note: DONT USE mods.nuclearcraft.IngotFormer etc..

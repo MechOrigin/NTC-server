@@ -1,0 +1,14 @@
+{
+	x: -25.0d,
+	y: -12.5d,
+	dependencies: [
+		"8c739773"
+	],
+	tasks: [{
+		uid: "13a17dac",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:spider_seeds"
+		}]
+	}]
+}

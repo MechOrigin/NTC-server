@@ -1,6 +1,11 @@
 import mods.integrateddynamics.DryingBasin;
 import mods.integrateddynamics.MechanicalDryingBasin;
 
+//=============================================================================
+// Integrated Dynamics
+//=============================================================================
+
+
 //Slimy Dirt
 DryingBasin.addRecipe(<tconstruct:soil:1>, null, <tconstruct:slime_dirt>, null);
 DryingBasin.addRecipe(<tconstruct:soil:2>, null, <tconstruct:slime_dirt:1>, null);

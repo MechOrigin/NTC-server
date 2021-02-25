@@ -1,8 +1,8 @@
 {
 	title: "Capsule Corp Buildings",
 	icon: "thermalfoundation:coin 64 103",
-	x: 30.0d,
-	y: 33.5d,
+	x: 29.5d,
+	y: 27.5d,
 	description: "Bring your lab, greenhouse, and factory with you!",
 	text: [
 		""

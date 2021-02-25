@@ -1,0 +1,14 @@
+{
+	x: -26.5d,
+	y: -28.5d,
+	dependencies: [
+		"0c8f5a93"
+	],
+	tasks: [{
+		uid: "4f13bd8b",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:soularium_seeds"
+		}]
+	}]
+}

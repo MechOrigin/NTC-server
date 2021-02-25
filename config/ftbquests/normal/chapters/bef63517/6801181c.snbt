@@ -20,5 +20,10 @@
 		type: "item",
 		item: "actuallyadditions:item_solidified_experience",
 		count: 5
+	},
+	{
+		uid: "ca9dd23a",
+		type: "item",
+		item: "rftools:smartwrench"
 	}]
 }

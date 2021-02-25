@@ -1,6 +1,9 @@
-//This is how you get the blaze, Blizz, Blitz, Basalz drops now
-//you may also create a dimension and find a spawn of one somewhere and catch it with a ball/vial
-//and then make a spawner
+//=============================================================================
+// Tinkers Construct
+//=============================================================================
+
+
+//Crafting recipes for blaze, Blizz, Blitz, Basalz
 mods.tconstruct.Casting.addTableRecipe(<minecraft:blaze_powder>, <ore:dustSulfur>, <liquid:experience>, 160, true, 100);
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:2049>, <minecraft:snowball>, <liquid:experience>, 160, true, 100);
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:2051>, <ore:dustSaltpeter>, <liquid:experience>, 160, true, 100);
@@ -11,7 +14,7 @@ mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:2049>, <minec
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:2051>, <ore:dustSaltpeter>, <liquid:xpjuice>, 160, true, 100);
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:2053>, <ore:dustObsidian>, <liquid:xpjuice>, 160, true, 100);
 
-//this is how end stone is made now because the end is void dimension now (empty)
+//End stone recipe
 mods.tconstruct.Casting.addBasinRecipe(<minecraft:end_stone>, <minecraft:sandstone>, <liquid:ender>, 500, true, 200);
 //this is how you get black quartz
 mods.tconstruct.Casting.addTableRecipe(<actuallyadditions:item_misc:5>, <minecraft:quartz>, <liquid:petrotheum>, 500, true, 100);
@@ -42,7 +45,6 @@ mods.tconstruct.Alloy.removeRecipe(<liquid:steel>);
 mods.tconstruct.Melting.addRecipe(<liquid:celestial_crystal> * 16, <biomesoplenty:crystal_shard>, 360);
 mods.tconstruct.Melting.addRecipe(<liquid:celestial_crystal> * 144, <contenttweaker:material_part:3>, 360);
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:material_part:3>, <tconstruct:cast_custom>, <liquid:celestial_crystal>, 144);
-
 
 mods.tconstruct.Melting.addRecipe(<liquid:ender> * 250, <minecraft:ender_pearl>, 360);
 mods.tconstruct.Melting.addRecipe(<liquid:redstone> * 100, <minecraft:redstone>);
@@ -81,3 +83,50 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <tconstruct:materials:50>, [
 
 //pink slime balls to liquid (250mB same as purple slime balls)
 mods.tconstruct.Melting.addRecipe(<liquid:if.pink_slime> * 250, <industrialforegoing:pink_slime>, 360);
+
+//slime grass
+recipes.addShaped(<tconstruct:slime_grass:1>,[
+[null,<tconstruct:edible:1>],
+[<tconstruct:edible:1>,<tconstruct:slime_dirt>,<tconstruct:edible:1>],
+[null,<tconstruct:edible:1>]
+]);
+recipes.addShaped(<tconstruct:slime_grass:2>,[
+[null,<tconstruct:edible:1>],
+[<tconstruct:edible:1>,<tconstruct:slime_dirt:1>,<tconstruct:edible:1>],
+[null,<tconstruct:edible:1>]
+]);
+recipes.addShaped(<tconstruct:slime_grass:4>,[
+[null,<tconstruct:edible:1>],
+[<tconstruct:edible:1>,<tconstruct:slime_dirt:3>,<tconstruct:edible:1>],
+[null,<tconstruct:edible:1>]
+]);
+recipes.addShaped(<tconstruct:slime_grass:6>,[
+[null,<tconstruct:edible:2>],
+[<tconstruct:edible:2>,<tconstruct:slime_dirt>,<tconstruct:edible:2>],
+[null,<tconstruct:edible:2>]
+]);
+recipes.addShaped(<tconstruct:slime_grass:7>,[
+[null,<tconstruct:edible:2>],
+[<tconstruct:edible:2>,<tconstruct:slime_dirt:1>,<tconstruct:edible:2>],
+[null,<tconstruct:edible:2>]
+]);
+recipes.addShaped(<tconstruct:slime_grass:9>,[
+[null,<tconstruct:edible:2>],
+[<tconstruct:edible:2>,<tconstruct:slime_dirt:3>,<tconstruct:edible:2>],
+[null,<tconstruct:edible:2>]
+]);
+recipes.addShaped(<tconstruct:slime_grass:11>,[
+[null,<tconstruct:edible:4>],
+[<tconstruct:edible:4>,<tconstruct:slime_dirt>,<tconstruct:edible:4>],
+[null,<tconstruct:edible:4>]
+]);
+recipes.addShaped(<tconstruct:slime_grass:12>,[
+[null,<tconstruct:edible:4>],
+[<tconstruct:edible:4>,<tconstruct:slime_dirt:1>,<tconstruct:edible:4>],
+[null,<tconstruct:edible:4>]
+]);
+recipes.addShaped(<tconstruct:slime_grass:14>,[
+[null,<tconstruct:edible:4>],
+[<tconstruct:edible:4>,<tconstruct:slime_dirt:3>,<tconstruct:edible:4>],
+[null,<tconstruct:edible:4>]
+]);

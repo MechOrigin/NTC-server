@@ -1,6 +1,6 @@
 {
-	x: 31.5d,
-	y: 27.0d,
+	x: 30.5d,
+	y: 23.0d,
 	description: "Requires Simple Machine Chassis quest",
 	text: [
 		""

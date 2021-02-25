@@ -1,0 +1,14 @@
+{
+	x: -26.5d,
+	y: -19.5d,
+	dependencies: [
+		"0c8f5a93"
+	],
+	tasks: [{
+		uid: "b092186a",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:peridot_seeds"
+		}]
+	}]
+}

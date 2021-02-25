@@ -1,6 +1,6 @@
 {
-	x: 23.5d,
-	y: 11.5d,
+	x: 29.0d,
+	y: 10.5d,
 	description: "Etches circuits without needing to waste time pressing the components",
 	text: [
 		""

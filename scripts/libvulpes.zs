@@ -1,4 +1,9 @@
-//libvulpes causes so many problems..
+//=============================================================================
+// LibVulpes Needs A Scriptpage of it's own
+//=============================================================================
+
+
+//libvulpes causes so many problems.. uhg
 
 recipes.remove(<libvulpes:productdust:0>);
 recipes.remove(<libvulpes:productdust:1>);

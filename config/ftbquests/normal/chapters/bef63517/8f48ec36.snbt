@@ -1,7 +1,7 @@
 {
 	title: "Flux Networks",
-	x: -6.0d,
-	y: -11.5d,
+	x: -7.5d,
+	y: -13.0d,
 	dependencies: [
 		"06dcb38a"
 	],
