@@ -27,5 +27,10 @@
 		type: "item",
 		item: "mysticalagradditions:insanium 1 1",
 		count: 10
+	},
+	{
+		uid: "de010659",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
 	}]
 }

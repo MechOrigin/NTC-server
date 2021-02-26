@@ -37,5 +37,10 @@
 		type: "item",
 		item: "mysticalagriculture:crafting 1 21",
 		count: 32
+	},
+	{
+		uid: "9be62896",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
 	}]
 }

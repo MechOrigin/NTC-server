@@ -74,5 +74,10 @@
 		type: "item",
 		item: "appliedenergistics2:smooth_sky_stone_block",
 		count: 24
+	},
+	{
+		uid: "518e544e",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
 	}]
 }

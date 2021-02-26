@@ -29,5 +29,10 @@
 		type: "item",
 		item: "extendedcrafting:material",
 		count: 24
+	},
+	{
+		uid: "7fc8212d",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
 	}]
 }

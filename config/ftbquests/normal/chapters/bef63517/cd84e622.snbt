@@ -1,0 +1,21 @@
+{
+	disable_toast: true,
+	x: 23.0d,
+	y: -14.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"726edd64"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4b38c5c3",
+		type: "checkmark",
+		title: "FTB Coin Miner",
+		icon: "ftb_beast_coin_miner:beast_coin_miner"
+	}],
+	rewards: [{
+		uid: "1dc91125",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	}]
+}

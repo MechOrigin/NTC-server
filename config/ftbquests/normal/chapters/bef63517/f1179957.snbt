@@ -62,5 +62,10 @@
 		type: "item",
 		item: "mekanism:ingot",
 		count: 21
+	},
+	{
+		uid: "c177918e",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
 	}]
 }

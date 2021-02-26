@@ -4,7 +4,22 @@
 	shape: "gear",
 	description: "Modular Machines! Requires 22 Blocks of Steel and 1 Material StoneWork Factory",
 	text: [
-		""
+		"Two modes available for acorns. Item output or energy output. ",
+		"",
+		"Acorn:",
+		"Cost: 4000FE total / operation",
+		"Item production: 1 acorn = 1 nugget (for any block types like sand it's just 1 sand) ",
+		"OR",
+		"Energy production: 750FE x 10 ticks = 7500FE total * stack of acorns(64) = 480,000FE total",
+		"",
+		"Amber:",
+		"Cost energy: 8000FE total / operation",
+		"1 amber = 1 ingot and 8 amber(BOP amber 16,384EMC)",
+		"No power production available.",
+		"",
+		"Can process all acorns into nuggets/or blocks if sand/dirt/etc OR power (swap item output with energy output)",
+		"",
+		"Can process all amber into BOP amber and ingots (no power)"
 	],
 	tasks: [{
 		uid: "26bbd50a",

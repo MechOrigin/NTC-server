@@ -25,5 +25,10 @@
 		type: "item",
 		item: "thermalfoundation:material 1 2050",
 		count: 8
+	},
+	{
+		uid: "3a2bed1e",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
 	}]
 }

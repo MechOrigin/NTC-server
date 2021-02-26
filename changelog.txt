@@ -1,30 +1,16 @@
-Moartinkers:
-removed lumium from moartinkers and kept plustic lumium
+Added FTB money
+Added FTB beast coin miner
+
+SHOPS: very beta... will update server with more stuff as time goes on.
 
 FTBQuests:
-Added Mekanism heat generator -> Water wheels -> Gas-Burning generator to ftb quests
-Added tons of quests and configured the way they are positioned.
-Added a Quest Rewards area to reveal "hidden" rewards.
+Fixed some modular machines quests requiring the blueprint. Oops.
+Added some text to quests and FTB coin rewards.
 
-Modular Machines:
-Finally the wait is over! After much deliberation with the modpack ownder of Chambers, he's decided not to add modded compact machine recipes to his mod.
-Thus, added Advanced Compact Machine Chamber, added all modded compact machine recipes.
+Changed a ton of Plustic/moar tinkers integration.
 
-Mekanism:
-Added skystone and endstone to crusher
+Changed Applied energistics to display RF instead of AE
 
-Enderio:
-Added skystone and endstone to sag mill
+Added Neutron Fluid to tconstruct.
 
-Immersive Engineering:
-Added skystone and endstone to crusher
-
-trashcans:
-replaced the mod that I had with a better one. Now has energy, and ultimate trash can.
-
-
--updated PackagedExCrafting
--updated PackagedAvaritia
--updated PackagedAuto
--updated Corail Tombstone
--updated Collective
+-updated Chambers

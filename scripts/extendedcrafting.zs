@@ -2,6 +2,18 @@
 // Extended Crafting
 //=============================================================================
 
+//ftb coin miner
+mods.extendedcrafting.TableCrafting.addShaped(4, <ftb_beast_coin_miner:beast_coin_miner>, [
+	[<extendedcrafting:material:40>, <enderio:item_capacitor_stellar>, <immersivecables:coil_block:2>, <immersivecables:coil_block:2>, <ore:plateEnderium>, <immersivecables:coil_block:2>, <immersivecables:coil_block:2>, <enderio:item_capacitor_stellar>, <extendedcrafting:material:40>], 
+	[<enderio:item_capacitor_stellar>, <extendedcrafting:material:40>, <enderio:item_capacitor_totemic>, <ore:compressed3xDustBedrock>, <extendedcrafting:material:48>, <ore:compressed3xDustBedrock>, <enderio:item_capacitor_totemic>, <extendedcrafting:material:40>, <enderio:item_capacitor_stellar>], 
+	[<immersivecables:coil_block:2>, <enderio:item_capacitor_totemic>, <auxiliumequivalence:fuel:17>, <enderio:item_capacitor_melodic>, <extendedcrafting:material:19>, <enderio:item_capacitor_melodic>, <auxiliumequivalence:fuel:17>, <enderio:item_capacitor_totemic>, <immersivecables:coil_block:2>], 
+	[<immersivecables:coil_block:2>, <integrateddynamics:crystalized_menril_block>, <enderio:item_capacitor_melodic>, <auxiliumequivalence:fuel:17>, <extendedcrafting:material:19>, <auxiliumequivalence:fuel:17>, <enderio:item_capacitor_melodic>, <integrateddynamics:crystalized_chorus_block>, <immersivecables:coil_block:2>], 
+	[<ore:plateEnderium>, <extendedcrafting:material:48>, <extendedcrafting:material:19>, <extendedcrafting:material:19>, <projectex:power_flower:15>, <extendedcrafting:material:19>, <extendedcrafting:material:19>, <extendedcrafting:material:48>, <ore:plateEnderium>], 
+	[<immersivecables:coil_block:2>, <integrateddynamics:crystalized_menril_block>, <enderio:item_capacitor_melodic>, <auxiliumequivalence:fuel:17>, <extendedcrafting:material:19>, <auxiliumequivalence:fuel:17>, <enderio:item_capacitor_melodic>, <integrateddynamics:crystalized_chorus_block>, <immersivecables:coil_block:2>], 
+	[<immersivecables:coil_block:2>, <enderio:item_capacitor_totemic>, <auxiliumequivalence:fuel:17>, <enderio:item_capacitor_melodic>, <extendedcrafting:material:19>, <enderio:item_capacitor_melodic>, <auxiliumequivalence:fuel:17>, <enderio:item_capacitor_totemic>, <immersivecables:coil_block:2>], 
+	[<enderio:item_capacitor_stellar>, <extendedcrafting:material:40>, <enderio:item_capacitor_totemic>, <inspirations:mulch:7>, <extendedcrafting:material:48>, <inspirations:mulch:7>, <enderio:item_capacitor_totemic>, <extendedcrafting:material:40>, <enderio:item_capacitor_stellar>], 
+	[<extendedcrafting:material:40>, <enderio:item_capacitor_stellar>, <immersivecables:coil_block:2>, <immersivecables:coil_block:2>, <ore:plateEnderium>, <immersivecables:coil_block:2>, <immersivecables:coil_block:2>, <enderio:item_capacitor_stellar>, <extendedcrafting:material:40>]
+]);
 
 //Empowerer stuff to Extended crafting
 mods.extendedcrafting.CombinationCrafting.addRecipe(<extendedcrafting:material>, 10000, 200, <enderio:item_alloy_ingot:9>, [<actuallyadditions:item_crystal:3>,<actuallyadditions:item_crystal:3>,

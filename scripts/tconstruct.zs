@@ -21,6 +21,15 @@ mods.tconstruct.Casting.addTableRecipe(<actuallyadditions:item_misc:5>, <minecra
 //this is how you get sky stone now (to launch you into AppliedEnergistics)
 mods.tconstruct.Casting.addBasinRecipe(<appliedenergistics2:sky_stone_block>, <chisel:basalt2:7>, <liquid:aerotheum>, 500, true, 200);
 
+//pile of neutrons
+mods.tconstruct.Melting.addRecipe(<liquid:neutron> * 144,<avaritia:resource:2>);
+//neutron nugget
+mods.tconstruct.Melting.addRecipe(<liquid:neutron> * 1296,<avaritia:resource:3>);
+//neutron ingot
+mods.tconstruct.Melting.addRecipe(<liquid:neutron> * 11664,<avaritia:resource:4>);
+//neutron block
+mods.tconstruct.Melting.addRecipe(<liquid:neutron> * 104976,<avaritia:block_resource:0>);
+
 //new otheum recipes and xp
 mods.tconstruct.Melting.addRecipe(<liquid:pyrotheum> * 250,<thermalfoundation:material:1024>);
 mods.tconstruct.Melting.addRecipe(<liquid:cryotheum> * 250,<thermalfoundation:material:1025>, 10);

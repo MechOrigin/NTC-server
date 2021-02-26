@@ -23,5 +23,10 @@
 		type: "item",
 		item: "nuclearcraft:fuel_curium",
 		count: 64
+	},
+	{
+		uid: "2b01f3a4",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
 	}]
 }

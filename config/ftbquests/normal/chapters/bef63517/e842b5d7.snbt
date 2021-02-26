@@ -1,5 +1,11 @@
 {
 	title: "Advanced Miniaturization Chamber",
+	icon: {
+		id: "modularmachinery:itemblueprint",
+		tag: {
+			dynamicmachine: "modularmachinery:advanced_miniaturization_chamber"
+		}
+	},
 	x: 23.0d,
 	y: 6.0d,
 	shape: "gear",
@@ -9,14 +15,8 @@
 	],
 	size: 2.0d,
 	tasks: [{
-		uid: "0957ab8b",
-		type: "item",
-		items: [{
-			id: "modularmachinery:itemblueprint",
-			tag: {
-				dynamicmachine: "modularmachinery:advanced_miniaturization_chamber"
-			}
-		}]
+		uid: "fd24d388",
+		type: "checkmark"
 	}],
 	rewards: [{
 		uid: "7bb61491",

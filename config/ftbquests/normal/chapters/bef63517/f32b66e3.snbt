@@ -47,5 +47,22 @@
 		type: "checkmark",
 		title: "Tier 4 Mystical Agriculture Complete",
 		icon: "mysticalagriculture:crafting 1 3"
+	}],
+	rewards: [{
+		uid: "95f1d60b",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "fa8d0260",
+		type: "item",
+		item: "mysticalagriculture:crafting 1 20",
+		count: 32
+	},
+	{
+		uid: "20cb5ed7",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 48
 	}]
 }

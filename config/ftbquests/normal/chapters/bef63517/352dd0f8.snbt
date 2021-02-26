@@ -43,5 +43,10 @@
 		type: "item",
 		item: "actuallyadditions:item_solidified_experience",
 		count: 32
+	},
+	{
+		uid: "5ab4265f",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
 	}]
 }
