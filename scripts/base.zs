@@ -325,6 +325,9 @@ recipes.addShaped(<contenttweaker:sub_block_holder_0:6>,[
 <contenttweaker:sub_block_holder_1:5>.displayName = "Block of Ferroboron Alloy";
 <contenttweaker:sub_block_holder_0:6>.displayName = "Block of Hard Carbon Alloy";
 
+// Tooltips
+//<item>.addTooltip(format.red("test"));
+
 // Brown Mulch
 recipes.remove(<inspirations:mulch:1>);
 recipes.addShaped(<inspirations:mulch:1> * 1, [[null, <inspirations:mulch:0>, null], [<inspirations:mulch:0>, <industrialforegoing:artificial_dye:12>, <inspirations:mulch:0>],[null, <inspirations:mulch:0>, null]]);

@@ -1,16 +1,7 @@
-Added FTB money
-Added FTB beast coin miner
+Fixed issues with mekanism crusher
 
-SHOPS: very beta... will update server with more stuff as time goes on.
+Fixed centrifugal separator using thermal dusts
 
-FTBQuests:
-Fixed some modular machines quests requiring the blueprint. Oops.
-Added some text to quests and FTB coin rewards.
+Changed nuclearcraft accelerator using 4mB/s Helium to 2mB/s
 
-Changed a ton of Plustic/moar tinkers integration.
-
-Changed Applied energistics to display RF instead of AE
-
-Added Neutron Fluid to tconstruct.
-
--updated Chambers
+Added bimetal gears to fluid transposer

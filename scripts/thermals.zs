@@ -173,3 +173,44 @@ recipes.addShaped(<thermalfoundation:material:515>,[
 [null,<ore:ingotElectrum>],
 [null,null,<immersiveengineering:wirecoil:5>]
 ]);
+
+// centrifuge - electrum
+mods.thermalexpansion.Centrifuge.removeRecipe(<contenttweaker:material_part:82>);
+mods.thermalexpansion.Centrifuge.addRecipe([(<contenttweaker:material_part:42>) % 100, (<contenttweaker:material_part:150> * 1) % 100], <contenttweaker:material_part:82> * 2, null, 4000);
+// centrifuge - invar
+mods.thermalexpansion.Centrifuge.removeRecipe(<contenttweaker:material_part:90>);
+mods.thermalexpansion.Centrifuge.addRecipe([(<contenttweaker:material_part:66>) % 100, (<contenttweaker:material_part:145> * 2) % 100], <contenttweaker:material_part:90> * 3, null, 6000);
+// centrifuge - bronze
+mods.thermalexpansion.Centrifuge.removeRecipe(<contenttweaker:material_part:98>);
+mods.thermalexpansion.Centrifuge.addRecipe([(<contenttweaker:material_part:34>) % 100, (<contenttweaker:material_part:8> * 3) % 100], <contenttweaker:material_part:98> * 4, null, 8000);
+// centrifuge - constantan
+mods.thermalexpansion.Centrifuge.removeRecipe(<contenttweaker:material_part:106>);
+mods.thermalexpansion.Centrifuge.addRecipe([(<contenttweaker:material_part:66>) % 100, (<contenttweaker:material_part:8> * 1) % 100], <contenttweaker:material_part:106> * 2, null, 4000);
+// centrifuge - signalum
+mods.thermalexpansion.Centrifuge.removeRecipe(<contenttweaker:material_part:114>);
+mods.thermalexpansion.Centrifuge.addRecipe([(<contenttweaker:material_part:42>) % 100, (<contenttweaker:material_part:8> * 3) % 100], <contenttweaker:material_part:114> * 4, <liquid:redstone>*1000, 8000);
+// centrifuge - enderium
+mods.thermalexpansion.Centrifuge.removeRecipe(<contenttweaker:material_part:122>);
+mods.thermalexpansion.Centrifuge.addRecipe([(<contenttweaker:material_part:26>) % 100, (<contenttweaker:material_part:50> * 3) % 100], <contenttweaker:material_part:122> * 4, <liquid:ender>*1000, 8000);
+// centrifuge - lumium
+mods.thermalexpansion.Centrifuge.removeRecipe(<contenttweaker:material_part:130>);
+mods.thermalexpansion.Centrifuge.addRecipe([(<contenttweaker:material_part:42>) % 100, (<contenttweaker:material_part:34> * 3) % 100], <contenttweaker:material_part:130> * 4, <liquid:glowstone>*1000, 8000);
+// centrifuge - titanium alum
+//mods.thermalexpansion.Centrifuge.removeRecipe(<contenttweaker:material_part:168>);
+mods.thermalexpansion.Centrifuge.addRecipe([(<contenttweaker:material_part:58> * 7) % 100, (<contenttweaker:material_part:161> * 3) % 100], <contenttweaker:material_part:168> * 3, null, 8000);
+// centrifuge - titanium irid
+//mods.thermalexpansion.Centrifuge.removeRecipe(<contenttweaker:material_part:175>);
+mods.thermalexpansion.Centrifuge.addRecipe([(<contenttweaker:material_part:161>) % 100, (<contenttweaker:material_part:138> * 1) % 100], <contenttweaker:material_part:175> * 2, null, 8000);
+
+//Bimetal Gears
+//mods.thermalexpansion.Transposer.addFillRecipe(IItemStack output, IItemStack input, ILiquidStack fluid, int energy);
+//infinity
+mods.thermalexpansion.Transposer.addFillRecipe(<enderio:item_material:11>, <enderio:item_material:20>, <liquid:iron> * 640, 8000);
+//energized
+mods.thermalexpansion.Transposer.addFillRecipe(<enderio:item_material:12>, <enderio:item_material:11>, <liquid:energetic_alloy> * 128, 8000);
+//vibrant
+mods.thermalexpansion.Transposer.addFillRecipe(<enderio:item_material:13>, <enderio:item_material:11>, <liquid:vibrant_alloy> * 128, 8000);
+//dark
+mods.thermalexpansion.Transposer.addFillRecipe(<enderio:item_material:73>, <enderio:item_material:11>, <liquid:dark_steel> * 128, 8000);
+
+

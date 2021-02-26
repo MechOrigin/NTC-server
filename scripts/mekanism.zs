@@ -135,6 +135,221 @@ mods.mekanism.smelter.addRecipe(<contenttweaker:material_part:130>, <contenttwea
 mods.mekanism.smelter.addRecipe(<contenttweaker:material_part:168>, <contenttweaker:material_part:167>);
 mods.mekanism.smelter.addRecipe(<contenttweaker:material_part:175>, <contenttweaker:material_part:174>);
 
+//Crusher
+//electrum
+mods.mekanism.crusher.addRecipe(<contenttweaker:material_part:81>, <contenttweaker:material_part:82> * 1);
+//invar
+mods.mekanism.crusher.addRecipe(<contenttweaker:material_part:89>, <contenttweaker:material_part:90> * 1);
+//constantan
+mods.mekanism.crusher.addRecipe(<contenttweaker:material_part:105>, <contenttweaker:material_part:106> * 1);
+//signalum
+mods.mekanism.crusher.addRecipe(<contenttweaker:material_part:113>, <contenttweaker:material_part:114> * 1);
+//enderium
+mods.mekanism.crusher.addRecipe(<contenttweaker:material_part:121>, <contenttweaker:material_part:122> * 1);
+//lumium
+mods.mekanism.crusher.addRecipe(<contenttweaker:material_part:129>, <contenttweaker:material_part:130> * 1);
+//titanium
+mods.mekanism.crusher.addRecipe(<contenttweaker:material_part:160>, <contenttweaker:material_part:161> * 1);
+//titanium alum
+mods.mekanism.crusher.addRecipe(<contenttweaker:material_part:167>, <contenttweaker:material_part:168> * 1);
+//titanium irid
+mods.mekanism.crusher.addRecipe(<contenttweaker:material_part:174>, <contenttweaker:material_part:175> * 1);
+//thorium
+mods.mekanism.crusher.addRecipe(<nuclearcraft:ingot:3>, <nuclearcraft:dust:3> * 1);
+//boron
+mods.mekanism.crusher.addRecipe(<nuclearcraft:ingot:5>, <nuclearcraft:dust:5> * 1);
+//lithium
+mods.mekanism.crusher.addRecipe(<nuclearcraft:ingot:6>, <nuclearcraft:dust:6> * 1);
+//magnesium
+mods.mekanism.crusher.addRecipe(<nuclearcraft:ingot:7>, <nuclearcraft:dust:7> * 1);
+//graphite
+mods.mekanism.crusher.addRecipe(<nuclearcraft:ingot:8>, <nuclearcraft:dust:8> * 1);
+//beryllium
+mods.mekanism.crusher.addRecipe(<nuclearcraft:ingot:9>, <nuclearcraft:dust:9> * 1);
+//zirconium
+mods.mekanism.crusher.addRecipe(<nuclearcraft:ingot:10>, <nuclearcraft:dust:10> * 1);
+//manganese
+mods.mekanism.crusher.addRecipe(<nuclearcraft:ingot:11>, <nuclearcraft:dust:11> * 1);
+//thor oxide
+mods.mekanism.crusher.addRecipe(<nuclearcraft:ingot_oxide:0>, <nuclearcraft:dust_oxide:0> * 1);
+//uran oxide
+mods.mekanism.crusher.addRecipe(<nuclearcraft:ingot_oxide:1>, <nuclearcraft:dust_oxide:1> * 1);
+//mang oxide
+mods.mekanism.crusher.addRecipe(<nuclearcraft:ingot_oxide:2>, <nuclearcraft:dust_oxide:2> * 1);
+//mang dioxide
+mods.mekanism.crusher.addRecipe(<nuclearcraft:ingot_oxide:3>, <nuclearcraft:dust_oxide:3> * 1);
+//cobalt
+mods.mekanism.crusher.addRecipe(<tconstruct:ingots:0>, <enderio:item_material:31> * 1);
+//ardite
+mods.mekanism.crusher.addRecipe(<tconstruct:ingots:1>, <enderio:item_material:30> * 1);
+
+//fixing crusher
+mods.mekanism.crusher.removeAllRecipes();
+mods.mekanism.crusher.addRecipe(<sky_orchards:sapling_redstone:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<sky_orchards:sapling_emerald:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<harvestcraft:gooseberry_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<harvestcraft:mango_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<sky_orchards:sapling_dirt:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<minecraft:red_sandstone>, <minecraft:sand:1> * 2);
+mods.mekanism.crusher.addRecipe(<sky_orchards:sapling_quartz:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<harvestcraft:lemon_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<sky_orchards:sapling_diamond:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<harvestcraft:olive_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<minecraft:stonebrick:2>, <minecraft:stone>);
+mods.mekanism.crusher.addRecipe(<minecraft:stonebrick:3>, <minecraft:stonebrick>);
+mods.mekanism.crusher.addRecipe(<minecraft:stonebrick>, <minecraft:stonebrick:2>);
+mods.mekanism.crusher.addRecipe(<minecraft:sandstone>, <minecraft:sand> * 2);
+mods.mekanism.crusher.addRecipe(<minecraft:stone>, <minecraft:cobblestone>);
+mods.mekanism.crusher.addRecipe(<harvestcraft:pomegranate_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<contenttweaker:material_part:33>, <contenttweaker:material_part:34>);
+mods.mekanism.crusher.addRecipe(<contenttweaker:material_part:7>, <contenttweaker:material_part:8>);
+mods.mekanism.crusher.addRecipe(<contenttweaker:material_part:73>, <contenttweaker:material_part:74>);
+mods.mekanism.crusher.addRecipe(<harvestcraft:apricot_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<contenttweaker:material_part:57>, <contenttweaker:material_part:58>);
+mods.mekanism.crusher.addRecipe(<harvestcraft:peach_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<sky_orchards:sapling_cobalt:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<contenttweaker:material_part:137>, <contenttweaker:material_part:138>);
+mods.mekanism.crusher.addRecipe(<minecraft:wheat_seeds>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<mekanism:clump:4>, <mekanism:dirtydust:4>);
+mods.mekanism.crusher.addRecipe(<mekanism:clump:5>, <mekanism:dirtydust:5>);
+mods.mekanism.crusher.addRecipe(<mekanism:clump:6>, <mekanism:dirtydust:6>);
+mods.mekanism.crusher.addRecipe(<mekanism:clump>, <mekanism:dirtydust>);
+mods.mekanism.crusher.addRecipe(<mekanism:clump:1>, <mekanism:dirtydust:1>);
+mods.mekanism.crusher.addRecipe(<harvestcraft:hazelnut_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<mekanism:clump:2>, <mekanism:dirtydust:2>);
+mods.mekanism.crusher.addRecipe(<mekanism:clump:3>, <mekanism:dirtydust:3>);
+mods.mekanism.crusher.addRecipe(<minecraft:diamond>, <nuclearcraft:gem_dust>);
+mods.mekanism.crusher.addRecipe(<harvestcraft:grapefruit_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<minecraft:potato>, <mekanism:biofuel> * 4);
+mods.mekanism.crusher.addRecipe(<minecraft:beetroot>, <mekanism:biofuel> * 4);
+mods.mekanism.crusher.addRecipe(<minecraft:emerald>, <actuallyadditions:item_dust:3>);
+mods.mekanism.crusher.addRecipe(<harvestcraft:coconut_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<harvestcraft:rambutan_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<contenttweaker:material_part:41>, <contenttweaker:material_part:42>);
+mods.mekanism.crusher.addRecipe(<sky_orchards:sapling_coal:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<sky_orchards:sapling_silver:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<contenttweaker:material_part:17>, <contenttweaker:material_part:18>);
+mods.mekanism.crusher.addRecipe(<minecraft:rotten_flesh>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<contenttweaker:material_part:49>, <contenttweaker:material_part:50>);
+mods.mekanism.crusher.addRecipe(<sky_orchards:sapling_clay:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<sky_orchards:sapling_lead:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<minecraft:cobblestone>, <minecraft:gravel>);
+mods.mekanism.crusher.addRecipe(<minecraft:gold_ingot>, <contenttweaker:material_part:150>);
+mods.mekanism.crusher.addRecipe(<minecraft:iron_ingot>, <contenttweaker:material_part:145>);
+mods.mekanism.crusher.addRecipe(<minecraft:bread>, <mekanism:biofuel> * 4);
+mods.mekanism.crusher.addRecipe(<harvestcraft:cinnamon_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<sky_orchards:sapling_gold:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<sky_orchards:sapling_osmium:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<harvestcraft:cherry_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<harvestcraft:papaya_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<minecraft:cactus>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<minecraft:tallgrass>, <mekanism:biofuel> * 4);
+mods.mekanism.crusher.addRecipe(<sky_orchards:sapling_ardite:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<contenttweaker:material_part:65>, <contenttweaker:material_part:66>);
+mods.mekanism.crusher.addRecipe(<minecraft:gravel>, <minecraft:sand>);
+mods.mekanism.crusher.addRecipe(<harvestcraft:pear_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<sky_orchards:sapling_gravel:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<minecraft:melon>, <mekanism:biofuel> * 4);
+mods.mekanism.crusher.addRecipe(<minecraft:end_stone>, <nuclearcraft:gem_dust:11> * 4);
+mods.mekanism.crusher.addRecipe(<harvestcraft:guava_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<harvestcraft:lychee_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<biomesoplenty:white_sand>, <nuclearcraft:gem:6>);
+mods.mekanism.crusher.addRecipe(<harvestcraft:banana_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<harvestcraft:orange_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<buildinggadgets:constructionblock_dense>, <buildinggadgets:construction_chunk_dense> * 4);
+mods.mekanism.crusher.addRecipe(<sky_orchards:sapling_bone:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<harvestcraft:lime_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<appliedenergistics2:sky_stone_block>, <appliedenergistics2:material:45> * 2);
+mods.mekanism.crusher.addRecipe(<sky_orchards:sapling_nickel:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<minecraft:wheat>, <mekanism:biofuel> * 4);
+mods.mekanism.crusher.addRecipe(<sky_orchards:sapling_lapis:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<contenttweaker:material_part:25>, <contenttweaker:material_part:26>);
+mods.mekanism.crusher.addRecipe(<harvestcraft:jackfruit_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<minecraft:wool:2>, <minecraft:string> * 4);
+mods.mekanism.crusher.addRecipe(<minecraft:wool:3>, <minecraft:string> * 4);
+mods.mekanism.crusher.addRecipe(<minecraft:wool>, <minecraft:string> * 4);
+mods.mekanism.crusher.addRecipe(<thermalfoundation:material:136>, <thermalfoundation:material:72>);
+mods.mekanism.crusher.addRecipe(<harvestcraft:nutmeg_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<minecraft:wool:1>, <minecraft:string> * 4);
+mods.mekanism.crusher.addRecipe(<minecraft:sand:*>, <nuclearcraft:gem:6>);
+mods.mekanism.crusher.addRecipe(<minecraft:wool:6>, <minecraft:string> * 4);
+mods.mekanism.crusher.addRecipe(<harvestcraft:starfruit_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<minecraft:wool:7>, <minecraft:string> * 4);
+mods.mekanism.crusher.addRecipe(<harvestcraft:paperbark_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<minecraft:wool:4>, <minecraft:string> * 4);
+mods.mekanism.crusher.addRecipe(<minecraft:wool:5>, <minecraft:string> * 4);
+mods.mekanism.crusher.addRecipe(<minecraft:wool:10>, <minecraft:string> * 4);
+mods.mekanism.crusher.addRecipe(<minecraft:wool:11>, <minecraft:string> * 4);
+mods.mekanism.crusher.addRecipe(<minecraft:baked_potato>, <mekanism:biofuel> * 4);
+mods.mekanism.crusher.addRecipe(<minecraft:wool:8>, <minecraft:string> * 4);
+mods.mekanism.crusher.addRecipe(<minecraft:wool:9>, <minecraft:string> * 4);
+mods.mekanism.crusher.addRecipe(<minecraft:wool:14>, <minecraft:string> * 4);
+mods.mekanism.crusher.addRecipe(<minecraft:wool:15>, <minecraft:string> * 4);
+mods.mekanism.crusher.addRecipe(<minecraft:wool:12>, <minecraft:string> * 4);
+mods.mekanism.crusher.addRecipe(<minecraft:wool:13>, <minecraft:string> * 4);
+mods.mekanism.crusher.addRecipe(<harvestcraft:vanillabean_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<advancedrocketry:aliensapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<minecraft:sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<minecraft:melon_seeds>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<buildinggadgets:construction_chunk_dense>, <buildinggadgets:constructionpaste>);
+mods.mekanism.crusher.addRecipe(<sky_orchards:sapling_inferium:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<minecraft:reeds>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<harvestcraft:pistachio_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<harvestcraft:pecan_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<harvestcraft:plum_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<sky_orchards:sapling_netherrack:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<sky_orchards:sapling_endstone:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<harvestcraft:soursop_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<minecraft:flint>, <minecraft:gunpowder>);
+mods.mekanism.crusher.addRecipe(<sky_orchards:sapling_glowstone:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<harvestcraft:breadfruit_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<appliedenergistics2:material:7>, <appliedenergistics2:material:8>);
+mods.mekanism.crusher.addRecipe(<harvestcraft:dragonfruit_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<appliedenergistics2:material>, <appliedenergistics2:material:2>);
+mods.mekanism.crusher.addRecipe(<appliedenergistics2:material:1>, <appliedenergistics2:material:2>);
+mods.mekanism.crusher.addRecipe(<harvestcraft:cashew_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<sky_orchards:sapling_sand:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<minecraft:quartz>, <nuclearcraft:gem_dust:2>);
+mods.mekanism.crusher.addRecipe(<harvestcraft:apple_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<minecraft:beetroot_seeds>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<minecraft:gunpowder>, <thermalfoundation:material:772>);
+mods.mekanism.crusher.addRecipe(<minecraft:carrot>, <mekanism:biofuel> * 4);
+mods.mekanism.crusher.addRecipe(<harvestcraft:persimmon_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<harvestcraft:passionfruit_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<harvestcraft:date_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<contenttweaker:material_part:97>, <contenttweaker:material_part:98>);
+mods.mekanism.crusher.addRecipe(<mekanism:ingot:3>, <minecraft:glowstone_dust>);
+mods.mekanism.crusher.addRecipe(<mekanism:ingot>, <mekanism:otherdust:5>);
+mods.mekanism.crusher.addRecipe(<mekanism:ingot:1>, <mekanism:dust:2>);
+mods.mekanism.crusher.addRecipe(<minecraft:poisonous_potato>, <mekanism:biofuel> * 4);
+mods.mekanism.crusher.addRecipe(<tconstruct:slime_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<biomesoplenty:sapling_0:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<biomesoplenty:sapling_1:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<biomesoplenty:sapling_2:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<harvestcraft:fig_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<sky_orchards:sapling_iron:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<minecraft:pumpkin>, <mekanism:biofuel> * 6);
+mods.mekanism.crusher.addRecipe(<harvestcraft:durian_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<sky_orchards:sapling_skystone:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<sky_orchards:sapling_copper:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<harvestcraft:pawpaw_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<minecraft:apple>, <mekanism:biofuel> * 4);
+mods.mekanism.crusher.addRecipe(<quark:variant_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<minecraft:dye:4>, <actuallyadditions:item_dust:4>);
+mods.mekanism.crusher.addRecipe(<harvestcraft:chestnut_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<sky_orchards:sapling_tin:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<harvestcraft:maple_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<sky_orchards:sapling_prosperity:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<minecraft:pumpkin_seeds>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<minecraft:coal:1>, <thermalfoundation:material:769>);
+mods.mekanism.crusher.addRecipe(<minecraft:coal>, <nuclearcraft:gem_dust:7>);
+mods.mekanism.crusher.addRecipe(<harvestcraft:peppercorn_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<harvestcraft:tamarind_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<harvestcraft:almond_sapling:*>, <mekanism:biofuel> * 2);
+mods.mekanism.crusher.addRecipe(<integrateddynamics:menril_sapling:*>, <mekanism:biofuel> * 2);
+
+
+
 //sky dust
 mods.mekanism.crusher.addRecipe(<appliedenergistics2:sky_stone_block>, <appliedenergistics2:material:45> * 2);
 //end dust
