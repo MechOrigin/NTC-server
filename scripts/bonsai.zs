@@ -161,6 +161,12 @@ recipes.addShaped(<mysticalagriculture:crafting:0> * 1, [[<sky_orchards:resin_in
 // Inferium Leaves
 recipes.addShapeless(<sky_orchards:leaves_inferium>, [<ore:treeSapling>,<mysticalagriculture:crafting:0>]);
 
+// Dimensional Shard Essence
+recipes.addShaped(<rftools:dimensional_shard> * 1, [[<sky_orchards:resin_dimensionalshard>, <sky_orchards:resin_dimensionalshard>, <sky_orchards:resin_dimensionalshard>], [<sky_orchards:resin_dimensionalshard>, <sky_orchards:resin_dimensionalshard>, <sky_orchards:resin_dimensionalshard> ],[<sky_orchards:resin_dimensionalshard>, <sky_orchards:resin_dimensionalshard>, <sky_orchards:resin_dimensionalshard>]]);
+
+// Dimensional Shard Leaves
+recipes.addShapeless(<sky_orchards:leaves_dimensionalshard>, [<ore:treeSapling>,<rftools:dimensional_shard>]);
+
 // Skystone§r Leaves§r§r
 //recipes.remove(<sky_orchards:leaves_skystone>);
 recipes.addShaped(<sky_orchards:leaves_skystone> * 1, [[<appliedenergistics2:material:45>, <appliedenergistics2:material:45>, <appliedenergistics2:material:45>], [<appliedenergistics2:material:45>, <minecraft:sapling:0>, <appliedenergistics2:material:45>],[<appliedenergistics2:material:45>, <appliedenergistics2:material:45>, <appliedenergistics2:material:45>]]);

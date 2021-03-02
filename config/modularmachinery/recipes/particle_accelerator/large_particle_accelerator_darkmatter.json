@@ -1,7 +1,7 @@
 {
     "machine": "large_particle_accelerator",
     "registryName": "large_particle_accelerator_darkmatter",
-    "recipeTime": 100,
+    "recipeTime": 50,
     "requirements": [
         {
             "type": "modularmachinery:item",
@@ -21,22 +21,22 @@
             "type": "modularmachinery:item",
             "io-type": "output",
             "item": "projectex:matter@6",
-            "amount": 3,
-            "chance": 0.03
+            "amount": 6,
+            "chance": 0.05
         },
         {
             "type": "modularmachinery:item",
             "io-type": "output",
             "item": "projectex:matter@8",
-            "amount": 2,
-            "chance": 0.02
+            "amount": 4,
+            "chance": 0.04
         },
         {
             "type": "modularmachinery:item",
             "io-type": "output",
             "item": "projectex:matter@11",
-            "amount": 1,
-            "chance": 0.01
+            "amount": 2,
+            "chance": 0.03
         },
         {
             "type": "modularmachinery:fluid",

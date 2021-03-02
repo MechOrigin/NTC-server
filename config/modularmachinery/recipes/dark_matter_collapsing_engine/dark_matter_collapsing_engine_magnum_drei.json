@@ -1,0 +1,19 @@
+{
+    "machine": "dark_matter_collapsing_engine",
+    "registryName": "dark_matter_collapsing_engine_magnum_zwei",
+    "recipeTime": 16,
+    "requirements": [
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "projectex:magnum_star_ein",
+            "amount": 4
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "projectex:magnum_star_zwei",
+            "amount": 1
+        }
+    ]
+}

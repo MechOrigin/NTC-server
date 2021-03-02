@@ -486,3 +486,9 @@ val inferium_acorn = mods.modularmachinery.RecipeBuilder.newBuilder("arboreal_re
 val inferium_amber = mods.modularmachinery.RecipeBuilder.newBuilder("arboreal_reprocessor_inferium_amber", "arboreal_reprocessor", 10, 0);
 inferium_acorn.addEnergyPerTickInput(400).addItemInput(<sky_orchards:acorn_inferium>).addItemOutput(<mysticalagriculture:crafting:0> * 1).build();
 inferium_amber.addEnergyPerTickInput(800).addItemInput(<sky_orchards:amber_inferium>).addItemOutput(<mysticalagriculture:crafting:0> * 6).addItemOutput(<biomesoplenty:gem:7> * 8).build();
+
+// dimensional
+val dimensional_acorn = mods.modularmachinery.RecipeBuilder.newBuilder("arboreal_reprocessor_dimensional_acorn", "arboreal_reprocessor", 10, 0);
+val dimensional_amber = mods.modularmachinery.RecipeBuilder.newBuilder("arboreal_reprocessor_dimensional_amber", "arboreal_reprocessor", 10, 0);
+dimensional_acorn.addEnergyPerTickInput(400).addItemInput(<sky_orchards:acorn_dimensionalshard>).addItemOutput(<rftools:dimensional_shard> * 1).build();
+dimensional_amber.addEnergyPerTickInput(800).addItemInput(<sky_orchards:amber_dimensionalshard>).addItemOutput(<rftools:dimensional_shard> * 6).addItemOutput(<biomesoplenty:gem:7> * 8).build();

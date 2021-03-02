@@ -2767,6 +2767,18 @@
     {
       "item": "sky_orchards:sapling_inferium|0",
       "emc": 0
+    },
+    {
+      "item": "sky_orchards:leaves_inferium|0",
+      "emc": 0
+    },
+    {
+      "item": "sky_orchards:sapling_dimensionalshard|0",
+      "emc": 0
+    },
+    {
+      "item": "sky_orchards:leaves_dimensionalshard|0",
+      "emc": 0
     }
   ]
 }

@@ -1,0 +1,14 @@
+{
+	x: 10.5d,
+	y: -14.0d,
+	dependencies: [
+		"09e16348"
+	],
+	tasks: [{
+		uid: "9064c00a",
+		type: "item",
+		items: [{
+			item: "sky_orchards:sapling_dimensionalshard"
+		}]
+	}]
+}

@@ -357,6 +357,13 @@ recipes.addShaped(<inspirations:mulch:7> * 1, [[null, <inspirations:mulch:6>, nu
 recipes.remove(<ae2wtlib:wut_creative>);
 recipes.addShaped(<ae2wtlib:wut_creative> * 1, [[null, null, null], [<wft:wft_creative>, <wit:wit_creative>, null],[<wpt:wpt_creative>, <wct:wct_creative>, null]]);
 
+// LazyAE2 charger - removed charger from AE2 so use energetic infuser instead
+recipes.remove(<threng:machine:5>);
+recipes.addShaped(<threng:machine:5>, 
+[[<ore:ingotFluixSteel>, <thermalexpansion:machine:9>, <ore:ingotFluixSteel>], 
+[<appliedenergistics2:part:140>, <threng:material:4>, <appliedenergistics2:part:140>], 
+[<ore:ingotFluixSteel>, <appliedenergistics2:dense_energy_cell>, <ore:ingotFluixSteel>]]);
+
 // Remove Portal to the void
 recipes.remove(<simplevoidworld:portal>);
 //Zawa
