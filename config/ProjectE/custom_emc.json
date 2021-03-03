@@ -5,10 +5,6 @@
       "emc": 0
     },
     {
-      "item": "claybucket:claybucket|2",
-      "emc": 112
-    },
-    {
       "item": "minecraft:bucket|0",
       "emc": 0
     },
@@ -373,18 +369,6 @@
       "emc": 0
     },
     {
-      "item": "projectred-core:resource_item|251",
-      "emc": 0
-    },
-    {
-      "item": "projectred-core:resource_item|252",
-      "emc": 0
-    },
-    {
-      "item": "projectred-core:resource_item|250",
-      "emc": 0
-    },
-    {
       "item": "minecraft:cauldron|0",
       "emc": 0
     },
@@ -454,10 +438,6 @@
     },
     {
       "item": "enderio:item_material|39",
-      "emc": 0
-    },
-    {
-      "item": "bigreactors:ingotmetals|1",
       "emc": 0
     },
     {
@@ -546,14 +526,6 @@
     },
     {
       "item": "minecraft:double_plant|3",
-      "emc": 0
-    },
-    {
-      "item": "OD|ingotThaumium",
-      "emc": 0
-    },
-    {
-      "item": "thaumcraft:ingot|0",
       "emc": 0
     },
     {
@@ -1637,15 +1609,7 @@
       "emc": 0
     },
     {
-      "item": "thaumcraft:sapling_greatwood|0",
-      "emc": 0
-    },
-    {
       "item": "integrateddynamics:menril_sapling|0",
-      "emc": 0
-    },
-    {
-      "item": "thaumcraft:sapling_silverwood|0",
       "emc": 0
     },
     {
@@ -1685,34 +1649,6 @@
       "emc": 0
     },
     {
-      "item": "thaumcraft:crystal_aer|0",
-      "emc": 128
-    },
-    {
-      "item": "thaumcraft:crystal_ignis|0",
-      "emc": 128
-    },
-    {
-      "item": "thaumcraft:crystal_aqua|0",
-      "emc": 128
-    },
-    {
-      "item": "thaumcraft:crystal_terra|0",
-      "emc": 128
-    },
-    {
-      "item": "thaumcraft:crystal_ordo|0",
-      "emc": 128
-    },
-    {
-      "item": "thaumcraft:crystal_perditio|0",
-      "emc": 128
-    },
-    {
-      "item": "projectred-core:resource_item|105",
-      "emc": 64
-    },
-    {
       "item": "enderio:item_material|20",
       "emc": 256
     },
@@ -1739,10 +1675,6 @@
     {
       "item": "minecraft:totem_of_undying|0",
       "emc": 2097152
-    },
-    {
-      "item": "draconicevolution:chaos_shard|3",
-      "emc": 262144
     },
     {
       "item": "thermalfoundation:material|135",
@@ -1781,10 +1713,6 @@
       "emc": 1536
     },
     {
-      "item": "draconicevolution:dragon_heart|0",
-      "emc": 262144
-    },
-    {
       "item": "auxiliumequivalence:matter|0",
       "emc": 0
     },
@@ -1799,10 +1727,6 @@
     {
       "item": "auxiliumequivalence:matter|3",
       "emc": 0
-    },
-    {
-      "item": "thaumcraft:amber|0",
-      "emc": 2048
     },
     {
       "item": "tconstruct:slime_sapling|3",
@@ -1863,10 +1787,6 @@
     {
       "item": "tconstruct:slime_leaves|1",
       "emc": 1
-    },
-    {
-      "item": "thaumcraft:brain|0",
-      "emc": 48
     },
     {
       "item": "libvulpes:productgem|0",

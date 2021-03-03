@@ -1,6 +1,6 @@
 {
     "machine": "advanced_miniaturization_chamber",
-    "registryName": "advanced_miniaturization_chamber_mecontroller",
+    "registryName": "advanced_miniaturization_chamber_emptycapsule",
     "recipeTime": 100,
     "requirements": [
         {

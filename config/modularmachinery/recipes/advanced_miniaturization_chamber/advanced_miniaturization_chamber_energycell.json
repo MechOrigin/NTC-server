@@ -1,6 +1,6 @@
 {
     "machine": "advanced_miniaturization_chamber",
-    "registryName": "advanced_miniaturization_chamber_machinecase",
+    "registryName": "advanced_miniaturization_chamber_energycell",
     "recipeTime": 100,
     "requirements": [
         {

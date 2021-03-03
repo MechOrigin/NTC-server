@@ -1,46 +1,35 @@
-Removed combiner(mekanism) recipe for klein stars because it doesn't work.
-Needed a solution to reduce AE2 autocrafting extreme. Created a modular machine to quickly make stars.
-Modular machine:
-Dark Matter Collapsing Engine:
-	Input:
-	1 x Dark Matter
-	Output:
-	5 x Ein Star
-	2 x Aeternalis Fuel
-	Quick Omega:
-	Input:
-	48 x Dark Matter Block
-	Output: 
-	192 x Aeternalis Fuel
-	1 x Omega Star
+Delved into log files to relieve warnings and errors and unecessary content from the loading process. client/server
 
+hotfix:
+dark matter collapsing engine - sphere recipe
 
-	Second function:
-	Input:
-	4 x any Star
-	Output:
-	1 x next Star in chain
+removed serverside:
 
+BetterAdvancements
+Controlling
+CTM-MC
+CustomMainMenu
+FTBGuides
+just-enough-harvestcraft
+JustEnoughResources
+moreoverlays
+MouseTweaks
+Neat
+noRecipeBook
+overloadedarmorbar
+ResourceLoader
+SmoothFont
+TipTheScales
+Toast Control
+torohealth
+reauth
+AutoSave
+AutoConfig
 
-Doubled output from large particle accelerator, also made it faster. Increased % change of matter output.
+Fixed modular machinery recipe issues.
 
-Fix morpheus sleep to 1%
+Fixed some invalid projecte mappings.
 
-Revert back to prior version of chambers as it no longer crafts compactmachine walls properly.
+Changed loglevels to reduce server load.
 
-Added lag goggles back in
-
-when dying in compact machine you spawn in overworld
-
-Added sky orchard tree for dimensional shards
-
-Added crystal energizer recipe using thermal machine instead of charger
-
-Increased integrated crafting speed.
-
-Changer RF crafter operations to do at once from 5 to 10
-
--updated collective
--updated backported flora
--updated endportalrecipe
--updated xaeros maps
+-Updated zawa
