@@ -1,2 +1,6 @@
-hotfix:
-dark matter collapsing engine - magnum stars recipes got all screwed up. fixed them.
+
+Changed matter collapsing engine.
+
+Added Aeternalis Fuel Blocks for Auxilium aeternalis fuels.
+
+Added ftbquest for it.

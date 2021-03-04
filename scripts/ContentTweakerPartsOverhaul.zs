@@ -5,10 +5,12 @@
 //=============================================================================
 
 import mods.contenttweaker.MaterialSystem;
-
 import mods.contenttweaker.Material;
-
 import mods.contenttweaker.Color;
+
+import mods.contenttweaker.Block;
+import mods.contenttweaker.ResourceLocation;
+import mods.contenttweaker.VanillaFactory;
 
 
 
@@ -181,3 +183,45 @@ for i, metal in metal_list_5 {
 
     blockData.addDataValue("harvestLevel", "1");
 }
+
+
+function addRockProperties(block as Block) as Block {
+	block.setBlockHardness(3);
+	block.setBlockResistance(3);
+	block.setEntitySpawnable(false);
+	block.setToolLevel(3);
+	block.setWitherProof(true);
+	return block;
+}
+
+// Auxilium fuel blocks
+
+var darkAeternalisFuel as Block = VanillaFactory.createBlock("dark_aeternalis_fuel", <blockmaterial:rock>);
+addRockProperties(darkAeternalisFuel);
+darkAeternalisFuel.setTextureLocation(ResourceLocation.create( "contenttweaker:blocks/dark_aeternalis_fuel"));
+darkAeternalisFuel.register();
+
+var orangeAeternalisFuel as Block = VanillaFactory.createBlock("orange_aeternalis_fuel", <blockmaterial:rock>);
+addRockProperties(orangeAeternalisFuel);
+orangeAeternalisFuel.setTextureLocation(ResourceLocation.create( "contenttweaker:blocks/orange_aeternalis_fuel"));
+orangeAeternalisFuel.register();
+
+var yellowAeternalisFuel as Block = VanillaFactory.createBlock("yellow_aeternalis_fuel", <blockmaterial:rock>);
+addRockProperties(yellowAeternalisFuel);
+yellowAeternalisFuel.setTextureLocation(ResourceLocation.create( "contenttweaker:blocks/yellow_aeternalis_fuel"));
+yellowAeternalisFuel.register();
+
+var greenAeternalisFuel as Block = VanillaFactory.createBlock("green_aeternalis_fuel", <blockmaterial:rock>);
+addRockProperties(greenAeternalisFuel);
+greenAeternalisFuel.setTextureLocation(ResourceLocation.create( "contenttweaker:blocks/green_aeternalis_fuel"));
+greenAeternalisFuel.register();
+
+var blueAeternalisFuel as Block = VanillaFactory.createBlock("blue_aeternalis_fuel", <blockmaterial:rock>);
+addRockProperties(blueAeternalisFuel);
+blueAeternalisFuel.setTextureLocation(ResourceLocation.create( "contenttweaker:blocks/blue_aeternalis_fuel"));
+blueAeternalisFuel.register();
+
+var rainbowAeternalisFuel as Block = VanillaFactory.createBlock("rainbow_aeternalis_fuel", <blockmaterial:rock>);
+addRockProperties(rainbowAeternalisFuel);
+rainbowAeternalisFuel.setTextureLocation(ResourceLocation.create( "contenttweaker:blocks/rainbow_aeternalis_fuel"));
+rainbowAeternalisFuel.register();

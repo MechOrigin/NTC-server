@@ -76,6 +76,21 @@ mods.jei.JEI.removeAndHide(<auxiliumequivalence:matter_block:1>);
 mods.jei.JEI.removeAndHide(<auxiliumequivalence:matter_block:2>);
 mods.jei.JEI.removeAndHide(<auxiliumequivalence:matter_block:3>);
 mods.jei.JEI.removeAndHide(<auxiliumequivalence:matter_block:4>);
+recipes.removeShapeless(<projecte:item.pe_fuel:2> * 4, [<projecte:item.pe_philosophers_stone>, <auxiliumequivalence:fuel:2>]);
+
+//aux fuel blocks
+recipes.addShapeless(<auxiliumequivalence:fuel:17> * 9, [<contenttweaker:rainbow_aeternalis_fuel>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:14> * 9, [<contenttweaker:blue_aeternalis_fuel>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:11> * 9, [<contenttweaker:green_aeternalis_fuel>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:8> * 9, [<contenttweaker:yellow_aeternalis_fuel>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:5> * 9, [<contenttweaker:orange_aeternalis_fuel>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:2> * 9, [<contenttweaker:dark_aeternalis_fuel>]);
+recipes.addShaped(<contenttweaker:rainbow_aeternalis_fuel>, [[<auxiliumequivalence:fuel:17>, <auxiliumequivalence:fuel:17>, <auxiliumequivalence:fuel:17>], [<auxiliumequivalence:fuel:17>, <auxiliumequivalence:fuel:17>, <auxiliumequivalence:fuel:17>], [<auxiliumequivalence:fuel:17>, <auxiliumequivalence:fuel:17>, <auxiliumequivalence:fuel:17>]]);
+recipes.addShaped(<contenttweaker:blue_aeternalis_fuel>, [[<auxiliumequivalence:fuel:14>, <auxiliumequivalence:fuel:14>, <auxiliumequivalence:fuel:14>], [<auxiliumequivalence:fuel:14>, <auxiliumequivalence:fuel:14>, <auxiliumequivalence:fuel:14>], [<auxiliumequivalence:fuel:14>, <auxiliumequivalence:fuel:14>, <auxiliumequivalence:fuel:14>]]);
+recipes.addShaped(<contenttweaker:green_aeternalis_fuel>, [[<auxiliumequivalence:fuel:11>, <auxiliumequivalence:fuel:11>, <auxiliumequivalence:fuel:11>], [<auxiliumequivalence:fuel:11>, <auxiliumequivalence:fuel:11>, <auxiliumequivalence:fuel:11>], [<auxiliumequivalence:fuel:11>, <auxiliumequivalence:fuel:11>, <auxiliumequivalence:fuel:11>]]);
+recipes.addShaped(<contenttweaker:yellow_aeternalis_fuel>, [[<auxiliumequivalence:fuel:8>, <auxiliumequivalence:fuel:8>, <auxiliumequivalence:fuel:8>], [<auxiliumequivalence:fuel:8>, <auxiliumequivalence:fuel:8>, <auxiliumequivalence:fuel:8>], [<auxiliumequivalence:fuel:8>, <auxiliumequivalence:fuel:8>, <auxiliumequivalence:fuel:8>]]);
+recipes.addShaped(<contenttweaker:orange_aeternalis_fuel>, [[<auxiliumequivalence:fuel:5>, <auxiliumequivalence:fuel:5>, <auxiliumequivalence:fuel:5>], [<auxiliumequivalence:fuel:5>, <auxiliumequivalence:fuel:5>, <auxiliumequivalence:fuel:5>], [<auxiliumequivalence:fuel:5>, <auxiliumequivalence:fuel:5>, <auxiliumequivalence:fuel:5>]]);
+recipes.addShaped(<contenttweaker:dark_aeternalis_fuel>, [[<auxiliumequivalence:fuel:2>, <auxiliumequivalence:fuel:2>, <auxiliumequivalence:fuel:2>], [<auxiliumequivalence:fuel:2>, <auxiliumequivalence:fuel:2>, <auxiliumequivalence:fuel:2>], [<auxiliumequivalence:fuel:2>, <auxiliumequivalence:fuel:2>, <auxiliumequivalence:fuel:2>]]);
 
 
 // Basic Collector [MK1]

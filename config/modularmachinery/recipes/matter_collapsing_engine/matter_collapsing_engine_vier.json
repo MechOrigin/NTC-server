@@ -1,18 +1,18 @@
 {
-    "machine": "dark_matter_collapsing_engine",
-    "registryName": "dark_matter_collapsing_engine_magnum_drei",
+    "machine": "matter_collapsing_engine",
+    "registryName": "matter_collapsing_engine_vier",
     "recipeTime": 16,
     "requirements": [
         {
             "type": "modularmachinery:item",
             "io-type": "input",
-            "item": "projectex:magnum_star_zwei",
+            "item": "projecte:item.pe_klein_star@2",
             "amount": 4
         },
         {
             "type": "modularmachinery:item",
             "io-type": "output",
-            "item": "projectex:magnum_star_drei",
+            "item": "projecte:item.pe_klein_star@3",
             "amount": 1
         }
     ]

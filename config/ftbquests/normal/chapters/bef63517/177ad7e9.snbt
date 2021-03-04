@@ -1,11 +1,11 @@
 {
-	title: "Dark Matter Collapsing Engine",
+	title: "Matter Collapsing Engine",
 	x: -5.5d,
 	y: 13.5d,
 	shape: "gear",
 	description: "Modular machines!",
 	text: [
-		""
+		"Change out any of the Aeternalis blocks with Auxilium Aeternalis blocks for a production speed bonus. The higher tiers give higher speed bonus."
 	],
 	dependencies: [
 		"8724cb3a"
@@ -21,12 +21,12 @@
 		}
 	}],
 	rewards: [{
-		uid: "0b748e3c",
+		uid: "a77e1acc",
 		type: "item",
 		item: {
 			id: "modularmachinery:itemblueprint",
 			tag: {
-				dynamicmachine: "modularmachinery:dark_matter_collapsing_engine"
+				dynamicmachine: "modularmachinery:matter_collapsing_engine"
 			}
 		}
 	}]

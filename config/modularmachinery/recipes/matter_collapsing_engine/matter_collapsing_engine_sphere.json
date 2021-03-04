@@ -1,6 +1,6 @@
 {
-    "machine": "dark_matter_collapsing_engine",
-    "registryName": "dark_matter_collapsing_engine_sphere",
+    "machine": "matter_collapsing_engine",
+    "registryName": "matter_collapsing_engine_sphere",
     "recipeTime": 16,
     "requirements": [
         {

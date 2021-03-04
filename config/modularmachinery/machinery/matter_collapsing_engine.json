@@ -1,6 +1,80 @@
 {
-    "registryname": "dark_matter_collapsing_engine",
-    "localizedname": "Dark Matter Collapsing Engine",
+    "registryname": "matter_collapsing_engine",
+    "localizedname": "Matter Collapsing Engine",
+    "modifiers": [
+        {
+            "elements": "contenttweaker:dark_aeternalis_fuel",
+            "x": [1, -1, -1, 1, -1, -1, 1, 1, 1, 1, -1, -1],
+            "y": [1, 0, 1, 0, 0, -1, 1, 0, -1, -1, 1, -1],
+            "z": [0, 0, 2, 0, 2, 2, 2, 2, 2, 0, 0, 0],
+            "modifier": {
+                "io": "output",
+                "target": "duration",
+                "operation": 0,
+                "multiplier": -0.01
+            }
+        },
+        {
+            "elements": "contenttweaker:orange_aeternalis_fuel",
+            "x": [1, -1, -1, 1, -1, -1, 1, 1, 1, 1, -1, -1],
+            "y": [1, 0, 1, 0, 0, -1, 1, 0, -1, -1, 1, -1],
+            "z": [0, 0, 2, 0, 2, 2, 2, 2, 2, 0, 0, 0],
+            "modifier": {
+                "io": "output",
+                "target": "duration",
+                "operation": 0,
+                "multiplier": -0.02
+            }
+        },
+        {
+            "elements": "contenttweaker:yellow_aeternalis_fuel",
+            "x": [1, -1, -1, 1, -1, -1, 1, 1, 1, 1, -1, -1],
+            "y": [1, 0, 1, 0, 0, -1, 1, 0, -1, -1, 1, -1],
+            "z": [0, 0, 2, 0, 2, 2, 2, 2, 2, 0, 0, 0],
+            "modifier": {
+                "io": "output",
+                "target": "duration",
+                "operation": 0,
+                "multiplier": -0.03
+            }
+        },
+        {
+            "elements": "contenttweaker:green_aeternalis_fuel",
+            "x": [1, -1, -1, 1, -1, -1, 1, 1, 1, 1, -1, -1],
+            "y": [1, 0, 1, 0, 0, -1, 1, 0, -1, -1, 1, -1],
+            "z": [0, 0, 2, 0, 2, 2, 2, 2, 2, 0, 0, 0],
+            "modifier": {
+                "io": "output",
+                "target": "duration",
+                "operation": 0,
+                "multiplier": -0.04
+            }
+        },
+        {
+            "elements": "contenttweaker:blue_aeternalis_fuel",
+            "x": [1, -1, -1, 1, -1, -1, 1, 1, 1, 1, -1, -1],
+            "y": [1, 0, 1, 0, 0, -1, 1, 0, -1, -1, 1, -1],
+            "z": [0, 0, 2, 0, 2, 2, 2, 2, 2, 0, 0, 0],
+            "modifier": {
+                "io": "output",
+                "target": "duration",
+                "operation": 0,
+                "multiplier": -0.05
+            }
+        },
+        {
+            "elements": "contenttweaker:rainbow_aeternalis_fuel",
+            "x": [1, -1, -1, 1, -1, -1, 1, 1, 1, 1, -1, -1],
+            "y": [1, 0, 1, 0, 0, -1, 1, 0, -1, -1, 1, -1],
+            "z": [0, 0, 2, 0, 2, 2, 2, 2, 2, 0, 0, 0],
+            "modifier": {
+                "io": "output",
+                "target": "duration",
+                "operation": 0,
+                "multiplier": -0.1
+            }
+        }
+    ],
     "parts": [
         {
             "x": -1,
@@ -22,14 +96,6 @@
             ]
         },
         {
-            "x": -1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "projecte:fuel_block@2"
-            ]
-        },
-        {
             "x": 1,
             "y": 0,
             "z": 0,
@@ -43,6 +109,14 @@
             "z": 1,
             "elements": [
                 "mekanism:machineblock@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "projecte:fuel_block@2"
             ]
         },
         {
@@ -105,14 +179,6 @@
             ]
         },
         {
-            "x": -1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
             "x": 0,
             "y": 1,
             "z": 0,
@@ -122,14 +188,6 @@
         },
         {
             "x": -1,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "projecte:fuel_block@2"
-            ]
-        },
-        {
-            "x": 0,
             "y": 1,
             "z": 1,
             "elements": [
@@ -145,8 +203,32 @@
             ]
         },
         {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "projecte:fuel_block@2"
+            ]
+        },
+        {
             "x": -1,
             "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
             "z": 1,
             "elements": [
                 "modularmachinery:blockcasing@0"
@@ -161,19 +243,19 @@
             ]
         },
         {
-            "x": 1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
             "x": -1,
             "y": -1,
             "z": 2,
             "elements": [
                 "projecte:fuel_block@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
