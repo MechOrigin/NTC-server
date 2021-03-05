@@ -341,6 +341,44 @@ mods.mekanism.crusher.addRecipe(<harvestcraft:tamarind_sapling:*>, <mekanism:bio
 mods.mekanism.crusher.addRecipe(<harvestcraft:almond_sapling:*>, <mekanism:biofuel> * 2);
 mods.mekanism.crusher.addRecipe(<integrateddynamics:menril_sapling:*>, <mekanism:biofuel> * 2);
 
+//combiner for auxillium
+mods.mekanism.combiner.addRecipe(<projecte:item.pe_fuel:2> * 4, <projecte:item.pe_fuel:0>, <auxiliumequivalence:fuel:0>);
+mods.mekanism.combiner.addRecipe(<auxiliumequivalence:fuel:0> * 4, <projecte:item.pe_fuel:0>, <auxiliumequivalence:fuel:1>);
+mods.mekanism.combiner.addRecipe(<auxiliumequivalence:fuel:1> * 4, <projecte:item.pe_fuel:0>, <auxiliumequivalence:fuel:2>);
+mods.mekanism.combiner.addRecipe(<auxiliumequivalence:fuel:2> * 4, <projecte:item.pe_fuel:0>, <auxiliumequivalence:fuel:3>);
+mods.mekanism.combiner.addRecipe(<auxiliumequivalence:fuel:3> * 4, <projecte:item.pe_fuel:0>, <auxiliumequivalence:fuel:4>);
+mods.mekanism.combiner.addRecipe(<auxiliumequivalence:fuel:4> * 4, <projecte:item.pe_fuel:0>, <auxiliumequivalence:fuel:5>);
+mods.mekanism.combiner.addRecipe(<auxiliumequivalence:fuel:5> * 4, <projecte:item.pe_fuel:0>, <auxiliumequivalence:fuel:6>);
+mods.mekanism.combiner.addRecipe(<auxiliumequivalence:fuel:6> * 4, <projecte:item.pe_fuel:0>, <auxiliumequivalence:fuel:7>);
+mods.mekanism.combiner.addRecipe(<auxiliumequivalence:fuel:7> * 4, <projecte:item.pe_fuel:0>, <auxiliumequivalence:fuel:8>);
+mods.mekanism.combiner.addRecipe(<auxiliumequivalence:fuel:8> * 4, <projecte:item.pe_fuel:0>, <auxiliumequivalence:fuel:9>);
+mods.mekanism.combiner.addRecipe(<auxiliumequivalence:fuel:9> * 4, <projecte:item.pe_fuel:0>, <auxiliumequivalence:fuel:10>);
+mods.mekanism.combiner.addRecipe(<auxiliumequivalence:fuel:10> * 4, <projecte:item.pe_fuel:0>, <auxiliumequivalence:fuel:11>);
+mods.mekanism.combiner.addRecipe(<auxiliumequivalence:fuel:11> * 4, <projecte:item.pe_fuel:0>, <auxiliumequivalence:fuel:12>);
+mods.mekanism.combiner.addRecipe(<auxiliumequivalence:fuel:12> * 4, <projecte:item.pe_fuel:0>, <auxiliumequivalence:fuel:13>);
+mods.mekanism.combiner.addRecipe(<auxiliumequivalence:fuel:13> * 4, <projecte:item.pe_fuel:0>, <auxiliumequivalence:fuel:14>);
+mods.mekanism.combiner.addRecipe(<auxiliumequivalence:fuel:14> * 4, <projecte:item.pe_fuel:0>, <auxiliumequivalence:fuel:15>);
+mods.mekanism.combiner.addRecipe(<auxiliumequivalence:fuel:15> * 4, <projecte:item.pe_fuel:0>, <auxiliumequivalence:fuel:16>);
+mods.mekanism.combiner.addRecipe(<auxiliumequivalence:fuel:16> * 4, <projecte:item.pe_fuel:0>, <auxiliumequivalence:fuel:17>);
+//blocks
+mods.mekanism.combiner.addRecipe(<projecte:fuel_block:2> * 4, <projecte:item.pe_fuel:0>, <contenttweaker:dark_alchemical_coal>);
+mods.mekanism.combiner.addRecipe(<contenttweaker:dark_alchemical_coal> * 4, <projecte:item.pe_fuel:0>, <contenttweaker:dark_mobius_fuel>);
+mods.mekanism.combiner.addRecipe(<contenttweaker:dark_mobius_fuel> * 4, <projecte:item.pe_fuel:0>, <contenttweaker:dark_aeternalis_fuel>);
+mods.mekanism.combiner.addRecipe(<contenttweaker:dark_aeternalis_fuel> * 4, <projecte:item.pe_fuel:0>, <contenttweaker:orange_alchemical_coal>);
+mods.mekanism.combiner.addRecipe(<contenttweaker:orange_alchemical_coal> * 4, <projecte:item.pe_fuel:0>, <contenttweaker:orange_mobius_fuel>);
+mods.mekanism.combiner.addRecipe(<contenttweaker:orange_mobius_fuel> * 4, <projecte:item.pe_fuel:0>, <contenttweaker:orange_aeternalis_fuel>);
+mods.mekanism.combiner.addRecipe(<contenttweaker:orange_aeternalis_fuel> * 4, <projecte:item.pe_fuel:0>, <contenttweaker:yellow_alchemical_coal>);
+mods.mekanism.combiner.addRecipe(<contenttweaker:yellow_alchemical_coal> * 4, <projecte:item.pe_fuel:0>, <contenttweaker:yellow_mobius_fuel>);
+mods.mekanism.combiner.addRecipe(<contenttweaker:yellow_mobius_fuel> * 4, <projecte:item.pe_fuel:0>, <contenttweaker:yellow_aeternalis_fuel>);
+mods.mekanism.combiner.addRecipe(<contenttweaker:yellow_aeternalis_fuel> * 4, <projecte:item.pe_fuel:0>, <contenttweaker:green_alchemical_coal>);
+mods.mekanism.combiner.addRecipe(<contenttweaker:green_alchemical_coal> * 4, <projecte:item.pe_fuel:0>, <contenttweaker:green_mobius_fuel>);
+mods.mekanism.combiner.addRecipe(<contenttweaker:green_mobius_fuel> * 4, <projecte:item.pe_fuel:0>, <contenttweaker:green_aeternalis_fuel>);
+mods.mekanism.combiner.addRecipe(<contenttweaker:green_aeternalis_fuel> * 4, <projecte:item.pe_fuel:0>, <contenttweaker:blue_alchemical_coal>);
+mods.mekanism.combiner.addRecipe(<contenttweaker:blue_alchemical_coal> * 4, <projecte:item.pe_fuel:0>, <contenttweaker:blue_mobius_fuel>);
+mods.mekanism.combiner.addRecipe(<contenttweaker:blue_mobius_fuel> * 4, <projecte:item.pe_fuel:0>, <contenttweaker:blue_aeternalis_fuel>);
+mods.mekanism.combiner.addRecipe(<contenttweaker:blue_aeternalis_fuel> * 4, <projecte:item.pe_fuel:0>, <contenttweaker:rainbow_alchemical_coal>);
+mods.mekanism.combiner.addRecipe(<contenttweaker:rainbow_alchemical_coal> * 4, <projecte:item.pe_fuel:0>, <contenttweaker:rainbow_mobius_fuel>);
+mods.mekanism.combiner.addRecipe(<contenttweaker:rainbow_mobius_fuel> * 4, <projecte:item.pe_fuel:0>, <contenttweaker:rainbow_aeternalis_fuel>);
 
 
 //sky dust

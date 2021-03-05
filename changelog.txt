@@ -1,6 +1,8 @@
+Added combiner recipes (mekanism) for making aeternalis fuel. Blocks and item types supported.
+It's a 1:4 ratio: ex. 4 blocks of Aeternalis fuel get 1 block of Dark alchemical coal. Same with item types.
 
-Changed matter collapsing engine.
+Added blocks for Auxillium fuel types alchemical coal, mobius fuel and their subsequent crafting recipes.
 
-Added Aeternalis Fuel Blocks for Auxilium aeternalis fuels.
+Changed RFtools crafter from 10 operations in fast mode to 5.
 
-Added ftbquest for it.
+There are all mostly Performance improvements because crafting in AE2 and RFtools crafter consumes a lot of server TPS.

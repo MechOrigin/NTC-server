@@ -195,7 +195,7 @@ function addRockProperties(block as Block) as Block {
 }
 
 // Auxilium fuel blocks
-
+//aeternalis
 var darkAeternalisFuel as Block = VanillaFactory.createBlock("dark_aeternalis_fuel", <blockmaterial:rock>);
 addRockProperties(darkAeternalisFuel);
 darkAeternalisFuel.setTextureLocation(ResourceLocation.create( "contenttweaker:blocks/dark_aeternalis_fuel"));
@@ -225,3 +225,63 @@ var rainbowAeternalisFuel as Block = VanillaFactory.createBlock("rainbow_aeterna
 addRockProperties(rainbowAeternalisFuel);
 rainbowAeternalisFuel.setTextureLocation(ResourceLocation.create( "contenttweaker:blocks/rainbow_aeternalis_fuel"));
 rainbowAeternalisFuel.register();
+//mobius
+var darkMobiusFuel as Block = VanillaFactory.createBlock("dark_mobius_fuel", <blockmaterial:rock>);
+addRockProperties(darkMobiusFuel);
+darkMobiusFuel.setTextureLocation(ResourceLocation.create( "contenttweaker:blocks/dark_mobius_fuel"));
+darkMobiusFuel.register();
+
+var orangeMobiusFuel as Block = VanillaFactory.createBlock("orange_mobius_fuel", <blockmaterial:rock>);
+addRockProperties(orangeMobiusFuel);
+orangeMobiusFuel.setTextureLocation(ResourceLocation.create( "contenttweaker:blocks/orange_mobius_fuel"));
+orangeMobiusFuel.register();
+
+var yellowMobiusFuel as Block = VanillaFactory.createBlock("yellow_mobius_fuel", <blockmaterial:rock>);
+addRockProperties(yellowMobiusFuel);
+yellowMobiusFuel.setTextureLocation(ResourceLocation.create( "contenttweaker:blocks/yellow_mobius_fuel"));
+yellowMobiusFuel.register();
+
+var greenMobiusFuel as Block = VanillaFactory.createBlock("green_mobius_fuel", <blockmaterial:rock>);
+addRockProperties(greenMobiusFuel);
+greenMobiusFuel.setTextureLocation(ResourceLocation.create( "contenttweaker:blocks/green_mobius_fuel"));
+greenMobiusFuel.register();
+
+var blueMobiusFuel as Block = VanillaFactory.createBlock("blue_mobius_fuel", <blockmaterial:rock>);
+addRockProperties(blueMobiusFuel);
+blueMobiusFuel.setTextureLocation(ResourceLocation.create( "contenttweaker:blocks/blue_mobius_fuel"));
+blueMobiusFuel.register();
+
+var rainbowMobiusFuel as Block = VanillaFactory.createBlock("rainbow_mobius_fuel", <blockmaterial:rock>);
+addRockProperties(rainbowMobiusFuel);
+rainbowMobiusFuel.setTextureLocation(ResourceLocation.create( "contenttweaker:blocks/rainbow_mobius_fuel"));
+rainbowMobiusFuel.register();
+//alchemical coal
+var darkAlchemicalCoal as Block = VanillaFactory.createBlock("dark_alchemical_coal", <blockmaterial:rock>);
+addRockProperties(darkAlchemicalCoal);
+darkAlchemicalCoal.setTextureLocation(ResourceLocation.create( "contenttweaker:blocks/dark_alchemical_coal"));
+darkAlchemicalCoal.register();
+
+var orangeAlchemicalCoal as Block = VanillaFactory.createBlock("orange_alchemical_coal", <blockmaterial:rock>);
+addRockProperties(orangeAlchemicalCoal);
+orangeAlchemicalCoal.setTextureLocation(ResourceLocation.create( "contenttweaker:blocks/orange_alchemical_coal"));
+orangeAlchemicalCoal.register();
+
+var yellowAlchemicalCoal as Block = VanillaFactory.createBlock("yellow_alchemical_coal", <blockmaterial:rock>);
+addRockProperties(yellowAlchemicalCoal);
+yellowAlchemicalCoal.setTextureLocation(ResourceLocation.create( "contenttweaker:blocks/yellow_alchemical_coal"));
+yellowAlchemicalCoal.register();
+
+var greenAlchemicalCoal as Block = VanillaFactory.createBlock("green_alchemical_coal", <blockmaterial:rock>);
+addRockProperties(greenAlchemicalCoal);
+greenAlchemicalCoal.setTextureLocation(ResourceLocation.create( "contenttweaker:blocks/green_alchemical_coal"));
+greenAlchemicalCoal.register();
+
+var blueAlchemicalCoal as Block = VanillaFactory.createBlock("blue_alchemical_coal", <blockmaterial:rock>);
+addRockProperties(blueAlchemicalCoal);
+blueAlchemicalCoal.setTextureLocation(ResourceLocation.create( "contenttweaker:blocks/blue_alchemical_coal"));
+blueAlchemicalCoal.register();
+
+var rainbowAlchemicalCoal as Block = VanillaFactory.createBlock("rainbow_alchemical_coal", <blockmaterial:rock>);
+addRockProperties(rainbowAlchemicalCoal);
+rainbowAlchemicalCoal.setTextureLocation(ResourceLocation.create( "contenttweaker:blocks/rainbow_alchemical_coal"));
+rainbowAlchemicalCoal.register();

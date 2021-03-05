@@ -79,6 +79,7 @@ mods.jei.JEI.removeAndHide(<auxiliumequivalence:matter_block:4>);
 recipes.removeShapeless(<projecte:item.pe_fuel:2> * 4, [<projecte:item.pe_philosophers_stone>, <auxiliumequivalence:fuel:2>]);
 
 //aux fuel blocks
+//aeternalis
 recipes.addShapeless(<auxiliumequivalence:fuel:17> * 9, [<contenttweaker:rainbow_aeternalis_fuel>]);
 recipes.addShapeless(<auxiliumequivalence:fuel:14> * 9, [<contenttweaker:blue_aeternalis_fuel>]);
 recipes.addShapeless(<auxiliumequivalence:fuel:11> * 9, [<contenttweaker:green_aeternalis_fuel>]);
@@ -91,6 +92,32 @@ recipes.addShaped(<contenttweaker:green_aeternalis_fuel>, [[<auxiliumequivalence
 recipes.addShaped(<contenttweaker:yellow_aeternalis_fuel>, [[<auxiliumequivalence:fuel:8>, <auxiliumequivalence:fuel:8>, <auxiliumequivalence:fuel:8>], [<auxiliumequivalence:fuel:8>, <auxiliumequivalence:fuel:8>, <auxiliumequivalence:fuel:8>], [<auxiliumequivalence:fuel:8>, <auxiliumequivalence:fuel:8>, <auxiliumequivalence:fuel:8>]]);
 recipes.addShaped(<contenttweaker:orange_aeternalis_fuel>, [[<auxiliumequivalence:fuel:5>, <auxiliumequivalence:fuel:5>, <auxiliumequivalence:fuel:5>], [<auxiliumequivalence:fuel:5>, <auxiliumequivalence:fuel:5>, <auxiliumequivalence:fuel:5>], [<auxiliumequivalence:fuel:5>, <auxiliumequivalence:fuel:5>, <auxiliumequivalence:fuel:5>]]);
 recipes.addShaped(<contenttweaker:dark_aeternalis_fuel>, [[<auxiliumequivalence:fuel:2>, <auxiliumequivalence:fuel:2>, <auxiliumequivalence:fuel:2>], [<auxiliumequivalence:fuel:2>, <auxiliumequivalence:fuel:2>, <auxiliumequivalence:fuel:2>], [<auxiliumequivalence:fuel:2>, <auxiliumequivalence:fuel:2>, <auxiliumequivalence:fuel:2>]]);
+//mobius
+recipes.addShapeless(<auxiliumequivalence:fuel:16> * 9, [<contenttweaker:rainbow_mobius_fuel>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:13> * 9, [<contenttweaker:blue_mobius_fuel>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:10> * 9, [<contenttweaker:green_mobius_fuel>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:7> * 9, [<contenttweaker:yellow_mobius_fuel>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:4> * 9, [<contenttweaker:orange_mobius_fuel>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:1> * 9, [<contenttweaker:dark_mobius_fuel>]);
+recipes.addShaped(<contenttweaker:rainbow_mobius_fuel>, [[<auxiliumequivalence:fuel:16>, <auxiliumequivalence:fuel:16>, <auxiliumequivalence:fuel:16>], [<auxiliumequivalence:fuel:16>, <auxiliumequivalence:fuel:16>, <auxiliumequivalence:fuel:16>], [<auxiliumequivalence:fuel:16>, <auxiliumequivalence:fuel:16>, <auxiliumequivalence:fuel:16>]]);
+recipes.addShaped(<contenttweaker:blue_mobius_fuel>, [[<auxiliumequivalence:fuel:13>, <auxiliumequivalence:fuel:13>, <auxiliumequivalence:fuel:13>], [<auxiliumequivalence:fuel:13>, <auxiliumequivalence:fuel:13>, <auxiliumequivalence:fuel:13>], [<auxiliumequivalence:fuel:13>, <auxiliumequivalence:fuel:13>, <auxiliumequivalence:fuel:13>]]);
+recipes.addShaped(<contenttweaker:green_mobius_fuel>, [[<auxiliumequivalence:fuel:10>, <auxiliumequivalence:fuel:10>, <auxiliumequivalence:fuel:10>], [<auxiliumequivalence:fuel:10>, <auxiliumequivalence:fuel:10>, <auxiliumequivalence:fuel:10>], [<auxiliumequivalence:fuel:10>, <auxiliumequivalence:fuel:10>, <auxiliumequivalence:fuel:10>]]);
+recipes.addShaped(<contenttweaker:yellow_mobius_fuel>, [[<auxiliumequivalence:fuel:7>, <auxiliumequivalence:fuel:7>, <auxiliumequivalence:fuel:7>], [<auxiliumequivalence:fuel:7>, <auxiliumequivalence:fuel:7>, <auxiliumequivalence:fuel:7>], [<auxiliumequivalence:fuel:7>, <auxiliumequivalence:fuel:7>, <auxiliumequivalence:fuel:7>]]);
+recipes.addShaped(<contenttweaker:orange_mobius_fuel>, [[<auxiliumequivalence:fuel:4>, <auxiliumequivalence:fuel:4>, <auxiliumequivalence:fuel:4>], [<auxiliumequivalence:fuel:4>, <auxiliumequivalence:fuel:4>, <auxiliumequivalence:fuel:4>], [<auxiliumequivalence:fuel:4>, <auxiliumequivalence:fuel:4>, <auxiliumequivalence:fuel:4>]]);
+recipes.addShaped(<contenttweaker:dark_mobius_fuel>, [[<auxiliumequivalence:fuel:1>, <auxiliumequivalence:fuel:1>, <auxiliumequivalence:fuel:1>], [<auxiliumequivalence:fuel:1>, <auxiliumequivalence:fuel:1>, <auxiliumequivalence:fuel:1>], [<auxiliumequivalence:fuel:1>, <auxiliumequivalence:fuel:1>, <auxiliumequivalence:fuel:1>]]);
+//alchemical coal
+recipes.addShapeless(<auxiliumequivalence:fuel:15> * 9, [<contenttweaker:rainbow_alchemical_coal>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:12> * 9, [<contenttweaker:blue_alchemical_coal>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:9> * 9, [<contenttweaker:green_alchemical_coal>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:6> * 9, [<contenttweaker:yellow_alchemical_coal>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:3> * 9, [<contenttweaker:orange_alchemical_coal>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:0> * 9, [<contenttweaker:dark_alchemical_coal>]);
+recipes.addShaped(<contenttweaker:rainbow_alchemical_coal>, [[<auxiliumequivalence:fuel:15>, <auxiliumequivalence:fuel:15>, <auxiliumequivalence:fuel:15>], [<auxiliumequivalence:fuel:15>, <auxiliumequivalence:fuel:15>, <auxiliumequivalence:fuel:15>], [<auxiliumequivalence:fuel:15>, <auxiliumequivalence:fuel:15>, <auxiliumequivalence:fuel:15>]]);
+recipes.addShaped(<contenttweaker:blue_alchemical_coal>, [[<auxiliumequivalence:fuel:12>, <auxiliumequivalence:fuel:12>, <auxiliumequivalence:fuel:12>], [<auxiliumequivalence:fuel:12>, <auxiliumequivalence:fuel:12>, <auxiliumequivalence:fuel:12>], [<auxiliumequivalence:fuel:12>, <auxiliumequivalence:fuel:12>, <auxiliumequivalence:fuel:12>]]);
+recipes.addShaped(<contenttweaker:green_alchemical_coal>, [[<auxiliumequivalence:fuel:9>, <auxiliumequivalence:fuel:9>, <auxiliumequivalence:fuel:9>], [<auxiliumequivalence:fuel:9>, <auxiliumequivalence:fuel:9>, <auxiliumequivalence:fuel:9>], [<auxiliumequivalence:fuel:9>, <auxiliumequivalence:fuel:9>, <auxiliumequivalence:fuel:9>]]);
+recipes.addShaped(<contenttweaker:yellow_alchemical_coal>, [[<auxiliumequivalence:fuel:6>, <auxiliumequivalence:fuel:6>, <auxiliumequivalence:fuel:6>], [<auxiliumequivalence:fuel:6>, <auxiliumequivalence:fuel:6>, <auxiliumequivalence:fuel:6>], [<auxiliumequivalence:fuel:6>, <auxiliumequivalence:fuel:6>, <auxiliumequivalence:fuel:6>]]);
+recipes.addShaped(<contenttweaker:orange_alchemical_coal>, [[<auxiliumequivalence:fuel:3>, <auxiliumequivalence:fuel:3>, <auxiliumequivalence:fuel:3>], [<auxiliumequivalence:fuel:3>, <auxiliumequivalence:fuel:3>, <auxiliumequivalence:fuel:3>], [<auxiliumequivalence:fuel:3>, <auxiliumequivalence:fuel:3>, <auxiliumequivalence:fuel:3>]]);
+recipes.addShaped(<contenttweaker:dark_alchemical_coal>, [[<auxiliumequivalence:fuel:0>, <auxiliumequivalence:fuel:0>, <auxiliumequivalence:fuel:0>], [<auxiliumequivalence:fuel:0>, <auxiliumequivalence:fuel:0>, <auxiliumequivalence:fuel:0>], [<auxiliumequivalence:fuel:0>, <auxiliumequivalence:fuel:0>, <auxiliumequivalence:fuel:0>]]);
 
 
 // Basic Collector [MK1]
