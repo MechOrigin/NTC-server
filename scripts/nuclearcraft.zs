@@ -38,3 +38,19 @@ mods.nuclearcraft.ingot_former.addRecipe([<liquid:neutron>*144, <avaritia:resour
 
 //pink slime 
 mods.nuclearcraft.ingot_former.addRecipe([<liquid:if.pink_slime>*250, <industrialforegoing:pink_slime>, 2.0, 2.0]);
+
+//melter
+//mods.nuclearcraft.melter.addRecipe([itemInput, fluidOutput, @Optional double timeMultiplier, @Optional double powerMultiplier, @Optional double processRadiation]);
+//ender ingot
+mods.nuclearcraft.melter.addRecipe([<extendedcrafting:material:36>, <liquid:ender> * 144, 1.0, 1.0, 0.0]);
+//ender nugget
+mods.nuclearcraft.melter.addRecipe([<extendedcrafting:material:37>, <liquid:ender> * 16, 1.0, 1.0, 0.0]);
+//ender block
+mods.nuclearcraft.melter.addRecipe([<extendedcrafting:storage:5>, <liquid:ender> * 1296, 1.0, 1.0, 0.0]);
+
+//ingot former
+//mods.nuclearcraft.ingot_former.addRecipe([fluidInput, itemOutput, @Optional double timeMultiplier, @Optional double powerMultiplier, @Optional double processRadiation]);
+//ender ingot
+mods.nuclearcraft.ingot_former.addRecipe([<liquid:ender> * 144, <extendedcrafting:material:36>, 1.0, 1.0, 0.0]);
+//ender pearl
+mods.nuclearcraft.ingot_former.addRecipe([<liquid:ender> * 250, <minecraft:ender_pearl>, 1.0, 1.0, 0.0]);

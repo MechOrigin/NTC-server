@@ -1,8 +1,16 @@
-Added combiner recipes (mekanism) for making aeternalis fuel. Blocks and item types supported.
-It's a 1:4 ratio: ex. 4 blocks of Aeternalis fuel get 1 block of Dark alchemical coal. Same with item types.
+Made Giga particle accelerator 20 ticks (1 second), output 100% fading matter, white matter, orange matter, rainbow alchemical coal. 
+50% rainbow mobius fuel, 25% rainbow aeternalis fuel.
 
-Added blocks for Auxillium fuel types alchemical coal, mobius fuel and their subsequent crafting recipes.
+Make use of hydrofluoric acid from calcium sulfate production by adding FTBquests page for repeatable quests. WIP to add more.
+	-Taking in community feedback for suggestions
 
-Changed RFtools crafter from 10 operations in fast mode to 5.
+Made ender ingot meltable in magmacrucible, melter(nc), and formable in ingotformer (nc)
 
-There are all mostly Performance improvements because crafting in AE2 and RFtools crafter consumes a lot of server TPS.
+Made osgloglas makable in enderio alloy furnace, 1 osmium, 1refined glowstone/obsidian = 3 osgloglas ingot
+
+Made osmiridium makable in alloy furnace, (nc) alloy furnace, 1 osmium, 1 iridium = 2 osmiridium
+
+Made alumite makable in alloy furnace, 1obs, 2iron, 5aluminum = 3 alumite
+
+Fixed fission based neutron collector recipes using wrong ingots
+

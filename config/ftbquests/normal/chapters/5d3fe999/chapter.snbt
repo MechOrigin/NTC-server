@@ -1,0 +1,12 @@
+{
+	title: "Repeatables",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "ftbmoney:textures/beastcoin.png"
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

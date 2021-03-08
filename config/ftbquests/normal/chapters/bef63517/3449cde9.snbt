@@ -1,6 +1,10 @@
 {
 	x: -6.5d,
 	y: 15.0d,
+	description: "All these Fuel blocks are fancy AND wither proof!",
+	text: [
+		""
+	],
 	dependencies: [
 		"177ad7e9"
 	],

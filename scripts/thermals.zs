@@ -214,3 +214,12 @@ mods.thermalexpansion.Transposer.addFillRecipe(<enderio:item_material:13>, <ende
 mods.thermalexpansion.Transposer.addFillRecipe(<enderio:item_material:73>, <enderio:item_material:11>, <liquid:dark_steel> * 128, 8000);
 
 
+//magma crucible
+//mods.thermalexpansion.Crucible.addRecipe(ILiquidStack output, IItemStack input, int energy);
+
+//ender ingot
+mods.thermalexpansion.Crucible.addRecipe(<liquid:ender> * 144, <extendedcrafting:material:36>, 20000);
+//nugget
+mods.thermalexpansion.Crucible.addRecipe(<liquid:ender> * 16, <extendedcrafting:material:37>, 500);
+//block
+mods.thermalexpansion.Crucible.addRecipe(<liquid:ender> * 1296, <extendedcrafting:storage:5>, 32000);

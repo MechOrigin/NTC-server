@@ -1,0 +1,15 @@
+{
+	x: -1.0d,
+	y: -1.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "c0f9a8ff",
+		type: "emc",
+		value: 81920L
+	}],
+	rewards: [{
+		uid: "1cc95c9b",
+		type: "ftbmoney:money",
+		ftb_money: 8192L
+	}]
+}

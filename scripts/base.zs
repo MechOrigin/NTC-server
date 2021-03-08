@@ -362,13 +362,17 @@ recipes.addShaped(<contenttweaker:sub_block_holder_0:6>,[
 [<nuclearcraft:alloy:2>,<nuclearcraft:alloy:2>,<nuclearcraft:alloy:2>],
 [<nuclearcraft:alloy:2>,<nuclearcraft:alloy:2>,<nuclearcraft:alloy:2>],
 [<nuclearcraft:alloy:2>,<nuclearcraft:alloy:2>,<nuclearcraft:alloy:2>]]); //hardcarbon
-// change name of Tough to Tough Alloy, ETC
-<contenttweaker:sub_block_holder_1:7>.displayName = "Block of Tough Alloy";
-<contenttweaker:sub_block_holder_1:5>.displayName = "Block of Ferroboron Alloy";
-<contenttweaker:sub_block_holder_0:6>.displayName = "Block of Hard Carbon Alloy";
 
 // Tooltips
 //<item>.addTooltip(format.red("test"));
+
+//fission based neutron collector
+recipes.remove(<fbnc:shield_basic>);
+recipes.addShaped(<fbnc:shield_basic> * 1, [
+[<contenttweaker:material_part:41>, <minecraft:heavy_weighted_pressure_plate>, <contenttweaker:material_part:41>], 
+[<minecraft:heavy_weighted_pressure_plate>, <contenttweaker:material_part:49>, <minecraft:heavy_weighted_pressure_plate>], 
+[<contenttweaker:material_part:41>, <minecraft:heavy_weighted_pressure_plate>, <contenttweaker:material_part:41>]]);
+
 
 // Brown Mulch
 recipes.remove(<inspirations:mulch:1>);
