@@ -1,27 +1,48 @@
 {
     "machine": "small_particle_accelerator",
     "registryName": "small_particle_accelerator_darkmatter",
-    "recipeTime": 1000,
+    "recipeTime": 600,
     "requirements": [
         {
             "type": "modularmachinery:item",
             "io-type": "output",
             "item": "projecte:item.pe_matter@0",
-            "amount": 6,
-            "chance": 0.20
+            "amount": 16,
+            "chance": 0.50
         },
         {
             "type": "modularmachinery:item",
             "io-type": "output",
             "item": "projecte:item.pe_matter@1",
-            "amount": 4,
+            "amount": 8,
+            "chance": 0.25
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "auxiliumequivalence:fuel@2",
+            "amount": 9,
+            "chance": 0.10
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "auxiliumequivalence:fuel@5",
+            "amount": 8,
             "chance": 0.08
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "auxiliumequivalence:fuel@8",
+            "amount": 7,
+            "chance": 0.06
         },
         {
             "type": "modularmachinery:fluid",
             "io-type": "input",
             "fluid": "hydrogen",
-            "amount": 100
+            "amount": 1000
         }
     ]
 }

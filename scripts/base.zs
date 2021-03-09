@@ -439,6 +439,14 @@ mods.jei.JEI.removeAndHide(<mysticalagradditions:intermedium_paxel>);
 mods.jei.JEI.removeAndHide(<mysticalagradditions:superium_paxel>);
 mods.jei.JEI.removeAndHide(<mysticalagradditions:supremium_paxel>);
 
+//------------------------
+// Change name of blocks
+//------------------------
+// change name of Tough to Tough Alloy, ETC
+<contenttweaker:sub_block_holder_1:7>.displayName = "Block of Tough Alloy";
+<contenttweaker:sub_block_holder_1:5>.displayName = "Block of Ferroboron Alloy";
+<contenttweaker:sub_block_holder_0:6>.displayName = "Block of Hard Carbon Alloy";
+
 
 //=============================================================================
 // Minecraft

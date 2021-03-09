@@ -185,15 +185,6 @@ for i, metal in metal_list_5 {
 }
 
 //------------------------
-// Change name of blocks
-//------------------------
-// change name of Tough to Tough Alloy, ETC
-<contenttweaker:sub_block_holder_1:7>.displayName = "Block of Tough Alloy";
-<contenttweaker:sub_block_holder_1:5>.displayName = "Block of Ferroboron Alloy";
-<contenttweaker:sub_block_holder_0:6>.displayName = "Block of Hard Carbon Alloy";
-
-
-//------------------------
 // Auxilium Fuel Blocks
 //------------------------
 

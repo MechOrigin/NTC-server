@@ -1,16 +1,5 @@
-Made Giga particle accelerator 20 ticks (1 second), output 100% fading matter, white matter, orange matter, rainbow alchemical coal. 
-50% rainbow mobius fuel, 25% rainbow aeternalis fuel.
+Reworked some balance changes to particle accelerator.
+Made the other particle accelerators output auxiliums alchemical coal, mobius fuel, aeternalis fuel.
 
-Make use of hydrofluoric acid from calcium sulfate production by adding FTBquests page for repeatable quests. WIP to add more.
-	-Taking in community feedback for suggestions
-
-Made ender ingot meltable in magmacrucible, melter(nc), and formable in ingotformer (nc)
-
-Made osgloglas makable in enderio alloy furnace, 1 osmium, 1refined glowstone/obsidian = 3 osgloglas ingot
-
-Made osmiridium makable in alloy furnace, (nc) alloy furnace, 1 osmium, 1 iridium = 2 osmiridium
-
-Made alumite makable in alloy furnace, 1obs, 2iron, 5aluminum = 3 alumite
-
-Fixed fission based neutron collector recipes using wrong ingots
+Changed RFtools crafter to 15 operations in fast mode.
 
