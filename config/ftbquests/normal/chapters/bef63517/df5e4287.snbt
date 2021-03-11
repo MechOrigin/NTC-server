@@ -1,4 +1,10 @@
 {
+	icon: {
+		id: "modularmachinery:itemblueprint",
+		tag: {
+			dynamicmachine: "modularmachinery:ender_dragon_incubator"
+		}
+	},
 	x: -6.0d,
 	y: 21.0d,
 	shape: "gear",
@@ -9,13 +15,7 @@
 	tasks: [{
 		uid: "8652f00d",
 		type: "checkmark",
-		title: "Ender Dragon Incubator",
-		icon: {
-			id: "modularmachinery:itemblueprint",
-			tag: {
-				dynamicmachine: "modularmachinery:ender_dragon_incubator"
-			}
-		}
+		title: "Ender Dragon Incubator"
 	}],
 	rewards: [{
 		uid: "6775a583",

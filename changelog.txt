@@ -11,16 +11,19 @@ Increased all thermal machines/dynamos augment spaces. level0: 0, level1: 2, lev
 
 Changed Fluxduct base energy in Rf/t from 1000 per to 10000. Scales with duct level.
 
-Maybe make a mystical agriculture modular machine, seeds in, essence out, with a upgrade for a chance of not consuming seeds.
 Added Compact Greenhouse:
-	5 x Inputs
-	2 x Outputs
-	Grows all mystical agriculture seeds at base speed
-	-upgrade base blocks with any of the storage blocks for an increase in processing time by x%
+	Grows all mystical agriculture seeds at base speed 300 ticks
+	-upgrade Base blocks with any of the other storage blocks for an increase in processing time by a % of the 13 blocks you've replaced. Ex. 
+		aggraditions require crux - does not consume crux
+		Replace Blocks of base essence all the way through till Insanium have increased processing speeds. Insanium also benefits from not consuming seeds.
 
-<mysticalagriculture:ingot_storage:1>
-<mysticalagriculture:ingot_storage:2>
-<mysticalagriculture:ingot_storage:3>
-<mysticalagriculture:ingot_storage:4>
-<mysticalagriculture:ingot_storage:5>
-<mysticalagradditions:storage:1>
+Fixed Giga particle accelerator not being able to dissasemble matters.
+	-Added functionality to Giga Particle Accelerator:
+		Upon every dissassembly process a 25% chance to randomly create fading matter.
+	-Fixed small amount of matter coming out from 3,2,1 at 100% of the time, to 15,12,9 99% of the time
+
+Added tooltips to all modular machine blueprints that need them.
+
+Added quests.
+
+-Added LagBGone (serverside)

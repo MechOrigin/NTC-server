@@ -1,0 +1,588 @@
+{
+    "registryname": "compact_greenhouse",
+    "localizedname": "Compact Greenhouse",
+    "modifiers": [
+        {
+            "elements": "mysticalagriculture:ingot_storage@1",
+            "x": [-2, -1, 1, -2, 0, 2, -3, 3, 2, 3, -3, 3, -3],
+            "y": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "z": [2, 0, 0, 0, 2, 0, 0, 0, 2, 2, 1, 1, 2],
+            "modifier": {
+                "io": "output",
+                "target": "duration",
+                "operation": 0,
+                "multiplier": -0.06
+            }
+        },
+        {
+            "elements": "mysticalagriculture:ingot_storage@2",
+            "x": [-2, -1, 1, -2, 0, 2, -3, 3, 2, 3, -3, 3, -3],
+            "y": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "z": [2, 0, 0, 0, 2, 0, 0, 0, 2, 2, 1, 1, 2],
+            "modifier": {
+                "io": "output",
+                "target": "duration",
+                "operation": 0,
+                "multiplier": -0.07
+            }
+        },
+        {
+            "elements": "mysticalagriculture:ingot_storage@3",
+            "x": [-2, -1, 1, -2, 0, 2, -3, 3, 2, 3, -3, 3, -3],
+            "y": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "z": [2, 0, 0, 0, 2, 0, 0, 0, 2, 2, 1, 1, 2],
+            "modifier": {
+                "io": "output",
+                "target": "duration",
+                "operation": 0,
+                "multiplier": -0.08
+            }
+        },
+        {
+            "elements": "mysticalagriculture:ingot_storage@4",
+            "x": [-2, -1, 1, -2, 0, 2, -3, 3, 2, 3, -3, 3, -3],
+            "y": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "z": [2, 0, 0, 0, 2, 0, 0, 0, 2, 2, 1, 1, 2],
+            "modifier": {
+                "io": "output",
+                "target": "duration",
+                "operation": 0,
+                "multiplier": -0.09
+            }
+        },
+        {
+            "elements": "mysticalagriculture:ingot_storage@5",
+            "x": [-2, -1, 1, -2, 0, 2, -3, 3, 2, 3, -3, 3, -3],
+            "y": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "z": [2, 0, 0, 0, 2, 0, 0, 0, 2, 2, 1, 1, 2],
+            "modifier": {
+                "io": "output",
+                "target": "duration",
+                "operation": 0,
+                "multiplier": -0.1
+            }
+        },
+        {
+            "elements": "mysticalagradditions:storage@1",
+            "x": [-2, -1, 1, -2, 0, 2, -3, 3, 2, 3, -3, 3, -3],
+            "y": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "z": [2, 0, 0, 0, 2, 0, 0, 0, 2, 2, 1, 1, 2],
+            "modifier": {
+                "io": "input",
+                "target": "item",
+                "operation": 1,
+                "multiplier": 0,
+                "affectChance": true
+            }
+        },
+        {
+            "elements": "mysticalagradditions:storage@1",
+            "x": [-2, -1, 1, -2, 0, 2, -3, 3, 2, 3, -3, 3, -3],
+            "y": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "z": [2, 0, 0, 0, 2, 0, 0, 0, 2, 2, 1, 1, 2],
+            "modifier": {
+                "io": "output",
+                "target": "duration",
+                "operation": 0,
+                "multiplier": -0.2
+            }
+        }
+    ],
+    "parts": [
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "mysticalagriculture:ingot_storage@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "mysticalagriculture:ingot_storage@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockoutputbus"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "mysticalagriculture:ingot_storage@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "mysticalagriculture:ingot_storage@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "mysticalagriculture:ingot_storage@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "mysticalagriculture:ingot_storage@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "mysticalagriculture:ingot_storage@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockinputbus"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "mysticalagriculture:ingot_storage@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "mysticalagriculture:ingot_storage@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "mysticalagriculture:ingot_storage@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "mysticalagriculture:ingot_storage@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thermalexpansion:machine@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thermalexpansion:machine@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thermalexpansion:machine@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thermalexpansion:machine@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thermalexpansion:machine@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "mysticalagriculture:ingot_storage@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "mysticalagriculture:ingot_storage@0"
+            ]
+        }
+    ]}

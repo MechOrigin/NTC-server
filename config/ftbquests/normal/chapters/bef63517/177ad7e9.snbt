@@ -1,5 +1,11 @@
 {
 	title: "Matter Collapsing Engine",
+	icon: {
+		id: "modularmachinery:itemblueprint",
+		tag: {
+			dynamicmachine: "modularmachinery:matter_collapsing_engine"
+		}
+	},
 	x: -5.5d,
 	y: 13.5d,
 	shape: "gear",
@@ -12,13 +18,7 @@
 	],
 	tasks: [{
 		uid: "3b01d88a",
-		type: "checkmark",
-		icon: {
-			id: "modularmachinery:itemblueprint",
-			tag: {
-				dynamicmachine: "modularmachinery:dark_matter_collapsing_engine"
-			}
-		}
+		type: "checkmark"
 	}],
 	rewards: [{
 		uid: "a77e1acc",

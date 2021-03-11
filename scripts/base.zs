@@ -78,6 +78,64 @@ mods.jei.JEI.removeAndHide(<auxiliumequivalence:matter_block:3>);
 mods.jei.JEI.removeAndHide(<auxiliumequivalence:matter_block:4>);
 recipes.removeShapeless(<projecte:item.pe_fuel:2> * 4, [<projecte:item.pe_philosophers_stone>, <auxiliumequivalence:fuel:2>]);
 
+//remove philospher stone from auxilium fuels to help with autocrafting
+recipes.remove(<auxiliumequivalence:fuel:0>);
+recipes.remove(<auxiliumequivalence:fuel:1>);
+recipes.remove(<auxiliumequivalence:fuel:2>);
+recipes.remove(<auxiliumequivalence:fuel:3>);
+recipes.remove(<auxiliumequivalence:fuel:4>);
+recipes.remove(<auxiliumequivalence:fuel:5>);
+recipes.remove(<auxiliumequivalence:fuel:6>);
+recipes.remove(<auxiliumequivalence:fuel:7>);
+recipes.remove(<auxiliumequivalence:fuel:8>);
+recipes.remove(<auxiliumequivalence:fuel:9>);
+recipes.remove(<auxiliumequivalence:fuel:10>);
+recipes.remove(<auxiliumequivalence:fuel:11>);
+recipes.remove(<auxiliumequivalence:fuel:12>);
+recipes.remove(<auxiliumequivalence:fuel:13>);
+recipes.remove(<auxiliumequivalence:fuel:14>);
+recipes.remove(<auxiliumequivalence:fuel:15>);
+recipes.remove(<auxiliumequivalence:fuel:16>);
+recipes.remove(<auxiliumequivalence:fuel:17>);
+// add recipe to make auxilium fuels now (without stone)
+recipes.addShapeless(<auxiliumequivalence:fuel:0>, [<projecte:item.pe_fuel:2>, <projecte:item.pe_fuel:2>, <projecte:item.pe_fuel:2>, <projecte:item.pe_fuel:2>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:1>, [<auxiliumequivalence:fuel:0>, <auxiliumequivalence:fuel:0>, <auxiliumequivalence:fuel:0>, <auxiliumequivalence:fuel:0>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:2>, [<auxiliumequivalence:fuel:1>, <auxiliumequivalence:fuel:1>, <auxiliumequivalence:fuel:1>, <auxiliumequivalence:fuel:1>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:3>, [<auxiliumequivalence:fuel:2>, <auxiliumequivalence:fuel:2>, <auxiliumequivalence:fuel:2>, <auxiliumequivalence:fuel:2>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:4>, [<auxiliumequivalence:fuel:3>, <auxiliumequivalence:fuel:3>, <auxiliumequivalence:fuel:3>, <auxiliumequivalence:fuel:3>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:5>, [<auxiliumequivalence:fuel:4>, <auxiliumequivalence:fuel:4>, <auxiliumequivalence:fuel:4>, <auxiliumequivalence:fuel:4>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:6>, [<auxiliumequivalence:fuel:5>, <auxiliumequivalence:fuel:5>, <auxiliumequivalence:fuel:5>, <auxiliumequivalence:fuel:5>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:7>, [<auxiliumequivalence:fuel:6>, <auxiliumequivalence:fuel:6>, <auxiliumequivalence:fuel:6>, <auxiliumequivalence:fuel:6>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:8>, [<auxiliumequivalence:fuel:7>, <auxiliumequivalence:fuel:7>, <auxiliumequivalence:fuel:7>, <auxiliumequivalence:fuel:7>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:9>, [<auxiliumequivalence:fuel:8>, <auxiliumequivalence:fuel:8>, <auxiliumequivalence:fuel:8>, <auxiliumequivalence:fuel:8>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:10>, [<auxiliumequivalence:fuel:9>, <auxiliumequivalence:fuel:9>, <auxiliumequivalence:fuel:9>, <auxiliumequivalence:fuel:9>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:11>, [<auxiliumequivalence:fuel:10>, <auxiliumequivalence:fuel:10>, <auxiliumequivalence:fuel:10>, <auxiliumequivalence:fuel:10>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:12>, [<auxiliumequivalence:fuel:11>, <auxiliumequivalence:fuel:11>, <auxiliumequivalence:fuel:11>, <auxiliumequivalence:fuel:11>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:13>, [<auxiliumequivalence:fuel:12>, <auxiliumequivalence:fuel:12>, <auxiliumequivalence:fuel:12>, <auxiliumequivalence:fuel:12>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:14>, [<auxiliumequivalence:fuel:13>, <auxiliumequivalence:fuel:13>, <auxiliumequivalence:fuel:13>, <auxiliumequivalence:fuel:13>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:15>, [<auxiliumequivalence:fuel:14>, <auxiliumequivalence:fuel:14>, <auxiliumequivalence:fuel:14>, <auxiliumequivalence:fuel:14>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:16>, [<auxiliumequivalence:fuel:15>, <auxiliumequivalence:fuel:15>, <auxiliumequivalence:fuel:15>, <auxiliumequivalence:fuel:15>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:17>, [<auxiliumequivalence:fuel:16>, <auxiliumequivalence:fuel:16>, <auxiliumequivalence:fuel:16>, <auxiliumequivalence:fuel:16>]);
+//add a way to dissassemble
+recipes.addShapeless(<projecte:item.pe_fuel:2> * 4, [<auxiliumequivalence:fuel:0>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:0> * 4, [<auxiliumequivalence:fuel:1>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:1> * 4, [<auxiliumequivalence:fuel:2>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:2> * 4, [<auxiliumequivalence:fuel:3>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:3> * 4, [<auxiliumequivalence:fuel:4>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:4> * 4, [<auxiliumequivalence:fuel:5>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:5> * 4, [<auxiliumequivalence:fuel:6>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:6> * 4, [<auxiliumequivalence:fuel:7>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:7> * 4, [<auxiliumequivalence:fuel:8>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:8> * 4, [<auxiliumequivalence:fuel:9>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:9> * 4, [<auxiliumequivalence:fuel:10>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:10> * 4, [<auxiliumequivalence:fuel:11>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:11> * 4, [<auxiliumequivalence:fuel:12>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:12> * 4, [<auxiliumequivalence:fuel:13>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:13> * 4, [<auxiliumequivalence:fuel:14>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:14> * 4, [<auxiliumequivalence:fuel:15>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:15> * 4, [<auxiliumequivalence:fuel:16>]);
+recipes.addShapeless(<auxiliumequivalence:fuel:16> * 4, [<auxiliumequivalence:fuel:17>]);
+
 //aux fuel blocks
 //aeternalis
 recipes.addShapeless(<auxiliumequivalence:fuel:17> * 9, [<contenttweaker:rainbow_aeternalis_fuel>]);
@@ -364,7 +422,15 @@ recipes.addShaped(<contenttweaker:sub_block_holder_0:6>,[
 [<nuclearcraft:alloy:2>,<nuclearcraft:alloy:2>,<nuclearcraft:alloy:2>]]); //hardcarbon
 
 // Tooltips
-//<item>.addTooltip(format.red("test"));
+//<item>.addTooltip(format.red("test"));.addTooltip(format.darkPurple(""));
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:compact_greenhouse"}).addTooltip(format.darkPurple("Change any of the Base Essence blocks out for higher tiers up to Insanium for processing speed boost. Blocks of Insanium also have an added bonus of not consuming seeds."));
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:advanced_miniaturization_chamber"}).addTooltip(format.darkPurple("Replace any of the Modular Machine Block casings with Immersive Quartz Fibre Coil blocks for a processing speed boost."));
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:small_particle_accelerator"}).addTooltip(format.darkPurple("Replace fluid input with item input to rip apart matter instead of creating exotic matter."));
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:giga_particle_accelerator"}).addTooltip(format.darkPurple("Replace fluid input with item input to rip apart matter instead of creating exotic matter. There is a small chance that all the energy built up will spontaniously create extra matter."));
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:arboreal_reprocessor"}).addTooltip(format.darkPurple("Replace item output with energy output to generate energy instead of creating material resources."));
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:large_particle_accelerator"}).addTooltip(format.darkPurple("Replace fluid input with item input to rip apart matter instead of creating exotic matter."));
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:medium_particle_accelerator"}).addTooltip(format.darkPurple("Replace fluid input with item input to rip apart matter instead of creating exotic matter."));
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:matter_collapsing_engine"}).addTooltip(format.darkPurple("Change out any of the Aeternalis blocks with Auxilium Aeternalis blocks for a production speed bonus. The higher tiers give higher speed bonus."));
 
 //fission based neutron collector
 recipes.remove(<fbnc:shield_basic>);

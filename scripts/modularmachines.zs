@@ -297,31 +297,31 @@ l_white.addItemInput(<projectex:matter:10>).addItemOutput(<projectex:matter:9> *
 l_fading.addItemInput(<projectex:matter:11>).addItemOutput(<projectex:matter:10> * 3).addItemOutput(<projecte:item.pe_fuel:2> * 6).build();
 
 // GIGA
-val g_magenta = mods.modularmachinery.RecipeBuilder.newBuilder("large_particle_accelerator_magenta", "large_particle_accelerator", 100, 0);
-val g_pink    = mods.modularmachinery.RecipeBuilder.newBuilder("large_particle_accelerator_pink", "large_particle_accelerator", 100, 0);
-val g_purple  = mods.modularmachinery.RecipeBuilder.newBuilder("large_particle_accelerator_purple", "large_particle_accelerator", 100, 0);
-val g_violet  = mods.modularmachinery.RecipeBuilder.newBuilder("large_particle_accelerator_violet", "large_particle_accelerator", 100, 0);
-val g_blue    = mods.modularmachinery.RecipeBuilder.newBuilder("large_particle_accelerator_blue", "large_particle_accelerator", 100, 0);
-val g_cyan    = mods.modularmachinery.RecipeBuilder.newBuilder("large_particle_accelerator_cyan", "large_particle_accelerator", 100, 0);
-val g_green   = mods.modularmachinery.RecipeBuilder.newBuilder("large_particle_accelerator_green", "large_particle_accelerator", 100, 0);
-val g_lime    = mods.modularmachinery.RecipeBuilder.newBuilder("large_particle_accelerator_lime", "large_particle_accelerator", 100, 0);
-val g_yellow  = mods.modularmachinery.RecipeBuilder.newBuilder("large_particle_accelerator_yellow", "large_particle_accelerator", 100, 0);
-val g_orange  = mods.modularmachinery.RecipeBuilder.newBuilder("large_particle_accelerator_orange", "large_particle_accelerator", 100, 0);
-val g_white   = mods.modularmachinery.RecipeBuilder.newBuilder("large_particle_accelerator_white", "large_particle_accelerator", 100, 0);
-val g_fading  = mods.modularmachinery.RecipeBuilder.newBuilder("large_particle_accelerator_fading", "large_particle_accelerator", 100, 0);
+val g_magenta = mods.modularmachinery.RecipeBuilder.newBuilder("giga_particle_accelerator_magenta", "giga_particle_accelerator", 20, 0);
+val g_pink    = mods.modularmachinery.RecipeBuilder.newBuilder("giga_particle_accelerator_pink", "giga_particle_accelerator", 20, 0);
+val g_purple  = mods.modularmachinery.RecipeBuilder.newBuilder("giga_particle_accelerator_purple", "giga_particle_accelerator", 20, 0);
+val g_violet  = mods.modularmachinery.RecipeBuilder.newBuilder("giga_particle_accelerator_violet", "giga_particle_accelerator", 20, 0);
+val g_blue    = mods.modularmachinery.RecipeBuilder.newBuilder("giga_particle_accelerator_blue", "giga_particle_accelerator", 20, 0);
+val g_cyan    = mods.modularmachinery.RecipeBuilder.newBuilder("giga_particle_accelerator_cyan", "giga_particle_accelerator", 20, 0);
+val g_green   = mods.modularmachinery.RecipeBuilder.newBuilder("giga_particle_accelerator_green", "giga_particle_accelerator", 20, 0);
+val g_lime    = mods.modularmachinery.RecipeBuilder.newBuilder("giga_particle_accelerator_lime", "giga_particle_accelerator", 20, 0);
+val g_yellow  = mods.modularmachinery.RecipeBuilder.newBuilder("giga_particle_accelerator_yellow", "giga_particle_accelerator", 20, 0);
+val g_orange  = mods.modularmachinery.RecipeBuilder.newBuilder("giga_particle_accelerator_orange", "giga_particle_accelerator", 20, 0);
+val g_white   = mods.modularmachinery.RecipeBuilder.newBuilder("giga_particle_accelerator_white", "giga_particle_accelerator", 20, 0);
+val g_fading  = mods.modularmachinery.RecipeBuilder.newBuilder("giga_particle_accelerator_fading", "giga_particle_accelerator", 20, 0);
 // GIGA
-g_magenta.addItemInput(<projectex:matter:0>).addItemOutput(<projecte:item.pe_matter:1> * 3).addItemOutput(<projecte:item.pe_fuel:2> * 6).build();
-g_pink.addItemInput(<projectex:matter:1>).addItemOutput(<projectex:matter:0> * 3).addItemOutput(<projecte:item.pe_fuel:2> * 6).build();
-g_purple.addItemInput(<projectex:matter:2>).addItemOutput(<projectex:matter:1> * 3).addItemOutput(<projecte:item.pe_fuel:2> * 6).build();
-g_violet.addItemInput(<projectex:matter:3>).addItemOutput(<projectex:matter:2> * 3).addItemOutput(<projecte:item.pe_fuel:2> * 6).build();
-g_blue.addItemInput(<projectex:matter:4>).addItemOutput(<projectex:matter:3> * 3).addItemOutput(<projecte:item.pe_fuel:2> * 6).build();
-g_cyan.addItemInput(<projectex:matter:5>).addItemOutput(<projectex:matter:4> * 3).addItemOutput(<projecte:item.pe_fuel:2> * 6).build();
-g_green.addItemInput(<projectex:matter:6>).addItemOutput(<projectex:matter:5> * 3).addItemOutput(<projecte:item.pe_fuel:2> * 6).build();
-g_lime.addItemInput(<projectex:matter:7>).addItemOutput(<projectex:matter:6> * 3).addItemOutput(<projecte:item.pe_fuel:2> * 6).build();
-g_yellow.addItemInput(<projectex:matter:8>).addItemOutput(<projectex:matter:7> * 3).addItemOutput(<projecte:item.pe_fuel:2> * 6).build();
-g_orange.addItemInput(<projectex:matter:9>).addItemOutput(<projectex:matter:8> * 3).addItemOutput(<projecte:item.pe_fuel:2> * 6).build();
-g_white.addItemInput(<projectex:matter:10>).addItemOutput(<projectex:matter:9> * 3).addItemOutput(<projecte:item.pe_fuel:2> * 6).build();
-g_fading.addItemInput(<projectex:matter:11>).addItemOutput(<projectex:matter:10> * 3).addItemOutput(<projecte:item.pe_fuel:2> * 6).build();
+g_magenta.addItemInput(<projectex:matter:0>).addItemOutput(<projecte:item.pe_matter:1> * 3).addItemOutput(<projecte:item.pe_fuel:2> * 6).addItemOutput(<projectex:matter:11> * 2).setChance(0.25).build();
+g_pink.addItemInput(<projectex:matter:1>).addItemOutput(<projectex:matter:0> * 3).addItemOutput(<projecte:item.pe_fuel:2> * 6).addItemOutput(<projectex:matter:11> * 2).setChance(0.25).build();
+g_purple.addItemInput(<projectex:matter:2>).addItemOutput(<projectex:matter:1> * 3).addItemOutput(<projecte:item.pe_fuel:2> * 6).addItemOutput(<projectex:matter:11> * 2).setChance(0.25).build();
+g_violet.addItemInput(<projectex:matter:3>).addItemOutput(<projectex:matter:2> * 3).addItemOutput(<projecte:item.pe_fuel:2> * 6).addItemOutput(<projectex:matter:11> * 2).setChance(0.25).build();
+g_blue.addItemInput(<projectex:matter:4>).addItemOutput(<projectex:matter:3> * 3).addItemOutput(<projecte:item.pe_fuel:2> * 6).addItemOutput(<projectex:matter:11> * 2).setChance(0.25).build();
+g_cyan.addItemInput(<projectex:matter:5>).addItemOutput(<projectex:matter:4> * 3).addItemOutput(<projecte:item.pe_fuel:2> * 6).addItemOutput(<projectex:matter:11> * 2).setChance(0.25).build();
+g_green.addItemInput(<projectex:matter:6>).addItemOutput(<projectex:matter:5> * 3).addItemOutput(<projecte:item.pe_fuel:2> * 6).addItemOutput(<projectex:matter:11> * 2).setChance(0.25).build();
+g_lime.addItemInput(<projectex:matter:7>).addItemOutput(<projectex:matter:6> * 3).addItemOutput(<projecte:item.pe_fuel:2> * 6).addItemOutput(<projectex:matter:11> * 2).setChance(0.25).build();
+g_yellow.addItemInput(<projectex:matter:8>).addItemOutput(<projectex:matter:7> * 3).addItemOutput(<projecte:item.pe_fuel:2> * 6).addItemOutput(<projectex:matter:11> * 2).setChance(0.25).build();
+g_orange.addItemInput(<projectex:matter:9>).addItemOutput(<projectex:matter:8> * 3).addItemOutput(<projecte:item.pe_fuel:2> * 6).addItemOutput(<projectex:matter:11> * 2).setChance(0.25).build();
+g_white.addItemInput(<projectex:matter:10>).addItemOutput(<projectex:matter:9> * 3).addItemOutput(<projecte:item.pe_fuel:2> * 6).addItemOutput(<projectex:matter:11> * 2).setChance(0.25).build();
+g_fading.addItemInput(<projectex:matter:11>).addItemOutput(<projectex:matter:10> * 3).addItemOutput(<projecte:item.pe_fuel:2> * 6).addItemOutput(<projectex:matter:11> * 2).setChance(0.25).build();
 
 
 
@@ -492,3 +492,442 @@ val dimensional_acorn = mods.modularmachinery.RecipeBuilder.newBuilder("arboreal
 val dimensional_amber = mods.modularmachinery.RecipeBuilder.newBuilder("arboreal_reprocessor_dimensional_amber", "arboreal_reprocessor", 10, 0);
 dimensional_acorn.addEnergyPerTickInput(400).addItemInput(<sky_orchards:acorn_dimensionalshard>).addItemOutput(<rftools:dimensional_shard> * 1).build();
 dimensional_amber.addEnergyPerTickInput(800).addItemInput(<sky_orchards:amber_dimensionalshard>).addItemOutput(<rftools:dimensional_shard> * 6).addItemOutput(<biomesoplenty:gem:7> * 8).build();
+
+
+// Compact greenhouse
+
+val compact_greenhouse_1 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_1", "compact_greenhouse", 300, 0);
+// inferium seed 2
+compact_greenhouse_1.addItemInput(<mysticalagriculture:tier2_inferium_seeds>).setChance(0.6).addItemOutput(<mysticalagriculture:crafting:0> * 6).build();
+
+val compact_greenhouse_2 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_2", "compact_greenhouse", 300, 0);
+// inferium seed 3
+compact_greenhouse_2.addItemInput(<mysticalagriculture:tier3_inferium_seeds>).setChance(0.7).addItemOutput(<mysticalagriculture:crafting:0> * 12).build();
+
+val compact_greenhouse_3 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_3", "compact_greenhouse", 300, 0);
+// inferium seed 4
+compact_greenhouse_3.addItemInput(<mysticalagriculture:tier4_inferium_seeds>).setChance(0.8).addItemOutput(<mysticalagriculture:crafting:0> * 15).build();
+
+val compact_greenhouse_4 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_4", "compact_greenhouse", 300, 0);
+// inferium seed 5
+compact_greenhouse_4.addItemInput(<mysticalagriculture:tier5_inferium_seeds>).setChance(0.9).addItemOutput(<mysticalagriculture:crafting:0> * 18).build();
+
+val compact_greenhouse_5 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_5", "compact_greenhouse", 300, 0);
+// inferium seed 6 - aggraditions
+compact_greenhouse_5.addItemInput(<mysticalagradditions:tier6_inferium_seeds>).setChance(0.95).addItemOutput(<mysticalagriculture:crafting:0> * 21).build();
+
+val compact_greenhouse_6 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_6", "compact_greenhouse", 300, 0);
+// nether star seed - aggraditions
+compact_greenhouse_6.addItemInput(<mysticalagradditions:nether_star_seeds>).addItemInput(<mysticalagradditions:special:0>).setChance(0.0).addItemOutput(<mysticalagradditions:nether_star_essence> * 3).build();
+
+val compact_greenhouse_7 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_7", "compact_greenhouse", 300, 0);
+// dragon egg seed - aggraditions
+compact_greenhouse_7.addItemInput(<mysticalagradditions:dragon_egg_seeds>).addItemInput(<mysticalagradditions:special:1>).setChance(0.0).addItemOutput(<mysticalagradditions:dragon_egg_essence> * 3).build();
+
+val compact_greenhouse_8 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_8", "compact_greenhouse", 300, 0);
+// neutronium seed - aggraditions
+compact_greenhouse_8.addItemInput(<mysticalagradditions:neutronium_seeds>).addItemInput(<mysticalagradditions:special:5>).setChance(0.0).addItemOutput(<mysticalagradditions:neutronium_essence> * 3).build();
+
+val compact_greenhouse_9 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_9", "compact_greenhouse", 300, 0);
+// aluminum seed
+compact_greenhouse_9.addItemInput(<mysticalagriculture:aluminum_seeds>).addItemOutput(<mysticalagriculture:aluminum_essence> * 3).build();
+
+val compact_greenhouse_9_1 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_9_1", "compact_greenhouse", 300, 0);
+// aluminum brass seed
+compact_greenhouse_9_1.addItemInput(<mysticalagriculture:aluminum_brass_seeds>).addItemOutput(<mysticalagriculture:aluminum_brass_essence> * 3).build();
+
+val compact_greenhouse_9_2 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_9_2", "compact_greenhouse", 300, 0);
+// alumite seed
+compact_greenhouse_9_2.addItemInput(<mysticalagriculture:alumite_seeds>).addItemOutput(<mysticalagriculture:alumite_essence> * 3).build();
+
+val compact_greenhouse_9_3 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_9_3", "compact_greenhouse", 300, 0);
+// amber seed
+compact_greenhouse_9_3.addItemInput(<mysticalagriculture:amber_seeds>).addItemOutput(<mysticalagriculture:amber_essence> * 3).build();
+
+val compact_greenhouse_10 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_10", "compact_greenhouse", 300, 0);
+// ardite seed
+compact_greenhouse_10.addItemInput(<mysticalagriculture:ardite_seeds>).addItemOutput(<mysticalagriculture:ardite_essence> * 3).build();
+
+val compact_greenhouse_10_1 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_10_1", "compact_greenhouse", 300, 0);
+// basalt seed
+compact_greenhouse_10_1.addItemInput(<mysticalagriculture:basalt_seeds>).addItemOutput(<mysticalagriculture:basalt_essence> * 3).build();
+
+val compact_greenhouse_11 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_11", "compact_greenhouse", 300, 0);
+// basalz seed
+compact_greenhouse_11.addItemInput(<mysticalagriculture:basalz_seeds>).addItemOutput(<mysticalagriculture:basalz_essence> * 3).build();
+
+val compact_greenhouse_11_1 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_11_1", "compact_greenhouse", 300, 0);
+// black quartz seed
+compact_greenhouse_11_1.addItemInput(<mysticalagriculture:black_quartz_seeds>).addItemOutput(<mysticalagriculture:black_quartz_essence> * 3).build();
+
+val compact_greenhouse_12 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_12", "compact_greenhouse", 300, 0);
+// blaze seed
+compact_greenhouse_12.addItemInput(<mysticalagriculture:blaze_seeds>).addItemOutput(<mysticalagriculture:blaze_essence> * 3).build();
+
+val compact_greenhouse_13 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_13", "compact_greenhouse", 300, 0);
+// blitz seed
+compact_greenhouse_13.addItemInput(<mysticalagriculture:blitz_seeds>).addItemOutput(<mysticalagriculture:blitz_essence> * 3).build();
+
+val compact_greenhouse_14 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_14", "compact_greenhouse", 300, 0);
+// blizz seed
+compact_greenhouse_14.addItemInput(<mysticalagriculture:blizz_seeds>).addItemOutput(<mysticalagriculture:blizz_essence> * 3).build();
+
+val compact_greenhouse_14_1 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_14_1", "compact_greenhouse", 300, 0);
+// boron seed
+compact_greenhouse_14_1.addItemInput(<mysticalagriculture:boron_seeds>).addItemOutput(<mysticalagriculture:boron_essence> * 3).build();
+
+val compact_greenhouse_15 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_15", "compact_greenhouse", 300, 0);
+// bronze seed
+compact_greenhouse_15.addItemInput(<mysticalagriculture:bronze_seeds>).addItemOutput(<mysticalagriculture:bronze_essence> * 3).build();
+
+val compact_greenhouse_15_1 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_15_1", "compact_greenhouse", 300, 0);
+// certus quartz seed
+compact_greenhouse_15_1.addItemInput(<mysticalagriculture:certus_quartz_seeds>).addItemOutput(<mysticalagriculture:certus_quartz_essence> * 3).build();
+
+val compact_greenhouse_16 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_16", "compact_greenhouse", 300, 0);
+// chicken seed
+compact_greenhouse_16.addItemInput(<mysticalagriculture:chicken_seeds>).addItemOutput(<mysticalagriculture:chicken_essence> * 3).build();
+
+val compact_greenhouse_17 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_17", "compact_greenhouse", 300, 0);
+// coal seed
+compact_greenhouse_17.addItemInput(<mysticalagriculture:coal_seeds>).addItemOutput(<mysticalagriculture:coal_essence> * 3).build();
+
+val compact_greenhouse_18 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_18", "compact_greenhouse", 300, 0);
+// cobalt seed
+compact_greenhouse_18.addItemInput(<mysticalagriculture:cobalt_seeds>).addItemOutput(<mysticalagriculture:cobalt_essence> * 3).build();
+
+val compact_greenhouse_18_1 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_18_1", "compact_greenhouse", 300, 0);
+// conductive iron seed
+compact_greenhouse_18_1.addItemInput(<mysticalagriculture:conductive_iron_seeds>).addItemOutput(<mysticalagriculture:conductive_iron_essence> * 3).build();
+
+val compact_greenhouse_19 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_19", "compact_greenhouse", 300, 0);
+// constantan seed
+compact_greenhouse_19.addItemInput(<mysticalagriculture:constantan_seeds>).addItemOutput(<mysticalagriculture:constantan_essence> * 3).build();
+
+val compact_greenhouse_20 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_20", "compact_greenhouse", 300, 0);
+// copper seed
+compact_greenhouse_20.addItemInput(<mysticalagriculture:copper_seeds>).addItemOutput(<mysticalagriculture:copper_essence> * 3).build();
+
+val compact_greenhouse_21 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_21", "compact_greenhouse", 300, 0);
+// cow seed
+compact_greenhouse_21.addItemInput(<mysticalagriculture:cow_seeds>).addItemOutput(<mysticalagriculture:cow_essence> * 3).build();
+
+val compact_greenhouse_22 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_22", "compact_greenhouse", 300, 0);
+// creeper seed
+compact_greenhouse_22.addItemInput(<mysticalagriculture:creeper_seeds>).addItemOutput(<mysticalagriculture:creeper_essence> * 3).build();
+
+val compact_greenhouse_22_1 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_22_1", "compact_greenhouse", 300, 0);
+// dark steel seed
+compact_greenhouse_22_1.addItemInput(<mysticalagriculture:dark_steel_seeds>).addItemOutput(<mysticalagriculture:dark_steel_essence> * 3).build();
+
+val compact_greenhouse_23 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_23", "compact_greenhouse", 300, 0);
+// diamond seed
+compact_greenhouse_23.addItemInput(<mysticalagriculture:diamond_seeds>).addItemOutput(<mysticalagriculture:diamond_essence> * 3).build();
+
+val compact_greenhouse_24 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_24", "compact_greenhouse", 300, 0);
+// dirt seed
+compact_greenhouse_24.addItemInput(<mysticalagriculture:dirt_seeds>).addItemOutput(<mysticalagriculture:dirt_essence> * 3).build();
+
+val compact_greenhouse_25 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_25", "compact_greenhouse", 300, 0);
+// dye seed
+compact_greenhouse_25.addItemInput(<mysticalagriculture:dye_seeds>).addItemOutput(<mysticalagriculture:dye_essence> * 3).build();
+
+val compact_greenhouse_25_1 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_25_1", "compact_greenhouse", 300, 0);
+// electrical steel seed
+compact_greenhouse_25_1.addItemInput(<mysticalagriculture:electrical_steel_seeds>).addItemOutput(<mysticalagriculture:electrical_steel_essence> * 3).build();
+
+val compact_greenhouse_26 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_26", "compact_greenhouse", 300, 0);
+// electrum seed
+compact_greenhouse_26.addItemInput(<mysticalagriculture:electrum_seeds>).addItemOutput(<mysticalagriculture:electrum_essence> * 3).build();
+
+val compact_greenhouse_27 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_27", "compact_greenhouse", 300, 0);
+// emerald seed
+compact_greenhouse_27.addItemInput(<mysticalagriculture:emerald_seeds>).addItemOutput(<mysticalagriculture:emerald_essence> * 3).build();
+
+val compact_greenhouse_28 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_28", "compact_greenhouse", 300, 0);
+// end seed
+compact_greenhouse_28.addItemInput(<mysticalagriculture:end_seeds>).addItemOutput(<mysticalagriculture:end_essence> * 3).build();
+
+val compact_greenhouse_29 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_29", "compact_greenhouse", 300, 0);
+// end steel seed
+compact_greenhouse_29.addItemInput(<mysticalagriculture:end_steel_seeds>).addItemOutput(<mysticalagriculture:end_steel_essence> * 3).build();
+
+val compact_greenhouse_30 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_30", "compact_greenhouse", 300, 0);
+// ender_amethyst seed
+compact_greenhouse_30.addItemInput(<mysticalagriculture:ender_amethyst_seeds>).addItemOutput(<mysticalagriculture:ender_amethyst_essence> * 3).build();
+
+val compact_greenhouse_31 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_31", "compact_greenhouse", 300, 0);
+// enderium seed
+compact_greenhouse_31.addItemInput(<mysticalagriculture:enderium_seeds>).addItemOutput(<mysticalagriculture:enderium_essence> * 3).build();
+
+val compact_greenhouse_32 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_32", "compact_greenhouse", 300, 0);
+// enderman seed
+compact_greenhouse_32.addItemInput(<mysticalagriculture:enderman_seeds>).addItemOutput(<mysticalagriculture:enderman_essence> * 3).build();
+
+val compact_greenhouse_33 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_33", "compact_greenhouse", 300, 0);
+// energetic_alloy seed
+compact_greenhouse_33.addItemInput(<mysticalagriculture:energetic_alloy_seeds>).addItemOutput(<mysticalagriculture:energetic_alloy_essence> * 3).build();
+
+val compact_greenhouse_34 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_34", "compact_greenhouse", 300, 0);
+// experience seed
+compact_greenhouse_34.addItemInput(<mysticalagriculture:experience_seeds>).addItemOutput(<mysticalagriculture:experience_essence> * 3).build();
+
+val compact_greenhouse_35 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_35", "compact_greenhouse", 300, 0);
+// fire seed
+compact_greenhouse_35.addItemInput(<mysticalagriculture:fire_seeds>).addItemOutput(<mysticalagriculture:fire_essence> * 3).build();
+
+val compact_greenhouse_36 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_36", "compact_greenhouse", 300, 0);
+// fluix seed
+compact_greenhouse_36.addItemInput(<mysticalagriculture:fluix_seeds>).addItemOutput(<mysticalagriculture:fluix_essence> * 3).build();
+
+val compact_greenhouse_37 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_37", "compact_greenhouse", 300, 0);
+// ghast seed
+compact_greenhouse_37.addItemInput(<mysticalagriculture:ghast_seeds>).addItemOutput(<mysticalagriculture:ghast_essence> * 3).build();
+
+val compact_greenhouse_38 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_38", "compact_greenhouse", 300, 0);
+// glowstone seed
+compact_greenhouse_38.addItemInput(<mysticalagriculture:glowstone_seeds>).addItemOutput(<mysticalagriculture:glowstone_essence> * 3).build();
+
+val compact_greenhouse_39 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_39", "compact_greenhouse", 300, 0);
+// glowstone_ingot seed
+compact_greenhouse_39.addItemInput(<mysticalagriculture:glowstone_ingot_seeds>).addItemOutput(<mysticalagriculture:glowstone_ingot_essence> * 3).build();
+
+val compact_greenhouse_40 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_40", "compact_greenhouse", 300, 0);
+// gold seed
+compact_greenhouse_40.addItemInput(<mysticalagriculture:gold_seeds>).addItemOutput(<mysticalagriculture:gold_essence> * 3).build();
+
+val compact_greenhouse_41 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_41", "compact_greenhouse", 300, 0);
+// grains_of_infinity seed
+compact_greenhouse_41.addItemInput(<mysticalagriculture:grains_of_infinity_seeds>).addItemOutput(<mysticalagriculture:grains_of_infinity_essence> * 3).build();
+
+val compact_greenhouse_42 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_42", "compact_greenhouse", 300, 0);
+// graphite seed
+compact_greenhouse_42.addItemInput(<mysticalagriculture:graphite_seeds>).addItemOutput(<mysticalagriculture:graphite_essence> * 3).build();
+
+val compact_greenhouse_43 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_43", "compact_greenhouse", 300, 0);
+// guardian seed
+compact_greenhouse_43.addItemInput(<mysticalagriculture:guardian_seeds>).addItemOutput(<mysticalagriculture:guardian_essence> * 3).build();
+
+val compact_greenhouse_44 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_44", "compact_greenhouse", 300, 0);
+// hop_graphite seed
+compact_greenhouse_44.addItemInput(<mysticalagriculture:hop_graphite_seeds>).addItemOutput(<mysticalagriculture:hop_graphite_essence> * 3).build();
+
+val compact_greenhouse_45 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_45", "compact_greenhouse", 300, 0);
+// ice seed
+compact_greenhouse_45.addItemInput(<mysticalagriculture:ice_seeds>).addItemOutput(<mysticalagriculture:ice_essence> * 3).build();
+
+val compact_greenhouse_46 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_46", "compact_greenhouse", 300, 0);
+// invar seed
+compact_greenhouse_46.addItemInput(<mysticalagriculture:invar_seeds>).addItemOutput(<mysticalagriculture:invar_essence> * 3).build();
+
+val compact_greenhouse_47 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_47", "compact_greenhouse", 300, 0);
+// iridium seed
+compact_greenhouse_47.addItemInput(<mysticalagriculture:iridium_seeds>).addItemOutput(<mysticalagriculture:iridium_essence> * 3).build();
+
+val compact_greenhouse_48 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_48", "compact_greenhouse", 300, 0);
+// iron seed
+compact_greenhouse_48.addItemInput(<mysticalagriculture:iron_seeds>).addItemOutput(<mysticalagriculture:iron_essence> * 3).build();
+
+val compact_greenhouse_49 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_49", "compact_greenhouse", 300, 0);
+// knightslime seed
+compact_greenhouse_49.addItemInput(<mysticalagriculture:knightslime_seeds>).addItemOutput(<mysticalagriculture:knightslime_essence> * 3).build();
+
+val compact_greenhouse_50 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_50", "compact_greenhouse", 300, 0);
+// lapis_lazuli seed
+compact_greenhouse_50.addItemInput(<mysticalagriculture:lapis_lazuli_seeds>).addItemOutput(<mysticalagriculture:lapis_lazuli_essence> * 3).build();
+
+val compact_greenhouse_51 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_51", "compact_greenhouse", 300, 0);
+// lead seed
+compact_greenhouse_51.addItemInput(<mysticalagriculture:lead_seeds>).addItemOutput(<mysticalagriculture:lead_essence> * 3).build();
+
+val compact_greenhouse_52 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_52", "compact_greenhouse", 300, 0);
+// limestone seed
+compact_greenhouse_52.addItemInput(<mysticalagriculture:limestone_seeds>).addItemOutput(<mysticalagriculture:limestone_essence> * 3).build();
+
+val compact_greenhouse_53 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_53", "compact_greenhouse", 300, 0);
+// lithium seed
+compact_greenhouse_53.addItemInput(<mysticalagriculture:lithium_seeds>).addItemOutput(<mysticalagriculture:lithium_essence> * 3).build();
+
+val compact_greenhouse_54 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_54", "compact_greenhouse", 300, 0);
+// lumium seed
+compact_greenhouse_54.addItemInput(<mysticalagriculture:lumium_seeds>).addItemOutput(<mysticalagriculture:lumium_essence> * 3).build();
+
+val compact_greenhouse_55 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_55", "compact_greenhouse", 300, 0);
+// magnesium seed
+compact_greenhouse_55.addItemInput(<mysticalagriculture:magnesium_seeds>).addItemOutput(<mysticalagriculture:magnesium_essence> * 3).build();
+
+val compact_greenhouse_56 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_56", "compact_greenhouse", 300, 0);
+// malachite seed
+compact_greenhouse_56.addItemInput(<mysticalagriculture:malachite_seeds>).addItemOutput(<mysticalagriculture:malachite_essence> * 3).build();
+
+val compact_greenhouse_57 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_57", "compact_greenhouse", 300, 0);
+// manyullyn seed
+compact_greenhouse_57.addItemInput(<mysticalagriculture:manyullyn_seeds>).addItemOutput(<mysticalagriculture:manyullyn_essence> * 3).build();
+
+val compact_greenhouse_58 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_58", "compact_greenhouse", 300, 0);
+// marble seed
+compact_greenhouse_58.addItemInput(<mysticalagriculture:marble_seeds>).addItemOutput(<mysticalagriculture:marble_essence> * 3).build();
+
+val compact_greenhouse_59 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_59", "compact_greenhouse", 300, 0);
+// menril seed
+compact_greenhouse_59.addItemInput(<mysticalagriculture:menril_seeds>).addItemOutput(<mysticalagriculture:menril_essence> * 3).build();
+
+val compact_greenhouse_60 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_60", "compact_greenhouse", 300, 0);
+// nature seed
+compact_greenhouse_60.addItemInput(<mysticalagriculture:nature_seeds>).addItemOutput(<mysticalagriculture:nature_essence> * 3).build();
+
+val compact_greenhouse_61 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_61", "compact_greenhouse", 300, 0);
+// nether_quartz seed
+compact_greenhouse_61.addItemInput(<mysticalagriculture:nether_quartz_seeds>).addItemOutput(<mysticalagriculture:nether_quartz_essence> * 3).build();
+
+val compact_greenhouse_62 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_62", "compact_greenhouse", 300, 0);
+// nether seed
+compact_greenhouse_62.addItemInput(<mysticalagriculture:nether_seeds>).addItemOutput(<mysticalagriculture:nether_essence> * 3).build();
+
+val compact_greenhouse_63 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_63", "compact_greenhouse", 300, 0);
+// nickel seed
+compact_greenhouse_63.addItemInput(<mysticalagriculture:nickel_seeds>).addItemOutput(<mysticalagriculture:nickel_essence> * 3).build();
+
+val compact_greenhouse_64 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_64", "compact_greenhouse", 300, 0);
+// obsidian seed
+compact_greenhouse_64.addItemInput(<mysticalagriculture:obsidian_seeds>).addItemOutput(<mysticalagriculture:obsidian_essence> * 3).build();
+
+val compact_greenhouse_65 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_65", "compact_greenhouse", 300, 0);
+// osmium seed
+compact_greenhouse_65.addItemInput(<mysticalagriculture:osmium_seeds>).addItemOutput(<mysticalagriculture:osmium_essence> * 3).build();
+
+val compact_greenhouse_66 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_66", "compact_greenhouse", 300, 0);
+// peridot seed
+compact_greenhouse_66.addItemInput(<mysticalagriculture:peridot_seeds>).addItemOutput(<mysticalagriculture:peridot_essence> * 3).build();
+
+val compact_greenhouse_67 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_67", "compact_greenhouse", 300, 0);
+// pig seed
+compact_greenhouse_67.addItemInput(<mysticalagriculture:pig_seeds>).addItemOutput(<mysticalagriculture:pig_essence> * 3).build();
+
+val compact_greenhouse_68 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_68", "compact_greenhouse", 300, 0);
+// platinum seed
+compact_greenhouse_68.addItemInput(<mysticalagriculture:platinum_seeds>).addItemOutput(<mysticalagriculture:platinum_essence> * 3).build();
+
+val compact_greenhouse_69 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_69", "compact_greenhouse", 300, 0);
+// pulsating_iron seed
+compact_greenhouse_69.addItemInput(<mysticalagriculture:pulsating_iron_seeds>).addItemOutput(<mysticalagriculture:pulsating_iron_essence> * 3).build();
+
+val compact_greenhouse_70 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_70", "compact_greenhouse", 300, 0);
+// rabbit seed
+compact_greenhouse_70.addItemInput(<mysticalagriculture:rabbit_seeds>).addItemOutput(<mysticalagriculture:rabbit_essence> * 3).build();
+
+val compact_greenhouse_71 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_71", "compact_greenhouse", 300, 0);
+// redstone_alloy seed
+compact_greenhouse_71.addItemInput(<mysticalagriculture:redstone_alloy_seeds>).addItemOutput(<mysticalagriculture:redstone_alloy_essence> * 3).build();
+
+val compact_greenhouse_72 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_72", "compact_greenhouse", 300, 0);
+// redstone seed
+compact_greenhouse_72.addItemInput(<mysticalagriculture:redstone_seeds>).addItemOutput(<mysticalagriculture:redstone_essence> * 3).build();
+
+val compact_greenhouse_73 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_73", "compact_greenhouse", 300, 0);
+// refined_obsidian seed
+compact_greenhouse_73.addItemInput(<mysticalagriculture:refined_obsidian_seeds>).addItemOutput(<mysticalagriculture:refined_obsidian_essence> * 3).build();
+
+val compact_greenhouse_74 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_74", "compact_greenhouse", 300, 0);
+// ruby seed
+compact_greenhouse_74.addItemInput(<mysticalagriculture:ruby_seeds>).addItemOutput(<mysticalagriculture:ruby_essence> * 3).build();
+
+val compact_greenhouse_75 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_75", "compact_greenhouse", 300, 0);
+// saltpeter seed
+compact_greenhouse_75.addItemInput(<mysticalagriculture:saltpeter_seeds>).addItemOutput(<mysticalagriculture:saltpeter_essence> * 3).build();
+
+val compact_greenhouse_76 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_76", "compact_greenhouse", 300, 0);
+// sapphire seed
+compact_greenhouse_76.addItemInput(<mysticalagriculture:sapphire_seeds>).addItemOutput(<mysticalagriculture:sapphire_essence> * 3).build();
+
+val compact_greenhouse_77 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_77", "compact_greenhouse", 300, 0);
+// sheep seed
+compact_greenhouse_77.addItemInput(<mysticalagriculture:sheep_seeds>).addItemOutput(<mysticalagriculture:sheep_essence> * 3).build();
+
+val compact_greenhouse_78 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_78", "compact_greenhouse", 300, 0);
+// signalum seed
+compact_greenhouse_78.addItemInput(<mysticalagriculture:signalum_seeds>).addItemOutput(<mysticalagriculture:signalum_essence> * 3).build();
+
+val compact_greenhouse_79 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_79", "compact_greenhouse", 300, 0);
+// silicon seed
+compact_greenhouse_79.addItemInput(<mysticalagriculture:silicon_seeds>).addItemOutput(<mysticalagriculture:silicon_essence> * 3).build();
+
+val compact_greenhouse_80 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_80", "compact_greenhouse", 300, 0);
+// silver seed
+compact_greenhouse_80.addItemInput(<mysticalagriculture:silver_seeds>).addItemOutput(<mysticalagriculture:silver_essence> * 3).build();
+
+val compact_greenhouse_81 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_81", "compact_greenhouse", 300, 0);
+// skeleton seed
+compact_greenhouse_81.addItemInput(<mysticalagriculture:skeleton_seeds>).addItemOutput(<mysticalagriculture:skeleton_essence> * 3).build();
+
+val compact_greenhouse_82 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_82", "compact_greenhouse", 300, 0);
+// sky_stone seed
+compact_greenhouse_82.addItemInput(<mysticalagriculture:sky_stone_seeds>).addItemOutput(<mysticalagriculture:sky_stone_essence> * 3).build();
+
+val compact_greenhouse_83 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_83", "compact_greenhouse", 300, 0);
+// slime seed
+compact_greenhouse_83.addItemInput(<mysticalagriculture:slime_seeds>).addItemOutput(<mysticalagriculture:slime_essence> * 3).build();
+
+val compact_greenhouse_84 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_84", "compact_greenhouse", 300, 0);
+// soularium seed
+compact_greenhouse_84.addItemInput(<mysticalagriculture:soularium_seeds>).addItemOutput(<mysticalagriculture:soularium_essence> * 3).build();
+
+val compact_greenhouse_85 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_85", "compact_greenhouse", 300, 0);
+// spider seed
+compact_greenhouse_85.addItemInput(<mysticalagriculture:spider_seeds>).addItemOutput(<mysticalagriculture:spider_essence> * 3).build();
+
+val compact_greenhouse_86 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_86", "compact_greenhouse", 300, 0);
+// steel seed
+compact_greenhouse_86.addItemInput(<mysticalagriculture:steel_seeds>).addItemOutput(<mysticalagriculture:steel_essence> * 3).build();
+
+val compact_greenhouse_87 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_87", "compact_greenhouse", 300, 0);
+// stone seed
+compact_greenhouse_87.addItemInput(<mysticalagriculture:stone_seeds>).addItemOutput(<mysticalagriculture:stone_essence> * 3).build();
+
+val compact_greenhouse_88 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_88", "compact_greenhouse", 300, 0);
+// sulfur seed
+compact_greenhouse_88.addItemInput(<mysticalagriculture:sulfur_seeds>).addItemOutput(<mysticalagriculture:sulfur_essence> * 3).build();
+
+val compact_greenhouse_89 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_89", "compact_greenhouse", 300, 0);
+// tanzanite seed
+compact_greenhouse_89.addItemInput(<mysticalagriculture:tanzanite_seeds>).addItemOutput(<mysticalagriculture:tanzanite_essence> * 3).build();
+
+val compact_greenhouse_90 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_90", "compact_greenhouse", 300, 0);
+// thorium seed
+compact_greenhouse_90.addItemInput(<mysticalagriculture:thorium_seeds>).addItemOutput(<mysticalagriculture:thorium_essence> * 3).build();
+
+val compact_greenhouse_91 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_91", "compact_greenhouse", 300, 0);
+// tin seed
+compact_greenhouse_91.addItemInput(<mysticalagriculture:tin_seeds>).addItemOutput(<mysticalagriculture:tin_essence> * 3).build();
+
+val compact_greenhouse_92 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_92", "compact_greenhouse", 300, 0);
+// titanium seed
+compact_greenhouse_92.addItemInput(<mysticalagriculture:titanium_seeds>).addItemOutput(<mysticalagriculture:titanium_essence> * 3).build();
+
+val compact_greenhouse_93 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_93", "compact_greenhouse", 300, 0);
+// topaz seed
+compact_greenhouse_93.addItemInput(<mysticalagriculture:topaz_seeds>).addItemOutput(<mysticalagriculture:topaz_essence> * 3).build();
+
+val compact_greenhouse_94 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_94", "compact_greenhouse", 300, 0);
+// uranium seed
+compact_greenhouse_94.addItemInput(<mysticalagriculture:uranium_seeds>).addItemOutput(<mysticalagriculture:uranium_essence> * 3).build();
+
+val compact_greenhouse_95 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_95", "compact_greenhouse", 300, 0);
+// vibrant_alloy seed
+compact_greenhouse_95.addItemInput(<mysticalagriculture:vibrant_alloy_seeds>).addItemOutput(<mysticalagriculture:vibrant_alloy_essence> * 3).build();
+
+val compact_greenhouse_96 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_96", "compact_greenhouse", 300, 0);
+// water seed
+compact_greenhouse_96.addItemInput(<mysticalagriculture:water_seeds>).addItemOutput(<mysticalagriculture:water_essence> * 3).build();
+
+val compact_greenhouse_97 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_97", "compact_greenhouse", 300, 0);
+// wither_skeleton seed
+compact_greenhouse_97.addItemInput(<mysticalagriculture:wither_skeleton_seeds>).addItemOutput(<mysticalagriculture:wither_skeleton_essence> * 3).build();
+
+val compact_greenhouse_98 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_98", "compact_greenhouse", 300, 0);
+// wood seed
+compact_greenhouse_98.addItemInput(<mysticalagriculture:wood_seeds>).addItemOutput(<mysticalagriculture:wood_essence> * 3).build();
+
+val compact_greenhouse_99 = mods.modularmachinery.RecipeBuilder.newBuilder("compact_greenhouse_99", "compact_greenhouse", 300, 0);
+// zombie seed
+compact_greenhouse_99.addItemInput(<mysticalagriculture:zombie_seeds>).addItemOutput(<mysticalagriculture:zombie_essence> * 3).build();

@@ -1,4 +1,10 @@
 {
+	icon: {
+		id: "modularmachinery:itemblueprint",
+		tag: {
+			dynamicmachine: "modularmachinery:arboreal_reprocessor"
+		}
+	},
 	x: 3.5d,
 	y: -20.0d,
 	shape: "gear",
@@ -24,13 +30,7 @@
 	tasks: [{
 		uid: "26bbd50a",
 		type: "checkmark",
-		title: "Arboreal Reprocessor",
-		icon: {
-			id: "modularmachinery:itemblueprint",
-			tag: {
-				dynamicmachine: "modularmachinery:arboreal_reprocessor"
-			}
-		}
+		title: "Arboreal Reprocessor"
 	}],
 	rewards: [{
 		uid: "c4297908",

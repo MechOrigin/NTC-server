@@ -290,3 +290,7 @@ recipes.addShaped(<mysticalagriculture:crafting:53> * 1, [[<mysticalagriculture:
 // §cSupremium Fertilization Core
 recipes.remove(<mysticalagriculture:crafting:54>);
 recipes.addShaped(<mysticalagriculture:crafting:54> * 1, [[<mysticalagriculture:crafting:4>, <minecraft:nether_star>, <mysticalagriculture:crafting:4>], [<minecraft:dye:15>, <mysticalagriculture:crafting:53>, <minecraft:dye:15>],[<mysticalagriculture:crafting:4>, <minecraft:dye:15>, <mysticalagriculture:crafting:4>]]);
+
+
+// xp essence to solid xp
+recipes.addShapeless(<actuallyadditions:item_solidified_experience>, [<mysticalagriculture:xp_droplet>, <mysticalagriculture:xp_droplet>, <mysticalagriculture:xp_droplet>, <mysticalagriculture:xp_droplet>]);
