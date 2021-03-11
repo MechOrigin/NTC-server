@@ -1,5 +1,26 @@
-Reworked some balance changes to particle accelerator.
-Made the other particle accelerators output auxiliums alchemical coal, mobius fuel, aeternalis fuel.
+Added a way back from higher tiers of Auxilium fuels.
+Removed requirement of philosophers stone to make Auxilium fuels.
 
-Changed RFtools crafter to 15 operations in fast mode.
+Added "upgrade" to advanced miniaturization chamber:
+	-Change all modular machine casings for immersive quartz fibre coil blocks for a 8% increase in speed per block.
 
+Added mystical agri xp essence recipe to make solid xp.
+
+Increased all thermal machines/dynamos augment spaces. level0: 0, level1: 2, level2: 3, level3: 4, level4: 9
+	-This should make greenhouse glass vs. Phytogenic Insolator a bit more viable
+
+Changed Fluxduct base energy in Rf/t from 1000 per to 10000. Scales with duct level.
+
+Maybe make a mystical agriculture modular machine, seeds in, essence out, with a upgrade for a chance of not consuming seeds.
+Added Compact Greenhouse:
+	5 x Inputs
+	2 x Outputs
+	Grows all mystical agriculture seeds at base speed
+	-upgrade base blocks with any of the storage blocks for an increase in processing time by x%
+
+<mysticalagriculture:ingot_storage:1>
+<mysticalagriculture:ingot_storage:2>
+<mysticalagriculture:ingot_storage:3>
+<mysticalagriculture:ingot_storage:4>
+<mysticalagriculture:ingot_storage:5>
+<mysticalagradditions:storage:1>
