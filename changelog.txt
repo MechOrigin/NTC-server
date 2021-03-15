@@ -1,29 +1,6 @@
-Added a way back from higher tiers of Auxilium fuels.
-Removed requirement of philosophers stone to make Auxilium fuels.
+Fixed libraries missing from forge server pack.
 
-Added "upgrade" to advanced miniaturization chamber:
-	-Change all modular machine casings for immersive quartz fibre coil blocks for a 8% increase in speed per block.
+Fixing when dying in compact machines -- respawning in the overworld by adjusting JED.
 
-Added mystical agri xp essence recipe to make solid xp.
+Increase lazyae2 mass assembly chamber crafting speeds.
 
-Increased all thermal machines/dynamos augment spaces. level0: 0, level1: 2, level2: 3, level3: 4, level4: 9
-	-This should make greenhouse glass vs. Phytogenic Insolator a bit more viable
-
-Changed Fluxduct base energy in Rf/t from 1000 per to 10000. Scales with duct level.
-
-Added Compact Greenhouse:
-	Grows all mystical agriculture seeds at base speed 300 ticks
-	-upgrade Base blocks with any of the other storage blocks for an increase in processing time by a % of the 13 blocks you've replaced. Ex. 
-		aggraditions require crux - does not consume crux
-		Replace Blocks of base essence all the way through till Insanium have increased processing speeds. Insanium also benefits from not consuming seeds.
-
-Fixed Giga particle accelerator not being able to dissasemble matters.
-	-Added functionality to Giga Particle Accelerator:
-		Upon every dissassembly process a 25% chance to randomly create fading matter.
-	-Fixed small amount of matter coming out from 3,2,1 at 100% of the time, to 15,12,9 99% of the time
-
-Added tooltips to all modular machine blueprints that need them.
-
-Added quests.
-
--Added LagBGone (serverside)
