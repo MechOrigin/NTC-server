@@ -1,0 +1,38 @@
+{
+	disable_toast: true,
+	x: 21.0d,
+	y: -11.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"52d84081"
+	],
+	hide: true,
+	tasks: [{
+		uid: "326284eb",
+		type: "checkmark",
+		title: "Complete First Elite Crafting Table",
+		icon: "extendedcrafting:table_elite"
+	}],
+	rewards: [{
+		uid: "c9618b31",
+		type: "item",
+		item: "extendedcrafting:material",
+		count: 24
+	},
+	{
+		uid: "cb1ea8ab",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 64
+	},
+	{
+		uid: "33f92e78",
+		type: "item",
+		item: "minecraft:diamond_block"
+	},
+	{
+		uid: "99b4311a",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	icon: "industrialforegoing:book_manual",
+	x: 11.0d,
+	y: 9.0d,
+	shape: "gear",
+	description: "Depends on Iron Gear quest. Read the Industrial Foregoing Manual for help",
+	text: [
+		""
+	],
+	dependencies: [
+		"6b89c050"
+	],
+	tasks: [{
+		uid: "87dd3508",
+		type: "checkmark",
+		title: "Entry to Industrial Foregoing"
+	}],
+	rewards: [{
+		uid: "50b37fee",
+		type: "item",
+		item: "industrialforegoing:book_manual"
+	},
+	{
+		uid: "376382e0",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 2
+	}]
+}

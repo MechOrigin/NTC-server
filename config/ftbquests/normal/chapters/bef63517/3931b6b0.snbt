@@ -1,0 +1,18 @@
+{
+	x: 10.5d,
+	y: 21.5d,
+	description: "Teleport!",
+	text: [
+		""
+	],
+	dependencies: [
+		"10df9b8e"
+	],
+	tasks: [{
+		uid: "71d97be1",
+		type: "item",
+		items: [{
+			item: "rftools:matter_transmitter"
+		}]
+	}]
+}

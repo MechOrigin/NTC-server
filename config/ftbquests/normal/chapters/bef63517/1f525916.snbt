@@ -1,0 +1,17 @@
+{
+	x: 13.5d,
+	y: -11.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"7a139334"
+	],
+	tasks: [{
+		uid: "d18d7c38",
+		type: "item",
+		items: [{
+			item: "sky_orchards:sapling_quartz"
+		}]
+	}]
+}

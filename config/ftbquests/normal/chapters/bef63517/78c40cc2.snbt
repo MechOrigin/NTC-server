@@ -1,0 +1,18 @@
+{
+	x: 4.5d,
+	y: -0.5d,
+	shape: "gear",
+	dependencies: [
+		"06e220db"
+	],
+	tasks: [{
+		uid: "7992d9c0",
+		type: "checkmark",
+		title: "Getting Started with Tinkers Tools"
+	}],
+	rewards: [{
+		uid: "4de12df4",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience"
+	}]
+}

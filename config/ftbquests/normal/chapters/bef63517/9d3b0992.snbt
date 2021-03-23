@@ -1,0 +1,24 @@
+{
+	disable_toast: true,
+	x: 23.0d,
+	y: -12.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"6def2386"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cfdaa6ef",
+		type: "checkmark",
+		title: "Complete Steel Quest",
+		icon: "contenttweaker:sub_block_holder_0 1 10",
+		disable_toast: true
+	}],
+	rewards: [{
+		uid: "9f448a34",
+		type: "item",
+		auto: "disabled",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 10
+	}]
+}

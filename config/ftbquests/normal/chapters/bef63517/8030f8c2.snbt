@@ -1,0 +1,16 @@
+{
+	x: 1.0d,
+	y: -11.0d,
+	shape: "heart",
+	dependencies: [
+		"5d9837ae"
+	],
+	tasks: [{
+		uid: "4464aad8",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:sapling"
+		}]
+	}]
+}

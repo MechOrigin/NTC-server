@@ -1,0 +1,18 @@
+{
+	x: -18.0d,
+	y: -1.0d,
+	shape: "gear",
+	description: "Depends on starting Prosperity Sapling quest",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"34f890c3"
+	],
+	tasks: [{
+		uid: "4779d54d",
+		type: "checkmark",
+		title: "Entry into Mystical Agriculture"
+	}]
+}

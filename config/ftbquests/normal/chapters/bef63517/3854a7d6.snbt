@@ -1,0 +1,15 @@
+{
+	x: -7.0d,
+	y: 18.5d,
+	dependencies: [
+		"e2a79b4b"
+	],
+	tasks: [{
+		uid: "b6aa1c10",
+		type: "item",
+		items: [{
+			item: "equivalentenergistics:emc_cell"
+		}],
+		ignore_nbt: 1b
+	}]
+}

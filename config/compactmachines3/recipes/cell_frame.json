@@ -1,0 +1,48 @@
+{
+  "name": "custom:cell_frame",
+  "target-item": "thermalexpansion:frame",
+  "target-meta": 128,
+  "target-count": 1,
+
+  "duration": 120,
+
+  "catalyst": "tconstruct:clear_glass",
+
+  "input-types": {
+    "L": { 
+    "id": "contenttweaker:sub_block_holder_1"
+  },
+    "E": { 
+    "id": "contenttweaker:sub_block_holder_1",
+    "meta": 2
+  }
+},
+
+"symmetrical": true,
+"shape": [
+    [
+      ["L","E","E","L"],
+      ["E","_","_","E"],
+      ["E","_","_","E"],
+      ["L","E","E","L"]
+    ],
+    [
+      ["E","_","_","E"],
+      ["_","_","_","_"],
+      ["_","_","_","_"],
+      ["E","_","_","E"]
+    ],
+    [
+      ["E","_","_","E"],
+      ["_","_","_","_"],
+      ["_","_","_","_"],
+      ["E","_","_","E"]
+    ],
+    [
+      ["L","E","E","L"],
+      ["E","_","_","E"],
+      ["E","_","_","E"],
+      ["L","E","E","L"]
+    ]
+  ]
+}

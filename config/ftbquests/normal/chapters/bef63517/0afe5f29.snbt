@@ -1,0 +1,18 @@
+{
+	x: 29.5d,
+	y: 9.5d,
+	description: "Performs the in-world crystal seed growing operation",
+	text: [
+		""
+	],
+	dependencies: [
+		"4cd85107"
+	],
+	tasks: [{
+		uid: "d0818b3c",
+		type: "item",
+		items: [{
+			item: "threng:machine 1 1"
+		}]
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: 30.5d,
+	y: 11.5d,
+	shape: "gear",
+	text: [
+		"Mass Assembly Chamber Multiblock:",
+		"",
+		"Assemble it as follows:",
+		"* edges are mass assembly frame",
+		"* walls are mass assembly vent + controller",
+		"* there is exactly one controller",
+		"* interior is pattern stores + coprocessors",
+		"* there is at least one pattern store"
+	],
+	dependencies: [
+		"59532bb6",
+		"04cbec9d"
+	],
+	tasks: [{
+		uid: "b05c7bbe",
+		type: "checkmark",
+		title: "Superior Crafting (LazyAE)"
+	}],
+	rewards: [{
+		uid: "10675795",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 4
+	}]
+}

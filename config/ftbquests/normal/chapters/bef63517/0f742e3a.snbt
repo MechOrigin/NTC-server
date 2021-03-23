@@ -1,0 +1,26 @@
+{
+	x: 29.5d,
+	y: 29.0d,
+	dependencies: [
+		"08fda653"
+	],
+	tasks: [{
+		uid: "5193bc24",
+		type: "item",
+		items: [{
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 33,
+				color: 16775850,
+				structureName: "config/capsule/prefabs/archfactory",
+				display: {
+					color: 16777215
+				},
+				label: "Archfactory"
+			},
+			Damage: 7s
+		}],
+		ignore_nbt: 1b
+	}]
+}

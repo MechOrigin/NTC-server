@@ -1,0 +1,25 @@
+{
+	x: 27.5d,
+	y: 29.5d,
+	dependencies: [
+		"db102a09"
+	],
+	tasks: [{
+		uid: "029ddba2",
+		type: "item",
+		items: [{
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 11,
+				structureName: "config/capsule/prefabs/clothingshop",
+				display: {
+					color: 16777215
+				},
+				label: "Clothingshop"
+			},
+			Damage: 7s
+		}],
+		ignore_nbt: 1b
+	}]
+}

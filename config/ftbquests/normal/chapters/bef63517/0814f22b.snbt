@@ -1,0 +1,17 @@
+{
+	x: 12.5d,
+	y: 3.0d,
+	dependencies: [
+		"c31b26d2"
+	],
+	tasks: [{
+		uid: "8a8ff350",
+		type: "item",
+		items: [{
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "bone"
+			}
+		}]
+	}]
+}

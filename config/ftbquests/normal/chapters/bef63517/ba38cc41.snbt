@@ -1,0 +1,14 @@
+{
+	title: "Crusher",
+	x: 25.0d,
+	y: -4.0d,
+	dependencies: [
+		"7eee5ed4"
+	],
+	tasks: [{
+		uid: "f75e90e5",
+		type: "advancement",
+		advancement: "immersiveengineering:main/multiblock_crusher",
+		criterion: ""
+	}]
+}

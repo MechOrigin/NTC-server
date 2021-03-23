@@ -1,0 +1,18 @@
+{
+	x: 36.5d,
+	y: -2.0d,
+	description: "Can even be a 1x1x1 reactor",
+	text: [
+		"Surround the reactor cell with fission reactor casing and put the controller on the multiblock."
+	],
+	dependencies: [
+		"a1ad4134",
+		"ebe82425",
+		"da31fd2f"
+	],
+	tasks: [{
+		uid: "3b297d4a",
+		type: "checkmark",
+		title: "Make a Fission Reactor"
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 10.0d,
+	y: -11.5d,
+	dependencies: [
+		"bd07f887"
+	],
+	tasks: [{
+		uid: "2121bb88",
+		type: "checkmark",
+		title: "These leaves don't have an EMC value. They are crafted. Mystical Agriculture seeds in a shapeless recipe with any sapling."
+	}],
+	rewards: [{
+		uid: "6c59b1fa",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience"
+	}]
+}

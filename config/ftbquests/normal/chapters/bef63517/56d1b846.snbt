@@ -1,0 +1,17 @@
+{
+	x: 10.0d,
+	y: -7.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"8512df63"
+	],
+	tasks: [{
+		uid: "fffaf762",
+		type: "item",
+		items: [{
+			item: "sky_orchards:sapling_gold"
+		}]
+	}]
+}

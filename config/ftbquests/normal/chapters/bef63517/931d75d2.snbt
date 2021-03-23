@@ -1,0 +1,16 @@
+{
+	x: 12.5d,
+	y: -7.5d,
+	description: "If you havent figured out already, obsidian can be turned into lava with the Philosophers Stone. There are other options out there though.",
+	text: [
+		""
+	],
+	dependencies: [
+		"e6aa3be8"
+	],
+	tasks: [{
+		uid: "5665d6f4",
+		type: "checkmark",
+		title: "Lava Sources"
+	}]
+}

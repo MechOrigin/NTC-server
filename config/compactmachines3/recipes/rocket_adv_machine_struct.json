@@ -1,0 +1,45 @@
+{
+  "name": "custom:rocket_adv_machine_struct",
+  "target-item": "libvulpes:advstructuremachine",
+  "target-count": 16,
+
+  "duration": 120,
+
+  "catalyst": "contenttweaker:material_part",
+  "catalyst-meta": 163,
+
+  "input-types": {
+    "A": { 
+    "id": "contenttweaker:sub_block_holder_1",
+    "meta": 6
+  }
+},
+
+"symmetrical": true,
+"shape": [
+    [
+      ["A","A","A","A"],
+      ["A","_","_","A"],
+      ["A","_","_","A"],
+      ["A","A","A","A"]
+    ],
+    [
+      ["A","_","_","A"],
+      ["_","_","_","_"],
+      ["_","_","_","_"],
+      ["A","_","_","A"]
+    ],
+    [
+      ["A","_","_","A"],
+      ["_","_","_","_"],
+      ["_","_","_","_"],
+      ["A","_","_","A"]
+    ],
+    [
+      ["A","A","A","A"],
+      ["A","_","_","A"],
+      ["A","_","_","A"],
+      ["A","A","A","A"]
+    ]
+  ]
+}

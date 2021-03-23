@@ -1,0 +1,27 @@
+{
+	x: 7.0d,
+	y: 1.0d,
+	dependencies: [
+		"0ddd9352"
+	],
+	tasks: [{
+		uid: "d66fc1ac",
+		type: "item",
+		items: [{
+			id: "tconstruct:binding",
+			tag: {
+				Material: "wood"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "bb4a4049",
+		type: "item",
+		item: {
+			id: "tconstruct:binding",
+			tag: {
+				Material: "iron"
+			}
+		}
+	}]
+}

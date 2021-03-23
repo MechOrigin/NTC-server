@@ -1,0 +1,18 @@
+{
+	x: 10.0d,
+	y: 29.5d,
+	description: "Requires Machine Structure",
+	text: [
+		""
+	],
+	dependencies: [
+		"12888559"
+	],
+	tasks: [{
+		uid: "bdc90319",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:oxygencharger"
+		}]
+	}]
+}

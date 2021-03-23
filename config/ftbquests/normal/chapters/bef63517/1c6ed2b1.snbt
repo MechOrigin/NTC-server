@@ -1,0 +1,17 @@
+{
+	x: 11.5d,
+	y: 1.0d,
+	dependencies: [
+		"774aedf5"
+	],
+	tasks: [{
+		uid: "79299d92",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "flint"
+			}
+		}]
+	}]
+}

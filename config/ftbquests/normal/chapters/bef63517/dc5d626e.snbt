@@ -1,0 +1,38 @@
+{
+	x: 13.5d,
+	y: 2.0d,
+	dependencies: [
+		"dad95430"
+	],
+	tasks: [{
+		uid: "0e1e69e4",
+		type: "item",
+		items: [{
+			id: "tconstruct:shovel_head",
+			tag: {
+				Material: "obsidian"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "2551e728",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 5
+	},
+	{
+		uid: "bfc10f6e",
+		type: "item",
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		uid: "9ffb2028",
+		type: "item",
+		item: {
+			id: "tconstruct:shovel_head",
+			tag: {
+				Material: "iron"
+			}
+		}
+	}]
+}

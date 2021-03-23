@@ -1,0 +1,16 @@
+{
+	x: 2.0d,
+	y: -6.5d,
+	dependencies: [
+		"b8247589"
+	],
+	tasks: [{
+		uid: "7be06d7a",
+		type: "item",
+		items: [{
+			item: "inspirations:bone_crook"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

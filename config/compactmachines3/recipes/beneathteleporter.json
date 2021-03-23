@@ -1,0 +1,60 @@
+{
+  "name": "custom:beneathteleporter",
+  "target-item": "beneath:teleporterbeneath",
+  "target-meta": 0,
+  "target-count": 1,
+
+  "duration": 120,
+
+  "catalyst": "auxiliumequivalence:fuel",
+  "catalyst-meta": 2,
+
+  "input-types": {
+    "G": { 
+    "id": "enderio:block_alloy",
+    "meta": 6
+  },
+    "I": { 
+    "id": "tombstone:dark_marble"
+  }
+},
+
+"symmetrical": true,
+"shape": [
+    [
+      ["I","I","I","I","I"],
+      ["I","G","G","G","I"],
+      ["I","G","G","G","I"],
+      ["I","G","G","G","I"],
+      ["I","I","I","I","I"]
+    ],
+    [
+      ["I","G","G","G","I"],
+      ["G","_","_","_","G"],
+      ["G","_","_","_","G"],
+      ["G","_","_","_","G"],
+      ["I","G","G","G","I"]
+    ],
+    [
+      ["I","G","G","G","I"],
+      ["G","_","_","_","G"],
+      ["G","_","_","_","G"],
+      ["G","_","_","_","G"],
+      ["I","G","G","G","I"]
+    ],
+    [
+      ["I","G","G","G","I"],
+      ["G","_","_","_","G"],
+      ["G","_","_","_","G"],
+      ["G","_","_","_","G"],
+      ["I","G","G","G","I"]
+    ],
+    [
+      ["I","I","I","I","I"],
+      ["I","G","G","G","I"],
+      ["I","G","G","G","I"],
+      ["I","G","G","G","I"],
+      ["I","I","I","I","I"]
+    ]
+  ]
+}

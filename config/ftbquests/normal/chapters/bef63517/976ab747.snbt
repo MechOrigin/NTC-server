@@ -1,0 +1,13 @@
+{
+	x: -13.0d,
+	y: 24.0d,
+	shape: "gear",
+	dependencies: [
+		"446f2484"
+	],
+	tasks: [{
+		uid: "2f9f6a89",
+		type: "checkmark",
+		title: "Gem Armors"
+	}]
+}

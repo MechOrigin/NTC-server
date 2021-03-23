@@ -1,0 +1,14 @@
+{
+	x: 42.5d,
+	y: 0.0d,
+	dependencies: [
+		"cc7ae773"
+	],
+	tasks: [{
+		uid: "24d0d0f7",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:depleted_fuel_mixed_oxide 1 1"
+		}]
+	}]
+}

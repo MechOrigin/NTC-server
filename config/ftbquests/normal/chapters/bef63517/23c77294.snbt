@@ -1,0 +1,52 @@
+{
+	disable_toast: true,
+	x: 21.5d,
+	y: -16.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"97d215f0",
+		"c26406e0",
+		"89c9906c",
+		"b12d0b0a",
+		"8965ad0d",
+		"02e33809",
+		"5c3e3595",
+		"39809feb",
+		"f85d8eb6",
+		"4284e908",
+		"1d384db4",
+		"82311e7c",
+		"c647dae9",
+		"41d47124",
+		"f6c8c598",
+		"63b69883",
+		"0ab12587",
+		"66ac21d5",
+		"c6bed9e4",
+		"ef7c6c40",
+		"72682a37"
+	],
+	tasks: [{
+		uid: "254aa4ab",
+		type: "checkmark",
+		title: "Master Integrated Dynamics",
+		icon: "integrateddynamics:creative_energy_battery"
+	}],
+	rewards: [{
+		uid: "bec5df82",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 24
+	},
+	{
+		uid: "1baa743a",
+		type: "item",
+		item: "integratedcrafting:part_interface_crafting_item",
+		count: 6
+	},
+	{
+		uid: "23cf11bf",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

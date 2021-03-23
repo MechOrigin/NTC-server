@@ -1,0 +1,18 @@
+{
+	x: 19.0d,
+	y: 9.5d,
+	description: "Thermal Expansion",
+	text: [
+		""
+	],
+	dependencies: [
+		"71f01a75"
+	],
+	tasks: [{
+		uid: "518bc9f2",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame 1 128"
+		}]
+	}]
+}

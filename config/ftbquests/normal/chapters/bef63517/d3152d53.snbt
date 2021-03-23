@@ -1,0 +1,21 @@
+{
+	x: -2.0d,
+	y: 13.5d,
+	description: "Automating!",
+	text: [
+		"This is the Empowerer and Display stand all in one block. Pipe in the items, and out comes the empowered items."
+	],
+	dependencies: [
+		"692f15d7",
+		"716e412d",
+		"58e60adb",
+		"36856442"
+	],
+	tasks: [{
+		uid: "d8ee443a",
+		type: "item",
+		items: [{
+			item: "chambers:empowerer_chamber"
+		}]
+	}]
+}

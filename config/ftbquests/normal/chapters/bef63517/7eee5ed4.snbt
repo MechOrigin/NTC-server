@@ -1,0 +1,17 @@
+{
+	title: "Engineer's Workbench",
+	x: 23.5d,
+	y: -2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"55286f85"
+	],
+	tasks: [{
+		uid: "273dd2d4",
+		type: "advancement",
+		advancement: "immersiveengineering:main/craft_workbench",
+		criterion: ""
+	}]
+}

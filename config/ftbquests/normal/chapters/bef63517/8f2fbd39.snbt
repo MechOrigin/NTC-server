@@ -1,0 +1,25 @@
+{
+	x: -19.5d,
+	y: 27.5d,
+	description: "Your first missile!",
+	text: [
+		""
+	],
+	dependencies: [
+		"e0e5b724"
+	],
+	tasks: [{
+		uid: "b6521a40",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					explosive: {}
+				}
+			},
+			id: "icbmclassic:missile",
+			Damage: 24s
+		}],
+		ignore_nbt: 1b
+	}]
+}

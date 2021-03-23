@@ -1,0 +1,15 @@
+{
+	x: 6.0d,
+	y: -6.0d,
+	description: "The only way to get prosperity shards early on.",
+	dependencies: [
+		"34f890c3"
+	],
+	tasks: [{
+		uid: "54038ac5",
+		type: "item",
+		items: [{
+			item: "sky_orchards:sapling_prosperity"
+		}]
+	}]
+}

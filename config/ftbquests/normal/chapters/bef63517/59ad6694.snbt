@@ -1,0 +1,16 @@
+{
+	x: 14.0d,
+	y: 34.0d,
+	dependencies: [
+		"12888559"
+	],
+	tasks: [{
+		uid: "30e381c6",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:spaceleggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

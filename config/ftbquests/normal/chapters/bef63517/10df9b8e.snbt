@@ -1,0 +1,18 @@
+{
+	x: 12.0d,
+	y: 19.5d,
+	description: "At the centre of almost all RF Tools machines",
+	text: [
+		""
+	],
+	dependencies: [
+		"71f01a75"
+	],
+	tasks: [{
+		uid: "b8e8ca8c",
+		type: "item",
+		items: [{
+			item: "rftools:machine_frame"
+		}]
+	}]
+}

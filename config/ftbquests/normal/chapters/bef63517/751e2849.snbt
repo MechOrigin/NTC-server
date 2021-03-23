@@ -1,0 +1,19 @@
+{
+	x: 7.5d,
+	y: 18.5d,
+	description: "A cheap machine frame that doesn't require steel, although you can use almost any machine frame for industrial foregoing.",
+	text: [
+		"Did you try and break this with a regular pick and got paste? :trollface:",
+		"Try Sponges or Silkjewel....or silktouch enchant"
+	],
+	dependencies: [
+		"71f01a75"
+	],
+	tasks: [{
+		uid: "289b648e",
+		type: "item",
+		items: [{
+			item: "teslacorelib:machine_case"
+		}]
+	}]
+}

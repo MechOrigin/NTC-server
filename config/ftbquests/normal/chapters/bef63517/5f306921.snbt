@@ -1,0 +1,17 @@
+{
+	x: -17.0d,
+	y: 18.0d,
+	dependencies: [
+		"ba3b7926"
+	],
+	tasks: [{
+		uid: "44de331a",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_dm_sword",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

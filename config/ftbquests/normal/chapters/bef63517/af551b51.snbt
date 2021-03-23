@@ -1,0 +1,39 @@
+{
+	title: "You're on your way to becoming a God",
+	icon: "projectex:power_flower 1 15",
+	disable_toast: true,
+	x: 24.0d,
+	y: -7.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"b2698dda"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8b922364",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "151b7591",
+		type: "item",
+		item: "projectex:relay 1 15",
+		count: 6
+	},
+	{
+		uid: "fc22d57f",
+		type: "item",
+		item: "projectex:compressed_collector 1 15",
+		count: 2
+	},
+	{
+		uid: "5f49bb75",
+		type: "item",
+		item: "projectex:energy_link"
+	},
+	{
+		uid: "37307f29",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 64
+	}]
+}

@@ -1,0 +1,71 @@
+{
+	title: "MK2 complete",
+	icon: "projecte:collector_mk2",
+	disable_toast: true,
+	x: 22.0d,
+	y: -8.0d,
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9c893c64",
+		"abbd86f7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bfa5fff6",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "6a4de43f",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 32
+	},
+	{
+		uid: "5e41369d",
+		type: "item",
+		item: "mekanism:ingot 1 3",
+		count: 21
+	},
+	{
+		uid: "71615de5",
+		type: "item",
+		item: "equivalentenergistics:emc_storage_component",
+		count: 32
+	},
+	{
+		uid: "a42bba3f",
+		type: "item",
+		item: "plustic:osgloglasingot",
+		count: 16
+	},
+	{
+		uid: "9c0f08e9",
+		type: "item",
+		item: "projecte:item.pe_matter",
+		count: 6
+	},
+	{
+		uid: "d32b86fb",
+		type: "item",
+		item: "projecte:relay_mk1"
+	},
+	{
+		uid: "735dac0d",
+		type: "item",
+		item: "projecte:collector_mk1"
+	},
+	{
+		uid: "d12c4843",
+		type: "item",
+		item: "mekanism:ingot",
+		count: 21
+	},
+	{
+		uid: "c177918e",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

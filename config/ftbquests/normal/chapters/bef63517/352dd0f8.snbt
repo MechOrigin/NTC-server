@@ -1,0 +1,52 @@
+{
+	disable_toast: true,
+	x: 24.0d,
+	y: -15.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"cb572c36",
+		"66f25a90",
+		"e7af5dcb",
+		"18ee6eab",
+		"48e5ba63",
+		"81ffde19",
+		"9b227eee",
+		"9bd13abe",
+		"22a09850",
+		"b6724740",
+		"1a8ee8dd",
+		"f5bb0063",
+		"76c2fcdb",
+		"d62160d8",
+		"53fae403",
+		"ac425358",
+		"97a614ba",
+		"b8fadd64",
+		"ed29a297",
+		"0c0afbd5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "52942d23",
+		type: "checkmark",
+		title: "Tier 2 Mystical Agriculture Complete",
+		icon: "mysticalagriculture:crafting 1 1"
+	}],
+	rewards: [{
+		uid: "0bd02e7c",
+		type: "item",
+		item: "mysticalagriculture:crafting 1 18",
+		count: 32
+	},
+	{
+		uid: "1467714a",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 32
+	},
+	{
+		uid: "5ab4265f",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

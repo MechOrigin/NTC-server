@@ -1,0 +1,14 @@
+{
+	x: 6.0d,
+	y: 35.0d,
+	dependencies: [
+		"39e9b5af"
+	],
+	tasks: [{
+		uid: "7c4df252",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:rtg_americium"
+		}]
+	}]
+}

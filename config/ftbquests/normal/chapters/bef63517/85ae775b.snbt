@@ -1,0 +1,14 @@
+{
+	x: -4.0d,
+	y: 14.0d,
+	dependencies: [
+		"177ad7e9"
+	],
+	tasks: [{
+		uid: "af58b0d1",
+		type: "item",
+		items: [{
+			item: "contenttweaker:green_aeternalis_fuel"
+		}]
+	}]
+}

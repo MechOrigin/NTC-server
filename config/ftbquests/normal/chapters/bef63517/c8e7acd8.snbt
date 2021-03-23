@@ -1,0 +1,17 @@
+{
+	x: -8.0d,
+	y: 10.5d,
+	dependencies: [
+		"e63f0e80"
+	],
+	tasks: [{
+		uid: "d48afc20",
+		type: "item",
+		items: [{
+			id: "projectex:colossal_star_zwei",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

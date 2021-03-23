@@ -1,0 +1,15 @@
+{
+	x: 20.5d,
+	y: 7.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"71f01a75"
+	],
+	tasks: [{
+		uid: "d0f77b6b",
+		type: "item",
+		items: [{
+			item: "compactmachines3:machine 1 2"
+		}]
+	}]
+}

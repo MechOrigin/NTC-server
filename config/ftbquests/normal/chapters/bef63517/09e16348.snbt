@@ -1,0 +1,14 @@
+{
+	x: 10.0d,
+	y: -13.0d,
+	dependencies: [
+		"9e92b515"
+	],
+	tasks: [{
+		uid: "cb426ce3",
+		type: "item",
+		items: [{
+			item: "sky_orchards:leaves_dimensionalshard"
+		}]
+	}]
+}

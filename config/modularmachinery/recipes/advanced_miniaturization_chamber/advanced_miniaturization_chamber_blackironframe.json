@@ -1,0 +1,31 @@
+{
+    "machine": "advanced_miniaturization_chamber",
+    "registryName": "advanced_miniaturization_chamber_blackironframe",
+    "recipeTime": 100,
+    "requirements": [
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "minecraft:glass",
+            "amount": 54
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "extendedcrafting:storage@0",
+            "amount": 44
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "extendedcrafting:material@2",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "extendedcrafting:frame",
+            "amount": 1
+        }
+    ]
+}

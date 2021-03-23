@@ -1,0 +1,33 @@
+{
+	x: 4.5d,
+	y: -21.0d,
+	description: "Process Amber into Items.",
+	text: [
+		"For metal type trees such as copper it processes amber into ingots for that type.",
+		"",
+		"For block type trees such as dirt it processes amber into the respective blocks.",
+		"",
+		"For item type trees such as clay it processes amber into the respective items."
+	],
+	dependencies: [
+		"829e3f28"
+	],
+	tasks: [{
+		uid: "cd46d0b3",
+		type: "checkmark",
+		title: "Amber is cool!",
+		icon: "sky_orchards:amber_copper"
+	}],
+	rewards: [{
+		uid: "dc20de14",
+		type: "item",
+		item: "sky_orchards:amber_copper",
+		count: 64
+	},
+	{
+		uid: "b96e5ba6",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 10
+	}]
+}

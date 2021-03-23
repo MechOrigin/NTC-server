@@ -1,0 +1,14 @@
+{
+	x: -7.0d,
+	y: 20.5d,
+	dependencies: [
+		"e09a0e6a"
+	],
+	tasks: [{
+		uid: "71a49dea",
+		type: "item",
+		items: [{
+			item: "projecte:condenser_mk1"
+		}]
+	}]
+}

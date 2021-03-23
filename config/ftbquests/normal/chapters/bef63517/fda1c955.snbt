@@ -1,0 +1,14 @@
+{
+	x: -5.5d,
+	y: 15.5d,
+	dependencies: [
+		"177ad7e9"
+	],
+	tasks: [{
+		uid: "e8a6faaa",
+		type: "item",
+		items: [{
+			item: "contenttweaker:orange_aeternalis_fuel"
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -8.5d,
+	y: -11.5d,
+	shape: "gear",
+	description: "Energy can be transfered to and from with conduits, ducts and cables.",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"06e220db",
+		"a5584575"
+	],
+	tasks: [{
+		uid: "d8cdf80a",
+		type: "checkmark",
+		title: "Energy pipes"
+	}]
+}

@@ -1,0 +1,31 @@
+{
+    "machine": "advanced_miniaturization_chamber",
+    "registryName": "advanced_miniaturization_chamber_beneath",
+    "recipeTime": 100,
+    "requirements": [
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "enderio:block_alloy@6",
+            "amount": 54
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "tombstone:dark_marble",
+            "amount": 44
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "auxiliumequivalence:fuel@2",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "beneath:teleporterbeneath",
+            "amount": 1
+        }
+    ]
+}

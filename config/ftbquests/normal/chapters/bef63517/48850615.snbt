@@ -1,0 +1,14 @@
+{
+	x: 30.5d,
+	y: 21.0d,
+	dependencies: [
+		"744af616"
+	],
+	tasks: [{
+		uid: "6f4785e6",
+		type: "item",
+		items: [{
+			item: "enderio:item_soul_vial"
+		}]
+	}]
+}

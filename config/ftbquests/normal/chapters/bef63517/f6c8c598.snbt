@@ -1,0 +1,14 @@
+{
+	x: 15.0d,
+	y: 0.0d,
+	dependencies: [
+		"c6bed9e4"
+	],
+	tasks: [{
+		uid: "e7ea808a",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:logic_programmer"
+		}]
+	}]
+}

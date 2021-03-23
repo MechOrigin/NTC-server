@@ -1,0 +1,32 @@
+{
+	disable_toast: true,
+	x: 24.5d,
+	y: -16.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"e0a180d7"
+	],
+	tasks: [{
+		uid: "18413130",
+		type: "checkmark",
+		title: "Complete Californium 250",
+		icon: "nuclearcraft:californium 1 4"
+	}],
+	rewards: [{
+		uid: "a92c5ec5",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 32
+	},
+	{
+		uid: "7424ace3",
+		type: "item",
+		item: "nuclearcraft:fuel_curium",
+		count: 64
+	},
+	{
+		uid: "2b01f3a4",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

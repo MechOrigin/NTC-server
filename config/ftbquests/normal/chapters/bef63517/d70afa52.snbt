@@ -1,0 +1,14 @@
+{
+	x: -23.0d,
+	y: 9.0d,
+	dependencies: [
+		"6120ff3a"
+	],
+	tasks: [{
+		uid: "a9ba3111",
+		type: "item",
+		items: [{
+			item: "avaritia:endest_pearl"
+		}]
+	}]
+}

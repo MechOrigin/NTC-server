@@ -1,0 +1,20 @@
+{
+    "machine": "compact_greenhouse",
+    "registryName": "compact_greenhouse_0",
+    "recipeTime": 300,
+    "requirements": [
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "mysticalagriculture:tier1_inferium_seeds",
+            "amount": 1,
+            "chance": 0.5
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "mysticalagriculture:crafting@0",
+            "amount": 3
+        }
+    ]
+}

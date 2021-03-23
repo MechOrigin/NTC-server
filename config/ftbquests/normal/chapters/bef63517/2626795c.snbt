@@ -1,0 +1,11 @@
+{
+	x: -8.5d,
+	y: 3.5d,
+	tasks: [{
+		uid: "72dbdc0c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 17"
+		}]
+	}]
+}

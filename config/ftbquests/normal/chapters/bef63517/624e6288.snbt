@@ -1,0 +1,15 @@
+{
+	x: -4.0d,
+	y: -1.5d,
+	description: "Use Drying Basin to make mud into dirt.",
+	dependencies: [
+		"41fcec70"
+	],
+	tasks: [{
+		uid: "e6c45c98",
+		type: "item",
+		items: [{
+			item: "tconstruct:soil 1 5"
+		}]
+	}]
+}

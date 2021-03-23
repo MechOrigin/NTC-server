@@ -1,0 +1,20 @@
+{
+	x: 12.5d,
+	y: -3.5d,
+	description: "Just stores power. Put next to a generator block to \"store\" power. Like a battery... duh",
+	dependencies: [
+		"1f7f8f64"
+	],
+	tasks: [{
+		uid: "e94d3fd2",
+		type: "item",
+		items: [{
+			id: "integrateddynamics:energy_battery",
+			tag: {
+				energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

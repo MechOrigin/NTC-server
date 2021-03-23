@@ -1,0 +1,21 @@
+{
+	x: -19.5d,
+	y: 29.0d,
+	description: "Your first ICBM explosive!",
+	text: [
+		""
+	],
+	dependencies: [
+		"e0e5b724"
+	],
+	tasks: [{
+		uid: "e1606d72",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "icbmclassic:explosives"
+		}]
+	}]
+}

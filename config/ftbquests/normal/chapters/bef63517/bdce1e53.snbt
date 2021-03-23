@@ -1,0 +1,19 @@
+{
+	x: -7.5d,
+	y: -2.5d,
+	dependencies: [
+		"4281132e"
+	],
+	tasks: [{
+		uid: "95e8000c",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:tank",
+			tag: {
+				RSControl: 0b,
+				Level: 0b
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,27 @@
+[
+    {
+     "id": "beginning",
+     "title": "Beginning",
+     "icon": "item:ftbquests:book"
+    },
+    {
+     "id": "getting_steel",
+     "title": "Getting Steel",
+     "icon": "item:minecraft:iron_block"
+    },
+    {
+     "id": "mob_farm",
+     "title": "Mob Farm",
+     "icon": "item:minecraft:skull"
+    },
+    {
+     "id": "actually_additions_p1",
+     "title": "Actually Additions Part 1",
+     "icon": "item:actuallyadditions:item_crystal_empowered"
+    },
+    {
+     "id": "automation_p1",
+     "title": "Automation Part 1",
+     "icon": "item:integratedcrafting:part_interface_crafting_item"
+    }
+   ]

@@ -1,0 +1,30 @@
+{
+	disable_toast: true,
+	x: 23.0d,
+	y: -7.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"657d9d2f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f5dd5b72",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 24"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "70c40389",
+		type: "item",
+		item: "extendedcrafting:material 1 24",
+		count: 32
+	},
+	{
+		uid: "2d874d95",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 64
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 12.5d,
+	y: 27.0d,
+	description: "Advanced Rocketry",
+	text: [
+		""
+	],
+	dependencies: [
+		"71f01a75"
+	],
+	tasks: [{
+		uid: "d33fdaf8",
+		type: "item",
+		items: [{
+			item: "libvulpes:structuremachine"
+		}]
+	}]
+}

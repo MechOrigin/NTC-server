@@ -1,0 +1,38 @@
+{
+	disable_toast: true,
+	x: 21.0d,
+	y: -10.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"ee6d8e51"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3d152012",
+		type: "checkmark",
+		title: "Complete First Ultimate Crafting Table",
+		icon: "extendedcrafting:table_ultimate"
+	}],
+	rewards: [{
+		uid: "840dbc15",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 64
+	},
+	{
+		uid: "47dc4cad",
+		type: "item",
+		item: "extendedcrafting:material",
+		count: 24
+	},
+	{
+		uid: "749df80b",
+		type: "item",
+		item: "minecraft:emerald_block"
+	},
+	{
+		uid: "3efbb491",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	disable_toast: true,
+	x: 22.0d,
+	y: -13.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"875e5002"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f04306f1",
+		type: "checkmark",
+		title: "Complete Blaze Powder Quest",
+		icon: "minecraft:blaze_powder",
+		disable_toast: true
+	}],
+	rewards: [{
+		uid: "bb608648",
+		type: "item",
+		auto: "disabled",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 10
+	},
+	{
+		uid: "2ab9c020",
+		type: "item",
+		item: "minecraft:blaze_rod",
+		count: 16
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 18.0d,
+	y: 28.0d,
+	dependencies: [
+		"674c5b1e"
+	],
+	tasks: [{
+		uid: "9763c506",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:beaconfinder"
+		}]
+	}]
+}

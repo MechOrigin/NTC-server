@@ -1,0 +1,12 @@
+{
+	x: -24.5d,
+	y: 12.5d,
+	dependencies: [
+		"cc7b16e1"
+	],
+	tasks: [{
+		uid: "baf13fe8",
+		type: "checkmark",
+		title: "AE Wireless Terminals"
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	x: 13.5d,
+	y: 3.0d,
+	dependencies: [
+		"0814f22b"
+	],
+	tasks: [{
+		uid: "9aef9840",
+		type: "item",
+		items: [{
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "obsidian"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "d923e1ba",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 5
+	},
+	{
+		uid: "82f24307",
+		type: "item",
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		uid: "137f40d6",
+		type: "item",
+		item: {
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "iron"
+			}
+		}
+	}]
+}

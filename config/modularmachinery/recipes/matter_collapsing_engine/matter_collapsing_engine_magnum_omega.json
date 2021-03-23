@@ -1,0 +1,19 @@
+{
+    "machine": "matter_collapsing_engine",
+    "registryName": "matter_collapsing_engine_magnum_omega",
+    "recipeTime": 16,
+    "requirements": [
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "projectex:magnum_star_sphere",
+            "amount": 4
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "projectex:magnum_star_omega",
+            "amount": 1
+        }
+    ]
+}

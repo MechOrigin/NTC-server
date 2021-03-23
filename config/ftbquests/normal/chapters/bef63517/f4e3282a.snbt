@@ -1,0 +1,41 @@
+{
+	icon: {
+		id: "modularmachinery:itemblueprint",
+		tag: {
+			dynamicmachine: "modularmachinery:thermonuclear_implosion_generator"
+		}
+	},
+	x: -18.0d,
+	y: 27.0d,
+	shape: "gear",
+	description: "Generates insane amounts of power",
+	text: [
+		"ICBM bomb to power total generated after 200ticks",
+		"condensed: 2,000,000 RF",
+		"incindiary: 4,000,000 RF",
+		"breaching: 8,000,000 RF",
+		"thermobaric: 16,000,000 RF",
+		"exothermic: 32,000,000 RF",
+		"nuclear: 64,0000,000 RF",
+		"antimatter: 128,000,000 RF",
+		"red matter: 256,000,000 RF"
+	],
+	dependencies: [
+		"e0e5b724"
+	],
+	tasks: [{
+		uid: "4fcda12b",
+		type: "checkmark",
+		title: "Thermonuclear Implosion Generator"
+	}],
+	rewards: [{
+		uid: "5499d094",
+		type: "item",
+		item: {
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:thermonuclear_implosion_generator"
+			}
+		}
+	}]
+}

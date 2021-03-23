@@ -1,0 +1,19 @@
+{
+	x: -3.0d,
+	y: 16.0d,
+	description: "Requires iron alloy",
+	text: [
+		""
+	],
+	dependencies: [
+		"2f4e85ac",
+		"36856442"
+	],
+	tasks: [{
+		uid: "6f203fad",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material"
+		}]
+	}]
+}

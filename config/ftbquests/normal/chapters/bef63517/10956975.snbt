@@ -1,0 +1,21 @@
+{
+	title: "Get some water with Ice! It just costs EMC",
+	x: -1.0d,
+	y: -3.5d,
+	shape: "gear",
+	text: [
+		""
+	],
+	dependencies: [
+		"06e220db"
+	],
+	tasks: [{
+		uid: "063c9e24",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "1163aa36",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience"
+	}]
+}

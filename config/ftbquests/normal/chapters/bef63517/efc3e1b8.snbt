@@ -1,0 +1,22 @@
+{
+	title: "Tinkers' Slimery Saplings",
+	x: 1.5d,
+	y: -2.5d,
+	shape: "gear",
+	description: "Only grows on Slimy dirt.",
+	text: [
+		"Entry into tinkers slime"
+	],
+	dependencies: [
+		"06e220db"
+	],
+	tasks: [{
+		uid: "d08dc3ae",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "fcd739f6",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience"
+	}]
+}

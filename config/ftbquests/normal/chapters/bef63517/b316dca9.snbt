@@ -1,0 +1,16 @@
+{
+	x: -9.0d,
+	y: 20.5d,
+	description: "Requires when alchemy and tech meet",
+	dependencies: [
+		"e2a79b4b",
+		"025c1245"
+	],
+	tasks: [{
+		uid: "bc67c6e3",
+		type: "item",
+		items: [{
+			item: "equivalentenergistics:emc_condenser"
+		}]
+	}]
+}

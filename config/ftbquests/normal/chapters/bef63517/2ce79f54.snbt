@@ -1,0 +1,14 @@
+{
+	x: 10.0d,
+	y: 34.5d,
+	dependencies: [
+		"12888559"
+	],
+	tasks: [{
+		uid: "05327a68",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:structuretower"
+		}]
+	}]
+}

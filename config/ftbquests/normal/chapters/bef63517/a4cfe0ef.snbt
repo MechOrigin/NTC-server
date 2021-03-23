@@ -1,0 +1,19 @@
+{
+	x: -1.0d,
+	y: -6.0d,
+	shape: "gear",
+	description: "These make building out your platform a lot easier. Try em out! If you make a mistake try /wandOops",
+	dependencies: [
+		"06e220db"
+	],
+	tasks: [{
+		uid: "308dfa7a",
+		type: "checkmark",
+		title: "Builders Wands"
+	}],
+	rewards: [{
+		uid: "6d4928fe",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience"
+	}]
+}

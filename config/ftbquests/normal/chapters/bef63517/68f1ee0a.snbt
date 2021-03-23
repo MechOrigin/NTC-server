@@ -1,0 +1,18 @@
+{
+	x: -5.0d,
+	y: -1.5d,
+	description: "Extremely profitable dirt for the bonsai pots. 12.5% grow time and 300% drop chance! Only works on slime though.",
+	text: [
+		"Equivalent to Red Mulch, except can only be used for slime."
+	],
+	dependencies: [
+		"624e6288"
+	],
+	tasks: [{
+		uid: "83749d04",
+		type: "item",
+		items: [{
+			item: "tconstruct:slime_dirt 1 3"
+		}]
+	}]
+}

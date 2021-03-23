@@ -1,0 +1,19 @@
+{
+	x: 32.5d,
+	y: 19.5d,
+	description: "Requires Soul Machine Chassis",
+	text: [
+		""
+	],
+	dependencies: [
+		"e1f469b5",
+		"df145e86"
+	],
+	tasks: [{
+		uid: "8360bb64",
+		type: "item",
+		items: [{
+			item: "enderio:block_powered_spawner"
+		}]
+	}]
+}

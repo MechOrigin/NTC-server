@@ -1,0 +1,18 @@
+{
+	x: 4.0d,
+	y: 21.5d,
+	description: "Covers Iron Ingots with Pink Slime to create Pink Slime Ingots",
+	text: [
+		""
+	],
+	dependencies: [
+		"c589537b"
+	],
+	tasks: [{
+		uid: "40adfc7b",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:ore_sieve"
+		}]
+	}]
+}

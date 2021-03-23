@@ -1,0 +1,59 @@
+{
+  "name": "custom:black_iron_frame",
+  "target-item": "extendedcrafting:frame",
+  "target-meta": 0,
+  "target-count": 1,
+
+  "duration": 120,
+
+  "catalyst": "extendedcrafting:material",
+  "catalyst-meta": 2,
+
+  "input-types": {
+    "I": { 
+    "id": "extendedcrafting:storage"
+  },
+    "G": { 
+    "id": "minecraft:glass"
+  }
+},
+
+"symmetrical": true,
+"shape": [
+    [
+      ["I","I","I","I","I"],
+      ["I","G","G","G","I"],
+      ["I","G","G","G","I"],
+      ["I","G","G","G","I"],
+      ["I","I","I","I","I"]
+    ],
+    [
+      ["I","G","G","G","I"],
+      ["G","_","_","_","G"],
+      ["G","_","_","_","G"],
+      ["G","_","_","_","G"],
+      ["I","G","G","G","I"]
+    ],
+    [
+      ["I","G","G","G","I"],
+      ["G","_","_","_","G"],
+      ["G","_","_","_","G"],
+      ["G","_","_","_","G"],
+      ["I","G","G","G","I"]
+    ],
+    [
+      ["I","G","G","G","I"],
+      ["G","_","_","_","G"],
+      ["G","_","_","_","G"],
+      ["G","_","_","_","G"],
+      ["I","G","G","G","I"]
+    ],
+    [
+      ["I","I","I","I","I"],
+      ["I","G","G","G","I"],
+      ["I","G","G","G","I"],
+      ["I","G","G","G","I"],
+      ["I","I","I","I","I"]
+    ]
+  ]
+}

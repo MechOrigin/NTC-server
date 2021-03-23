@@ -1,0 +1,19 @@
+{
+	x: 3.0d,
+	y: 19.0d,
+	description: "Ender IO and Industrial foregoing",
+	text: [
+		"This is a machine case that will blast you into automation. Which will require you to build a compact machine capable of 5x5x5."
+	],
+	dependencies: [
+		"144c49d8",
+		"71f01a75"
+	],
+	tasks: [{
+		uid: "3f8fd80b",
+		type: "item",
+		items: [{
+			item: "enderio:item_material"
+		}]
+	}]
+}

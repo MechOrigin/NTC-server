@@ -1,0 +1,11 @@
+{
+	x: 2.5d,
+	y: 31.5d,
+	shape: "gear",
+	size: 1.5d,
+	tasks: [{
+		uid: "eea89e12",
+		type: "checkmark",
+		title: "More Power Options!"
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: 30.5d,
+	dependencies: [
+		"d80b8365"
+	],
+	tasks: [{
+		uid: "23fac5cc",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator 1 6"
+		}],
+		ignore_nbt: 1b
+	}]
+}

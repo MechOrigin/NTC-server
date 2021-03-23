@@ -1,0 +1,18 @@
+{
+	x: 9.5d,
+	y: 23.0d,
+	description: "This builds the blocks. It can also be used as a quarry but nevermind that.",
+	text: [
+		""
+	],
+	dependencies: [
+		"6801181c"
+	],
+	tasks: [{
+		uid: "19da29da",
+		type: "item",
+		items: [{
+			item: "rftools:builder"
+		}]
+	}]
+}

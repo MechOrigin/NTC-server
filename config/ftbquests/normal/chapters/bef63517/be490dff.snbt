@@ -1,0 +1,16 @@
+{
+	x: -28.5d,
+	y: 11.0d,
+	dependencies: [
+		"bbd305d2"
+	],
+	tasks: [{
+		uid: "555200bd",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_pants"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

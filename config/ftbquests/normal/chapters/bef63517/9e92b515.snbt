@@ -1,0 +1,18 @@
+{
+	x: 9.0d,
+	y: -12.5d,
+	dependencies: [
+		"bd07f887"
+	],
+	tasks: [{
+		uid: "70abafbc",
+		type: "checkmark",
+		title: "RF Dimensions"
+	}],
+	rewards: [{
+		uid: "bfdd1b0d",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 4
+	}]
+}

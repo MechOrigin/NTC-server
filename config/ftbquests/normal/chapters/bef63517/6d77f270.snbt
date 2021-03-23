@@ -1,0 +1,17 @@
+{
+	x: 9.0d,
+	y: 4.5d,
+	text: [
+		"Vector plates can be helpful in making a mob farm. At least in early game."
+	],
+	dependencies: [
+		"98e02e2b"
+	],
+	tasks: [{
+		uid: "192f257d",
+		type: "item",
+		items: [{
+			item: "darkutils:trap_move"
+		}]
+	}]
+}

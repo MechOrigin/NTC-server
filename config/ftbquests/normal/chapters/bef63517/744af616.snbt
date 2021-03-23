@@ -1,0 +1,14 @@
+{
+	x: 30.5d,
+	y: 22.0d,
+	dependencies: [
+		"a669e128"
+	],
+	tasks: [{
+		uid: "8abc8a71",
+		type: "item",
+		items: [{
+			item: "enderio:block_soul_binder"
+		}]
+	}]
+}

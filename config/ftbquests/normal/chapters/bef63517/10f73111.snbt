@@ -1,0 +1,36 @@
+{
+	disable_toast: true,
+	x: 21.0d,
+	y: -14.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"5905451c",
+		"46c229af",
+		"afd4ef41",
+		"cdfb3f94"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ee2aaee7",
+		type: "checkmark",
+		title: "Complete Insanium Quests",
+		icon: "mysticalagradditions:insanium"
+	}],
+	rewards: [{
+		uid: "6600d40b",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 64
+	},
+	{
+		uid: "d4b160c2",
+		type: "item",
+		item: "mysticalagradditions:insanium 1 1",
+		count: 10
+	},
+	{
+		uid: "de010659",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

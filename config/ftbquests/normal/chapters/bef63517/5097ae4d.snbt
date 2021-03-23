@@ -1,0 +1,18 @@
+{
+	x: -2.5d,
+	y: 3.5d,
+	description: "Regular Glass for this recipe will do the trick.",
+	text: [
+		""
+	],
+	dependencies: [
+		"b23a29af"
+	],
+	tasks: [{
+		uid: "a487895c",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_tank"
+		}]
+	}]
+}

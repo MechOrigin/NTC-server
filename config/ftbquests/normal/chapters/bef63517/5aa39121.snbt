@@ -1,0 +1,13 @@
+{
+	x: -13.0d,
+	y: 19.5d,
+	shape: "gear",
+	dependencies: [
+		"446f2484"
+	],
+	tasks: [{
+		uid: "5841b4a1",
+		type: "checkmark",
+		title: "Red Matter Tools"
+	}]
+}

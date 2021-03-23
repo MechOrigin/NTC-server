@@ -1,0 +1,33 @@
+{
+  "savedSubBlockNames": {
+    "0": {
+      "0": "constantan_block",
+      "1": "aluminum_block",
+      "2": "invar_block",
+      "3": "titanium_iridium_block",
+      "4": "iridium_block",
+      "5": "silver_block",
+      "6": "hard_carbon_block",
+      "7": "uranium_block",
+      "8": "enderium_block",
+      "9": "platinum_block",
+      "10": "steel_block",
+      "11": "nickel_block",
+      "12": "copper_block",
+      "13": "tin_block",
+      "14": "lumium_block",
+      "15": "bronze_block"
+    },
+    "1": {
+      "0": "lead_block",
+      "1": "signalum_block",
+      "2": "electrum_block",
+      "3": "iron_block",
+      "4": "titanium_aluminide_block",
+      "5": "ferroboron_block",
+      "6": "titanium_block",
+      "7": "tough_block",
+      "8": "gold_block"
+    }
+  }
+}

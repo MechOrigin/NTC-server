@@ -1,0 +1,33 @@
+{
+	title: "Matter Collapsing Engine",
+	icon: {
+		id: "modularmachinery:itemblueprint",
+		tag: {
+			dynamicmachine: "modularmachinery:matter_collapsing_engine"
+		}
+	},
+	x: -5.5d,
+	y: 13.5d,
+	shape: "gear",
+	description: "Modular machines!",
+	text: [
+		"Change out any of the Aeternalis blocks with Auxilium Aeternalis blocks for a production speed bonus. The higher tiers give higher speed bonus."
+	],
+	dependencies: [
+		"8724cb3a"
+	],
+	tasks: [{
+		uid: "3b01d88a",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "a77e1acc",
+		type: "item",
+		item: {
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:matter_collapsing_engine"
+			}
+		}
+	}]
+}

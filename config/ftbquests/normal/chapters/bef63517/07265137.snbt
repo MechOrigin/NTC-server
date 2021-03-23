@@ -1,0 +1,25 @@
+{
+	icon: "compactmachines3:psd 2",
+	x: 16.5d,
+	y: 8.25d,
+	shape: "circle",
+	description: "Used to navigate the compact machines as well as In Game Documentation. 1 for the projectors and 1 for yourself!",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"06e220db"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "ba12186d",
+		type: "item",
+		items: [{
+			item: "compactmachines3:psd"
+		}],
+		count: 2L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

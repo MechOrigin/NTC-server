@@ -1,0 +1,14 @@
+{
+	x: -6.0d,
+	y: 28.0d,
+	dependencies: [
+		"ee6d8e51"
+	],
+	tasks: [{
+		uid: "935031ad",
+		type: "item",
+		items: [{
+			item: "ftb_beast_coin_miner:beast_coin_miner"
+		}]
+	}]
+}

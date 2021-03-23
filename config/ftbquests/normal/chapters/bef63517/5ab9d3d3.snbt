@@ -1,0 +1,14 @@
+{
+	x: -3.5d,
+	y: 18.5d,
+	dependencies: [
+		"0f711f64"
+	],
+	tasks: [{
+		uid: "63c2de04",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:ender_alternator"
+		}]
+	}]
+}

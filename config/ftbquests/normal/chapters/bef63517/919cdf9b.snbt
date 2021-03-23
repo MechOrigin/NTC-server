@@ -1,0 +1,26 @@
+{
+	x: 0.5d,
+	y: 0.0d,
+	description: "Basically the Tool Station 2.0! This can deal with metals and alloys.",
+	text: [
+		""
+	],
+	dependencies: [
+		"53df9812"
+	],
+	tasks: [{
+		uid: "9e421fd1",
+		type: "item",
+		items: [{
+			id: "tconstruct:toolforge",
+			tag: {
+				textureBlock: {
+					id: "thermalfoundation:storage",
+					Count: 1b,
+					Damage: 0s
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: 37.0d,
+	y: 14.0d,
+	description: "Can charge those Certus Quartz. Requires machine frame.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"4d9d82f2"
+	],
+	tasks: [{
+		uid: "33c8f163",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 9s
+		}]
+	}]
+}

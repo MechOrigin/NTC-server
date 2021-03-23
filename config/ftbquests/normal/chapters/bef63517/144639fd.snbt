@@ -1,0 +1,26 @@
+{
+	icon: "actuallyadditions:item_booklet",
+	x: -2.0d,
+	y: 8.5d,
+	shape: "gear",
+	description: "Dont forget to collect your quest reward for the guide book!",
+	dependencies: [
+		"9f22101c"
+	],
+	tasks: [{
+		uid: "a81af6bd",
+		type: "checkmark",
+		title: "Entry to Actually Additions"
+	}],
+	rewards: [{
+		uid: "d6dbda22",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 2
+	},
+	{
+		uid: "8d8b8417",
+		type: "item",
+		item: "actuallyadditions:item_booklet"
+	}]
+}

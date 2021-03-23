@@ -1,0 +1,19 @@
+{
+	x: 22.5d,
+	y: 17.0d,
+	description: "Can only get to beneath from overworld.",
+	text: [
+		""
+	],
+	dependencies: [
+		"71f01a75",
+		"36fc8653"
+	],
+	tasks: [{
+		uid: "641f4419",
+		type: "item",
+		items: [{
+			item: "beneath:teleporterbeneath"
+		}]
+	}]
+}

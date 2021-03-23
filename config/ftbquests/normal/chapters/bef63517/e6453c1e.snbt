@@ -1,0 +1,19 @@
+{
+	x: -1.0d,
+	y: -5.0d,
+	shape: "gear",
+	description: "These are like builders wands. Try em out!?",
+	dependencies: [
+		"06e220db"
+	],
+	tasks: [{
+		uid: "62985819",
+		type: "checkmark",
+		title: "Building Gadgets"
+	}],
+	rewards: [{
+		uid: "c1f49490",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience"
+	}]
+}

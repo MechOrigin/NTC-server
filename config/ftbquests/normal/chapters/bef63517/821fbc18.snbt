@@ -1,0 +1,30 @@
+{
+	disable_toast: true,
+	x: 22.0d,
+	y: -12.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"4d9d82f2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ca373b7c",
+		type: "checkmark",
+		title: "Complete First Machine Frame",
+		icon: "thermalexpansion:frame",
+		disable_toast: true
+	}],
+	rewards: [{
+		uid: "87581c52",
+		type: "item",
+		auto: "disabled",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 10
+	},
+	{
+		uid: "9ba2e369",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_0 1 10",
+		count: 16
+	}]
+}

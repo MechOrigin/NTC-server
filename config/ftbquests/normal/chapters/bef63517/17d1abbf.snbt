@@ -1,0 +1,17 @@
+{
+	x: 13.5d,
+	y: -13.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"14297bda"
+	],
+	tasks: [{
+		uid: "b369073a",
+		type: "item",
+		items: [{
+			item: "sky_orchards:sapling_redstone"
+		}]
+	}]
+}

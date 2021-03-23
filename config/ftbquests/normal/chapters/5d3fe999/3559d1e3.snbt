@@ -1,0 +1,16 @@
+{
+	x: -1.0d,
+	y: -6.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "1f2c3688",
+		type: "fluid",
+		fluid: "hydrofluoric_acid",
+		amount: 24000
+	}],
+	rewards: [{
+		uid: "de95778f",
+		type: "ftbmoney:money",
+		ftb_money: 24000L
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 9.0d,
+	y: -1.5d,
+	dependencies: [
+		"72682a37"
+	],
+	tasks: [{
+		uid: "b1a88c4d",
+		type: "item",
+		items: [{
+			item: "integratedterminals:chorus_glass"
+		}]
+	}]
+}

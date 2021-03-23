@@ -1,0 +1,63 @@
+{
+    "dimensions": [
+        {
+            "dim": 43,
+            "dimensiontype": {
+                "id": 43,
+                "name": "Void dimension",
+                "suffix": "_dim43",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED",
+                "require_exact_match": true
+            },
+            "worldinfo": {},
+            "worldinfo_onetime": {
+                "generatorName": "voidworld"
+            }
+        },
+        { "dim": -1, 
+            "worldinfo": {},
+                "JED": {
+                    "CanRespawnHere": false,
+                    "RespawnDimension": 43
+                }
+        },
+        { "dim": 1, 
+            "worldinfo": {},
+                "JED": {
+                    "CanRespawnHere": false,
+                    "RespawnDimension": 43
+                }
+        },
+        { "dim": 144, 
+            "dimensiontype": {
+                "id": 144,
+                "name": "Compact Machine",
+                "suffix": "_dim144",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED",
+                "require_exact_match": true
+            },
+            "worldinfo": {},
+                "JED": {
+                    "CanRespawnHere": false,
+                    "RespawnDimension": 43
+                }
+        },
+        {
+            "dim": 0,
+            "dimensiontype": {
+                "id": 0,
+                "name": "RTG dimension",
+                "suffix": "_dim0",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED",
+                "require_exact_match": true
+            },
+            "worldinfo": {},
+            "worldinfo_onetime": {
+                "generatorName": "RTG"
+            }
+        }
+    ]
+}

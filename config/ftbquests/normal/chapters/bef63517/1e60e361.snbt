@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: -8.5d,
+	dependencies: [
+		"b8247589"
+	],
+	tasks: [{
+		uid: "baac907e",
+		type: "item",
+		items: [{
+			item: "inspirations:blaze_crook"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

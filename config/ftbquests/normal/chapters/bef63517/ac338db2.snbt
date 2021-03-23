@@ -1,0 +1,34 @@
+{
+	disable_toast: true,
+	x: 21.0d,
+	y: -13.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a3e9a7c2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "37a48cbb",
+		type: "checkmark",
+		title: "Complete First Basic Crafting Table",
+		icon: "extendedcrafting:table_basic",
+		disable_toast: true
+	}],
+	rewards: [{
+		uid: "ac61dd4f",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 20
+	},
+	{
+		uid: "eaaef47b",
+		type: "item",
+		item: "extendedcrafting:material",
+		count: 24
+	},
+	{
+		uid: "f4f627a7",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

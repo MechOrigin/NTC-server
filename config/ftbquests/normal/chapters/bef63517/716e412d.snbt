@@ -1,0 +1,15 @@
+{
+	x: -1.0d,
+	y: 12.5d,
+	description: "Can be gathered from killing any Wither type creature.",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "0ffa2670",
+		type: "item",
+		items: [{
+			item: "quark:black_ash"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	title: "Welcome to Not too Complicated",
+	icon: "chisel:futura 1 2",
+	x: 4.0d,
+	y: -3.0d,
+	shape: "hexagon",
+	text: [
+		"This is Not too Complicated... It's a modpack centered around trying to become creative mode, but not overly complicated and hectic. With an almost perfectly balanced EMC system.",
+		"",
+		"Also, the Beneath/End/Nether/Space can't be accessed from the void world. Which is the Skyblock."
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "58998a85",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "Tinkers Construct",
+	icon: "tconstruct:book",
+	x: 0.0d,
+	y: 3.0d,
+	shape: "gear",
+	description: "Read the book Materials and You to learn how to make this multiblock structure. The Smeltery!",
+	text: [
+		"Start by making some basic tools because all vanilla ones don't exist anymore."
+	],
+	dependencies: [
+		"53df9812"
+	],
+	tasks: [{
+		uid: "5c9261a0",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "e94e9137",
+		type: "item",
+		item: "tconstruct:book"
+	},
+	{
+		uid: "fc805a0a",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience"
+	}]
+}

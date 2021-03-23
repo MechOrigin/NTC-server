@@ -1,0 +1,31 @@
+{
+    "machine": "advanced_miniaturization_chamber",
+    "registryName": "advanced_miniaturization_chamber_energycell",
+    "recipeTime": 100,
+    "requirements": [
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "contenttweaker:sub_block_holder_1@2",
+            "amount": 24
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "contenttweaker:sub_block_holder_1@0",
+            "amount": 8
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "tconstruct:clear_glass",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalexpansion:frame@128",
+            "amount": 1
+        }
+    ]
+}

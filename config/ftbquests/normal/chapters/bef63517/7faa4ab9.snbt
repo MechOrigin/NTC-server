@@ -1,0 +1,9 @@
+{
+	x: 22.0d,
+	y: 38.0d,
+	tasks: [{
+		uid: "4e83a58b",
+		type: "checkmark",
+		title: "4x ore processing"
+	}]
+}

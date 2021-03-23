@@ -1,0 +1,21 @@
+{
+	title: "Capsule Corp Buildings",
+	icon: "thermalfoundation:coin 64 103",
+	x: 29.5d,
+	y: 27.5d,
+	description: "Bring your lab, greenhouse, and factory with you!",
+	text: [
+		""
+	],
+	dependencies: [
+		"df21efac"
+	],
+	tasks: [{
+		uid: "d746d672",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:coin 1 103"
+		}],
+		count: 64L
+	}]
+}

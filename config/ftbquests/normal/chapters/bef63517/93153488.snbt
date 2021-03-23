@@ -1,0 +1,41 @@
+{
+	disable_toast: true,
+	x: 22.0d,
+	y: -9.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"59532bb6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "893640fd",
+		type: "checkmark",
+		title: "Complete First ME Controller",
+		icon: "appliedenergistics2:controller",
+		disable_toast: true
+	}],
+	rewards: [{
+		uid: "27527b36",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 20
+	},
+	{
+		uid: "59be35c4",
+		type: "item",
+		item: "appliedenergistics2:material 1 7",
+		count: 64
+	},
+	{
+		uid: "2895d00f",
+		type: "item",
+		item: "appliedenergistics2:material 1 24",
+		count: 2
+	},
+	{
+		uid: "6b59eb0a",
+		type: "item",
+		item: "appliedenergistics2:material 1 22",
+		count: 6
+	}]
+}

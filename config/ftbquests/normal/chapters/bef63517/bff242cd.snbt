@@ -1,0 +1,18 @@
+{
+	x: 12.0d,
+	y: 21.5d,
+	description: "Teleport!",
+	text: [
+		""
+	],
+	dependencies: [
+		"10df9b8e"
+	],
+	tasks: [{
+		uid: "7cfab6e1",
+		type: "item",
+		items: [{
+			item: "rftools:matter_receiver"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 13.0d,
+	y: 35.5d,
+	dependencies: [
+		"12888559"
+	],
+	tasks: [{
+		uid: "fd8bd4ef",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:fueltank"
+		}]
+	}]
+}

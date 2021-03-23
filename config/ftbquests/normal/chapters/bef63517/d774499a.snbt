@@ -1,0 +1,18 @@
+{
+	x: 26.5d,
+	y: 18.5d,
+	description: "EnderIO spawners. These don't require essence (XP)",
+	text: [
+		""
+	],
+	dependencies: [
+		"71f01a75"
+	],
+	tasks: [{
+		uid: "4227d9aa",
+		type: "item",
+		items: [{
+			item: "enderio:item_broken_spawner"
+		}]
+	}]
+}

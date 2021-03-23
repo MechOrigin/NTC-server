@@ -1,0 +1,14 @@
+{
+	x: -9.0d,
+	y: 33.0d,
+	dependencies: [
+		"b2688a39"
+	],
+	tasks: [{
+		uid: "950491fa",
+		type: "item",
+		items: [{
+			item: "projectex:collector 1 3"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 5.5d,
+	y: 2.5d,
+	dependencies: [
+		"b8d8ae0d"
+	],
+	tasks: [{
+		uid: "e1c66354",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:binding"
+			}
+		}]
+	}]
+}

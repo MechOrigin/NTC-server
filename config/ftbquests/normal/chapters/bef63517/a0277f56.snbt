@@ -1,0 +1,35 @@
+{
+	disable_toast: true,
+	x: 23.0d,
+	y: -11.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"f9947fb8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fc14601a",
+		type: "checkmark",
+		title: "Complete First Petrotheum Dust",
+		icon: "thermalfoundation:material 1 1027",
+		disable_toast: true
+	}],
+	rewards: [{
+		uid: "00e9a776",
+		type: "item",
+		auto: "disabled",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 10
+	},
+	{
+		uid: "4afc54ac",
+		type: "item",
+		item: "thermalfoundation:material 1 2052",
+		count: 8
+	},
+	{
+		uid: "904b5707",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

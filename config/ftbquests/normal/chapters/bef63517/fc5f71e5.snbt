@@ -1,0 +1,18 @@
+{
+	x: -0.5d,
+	y: 19.5d,
+	description: "This is the better version (upgrade) of Display Stand from ActuallyAdditions",
+	text: [
+		""
+	],
+	dependencies: [
+		"2e1100b0"
+	],
+	tasks: [{
+		uid: "f64f5000",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:pedestal"
+		}]
+	}]
+}

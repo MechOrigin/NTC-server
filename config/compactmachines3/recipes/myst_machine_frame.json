@@ -1,0 +1,49 @@
+{
+  "name": "custom:myst_machine_frame",
+  "target-item": "mysticalagriculture:mystical_machine_frame",
+  "target-count": 1,
+
+  "duration": 120,
+
+  "catalyst": "mysticalagriculture:crafting",
+  "catalyst-meta": 0,
+
+  "input-types": {
+    "A": { 
+    "id": "minecraft:stone",
+    "meta": 0
+  },
+    "B": { 
+    "id": "mysticalagriculture:ingot_storage",
+    "meta": 0
+  }
+},
+
+"symmetrical": true,
+"shape": [
+    [
+      ["A","A","A","A"],
+      ["A","B","B","A"],
+      ["A","B","B","A"],
+      ["A","A","A","A"]
+    ],
+    [
+      ["A","B","B","A"],
+      ["B","_","_","B"],
+      ["B","_","_","B"],
+      ["A","B","B","A"]
+    ],
+    [
+      ["A","B","B","A"],
+      ["B","_","_","B"],
+      ["B","_","_","B"],
+      ["A","B","B","A"]
+    ],
+    [
+      ["A","A","A","A"],
+      ["A","B","B","A"],
+      ["A","B","B","A"],
+      ["A","A","A","A"]
+    ]
+  ]
+}

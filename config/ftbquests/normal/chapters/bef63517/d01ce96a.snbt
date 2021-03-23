@@ -1,0 +1,43 @@
+{
+	title: "Halfway there...",
+	icon: "projectex:power_flower 1 7",
+	disable_toast: true,
+	x: 24.0d,
+	y: -8.0d,
+	description: "This is getting really hard",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"a4a3e289"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1e2e2af4",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "6eb50fa6",
+		type: "item",
+		item: "projectex:relay 1 7",
+		count: 6
+	},
+	{
+		uid: "a1a0ba26",
+		type: "item",
+		item: "projectex:compressed_collector 1 7",
+		count: 2
+	},
+	{
+		uid: "56c376c4",
+		type: "item",
+		item: "projectex:energy_link"
+	},
+	{
+		uid: "df9da601",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 64
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 1.0d,
+	y: -7.5d,
+	dependencies: [
+		"b8247589"
+	],
+	tasks: [{
+		uid: "209eb9ce",
+		type: "item",
+		items: [{
+			item: "inspirations:stone_crook"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	icon: {
+		id: "modularmachinery:itemblueprint",
+		tag: {
+			dynamicmachine: "modularmachinery:medium_particle_accelerator"
+		}
+	},
+	x: -11.0d,
+	y: 16.0d,
+	description: "Takes half as long to produce matter as the small accelerator and can produce magenta matter!",
+	text: [
+		""
+	],
+	dependencies: [
+		"be5899b1",
+		"ece804a5"
+	],
+	tasks: [{
+		uid: "0817d194",
+		type: "checkmark",
+		title: "Medium Particle Accelerator"
+	}],
+	rewards: [{
+		uid: "b66ac03f",
+		type: "item",
+		item: {
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:medium_particle_accelerator"
+			}
+		}
+	}]
+}

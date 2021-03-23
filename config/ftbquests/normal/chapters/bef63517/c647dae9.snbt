@@ -1,0 +1,18 @@
+{
+	x: 17.0d,
+	y: -4.0d,
+	description: "The Crafting Writer allows you to automatically start crafting jobs based on certain conditions using the recipes that are exposed by Crafting Interfaces.",
+	text: [
+		""
+	],
+	dependencies: [
+		"39809feb"
+	],
+	tasks: [{
+		uid: "d2d06db6",
+		type: "item",
+		items: [{
+			item: "integratedcrafting:part_crafting_writer_item"
+		}]
+	}]
+}

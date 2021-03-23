@@ -1,0 +1,17 @@
+{
+	x: 3.5d,
+	y: 3.5d,
+	dependencies: [
+		"b8d8ae0d"
+	],
+	tasks: [{
+		uid: "95d6dae9",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:sword_blade"
+			}
+		}]
+	}]
+}

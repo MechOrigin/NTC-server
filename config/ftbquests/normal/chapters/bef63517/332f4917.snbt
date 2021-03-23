@@ -1,0 +1,14 @@
+{
+	x: -26.5d,
+	y: -21.5d,
+	dependencies: [
+		"0c8f5a93"
+	],
+	tasks: [{
+		uid: "13917092",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:topaz_seeds"
+		}]
+	}]
+}

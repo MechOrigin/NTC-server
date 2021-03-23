@@ -1,0 +1,59 @@
+{
+  "name": "custom:basic_chassis",
+  "target-item": "enderio:item_material",
+  "target-meta": 0,
+  "target-count": 1,
+
+  "duration": 120,
+
+  "catalyst": "enderio:item_material",
+  "catalyst-meta": 20,
+
+  "input-types": {
+    "I": { 
+    "id": "minecraft:iron_block"
+  },
+    "G": { 
+    "id": "minecraft:iron_bars"
+  }
+},
+
+"symmetrical": true,
+"shape": [
+    [
+      ["I","I","I","I","I"],
+      ["I","G","G","G","I"],
+      ["I","G","G","G","I"],
+      ["I","G","G","G","I"],
+      ["I","I","I","I","I"]
+    ],
+    [
+      ["I","G","G","G","I"],
+      ["G","_","_","_","G"],
+      ["G","_","_","_","G"],
+      ["G","_","_","_","G"],
+      ["I","G","G","G","I"]
+    ],
+    [
+      ["I","G","G","G","I"],
+      ["G","_","_","_","G"],
+      ["G","_","_","_","G"],
+      ["G","_","_","_","G"],
+      ["I","G","G","G","I"]
+    ],
+    [
+      ["I","G","G","G","I"],
+      ["G","_","_","_","G"],
+      ["G","_","_","_","G"],
+      ["G","_","_","_","G"],
+      ["I","G","G","G","I"]
+    ],
+    [
+      ["I","I","I","I","I"],
+      ["I","G","G","G","I"],
+      ["I","G","G","G","I"],
+      ["I","G","G","G","I"],
+      ["I","I","I","I","I"]
+    ]
+  ]
+}

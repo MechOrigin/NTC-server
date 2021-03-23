@@ -1,0 +1,19 @@
+{
+	x: -18.5d,
+	y: -9.5d,
+	shape: "gear",
+	description: "Liquids can be transfered to and from with conduits, ducts and cables.",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"06e220db",
+		"a5584575"
+	],
+	tasks: [{
+		uid: "9e983a39",
+		type: "checkmark",
+		title: "Fluid pipes"
+	}]
+}

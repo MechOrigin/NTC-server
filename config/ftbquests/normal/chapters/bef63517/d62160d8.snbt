@@ -1,0 +1,14 @@
+{
+	x: -23.5d,
+	y: -9.5d,
+	dependencies: [
+		"fdb53fbb"
+	],
+	tasks: [{
+		uid: "1622086a",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:pig_seeds"
+		}]
+	}]
+}

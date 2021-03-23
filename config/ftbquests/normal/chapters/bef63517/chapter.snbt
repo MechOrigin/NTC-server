@@ -1,0 +1,18 @@
+{
+	title: "Simple Beginnings",
+	icon: "minecraft:grass",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 23.0d,
+		y: -12.0d,
+		width: 13.0d,
+		height: 13.0d,
+		rotation: 0.0d,
+		image: "questbook:questbox.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

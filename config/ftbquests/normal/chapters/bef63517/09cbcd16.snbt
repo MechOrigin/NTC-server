@@ -1,0 +1,31 @@
+{
+	x: 28.5d,
+	y: 19.5d,
+	shape: "gear",
+	description: "Your not done yet",
+	text: [
+		""
+	],
+	dependencies: [
+		"48850615",
+		"3decede1",
+		"d774499a"
+	],
+	tasks: [{
+		uid: "24cd73a5",
+		type: "checkmark",
+		title: "Get a functioning Spawner",
+		icon: "enderio:item_broken_spawner"
+	}],
+	rewards: [{
+		uid: "95fc48fe",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 15
+	},
+	{
+		uid: "d61fcd94",
+		type: "item",
+		item: "enderio:item_material 1 53"
+	}]
+}

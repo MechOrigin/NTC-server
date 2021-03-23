@@ -1,0 +1,76 @@
+{
+	disable_toast: true,
+	x: 23.0d,
+	y: -13.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"cabee03d",
+		"03c78083",
+		"1f525916",
+		"688c824a",
+		"ac5f9c16",
+		"006aed61",
+		"fb2ab7a1",
+		"8f4fbf82",
+		"b29d4e50",
+		"3911c31e",
+		"c55f478d",
+		"0330d1e7",
+		"56d1b846",
+		"eaae9772",
+		"34331ead",
+		"4f0ad7ab",
+		"71676e44",
+		"59d8137c",
+		"eb61b904",
+		"89c9906c",
+		"9edb46b2",
+		"02e33809",
+		"17d1abbf",
+		"69057d2a",
+		"e4c0f533",
+		"8d2b859f",
+		"f930ee06",
+		"1a8b2dbd",
+		"6ed3a7ab",
+		"37b77f8d",
+		"6476344d",
+		"825855e4",
+		"a5e7625a",
+		"24d8d266"
+	],
+	hide: true,
+	tasks: [{
+		uid: "24040334",
+		type: "checkmark",
+		title: "Really Complete Saplings Quest",
+		icon: "tconstruct:slime_sapling 1 1"
+	}],
+	rewards: [{
+		uid: "73b00f1a",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 32
+	},
+	{
+		uid: "a9410766",
+		type: "item",
+		item: "industrialforegoing:material_stonework_factory"
+	},
+	{
+		uid: "2fad970d",
+		type: "item",
+		item: "inspirations:mulch 1 7",
+		count: 4
+	},
+	{
+		uid: "40c52f66",
+		type: "item",
+		item: "mysticalagriculture:emerald_seeds"
+	},
+	{
+		uid: "67421d71",
+		type: "item",
+		item: "mysticalagriculture:diamond_seeds"
+	}]
+}

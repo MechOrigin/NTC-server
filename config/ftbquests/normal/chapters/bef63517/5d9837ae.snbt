@@ -1,0 +1,22 @@
+{
+	title: "The most basic saplings",
+	x: 3.0d,
+	y: -9.5d,
+	shape: "gear",
+	description: "Jungle and Oak trees provide a little EMC bonus with apples and cocoa beans",
+	text: [
+		"Most saplings here can be dropped from leaves. Grab some leaves from the transmutation tablet and break them up."
+	],
+	dependencies: [
+		"bd07f887"
+	],
+	tasks: [{
+		uid: "5474c181",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "4bb3447d",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience"
+	}]
+}

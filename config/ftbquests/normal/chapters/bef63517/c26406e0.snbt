@@ -1,0 +1,21 @@
+{
+	x: 17.0d,
+	y: -3.0d,
+	description: "Early Autocrafting! The Crafting Interface is used to tell the network where and how things can be crafted.",
+	text: [
+		"By pointing a Crafting Interface to a machine (like a Crafting table or Furnace), this interface will be bound to this machine to handle recipes.",
+		"",
+		"When opening the GUI of a Crafting Interface, you can insert Variable Cards that hold Recipes. This will tell the interface that the given recipe can be crafted using the bound machine."
+	],
+	dependencies: [
+		"63b69883",
+		"39809feb"
+	],
+	tasks: [{
+		uid: "cbcdab2e",
+		type: "item",
+		items: [{
+			item: "integratedcrafting:part_interface_crafting_item"
+		}]
+	}]
+}

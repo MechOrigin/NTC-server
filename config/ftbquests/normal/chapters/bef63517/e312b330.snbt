@@ -1,0 +1,31 @@
+{
+	disable_toast: true,
+	x: 24.0d,
+	y: -11.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"0b88cb80",
+		"3cda9d6f",
+		"be490dff",
+		"10e1e127"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fa5fedec",
+		type: "checkmark",
+		title: "Superior Armor Complete",
+		icon: "avaritia:infinity_helmet"
+	}],
+	rewards: [{
+		uid: "4e4ca818",
+		type: "item",
+		item: "avaritia:resource 1 5",
+		count: 14
+	},
+	{
+		uid: "079d8847",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 64
+	}]
+}

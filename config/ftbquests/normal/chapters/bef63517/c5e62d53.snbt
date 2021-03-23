@@ -1,0 +1,14 @@
+{
+	x: -7.0d,
+	y: 17.0d,
+	dependencies: [
+		"e2a79b4b"
+	],
+	tasks: [{
+		uid: "b4388548",
+		type: "item",
+		items: [{
+			item: "equivalentenergistics:emc_crafter"
+		}]
+	}]
+}

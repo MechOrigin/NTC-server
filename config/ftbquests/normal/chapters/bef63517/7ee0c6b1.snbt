@@ -1,0 +1,18 @@
+{
+	x: 10.5d,
+	y: 15.5d,
+	description: "Mob Killer",
+	text: [
+		""
+	],
+	dependencies: [
+		"c18b2ebe"
+	],
+	tasks: [{
+		uid: "4fb886be",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_relocator"
+		}]
+	}]
+}

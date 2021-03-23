@@ -1,0 +1,20 @@
+{
+	title: "Requires Ender Crafter",
+	icon: "extendedcrafting:ender_crafter",
+	x: 34.5d,
+	y: 23.5d,
+	shape: "gear",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"be49434c",
+		"5ab9d3d3"
+	],
+	size: 1.4d,
+	tasks: [{
+		uid: "6e7949c1",
+		type: "checkmark"
+	}]
+}

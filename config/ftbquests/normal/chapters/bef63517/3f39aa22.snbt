@@ -1,0 +1,14 @@
+{
+	x: -17.0d,
+	y: 16.5d,
+	dependencies: [
+		"e68281a4"
+	],
+	tasks: [{
+		uid: "dbaf8ea0",
+		type: "item",
+		items: [{
+			item: "equivalentintegrations:transmutation_disassembler"
+		}]
+	}]
+}

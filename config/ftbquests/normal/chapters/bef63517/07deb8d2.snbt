@@ -1,0 +1,18 @@
+{
+	x: 2.5d,
+	y: 21.5d,
+	description: "Pink Slime can be created by killing animals with the Mob Slaughter Factory Block. Such as Chickens or Polar Bears.",
+	text: [
+		""
+	],
+	dependencies: [
+		"b3317b82"
+	],
+	tasks: [{
+		uid: "9ef5c023",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:pink_slime_ingot"
+		}]
+	}]
+}

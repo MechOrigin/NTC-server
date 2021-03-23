@@ -1,0 +1,17 @@
+{
+	x: 10.0d,
+	y: -15.5d,
+	dependencies: [
+		"bd07f887"
+	],
+	tasks: [{
+		uid: "404ef0a3",
+		type: "checkmark",
+		title: "These leaves don't have an EMC value. They are crafted."
+	}],
+	rewards: [{
+		uid: "0f0fdade",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience"
+	}]
+}

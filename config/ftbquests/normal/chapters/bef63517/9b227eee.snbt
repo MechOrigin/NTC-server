@@ -1,0 +1,14 @@
+{
+	x: -23.5d,
+	y: -15.5d,
+	dependencies: [
+		"fdb53fbb"
+	],
+	tasks: [{
+		uid: "401ade9e",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:sulfur_seeds"
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: 13.5d,
+	y: -2.5d,
+	description: "A manual squeezer. You have to jump on it after putting an item inside. Then pick it up with a pickaxe and do it again. Terribly tedious.",
+	dependencies: [
+		"1f7f8f64"
+	],
+	tasks: [{
+		uid: "efbb8be0",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:squeezer"
+		}]
+	}]
+}

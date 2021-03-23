@@ -1,0 +1,13 @@
+{
+	x: -13.0d,
+	y: 22.5d,
+	shape: "gear",
+	dependencies: [
+		"446f2484"
+	],
+	tasks: [{
+		uid: "e33cba51",
+		type: "checkmark",
+		title: "Red Matter Armor"
+	}]
+}

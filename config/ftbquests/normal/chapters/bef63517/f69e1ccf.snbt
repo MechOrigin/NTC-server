@@ -1,0 +1,41 @@
+{
+	disable_toast: true,
+	x: 24.0d,
+	y: -10.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"59532bb6",
+		"d65fed59",
+		"f02683e1",
+		"ae409d4b",
+		"4d9d82f2",
+		"c2b75b07",
+		"20704ce0",
+		"07265137",
+		"d0838d30",
+		"e842b5d7",
+		"751e2849",
+		"ab1c3184",
+		"8b53386a",
+		"323b79a5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fb7903c3",
+		type: "checkmark",
+		title: "Master of Compact Machines",
+		icon: "chambers:big_compact_chamber"
+	}],
+	rewards: [{
+		uid: "1be67b2c",
+		type: "item",
+		item: "thermalexpansion:frame",
+		count: 6
+	},
+	{
+		uid: "dba1eb9b",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 32
+	}]
+}

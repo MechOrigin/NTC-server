@@ -1,0 +1,11 @@
+{
+	x: 24.0d,
+	y: 17.0d,
+	tasks: [{
+		uid: "f10aceb1",
+		type: "item",
+		items: [{
+			item: "auxiliumequivalence:fuel 1 2"
+		}]
+	}]
+}

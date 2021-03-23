@@ -1,0 +1,13 @@
+{
+	x: -13.0d,
+	y: 18.0d,
+	shape: "gear",
+	dependencies: [
+		"446f2484"
+	],
+	tasks: [{
+		uid: "273c7ddf",
+		type: "checkmark",
+		title: "Dark Matter Tools"
+	}]
+}

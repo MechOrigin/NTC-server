@@ -1,0 +1,21 @@
+{
+	title: "Ready for some convenience?!",
+	icon: "thermalfoundation:coin 64 103",
+	x: 28.5d,
+	y: 28.0d,
+	description: "The fridge comes stocked with food and the clothing store is comfortably modern and a reliable gettaway from the hussle.",
+	text: [
+		""
+	],
+	dependencies: [
+		"df21efac"
+	],
+	tasks: [{
+		uid: "f9a38727",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:coin 1 103"
+		}],
+		count: 64L
+	}]
+}

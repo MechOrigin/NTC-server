@@ -1,0 +1,14 @@
+{
+	x: 3.5d,
+	y: -16.0d,
+	dependencies: [
+		"62078643"
+	],
+	tasks: [{
+		uid: "8368fe7d",
+		type: "item",
+		items: [{
+			item: "sky_orchards:sapling_sand"
+		}]
+	}]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "custom:tesla_machine_case",
+  "target-item": "teslacorelib:machine_case",
+  "target-count": 1,
+
+  "duration": 120,
+
+  "catalyst": "tconstruct:clear_glass",
+
+  "input-types": {
+    "A": { 
+    "id": "minecraft:iron_block"
+  },
+    "B": { 
+    "id": "minecraft:redstone_block"
+  },
+    "C": { 
+    "id": "buildinggadgets:constructionblock_dense"
+  }
+},
+
+"symmetrical": true,
+"shape": [
+    [
+      ["A","A","A","A"],
+      ["A","C","C","A"],
+      ["A","C","C","A"],
+      ["A","A","A","A"]
+    ],
+    [
+      ["A","C","C","A"],
+      ["C","B","B","C"],
+      ["C","B","B","C"],
+      ["A","C","C","A"]
+    ],
+    [
+      ["A","C","C","A"],
+      ["C","B","B","C"],
+      ["C","B","B","C"],
+      ["A","C","C","A"]
+    ],
+    [
+      ["A","A","A","A"],
+      ["A","C","C","A"],
+      ["A","C","C","A"],
+      ["A","A","A","A"]
+    ]
+  ]
+}

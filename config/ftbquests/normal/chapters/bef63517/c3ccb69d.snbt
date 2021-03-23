@@ -1,0 +1,16 @@
+{
+	x: -8.5d,
+	y: 18.0d,
+	dependencies: [
+		"e2a79b4b"
+	],
+	tasks: [{
+		uid: "7660a55a",
+		type: "item",
+		items: [{
+			item: "equivalentenergistics:emc_book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

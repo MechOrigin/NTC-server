@@ -1,0 +1,26 @@
+{
+	x: 30.5d,
+	y: 28.5d,
+	dependencies: [
+		"08fda653"
+	],
+	tasks: [{
+		uid: "25e44582",
+		type: "item",
+		items: [{
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 41,
+				color: 16775850,
+				structureName: "config/capsule/prefabs/archlab",
+				display: {
+					color: 16777215
+				},
+				label: "Archlab"
+			},
+			Damage: 7s
+		}],
+		ignore_nbt: 1b
+	}]
+}

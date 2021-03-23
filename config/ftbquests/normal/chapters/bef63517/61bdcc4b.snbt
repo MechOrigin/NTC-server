@@ -1,0 +1,25 @@
+{
+	x: 28.5d,
+	y: 29.5d,
+	dependencies: [
+		"db102a09"
+	],
+	tasks: [{
+		uid: "0d842ba7",
+		type: "item",
+		items: [{
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 3,
+				structureName: "config/capsule/prefabs/stockedfridge",
+				display: {
+					color: 16777215
+				},
+				label: "Stockedfridge"
+			},
+			Damage: 7s
+		}],
+		ignore_nbt: 1b
+	}]
+}

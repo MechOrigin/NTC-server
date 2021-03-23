@@ -1,0 +1,19 @@
+{
+	icon: "immersiveengineering:stone_decoration 27",
+	x: 20.5d,
+	y: -1.0d,
+	text: [
+		"You will need about 27 of these and a hammer to make a coke oven. Coke oven makes the coal coke necessary to smelt steel."
+	],
+	dependencies: [
+		"55286f85"
+	],
+	tasks: [{
+		uid: "d5e38776",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration"
+		}],
+		count: 27L
+	}]
+}

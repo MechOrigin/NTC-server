@@ -1,0 +1,18 @@
+{
+	x: 16.5d,
+	y: 16.5d,
+	description: "Ender IO",
+	text: [
+		""
+	],
+	dependencies: [
+		"71f01a75"
+	],
+	tasks: [{
+		uid: "6d9a379b",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 66"
+		}]
+	}]
+}

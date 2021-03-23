@@ -1,0 +1,16 @@
+{
+	title: "Move along....",
+	x: 28.0d,
+	y: 26.0d,
+	description: "Blueprint Capsules created by Capsule Corp",
+	text: [
+		""
+	],
+	dependencies: [
+		"d97d8034"
+	],
+	tasks: [{
+		uid: "e6e0871f",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 23.0d,
+	y: 9.5d,
+	shape: "gear",
+	description: "This chamber can create all 5x5x5 or less vanilla compact machines. Walls, tunnels, etc",
+	text: [
+		""
+	],
+	dependencies: [
+		"e842b5d7",
+		"ae409d4b"
+	],
+	tasks: [{
+		uid: "f2de3927",
+		type: "item",
+		items: [{
+			item: "chambers:big_compact_chamber"
+		}]
+	}]
+}

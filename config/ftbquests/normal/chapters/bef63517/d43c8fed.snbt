@@ -1,0 +1,15 @@
+{
+	x: 17.0d,
+	y: 29.0d,
+	dependencies: [
+		"674c5b1e"
+	],
+	tasks: [{
+		uid: "a45d14ed",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:itemupgrade 1 1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

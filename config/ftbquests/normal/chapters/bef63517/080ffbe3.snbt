@@ -1,0 +1,18 @@
+{
+	x: -22.0d,
+	y: -1.0d,
+	description: "These drop from mobs. Better set up a mob farm if you haven't already.",
+	text: [
+		""
+	],
+	dependencies: [
+		"19e8d326"
+	],
+	tasks: [{
+		uid: "e7bea34b",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting"
+		}]
+	}]
+}

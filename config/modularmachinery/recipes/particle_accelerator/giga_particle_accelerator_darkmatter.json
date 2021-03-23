@@ -1,0 +1,55 @@
+{
+    "machine": "giga_particle_accelerator",
+    "registryName": "giga_particle_accelerator_darkmatter",
+    "recipeTime": 20,
+    "requirements": [
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "contenttweaker:rainbow_alchemical_coal",
+            "amount": 1,
+            "chance": 1.0
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "contenttweaker:rainbow_mobius_fuel",
+            "amount": 1,
+            "chance": 0.5
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "contenttweaker:rainbow_aeternalis_fuel",
+            "amount": 1,
+            "chance": 0.25
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "projectex:matter@9",
+            "amount": 15,
+            "chance": 0.99
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "projectex:matter@10",
+            "amount": 12,
+            "chance": 0.99
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "projectex:matter@11",
+            "amount": 9,
+            "chance": 0.99
+        },
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "hydrogen",
+            "amount": 32000
+        }
+    ]
+}

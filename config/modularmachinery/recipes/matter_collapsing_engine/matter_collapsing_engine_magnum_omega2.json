@@ -1,0 +1,25 @@
+{
+    "machine": "matter_collapsing_engine",
+    "registryName": "matter_collapsing_engine_magnum_omega2",
+    "recipeTime": 128,
+    "requirements": [
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "auxiliumequivalence:fuel@11",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "projectex:magnum_star_omega",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "auxiliumequivalence:fuel@10",
+            "amount": 1
+        }
+    ]
+}

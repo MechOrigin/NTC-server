@@ -1,0 +1,14 @@
+{
+	x: 11.0d,
+	y: 12.0d,
+	dependencies: [
+		"46f58ddf"
+	],
+	tasks: [{
+		uid: "46b5b9b7",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:artificial_dye 1 12"
+		}]
+	}]
+}

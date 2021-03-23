@@ -1,0 +1,23 @@
+{
+    "machine": "arboreal_reprocessor",
+    "registryName": "arboreal_reprocessor_energy_osmium",
+    "recipeTime": 100,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "output",
+            "energyPerTick": 75
+        },
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 40
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "sky_orchards:acorn_osmium",
+            "amount": 1
+        }
+    ]
+}

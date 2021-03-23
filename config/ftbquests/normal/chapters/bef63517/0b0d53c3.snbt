@@ -1,0 +1,14 @@
+{
+	x: -0.5d,
+	y: -1.5d,
+	dependencies: [
+		"3889498a"
+	],
+	tasks: [{
+		uid: "9bc61284",
+		type: "item",
+		items: [{
+			item: "tconstruct:slime_dirt"
+		}]
+	}]
+}

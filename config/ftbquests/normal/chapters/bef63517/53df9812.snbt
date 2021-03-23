@@ -1,0 +1,21 @@
+{
+	x: 0.5d,
+	y: 1.5d,
+	shape: "gear",
+	dependencies: [
+		"076cde6d",
+		"3dbd8b4f",
+		"1b2751f3",
+		"6db5da19"
+	],
+	tasks: [{
+		uid: "9f4740d8",
+		type: "checkmark",
+		title: "Delve more into Tinkers Contruct mod!"
+	}],
+	rewards: [{
+		uid: "a08186cd",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience"
+	}]
+}

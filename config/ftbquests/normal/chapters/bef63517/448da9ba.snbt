@@ -1,0 +1,15 @@
+{
+	x: -9.0d,
+	y: 25.0d,
+	dependencies: [
+		"d7f28133",
+		"446f2484"
+	],
+	tasks: [{
+		uid: "beaa489e",
+		type: "item",
+		items: [{
+			item: "projecte:collector_mk1"
+		}]
+	}]
+}

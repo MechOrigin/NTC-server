@@ -1,0 +1,58 @@
+{
+	title: "MK1 Complete",
+	icon: "projecte:collector_mk1",
+	disable_toast: true,
+	x: 21.0d,
+	y: -8.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"c0596728",
+		"448da9ba"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3b11e9e1",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "055691f9",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 16
+	},
+	{
+		uid: "6970bace",
+		type: "item",
+		item: "minecraft:glowstone",
+		count: 13
+	},
+	{
+		uid: "73a4d288",
+		type: "item",
+		item: "actuallyadditions:block_testifi_bucks_white_wall",
+		count: 6
+	},
+	{
+		uid: "b4d4b032",
+		type: "item",
+		item: "integrateddynamics:crystalized_chorus_chunk",
+		count: 16
+	},
+	{
+		uid: "7e144546",
+		type: "item",
+		item: "minecraft:furnace",
+		count: 2
+	},
+	{
+		uid: "dc16ab67",
+		type: "item",
+		item: "minecraft:obsidian",
+		count: 13
+	},
+	{
+		uid: "c2656776",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

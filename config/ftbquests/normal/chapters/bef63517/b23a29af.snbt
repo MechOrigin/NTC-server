@@ -1,0 +1,14 @@
+{
+	x: -1.0d,
+	y: 5.0d,
+	dependencies: [
+		"b228adf4"
+	],
+	tasks: [{
+		uid: "1c22a60c",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials"
+		}]
+	}]
+}

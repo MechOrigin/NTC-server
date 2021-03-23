@@ -1,0 +1,19 @@
+{
+	x: -27.5d,
+	y: 14.0d,
+	dependencies: [
+		"23f2d0b6"
+	],
+	tasks: [{
+		uid: "21f55fb3",
+		type: "item",
+		items: [{
+			id: "wit:wit_creative",
+			tag: {
+				IsInRange: 0b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

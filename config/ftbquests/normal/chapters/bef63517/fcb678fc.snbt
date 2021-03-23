@@ -1,0 +1,15 @@
+{
+	x: -9.0d,
+	y: 28.0d,
+	dependencies: [
+		"ee6d8e51",
+		"abbd86f7"
+	],
+	tasks: [{
+		uid: "ec74dc98",
+		type: "item",
+		items: [{
+			item: "projecte:collector_mk3"
+		}]
+	}]
+}

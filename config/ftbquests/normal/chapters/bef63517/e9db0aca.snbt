@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 11.5d,
+	description: "Automating!",
+	text: [
+		"This is an atomic reconstructor, but all in one block, without throwing blocks at it and clicking buttons."
+	],
+	dependencies: [
+		"692f15d7",
+		"9190c99a",
+		"716e412d"
+	],
+	tasks: [{
+		uid: "cbee8f37",
+		type: "item",
+		items: [{
+			item: "chambers:atom_chamber"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 15.0d,
+	y: 5.5d,
+	description: "Quite exotic. It's a super cold coolant for reactors and whatnot. Place Snowball on Casting Table and pour XP on it.",
+	text: [
+		""
+	],
+	dependencies: [
+		"98e02e2b"
+	],
+	tasks: [{
+		uid: "53d1e3ee",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 2049"
+		}]
+	}]
+}

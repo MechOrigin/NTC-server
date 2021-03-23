@@ -1,0 +1,14 @@
+{
+	x: -10.5d,
+	y: 43.0d,
+	dependencies: [
+		"8170bec0"
+	],
+	tasks: [{
+		uid: "d658177f",
+		type: "item",
+		items: [{
+			item: "projectex:relay 1 13"
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	disable_toast: true,
+	x: 25.0d,
+	y: -13.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"186e929a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "22cff1fc",
+		type: "dimension",
+		dim: 10
+	}]
+}

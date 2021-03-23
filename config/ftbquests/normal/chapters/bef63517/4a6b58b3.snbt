@@ -1,0 +1,14 @@
+{
+	x: -22.0d,
+	y: -12.0d,
+	dependencies: [
+		"2ffacf16"
+	],
+	tasks: [{
+		uid: "09743651",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:water_seeds"
+		}]
+	}]
+}

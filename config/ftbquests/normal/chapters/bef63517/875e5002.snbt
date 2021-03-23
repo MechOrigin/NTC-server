@@ -1,0 +1,19 @@
+{
+	x: 13.5d,
+	y: 7.5d,
+	description: "Prerequisite to Immersive Engineering. Place Sulfur onto Casting Table and pour Liquid XP on it.",
+	text: [
+		"Blaze powder opens the door for many other mods. Like ActuallyAdditions, Immersive engineering, and basically anything that uses steel."
+	],
+	dependencies: [
+		"2149ca87",
+		"98e02e2b"
+	],
+	tasks: [{
+		uid: "e94943e8",
+		type: "item",
+		items: [{
+			item: "minecraft:blaze_powder"
+		}]
+	}]
+}

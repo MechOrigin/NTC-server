@@ -1,0 +1,17 @@
+{
+	x: 5.5d,
+	y: 22.5d,
+	shape: "gear",
+	description: "Can be used in the void, end, nether and beneath. Other planets and dimensions as well.",
+	text: [
+		""
+	],
+	dependencies: [
+		"751e2849"
+	],
+	tasks: [{
+		uid: "677b1b69",
+		type: "checkmark",
+		title: "Mine ores!"
+	}]
+}

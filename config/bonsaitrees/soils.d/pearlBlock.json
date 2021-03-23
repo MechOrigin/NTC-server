@@ -1,0 +1,16 @@
+{
+  "name": "darkutils:pearl_block:0",
+  "mod": "darkutils",
+  "soil": {
+    "name": "darkutils:pearl_block",
+    "data": 0,
+    "ignoreMeta": false
+  },
+
+  "modifiers": {
+    "growTime": 0.5,
+    "dropChance": 2.0
+  },
+
+  "providedTags": [ "end_stone" ]
+}

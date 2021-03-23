@@ -1,0 +1,14 @@
+{
+	x: 15.5d,
+	y: 10.0d,
+	dependencies: [
+		"875e5002"
+	],
+	tasks: [{
+		uid: "5d856792",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_eye"
+		}]
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Copper Ingot",
+	x: 5.0d,
+	y: 8.0d,
+	description: "Put the copper inside the smeltery controller",
+	text: [
+		""
+	],
+	dependencies: [
+		"2149ca87"
+	],
+	tasks: [{
+		uid: "1f666ccf",
+		type: "item",
+		title: "Any ingotCopper",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotCopper",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}]
+}

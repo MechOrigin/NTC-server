@@ -1,0 +1,33 @@
+{
+	icon: {
+		id: "modularmachinery:itemblueprint",
+		tag: {
+			dynamicmachine: "modularmachinery:small_particle_accelerator"
+		}
+	},
+	x: -10.0d,
+	y: 16.0d,
+	description: "Takes longer and can't produce higher tiers of exotic matter but it works!",
+	text: [
+		""
+	],
+	dependencies: [
+		"be5899b1",
+		"ece804a5"
+	],
+	tasks: [{
+		uid: "56a235b8",
+		type: "checkmark",
+		title: "Small Particle Accelerator"
+	}],
+	rewards: [{
+		uid: "3856bc42",
+		type: "item",
+		item: {
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:small_particle_accelerator"
+			}
+		}
+	}]
+}

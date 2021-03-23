@@ -1,0 +1,25 @@
+{
+    "machine": "advanced_miniaturization_chamber",
+    "registryName": "advanced_miniaturization_chamber_advmachinestructure",
+    "recipeTime": 100,
+    "requirements": [
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "contenttweaker:sub_block_holder_1@6",
+            "amount": 32
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "contenttweaker:material_part@163",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "libvulpes:advstructuremachine",
+            "amount": 16
+        }
+    ]
+}

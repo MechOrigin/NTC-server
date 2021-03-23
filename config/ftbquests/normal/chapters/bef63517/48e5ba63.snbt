@@ -1,0 +1,14 @@
+{
+	x: -23.5d,
+	y: -21.5d,
+	dependencies: [
+		"fdb53fbb"
+	],
+	tasks: [{
+		uid: "6a2eac39",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:limestone_seeds"
+		}]
+	}]
+}

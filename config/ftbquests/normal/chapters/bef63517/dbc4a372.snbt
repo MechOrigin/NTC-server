@@ -1,0 +1,14 @@
+{
+	x: -2.5d,
+	y: -3.5d,
+	dependencies: [
+		"10956975"
+	],
+	tasks: [{
+		uid: "f1f037c0",
+		type: "item",
+		items: [{
+			item: "minecraft:ice"
+		}]
+	}]
+}

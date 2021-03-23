@@ -1,0 +1,26 @@
+{
+	x: 30.5d,
+	y: 27.0d,
+	dependencies: [
+		"08fda653"
+	],
+	tasks: [{
+		uid: "c578436d",
+		type: "item",
+		items: [{
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 23,
+				color: 16775850,
+				structureName: "config/capsule/prefabs/archgreenhouse",
+				display: {
+					color: 16777215
+				},
+				label: "Archgreenhouse"
+			},
+			Damage: 7s
+		}],
+		ignore_nbt: 1b
+	}]
+}

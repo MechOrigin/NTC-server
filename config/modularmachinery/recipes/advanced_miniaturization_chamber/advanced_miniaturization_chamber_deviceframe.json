@@ -1,0 +1,25 @@
+{
+    "machine": "advanced_miniaturization_chamber",
+    "registryName": "advanced_miniaturization_chamber_deviceframe",
+    "recipeTime": 100,
+    "requirements": [
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "contenttweaker:sub_block_holder_0@13",
+            "amount": 32
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "tconstruct:clear_glass",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalexpansion:frame@64",
+            "amount": 1
+        }
+    ]
+}

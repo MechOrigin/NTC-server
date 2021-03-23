@@ -1,0 +1,59 @@
+{
+	x: -15.5d,
+	y: 8.5d,
+	description: "Requires ultimate crafting table",
+	hide_dependency_lines: true,
+	dependencies: [
+		"22577c54",
+		"846a582e",
+		"7c7c7879",
+		"df935695",
+		"cd9bfa92",
+		"eb363b7f",
+		"6c5f1bd5",
+		"1b374a3c",
+		"373c7d71",
+		"aad85f96",
+		"ff63ef2c",
+		"1134f7e5",
+		"f00bd2df",
+		"d6e7c832",
+		"bd7859ad",
+		"8dee6939",
+		"e532e0ab",
+		"6120ff3a",
+		"c1bfd6e3",
+		"44f7e02b",
+		"2bc39a5d",
+		"787cf999",
+		"6d923535",
+		"b58c4224",
+		"5e4800a1",
+		"a4c0c6ea",
+		"a08ce4e1",
+		"55231e53",
+		"f604e9b5",
+		"02b404c7",
+		"8e691d1d",
+		"c0f936cf",
+		"36258bd2",
+		"a0a9b710",
+		"2626795c",
+		"ee6d8e51",
+		"2dede091",
+		"234380ff",
+		"aead1ad2"
+	],
+	tasks: [{
+		uid: "0fcb364e",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 32"
+		}]
+	}],
+	rewards: [{
+		uid: "d4f17d0a",
+		type: "item",
+		item: "extendedcrafting:material 1 32"
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 10.0d,
+	y: -9.0d,
+	dependencies: [
+		"fbe7ff05"
+	],
+	tasks: [{
+		uid: "0ac2c1ca",
+		type: "item",
+		items: [{
+			item: "sky_orchards:leaves_gold"
+		}]
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Nitrate Dust",
+	x: 26.5d,
+	y: -4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"ba38cc41"
+	],
+	tasks: [{
+		uid: "a70db329",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dustSaltpeter",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustSaltpeter"
+				}
+			}
+		}]
+	}]
+}

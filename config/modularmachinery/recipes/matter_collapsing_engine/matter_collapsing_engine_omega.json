@@ -1,0 +1,19 @@
+{
+    "machine": "matter_collapsing_engine",
+    "registryName": "matter_collapsing_engine_omega",
+    "recipeTime": 16,
+    "requirements": [
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "projecte:item.pe_klein_star@4",
+            "amount": 4
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "projecte:item.pe_klein_star@5",
+            "amount": 1
+        }
+    ]
+}

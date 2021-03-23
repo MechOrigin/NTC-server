@@ -1,0 +1,14 @@
+{
+	x: 37.0d,
+	y: 15.0d,
+	dependencies: [
+		"37cd7a5e"
+	],
+	tasks: [{
+		uid: "fe5fac2e",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:sky_stone_block"
+		}]
+	}]
+}

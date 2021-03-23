@@ -1,0 +1,17 @@
+{
+	x: 10.5d,
+	y: 2.0d,
+	dependencies: [
+		"375256f8"
+	],
+	tasks: [{
+		uid: "1a56ff6d",
+		type: "item",
+		items: [{
+			id: "tconstruct:shovel_head",
+			tag: {
+				Material: "cactus"
+			}
+		}]
+	}]
+}
